@@ -1,0 +1,846 @@
+:root {
+    /* Primary color is blue and variants thereof */
+    --primary-color: hsl(6, 91%, 70%);
+    --primary-color-light: hsl(6, 91%, 80%);
+    --primary-color-dark: hsl(6, 91%, 55%);
+    --primary-color-text: hsl(51, 55%, 95%);
+
+    /* Accent color is yellowish and variants thereof */
+    --accent-color: hsl(51, 100%, 82%);
+    --accent-color-light: hsl(51, 100%, 90%);
+    --accent-color-dark: hsl(51, 100%, 70%);
+    --accent-color-text: hsl(227, 35%, 18%);
+
+    /* Used for displaying info or error messages based on user actions. */
+    --info-banner-text-color: darkblue;
+    --info-banner-background-color: var(--accent-color-light);
+
+    --error-banner-text-color: black;
+    --error-banner-background-color: red;
+
+    --text-font-family: 'Roboto Condensed', sans-serif;
+    --title-font-family: 'Lato', sans-serif;
+}
+
+body {
+    /* Default colors for text and background. */
+    --text-color: black;
+    --background-color: white;
+
+    /* Background color for items that want a little visual difference from the normal background. */
+    --background-color-alternate: #f3f3f3;
+
+    /* VML's accent color is yellowish and variants thereof */
+    --accent-color: hsl(51, 100%, 52%);
+    --accent-color-light: hsl(51, 100%, 67%);
+    --accent-color-dark: hsl(51, 100%, 35%);
+    --accent-color-text: hsl(227, 35%, 18%);
+
+    /* Colors for the navigation links at the top of the page. */
+    --menu-color: black;
+    --menu-visited-color: purple;
+    --menu-hover-color: rebeccapurple;
+
+    /* Colors for use within the dialogs. */
+    --modal-text-color: var(--text-color);
+    --modal-background-color: white;
+    --modal-close-button-color: grey;
+    --modal-close-button-hover-color: black;
+
+    --separator-color: rgba(100, 121, 143, 0.12);
+    --shadow-color: rgba(100, 121, 143, 0.12);
+    --highlight-color: lightgrey;
+
+    /* Colors for hyperlinks. */
+    --visited-link-color: navy;
+    --unvisited-link-color: blue;
+    --link-hover-color: mediumpurple;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: var(--text-font-family, sans-serif);
+
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+body[data-theme='dark'] {
+    /* Default colors for text and background. */
+    --text-color:  hsl(51, 55%, 95%);
+    --background-color: hsl(227, 35%, 23%);
+
+    /* Background color for items that want a little visual difference from the normal background. */
+    --background-color-alternate: hsl(227, 35%, 18%);
+
+    /* Colors for the navigation links at the top of the page. */
+    --menu-color: hsl(51, 55%, 70%);
+    --menu-visited-color: hsl(51, 55%, 88%);
+    --menu-hover-color: hsl(51, 55%, 55%);
+
+    /* Colors for use within the dialogs. */
+    --modal-text-color: var(--text-color);
+    --modal-background-color: var(--background-color);
+    --modal-close-button-color: grey;
+    --modal-close-button-hover-color: white;
+
+    /* Color to provide separation between items that use the background color, such as horizontal rules and borders. */
+    --separator-color: hsla(0, 0%, 65%, .8);
+
+    /* Color of the box shadow on items meant to 'hover' above the rest of the page. */
+    --shadow-color: hsla(0, 0%, 65%, .32);
+
+    /* Color of background on items that should show when they are being hovered over.*/
+    --highlight-color: hsl(227, 35%, 40%);
+
+    /* Colors for hyperlinks. */
+    --visited-link-color: hsl(14, 100%, 75%);
+    --unvisited-link-color: hsl(227, 35%, 85%);
+    --link-hover-color: hsl(227, 35%, 70%);
+
+    /* Color that separates groups of rows of a table when several contiguous rows should be logically grouped. */
+    --row-separator-color: hsl(227, 35%, 87%);
+}
+
+main {
+    max-width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-family: var(--title-font-family, sans-serif);
+    text-align: center;
+    color: var(--primary-color-dark);
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    margin-block: 5px;
+}
+
+h2 {
+    font-family: var(--title-font-family, sans-serif);
+    color: var(--accent-color-dark);
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+h2.title {
+    margin-top: 0;
+}
+
+h3 {
+    font-family: var(--title-font-family, sans-serif);
+    color: var(--primary-color);
+    margin: 0;
+}
+
+header {
+    padding: 10px 10px;
+    box-shadow: inset 0 -1px 0 var(--separator-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-height: 60px;
+    max-width: 100px;
+}
+
+.logo-link {
+    margin-left: 5rem;
+}
+
+.logo-balance {
+    margin-right: 5rem;
+    min-width: 60px;
+}
+
+.separated {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+li {
+    margin: 3px 0;
+}
+
+.normal-text {
+    font-weight: normal;
+    font-size: medium;
+    text-align: left;
+}
+
+input[type=number] {
+    width: 5em;
+    text-align: right;
+}
+
+.form-input input {
+    margin: .25rem;
+}
+
+.form-button {
+    margin-block: .5rem;
+}
+
+.form-select {
+    margin-top: .25rem;
+}
+
+input.deck-name {
+    size: 80;
+}
+
+.pseudo-link {
+    cursor: pointer;
+}
+
+.bordered {
+    padding: 10px;
+    border: black solid 1px;
+}
+
+.note {
+    color: red;
+}
+
+.todo {
+    color: red;
+    font-weight: bold;
+}
+
+.command-line {
+    font-family: monospace;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+.command-parameter {
+    font-style: italic;
+}
+
+.info-link {
+    color: #666;
+    text-align: center;
+    text-decoration: none;
+}
+
+.info-banner-frame {
+    margin-bottom: 10px;
+    position: fixed;
+    left: 10%;
+    top: 2rem;
+    text-align: center;
+    width: 80%;
+    z-index: 200;
+}
+
+.banner {
+    padding: 0.3em;
+    margin: 5px 0.8em;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    z-index: 100;
+}
+
+.modal-window h2 {
+    margin-top: 0;
+    padding-right: 20px;
+}
+
+.modal-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-height: max-content;
+    transform: translate(-50%, -50%);
+    background: var(--modal-background-color);
+    z-index: 101;
+    padding: 1rem 1rem;
+}
+
+.modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #aaa;
+    float: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    background: var(--modal-background-color);
+}
+
+.modal-close-button:hover, .modal-close-button:focus {
+    color: black;
+    cursor: pointer;
+}
+
+.modal-body {
+    border: 1px solid blue;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+    overflow: auto;
+}
+
+#warning-banner {
+    color: black;
+    background-color: goldenrod;
+}
+
+#error-banner {
+    color: var(--error-banner-text-color);
+    background-color: var(--error-banner-background-color);
+}
+
+#info-banner {
+    color: var(--info-banner-text-color);
+    background-color: var(--info-banner-background-color);
+}
+
+.small-icon {
+    width: 1em;
+    height: 1em;
+}
+
+.banner-icon {
+    color: black;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.banner-close {
+    font-size: 1.5rem;
+    vertical-align: text-bottom;
+}
+
+.button-area {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+    border-top: 0;
+    border-right: 0;
+}
+
+.save-button {
+    float: left;
+    padding: 3px;
+}
+
+.delete-button {
+    float: left;
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 3px;
+}
+
+.user-image {
+    height: 28px;
+    width: 32px;
+}
+
+.hidden.hidden.hidden {
+    display: none;
+}
+
+.collapsed-column {
+    visibility: collapse;
+}
+
+.collapsed-row {
+    visibility: collapse;
+}
+
+.secure {
+    background-color: #FFDDDD;
+}
+
+.temporary {
+    background-color: lightcyan;
+}
+
+.content {
+    padding: 0 12px;
+}
+
+.label {
+    border-radius: 4px;
+    padding: 0 4px 0 4px;
+    border: 0;
+}
+
+.help-paragraph {
+    margin: 16px 0 0 0;
+}
+
+.icon-cell {
+    width: 6em;
+}
+
+.icon {
+    display: inline;
+    max-width: 20px;
+    max-height: 20px;
+    vertical-align: middle;
+}
+
+.navbar {
+    border-bottom: black solid 1px;
+}
+
+.navbar .navitem.admin {
+    background-color: maroon;
+}
+
+.navbar .navitem.admin a {
+    color: whitesmoke;
+}
+
+.navbar .navitem.admin-user {
+    color: maroon;
+}
+
+.twitch {
+    border: #9146FF solid 1px;
+    color: #9146FF;
+    background-color: #F0F0FF !important;
+}
+
+.discord {
+    border: #9146FF solid 1px;
+    color: #9146FF;
+    background-color: #F0F0FF !important;
+}
+
+.twitch:hover a {
+    color: #F0F0FF;
+    background-color: #9146FF !important;
+}
+
+.navbar li {
+    color: black;
+    text-align: center;
+}
+
+.navbar .navitem {
+    border: black solid 1px;
+    vertical-align: middle;
+    display: block;
+    padding: 3px 3px;
+    margin: 6px 13px;
+    height: 36px;
+    line-height: 36px;
+    min-width: 80px;
+    background-color: silver;
+}
+
+.navbar .navicon {
+    min-width: 40px;
+}
+
+.navitem img {
+    position: center;
+    vertical-align: middle;
+}
+
+.navbar .active {
+    background-color: slategray;
+}
+
+.navbar .active a {
+    color: white;
+}
+
+.navbar .active a:hover {
+    background-color: darkslategray !important;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.navbar .index {
+    background-color: whitesmoke;
+    border: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.indented {
+    margin-left: 2em;
+}
+
+.navbar li span {
+    display: block;
+}
+
+.navbar li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar .navitem a:hover {
+    /* Change the link color to #111 (black) on hover */
+    background-color: dimgray;
+    color: white;
+}
+
+.navbar .index a:hover {
+    background-color: whitesmoke;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.inline-table {
+    display: inline-table;
+}
+
+.edit-button {
+    display: inline-block;
+    border: 1px solid var(--separator-color);
+    border-radius: .25rem;
+    cursor: pointer;
+    font-size: medium;
+    padding: .25rem;
+    vertical-align: center;
+}
+
+.edit-button img {
+    vertical-align: top;
+    padding: .25rem;
+}
+
+.edit-button:hover {
+    background: var(--highlight-color);
+}
+
+.data-table td {
+    padding: 2px 15px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.label-table {
+    display: inline-block;
+}
+
+.label-table td {
+    line-height: 20px;
+    padding: 0 4px 0 4px;
+    border-collapse: collapse;
+    border: 0;
+}
+
+.title-section {
+    display: inline-block;
+}
+
+.section {
+    clear: left;
+}
+
+.section-content {
+    display: inline-block;
+    position: relative;
+    border: black solid 1px;
+    margin-bottom: 10px;
+}
+
+input[type=submit].sole-button {
+    margin: 0;
+    display: inline;
+    float: none;
+}
+
+.add-form input[type=text] {
+    box-sizing: border-box;
+    min-width: 50em;
+}
+
+input[type=text].name {
+    box-sizing: border-box;
+    min-width: 17em;
+}
+
+input[type=text].emote {
+    box-sizing: border-box;
+    min-width: 3em;
+}
+
+.form-block {
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-right: 2em;
+}
+
+.form-container {
+    display: inline-block;
+    margin: .5em;
+}
+
+.small-vertical-bottom-padding {
+    margin-bottom: 5px;
+}
+
+.message-input {
+    min-width: 50em;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.unstyled-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.rows-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.decklist-area {
+    min-width: max(10rem, 30vw);
+    width: 50vw;
+    max-width: min(50rem, 80vw);
+
+    min-height: max(2rem, 2vh);
+    height: 10rem;
+    max-height: 10vh;
+}
+
+.main-button {
+    margin: 1rem;
+    padding: .25rem .5rem;
+}
+
+/* SETS */
+.set-block {
+    border: 1px grey solid;
+    padding: 0 1rem;
+    height: 100%;
+
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 1rem;
+}
+
+.set-block:hover {
+    --opacity: 1;
+    background-color:rgb(243 244 246/var(--opacity))
+}
+
+.current-set {
+    border: 1px blue solid;
+}
+
+.set-title {
+    min-width: max-content;
+    font-weight: bolder;
+}
+
+.large-set-icon {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    max-height: 64px;
+}
+
+.star {
+    display: inline-block;
+    border-radius: .25rem;
+    font-size: medium;
+    vertical-align: bottom;
+}
+
+.star-true {
+    display: none;
+}
+
+.star[data-value='true'] .star-true {
+    display: inline;
+}
+
+.star-false {
+    display: none;
+}
+
+.star[data-value='false'] .star-false {
+    display: inline;
+}
+
+/* LOGS */
+
+.log {
+    --box-color: white;
+    border: var(--box-color, gray) .125rem solid;
+    box-shadow: 0 0 .25em var(--box-color);
+
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    margin-block: 1rem;
+    padding: .5rem;
+}
+
+.log .summary {
+    display: inline-block;
+
+    border: var(--summary-color, gray) .125rem solid;
+    box-shadow: 0 0 .5em var(--summary-color);
+
+    margin-top: 1rem;
+    margin-inline: auto;
+    padding-inline: 3rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
+.log .summary.victory {
+    --summary-color: green;
+}
+
+.log .summary.defeat {
+    --summary-color: red;
+}
+
+.log .ships-section {
+    border: var(--summary-color, gray) .125rem solid;
+    box-shadow: 0 0 .5em var(--summary-color);
+
+    padding-inline: 3rem;
+    padding-block: .5rem;
+    margin-bottom: 2rem;
+    min-height: 8rem;
+    min-width: 8rem;
+}
+
+.log #outcome {
+    color: var(--summary-color, var(--primary-color-text));
+}
+
+#ships-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.ship-section {
+    border: var(--rarity-color, blue) .125rem solid;
+    box-shadow: 0 0 .25em var(--rarity-color);
+    padding: 0 1rem;
+
+    min-height: 8rem;
+    min-width: 8rem;
+}
+
+.ship-section .victory {
+    color: green;
+}
+
+.ship-section .defeat {
+    color: red;
+}
+
+.ship-icon {
+    alignment: bottom;
+    height: 64px;
+    max-width: 64px;
+}
+
+/* ITEMS */
+.item-block {
+    border: var(--rarity-color, blue) .125rem solid;
+    box-shadow: 0 0 .25em var(--rarity-color);
+    padding: 0 1rem;
+    height: 100%;
+
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rarity-epic {
+    --rarity-color: purple;
+}
+
+.rarity-rare {
+    --rarity-color: blue;
+}
+
+.rarity-uncommon {
+    --rarity-color: green;
+}
+
+.rarity-common {
+    --rarity-color: gray;
+}

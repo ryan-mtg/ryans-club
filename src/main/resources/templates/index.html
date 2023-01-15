@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ryan's Club</title>
+    <div th:replace="fragments :: includes"></div>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@stfc">
+    <meta name="twitter:title" content="Ryan's Club">
+
+    <meta property="og:title" content="Ryan's Club">
+    <meta property="og:image" content="/images/logo.png">
+    <meta property="og:type" content="webpage">
+    <meta property="og:description" content="Service for looking at STFC logs">
+    <meta property="og:locale" content="en_US">
+</head>
+<body data-theme="dark">
+    <div th:replace="fragments :: header('Ryan\'s Club Log Parser')"></div>
+
+    <main>
+        <section id="log" class="log" hidden>
+            <section id="log-summary" class="summary">
+                <h2 id="summary-title">Log Result</h1>
+                <div>Result: <span id="outcome"></span></div>
+                <div>Rounds: <span id="rounds"></span></div>
+                <div>Location: <span id="location"></span></div>
+                <div>Time: <span id="time"></span></div>
+                <div>Lines: <span id="lines"></span></div>
+            </section>
+
+            <section class="shipClasses-section">
+                <h2>Ships</h2>
+
+                <section id="ships-container">
+                </section>
+            </section>
+        </section>
+
+        <form onsubmit="uploadLog(); return false">
+            <input type="file" id="log-file-button" name="log-file" class="form-button"><br>
+            <input type="submit" value="Submit" class="form-button">
+        </form>
+    </main>
+</body>
+</html>

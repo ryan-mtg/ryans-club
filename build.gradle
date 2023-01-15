@@ -1,0 +1,66 @@
+plugins {
+	id 'org.springframework.boot' version '2.6.0'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'club.ryans'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+	implementation 'com.github.twitch4j:twitch4j:1.6.0'
+	implementation 'org.apache.httpcomponents:httpclient:4.+'
+	implementation 'org.jsoup:jsoup:1.+'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	implementation ('net.dv8tion:JDA:5.0.0-alpha.12') {
+		exclude module: 'opus-java'
+	}
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+	useJUnitPlatform()
+}
+
+task configureResources {
+	doFirst {
+		def secretResourceDir = 'secret/local/resources'
+		if (gradle.startParameter.taskNames.contains('bootJar') || gradle.startParameter.taskNames.contains('assemble')) {
+			secretResourceDir = 'secret/deploy/resources'
+		}
+		sourceSets {
+			main {
+				resources {
+					srcDirs 'src/main/resources', secretResourceDir
+				}
+			}
+		}
+	}
+}
+
+processResources {
+	dependsOn(configureResources)
+	duplicatesStrategy = DuplicatesStrategy.INCLUDE
+}
+

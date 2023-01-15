@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Fragments</title>
+</head>
+<body>
+    <!-- header -->
+    <div th:fragment="header(title)">
+        <span id="security-token" th:attr="data-token=${_csrf.token}, data-header=${_csrf.headerName}"></span>
+
+        <div class="info-banner-frame">
+            <span id="error-banner" class="banner" hidden>
+                <span class="banner-icon">&#x2622;&#xFE0F;</span>
+                <span id="error-message">Warning I'm an evil error message!</span>
+                <span class="banner-icon banner-close pseudo-link" onclick="dismissErrorMessage()">&times;</span>
+            </span>
+            <span id="warning-banner" class="banner" hidden>
+                <span class="banner-icon">&#x26A0;&#xFE0F;</span>
+                <span id="warning-message">Warning I'm an evil warning message!</span>
+                <span class="banner-icon banner-close pseudo-link" onclick="dismissWarningMessage()">&times;</span>
+            </span>
+            <span id="info-banner" class="banner" hidden>
+                <span class="banner-icon">&#x26A0;&#xFE0F;</span>
+                <span id="info-message">Warning I'm an evil info message!</span>
+                <span class="banner-icon banner-close pseudo-link" onclick="dismissInfoMessage()">&times;</span>
+            </span>
+        </div>
+
+        <header>
+            <a class="logo-link" href="https://ryans.club">
+                <img class="logo" src="/images/logo.png" alt="Ryan's Club"></a>
+
+            <h1 th:text="${title}"></h1>
+
+            <div class="logo-balance"></div>
+        </header>
+    </div>
+
+    <!-- footer -->
+    <div th:fragment="footer">
+        <hr class="clear">
+        <p class="content">
+            &copy;2023 Ryan's Club
+        </p>
+    </div>
+
+    <!-- includes -->
+    <div th:fragment="includes" th:remove="tag">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link href="/styles/main.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="/scripts/main.js"> </script>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </div>
+
+    <!-- star -->
+    <span th:fragment="star(id, value, onclick)" th:id="${id}" class="star"
+          th:classappend="${onclick != null ? 'edit-button' : ''}" th:attr="data-value=${value}, onclick=${onclick}">
+        <span class="star-true">&#x2B50;</span>
+        <span class="star-false">&#x269D;</span>
+    </span>
+</body>
+</html>

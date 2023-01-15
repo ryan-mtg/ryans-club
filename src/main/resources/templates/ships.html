@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ships</title>
+    <div th:replace="fragments :: includes"></div>
+</head>
+<body>
+    <div th:replace="fragments :: header('Ships')"></div>
+
+    <main>
+        <h1>Ships</h1>
+
+        <div class="blocks-container">
+            <a th:each="shipClass: ${shipClasses}" class="unstyled-link" th:href="'shipClass/' + ${shipClass.id}">
+                <div class="item-block" th:classappend="${shipClass.style}">
+                    <img class="large-set-icon" th:src="${shipClass.getImageUrl()}">
+
+                    <div class="rows">
+                        <span class="set-title" th:text="${shipClass.name}"></span>
+
+                        <span>
+                            <span th:text="${shipClass.id}"></span> |
+                            <span th:text="${shipClass.bonus.name}"></span>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+</body>
+</html>

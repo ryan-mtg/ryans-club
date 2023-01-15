@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Decklist Not Found</title>
+    <div th:replace="fragments :: includes"></div>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@vmlmtg">
+    <meta name="twitter:title" content="Decklist Not Found">
+
+    <meta property="og:title" content="Decklist Not Found">
+    <meta property="og:image" content="/images/vml-logo-bricks.png">
+    <meta property="og:type" content="webpage">
+    <meta property="og:description" content="Service for storing VML Decklists">
+    <meta property="og:locale" content="en_US">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body data-theme="dark">
+    <div th:replace="fragments :: vml_header ('Decklist Not Found')"></div>
+
+    <datalist id="archetypes">
+        <th:block th:each="archetype: ${archetypes}">
+            <option th:text="${archetype.name}"></option>
+        </th:block>
+    </datalist>
+
+    <main>
+        <h1></h1>
+        <p>The given url does not contain a decklist.</p>
+    </main>
+</body>
+</html>

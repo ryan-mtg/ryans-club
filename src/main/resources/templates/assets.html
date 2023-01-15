@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Assets</title>
+    <div th:replace="fragments :: includes"></div>
+</head>
+<body>
+    <div th:replace="fragments :: header('Assets')"></div>
+
+    <main>
+        <h1>Assets</h1>
+
+        <div class="blocks-container">
+            <table>
+                <thead><tr>
+                    <th>Index</th>
+                    <th>Images</th>
+                </tr></thead>
+                <tbody>
+                    <tr th:each="instance: ${assets.assetMap}">
+                        <td th:text="${instance.key}"></td>
+                        <td>
+                            <img th:each="asset: ${instance.value}" class="large-set-icon" th:src="${assets.makeUrl(asset)}">
+                            </img>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
