@@ -132,7 +132,7 @@ h2.title {
 
 h3 {
     font-family: var(--title-font-family, sans-serif);
-    color: var(--primary-color);
+    color: var(--primary-color-dark);
     margin: 0;
 }
 
