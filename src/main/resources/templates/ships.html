@@ -12,7 +12,7 @@
         <h1>Ships</h1>
 
         <div class="blocks-container">
-            <a th:each="shipClass: ${shipClasses}" class="unstyled-link" th:href="'shipClass/' + ${shipClass.id}">
+            <a th:each="shipClass: ${ships}" class="unstyled-link" th:href="'ship/' + ${shipClass.id}">
                 <div class="item-block" th:classappend="${shipClass.style}">
                     <img class="large-set-icon" th:src="${shipClass.getImageUrl()}">
 
