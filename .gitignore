@@ -17,9 +17,6 @@ secret/
 # Log file
 *.log
 
-# JSON data file
-*.json
-
 # Package Files #
 *.jar
 *.war

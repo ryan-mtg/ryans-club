@@ -9,14 +9,15 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 
+import java.io.InputStream;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.BiConsumer;
-import java.util.stream.Collectors;
 
 @Slf4j
 public class ShipManager {
@@ -99,11 +100,11 @@ public class ShipManager {
     }
 
     private void loadFile() {
-        Path p = getFilePath();
         ObjectMapper mapper = Json.createObjectMapper();
 
         try {
-            List<ShipClass> shipClasses = mapper.readValue(p.toFile(), new TypeReference<List<ShipClass>>() {});
+            InputStream stream = ShipManager.class.getResourceAsStream("/data/ships.json");
+            List<ShipClass> shipClasses = mapper.readValue(stream, new TypeReference<List<ShipClass>>() {});
             for (ShipClass shipClass : shipClasses) {
                 shipMap.put(shipClass.getId(), shipClass);
                 abilityMap.put(shipClass.getBonus().getName(), shipClass);
@@ -115,7 +116,7 @@ public class ShipManager {
     }
 
     private void writeFile() {
-        List<ShipClass> shipClasses = shipMap.values().stream().collect(Collectors.toList());
+        List<ShipClass> shipClasses = new ArrayList<>(shipMap.values());
 
         try {
             ObjectMapper mapper = new ObjectMapper();

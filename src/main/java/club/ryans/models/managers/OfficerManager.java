@@ -7,19 +7,19 @@ import club.ryans.stfcspace.json.Ability;
 import club.ryans.stfcspace.json.Field;
 import club.ryans.utility.Json;
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 
+import java.io.InputStream;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.BiConsumer;
 import java.util.function.Function;
-import java.util.stream.Collectors;
 
 @Slf4j
 public class OfficerManager {
@@ -91,11 +91,11 @@ public class OfficerManager {
     }
 
     private void loadFile() {
-        Path p = getFilePath();
         ObjectMapper mapper = Json.createObjectMapper();
 
         try {
-            List<Officer> officers = mapper.readValue(p.toFile(), new TypeReference<List<Officer>>() {});
+            InputStream stream = OfficerManager.class.getResourceAsStream("/data/officers.json");
+            List<Officer> officers = mapper.readValue(stream, new TypeReference<List<Officer>>() {});
             for (Officer officer : officers) {
                 officerMap.put(officer.getId(), officer);
             }
@@ -105,7 +105,7 @@ public class OfficerManager {
     }
 
     private void writeFile() {
-        List<Officer> officers = officerMap.values().stream().collect(Collectors.toList());
+        List<Officer> officers = new ArrayList<>(officerMap.values());
 
         try {
             ObjectMapper mapper = new ObjectMapper();

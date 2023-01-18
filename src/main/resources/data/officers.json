@@ -1,0 +1,5443 @@
+[ {
+  "id" : 229898163,
+  "name" : "Ahvix",
+  "shortName" : "AHVIX",
+  "artId" : 129,
+  "artPath" : "/assets/129.ac82f8cf.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 11,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1074437376,
+    "name" : "Chirurgical Precision",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 141,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 3792739416,
+    "name" : "Shield Remodulation",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 140,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/129.ac82f8cf.png"
+}, {
+  "id" : 1835829612,
+  "name" : "Arrock",
+  "shortName" : "ARROCK",
+  "artId" : 192,
+  "artPath" : "/assets/192.1082be57.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 27,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1319690809,
+    "name" : "Exploit Market Opportunities",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 211,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 104723506,
+    "name" : "Diversify",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 5,
+    "flag" : 20
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/192.1082be57.png"
+}, {
+  "id" : 118103052,
+  "name" : "Two of Eleven",
+  "shortName" : "TWO OF ELEVEN",
+  "artId" : 157,
+  "artPath" : "/assets/157.00189264.png",
+  "factionId" : 2943562711,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 16,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1012264418,
+    "name" : "Storage Optimization",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 1,
+    "flag" : 28
+  },
+  "officerAbility" : {
+    "id" : 3972571863,
+    "name" : "Extraction Protocol",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 175,
+    "flag" : 20
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/157.00189264.png"
+}, {
+  "id" : 2520801863,
+  "name" : "Hikaru Sulu",
+  "shortName" : "SULU",
+  "artId" : 5,
+  "artPath" : "/assets/5.695ad315.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 1,
+  "synergyId" : 1,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3346498472,
+    "name" : "Do Not Test Me",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 6,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 1840304835,
+    "name" : "Ranking Fire",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 29,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/5.695ad315.png"
+}, {
+  "id" : 1628322562,
+  "name" : "Mavery",
+  "shortName" : "MAVERY",
+  "artId" : 212,
+  "artPath" : "/assets/212.05d9101f.png",
+  "factionId" : -1,
+  "rarity" : "Epic",
+  "classId" : 2,
+  "synergyId" : 26,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 107512332,
+    "name" : "Secret Compartments",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 244,
+    "flag" : 28
+  },
+  "officerAbility" : {
+    "id" : 3295255917,
+    "name" : "Hasty Extraction",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 175,
+    "flag" : 20
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/212.05d9101f.png"
+}, {
+  "id" : 3999633781,
+  "name" : "Michael Burnham",
+  "shortName" : "MICHAEL BURNHAM",
+  "artId" : 131,
+  "artPath" : "/assets/131.5697e0bb.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 2,
+  "synergyId" : 18,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3309231106,
+    "name" : "Steadfast",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 143,
+    "flag" : 21
+  },
+  "officerAbility" : {
+    "id" : 2958606151,
+    "name" : "Intuitive",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 139,
+    "flag" : 30
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/131.5697e0bb.png"
+}, {
+  "id" : 566062509,
+  "name" : "Ba'el",
+  "shortName" : "BA'EL",
+  "artId" : 185,
+  "artPath" : "/assets/185.b2a1889f.png",
+  "factionId" : 4153667145,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 24,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1281603395,
+    "name" : "Klingon Valor",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1300699647,
+    "name" : "Romulan Tact",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 204,
+    "flag" : 16
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/185.b2a1889f.png"
+}, {
+  "id" : 3880112208,
+  "name" : "Kerla",
+  "shortName" : "KERLA",
+  "artId" : 10,
+  "artPath" : "/assets/10.78813fa5.png",
+  "factionId" : 4153667145,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 2,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 228933399,
+    "name" : "Evasive Maneuvers",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 14,
+    "flag" : 15
+  },
+  "officerAbility" : {
+    "id" : 1118413176,
+    "name" : "Attack Maneuvers",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 26,
+    "flag" : 19
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/10.78813fa5.png"
+}, {
+  "id" : 3492633912,
+  "name" : "Keenser",
+  "shortName" : "KEENSER",
+  "artId" : 54,
+  "artPath" : "/assets/54.c8bc7914.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 9,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1693249064,
+    "name" : "Emergency Repairs",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 15,
+    "flag" : 31
+  },
+  "officerAbility" : {
+    "id" : 1046345380,
+    "name" : "Fine Tuning",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 30
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/54.c8bc7914.png"
+}, {
+  "id" : 3079282844,
+  "name" : "L'Nar",
+  "shortName" : "L'NAR",
+  "artId" : 33,
+  "artPath" : "/assets/33.c1396dad.png",
+  "factionId" : 669838839,
+  "rarity" : "Uncommon",
+  "classId" : 3,
+  "synergyId" : 5,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3171947561,
+    "name" : "Romulan Health",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 3079666421,
+    "name" : "Klingon Pursue",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 36,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/33.c1396dad.png"
+}, {
+  "id" : 3528103772,
+  "name" : "Joaquin",
+  "shortName" : "JOAQUIN",
+  "artId" : 63,
+  "artPath" : "/assets/63.944e8d87.png",
+  "factionId" : -1,
+  "rarity" : "Uncommon",
+  "classId" : 1,
+  "synergyId" : 10,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1585093811,
+    "name" : "Firewall Protection",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 1,
+    "flag" : 29
+  },
+  "officerAbility" : {
+    "id" : 1244413740,
+    "name" : "Data Miner",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 80,
+    "flag" : 20
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/63.944e8d87.png"
+}, {
+  "id" : 3382562951,
+  "name" : "TOS Pavel Chekov",
+  "shortName" : "TOS CHEKOV",
+  "artId" : 156,
+  "artPath" : "/assets/156.d92acee6.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 20,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1058182319,
+    "name" : "Young Genius",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 169,
+    "flag" : 21
+  },
+  "officerAbility" : {
+    "id" : 3190031600,
+    "name" : "Security Plans",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 171,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/156.d92acee6.png"
+}, {
+  "id" : 56060748,
+  "name" : "Saru",
+  "shortName" : "SARU",
+  "artId" : 132,
+  "artPath" : "/assets/132.eee28d75.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 18,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 965390436,
+    "name" : "Precautions",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 132,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 2273274943,
+    "name" : "Avoid Danger",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/132.eee28d75.png"
+}, {
+  "id" : 215089650,
+  "name" : "Tomalak",
+  "shortName" : "TOMALAK",
+  "artId" : 187,
+  "artPath" : "/assets/187.1da1c297.png",
+  "factionId" : 669838839,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 25,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4018220297,
+    "name" : "Patient Tactician",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 195,
+    "flag" : 25
+  },
+  "officerAbility" : {
+    "id" : 223743617,
+    "name" : "Death Over Disgrace",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 196,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/187.1da1c297.png"
+}, {
+  "id" : 1131760724,
+  "name" : "Eight of Eleven",
+  "shortName" : "EIGHT OF ELEVEN",
+  "artId" : 112,
+  "artPath" : "/assets/112.2c398b6a.png",
+  "factionId" : 2943562711,
+  "rarity" : "Uncommon",
+  "classId" : 3,
+  "synergyId" : 16,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3537186442,
+    "name" : "Fight the Collective",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 124,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 3979049942,
+    "name" : "Cybernetic Enhancements",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/112.2c398b6a.png"
+}, {
+  "id" : 3281026482,
+  "name" : "Vel K'Bentayr",
+  "shortName" : "VEL",
+  "artId" : 75,
+  "artPath" : "/assets/75.c328629e.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 2,
+  "synergyId" : 12,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4094351740,
+    "name" : "Dilithium Hunter",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 4,
+    "flag" : 59
+  },
+  "officerAbility" : {
+    "id" : 326209566,
+    "name" : "Chirurgical Precision",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 30,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/75.c328629e.png"
+}, {
+  "id" : 1859906553,
+  "name" : "Nine of Eleven",
+  "shortName" : "NINE OF ELEVEN",
+  "artId" : 113,
+  "artPath" : "/assets/113.5c0cd376.png",
+  "factionId" : 2943562711,
+  "rarity" : "Uncommon",
+  "classId" : 1,
+  "synergyId" : 16,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 966801625,
+    "name" : "Borg Polarization",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 123,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 149413627,
+    "name" : "Adapt & Overcome",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/113.5c0cd376.png"
+}, {
+  "id" : 250991574,
+  "name" : "Koth",
+  "shortName" : "KOTH",
+  "artId" : 12,
+  "artPath" : "/assets/12.804f321e.png",
+  "factionId" : 4153667145,
+  "rarity" : "Uncommon",
+  "classId" : 3,
+  "synergyId" : 2,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2092278144,
+    "name" : "Interceptor Overseer",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 8,
+    "flag" : 26
+  },
+  "officerAbility" : {
+    "id" : 1880351032,
+    "name" : "Open Them Up",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 30,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/12.804f321e.png"
+}, {
+  "id" : 3019272402,
+  "name" : "Navi",
+  "shortName" : "NAVI",
+  "artId" : 120,
+  "artPath" : "/assets/120.28fc31dd.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 10,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1639285460,
+    "name" : "Drastic Measures",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 27,
+    "flag" : 19
+  },
+  "officerAbility" : {
+    "id" : 2724936958,
+    "name" : "Guardian Angel",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/120.28fc31dd.png"
+}, {
+  "id" : 2620014350,
+  "name" : "Julian Bashir",
+  "shortName" : "JULIAN BASHIR",
+  "artId" : 217,
+  "artPath" : "/assets/217.96c197ec.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 32,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2897000131,
+    "name" : "Surgical Precision",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 269,
+    "flag" : 19
+  },
+  "officerAbility" : {
+    "id" : 2663107600,
+    "name" : "Steady Hand",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 270,
+    "flag" : 18
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/217.96c197ec.png"
+}, {
+  "id" : 2871265794,
+  "name" : "Miles O'Brien",
+  "shortName" : "MILES O'BRIEN",
+  "artId" : 215,
+  "artPath" : "/assets/215.1ab9918f.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 32,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 173798987,
+    "name" : "Unfit To Lead",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 3396349483,
+    "name" : "Luck Of The Irish",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 250,
+    "flag" : 9
+  },
+  "belowDecksAbility" : {
+    "id" : 2665059133,
+    "name" : "Warp Core Tuning",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 251,
+    "flag" : 22
+  },
+  "imageUrl" : "https://stfc.space/assets/215.1ab9918f.png"
+}, {
+  "id" : 3512227954,
+  "name" : "Strike Team SNW Una",
+  "shortName" : "STRIKE TEAM UNA",
+  "artId" : 210,
+  "artPath" : "/assets/210.18bd65b3.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 31,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 185131547,
+    "name" : "Team Profiling",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 3519202949,
+    "name" : "Crush Their Hopes",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 241,
+    "flag" : 33
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/210.18bd65b3.png"
+}, {
+  "id" : 3990993357,
+  "name" : "Marlena Moreau",
+  "shortName" : "MOREAU",
+  "artId" : 44,
+  "artPath" : "/assets/44.e3361922.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 7,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 10760547,
+    "name" : "Keep Going",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 15,
+    "flag" : 30
+  },
+  "officerAbility" : {
+    "id" : 1471408949,
+    "name" : "No Fear",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 25
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/44.e3361922.png"
+}, {
+  "id" : 307877748,
+  "name" : "Frank Leslie",
+  "shortName" : "LESLIE",
+  "artId" : 47,
+  "artPath" : "/assets/47.20cdd1fc.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 3,
+  "synergyId" : 7,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2079302126,
+    "name" : "Minor Damage Control",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 16,
+    "flag" : 31
+  },
+  "officerAbility" : {
+    "id" : 40913680,
+    "name" : "Battleship Trainer",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 72,
+    "flag" : 34
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/47.20cdd1fc.png"
+}, {
+  "id" : 3264304828,
+  "name" : "Joachim",
+  "shortName" : "JOACHIM",
+  "artId" : 61,
+  "artPath" : "/assets/61.6f6fc4c8.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 10,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 416954820,
+    "name" : "Patient Tactician",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 24
+  },
+  "officerAbility" : {
+    "id" : 556660994,
+    "name" : "Unflinching Resolve",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/61.6f6fc4c8.png"
+}, {
+  "id" : 2963484044,
+  "name" : "Mae Darwin",
+  "shortName" : "DARWIN",
+  "artId" : 46,
+  "artPath" : "/assets/46.decb323f.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 3,
+  "synergyId" : 7,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3368245052,
+    "name" : "Defending Power",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2899912544,
+    "name" : "Interceptor Trainer",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 71,
+    "flag" : 34
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/46.decb323f.png"
+}, {
+  "id" : 2392608691,
+  "name" : "Gowron",
+  "shortName" : "GOWRON",
+  "artId" : 183,
+  "artPath" : "/assets/183.372a4889.png",
+  "factionId" : 4153667145,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 24,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2629388546,
+    "name" : "Glorious Gaze",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 197,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1180450595,
+    "name" : "Wartime Chancellor",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 203,
+    "flag" : 17
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/183.372a4889.png"
+}, {
+  "id" : 513311144,
+  "name" : "D'jaoki",
+  "shortName" : "D'JAOKI",
+  "artId" : 91,
+  "artPath" : "/assets/91.d5a638e5.png",
+  "factionId" : 669838839,
+  "rarity" : "Uncommon",
+  "classId" : 1,
+  "synergyId" : 5,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2554625138,
+    "name" : "War of Endurance",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 1785494954,
+    "name" : "Sharpen Defenses",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/91.d5a638e5.png"
+}, {
+  "id" : 4150311506,
+  "name" : "Cadet Montgomery Scott",
+  "shortName" : "CADET SCOTTY",
+  "artId" : 86,
+  "artPath" : "/assets/86.044518a1.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 3,
+  "synergyId" : 14,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3029156666,
+    "name" : "Sturdy Ship",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 15,
+    "flag" : 31
+  },
+  "officerAbility" : {
+    "id" : 2254319436,
+    "name" : "Warp Theory",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 9,
+    "flag" : 23
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/86.044518a1.png"
+}, {
+  "id" : 3245467973,
+  "name" : "Origins Burnham",
+  "shortName" : "ORIGINS BURNHAM",
+  "artId" : 141,
+  "artPath" : "/assets/141.83384b66.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 1,
+  "synergyId" : 17,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 568584807,
+    "name" : "Vulcan Hello",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 494500487,
+    "name" : "Risk-Taker",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/141.83384b66.png"
+}, {
+  "id" : 4148782205,
+  "name" : "Tasha Yar",
+  "shortName" : "TASHA YAR",
+  "artId" : 178,
+  "artPath" : "/assets/178.049fbe14.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 23,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3342912908,
+    "name" : "Security Officer",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 132,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 1382019546,
+    "name" : "Code of Honor",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/178.049fbe14.png"
+}, {
+  "id" : 3968109489,
+  "name" : "Next Gen La Forge",
+  "shortName" : "NEXT GEN LA FORGE",
+  "artId" : 164,
+  "artPath" : "/assets/164.4f52e593.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 3,
+  "synergyId" : 22,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1462377933,
+    "name" : "Timeless",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1499701415,
+    "name" : "Rerouting Power",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 16,
+    "flag" : 30
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/164.4f52e593.png"
+}, {
+  "id" : 161972881,
+  "name" : "Severus",
+  "shortName" : "SEVERUS",
+  "artId" : 35,
+  "artPath" : "/assets/35.99f305dd.png",
+  "factionId" : 669838839,
+  "rarity" : "Uncommon",
+  "classId" : 3,
+  "synergyId" : 5,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1133890335,
+    "name" : "Spreading Fire",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 31
+  },
+  "officerAbility" : {
+    "id" : 3765448209,
+    "name" : "Exploit Overheat",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/35.99f305dd.png"
+}, {
+  "id" : 4132174205,
+  "name" : "Gary Mitchell",
+  "shortName" : "MITCHELL",
+  "artId" : 57,
+  "artPath" : "/assets/57.17fe03e3.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 9,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1825243742,
+    "name" : "Home Protector",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 3132926029,
+    "name" : "Think or Sink",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/57.17fe03e3.png"
+}, {
+  "id" : 1485791413,
+  "name" : "Next Gen Crusher",
+  "shortName" : "NEXT GEN CRUSHER",
+  "artId" : 163,
+  "artPath" : "/assets/163.c0880122.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 2,
+  "synergyId" : 22,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3365829083,
+    "name" : "Hypospray",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 47,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 972047904,
+    "name" : "The Dancing Doctor",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 2,
+    "flag" : 69
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/163.c0880122.png"
+}, {
+  "id" : 1465017198,
+  "name" : "Gorkon",
+  "shortName" : "GORKON",
+  "artId" : 8,
+  "artPath" : "/assets/8.0383acef.png",
+  "factionId" : 4153667145,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 2,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 674724565,
+    "name" : "Quick Victory",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 24,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 3732921554,
+    "name" : "Creating Opportunities",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 40,
+    "flag" : 67
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/8.0383acef.png"
+}, {
+  "id" : 4219901626,
+  "name" : "Officer 0718",
+  "shortName" : "718",
+  "artId" : 56,
+  "artPath" : "/assets/56.70eeab9d.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 2,
+  "synergyId" : 9,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2894716041,
+    "name" : "Station Knowledge",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 24,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 4283269593,
+    "name" : "Computer Precision",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/56.70eeab9d.png"
+}, {
+  "id" : 1143746577,
+  "name" : "Paul Zhou",
+  "shortName" : "ZHOU",
+  "artId" : 40,
+  "artPath" : "/assets/40.5ab9b554.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 1,
+  "synergyId" : 6,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1892484976,
+    "name" : "Fresh perspectives",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 4081666796,
+    "name" : "Upper hand",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/40.5ab9b554.png"
+}, {
+  "id" : 766809588,
+  "name" : "Spock",
+  "shortName" : "SPOCK",
+  "artId" : 2,
+  "artPath" : "/assets/2.96399275.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 1,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 869555258,
+    "name" : "Logical",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 45,
+    "flag" : 12
+  },
+  "officerAbility" : {
+    "id" : 2500262645,
+    "name" : "Illogical",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 16,
+    "flag" : 30
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/2.96399275.png"
+}, {
+  "id" : 336948052,
+  "name" : "Sela",
+  "shortName" : "SELA",
+  "artId" : 186,
+  "artPath" : "/assets/186.93d0e112.png",
+  "factionId" : 669838839,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 25,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1412669858,
+    "name" : "Hit Them Where It Hurts",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 193,
+    "flag" : 19
+  },
+  "officerAbility" : {
+    "id" : 542000466,
+    "name" : "Civilized Persistence",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 194,
+    "flag" : 18
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/186.93d0e112.png"
+}, {
+  "id" : 3001921707,
+  "name" : "Yan'agh",
+  "shortName" : "YAN'AGH",
+  "artId" : 26,
+  "artPath" : "/assets/26.c41292ea.png",
+  "factionId" : 4153667145,
+  "rarity" : "Uncommon",
+  "classId" : 3,
+  "synergyId" : 4,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 753745040,
+    "name" : "Klingon Tactics",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 660977416,
+    "name" : "Wolf among the ships",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 37,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/26.c41292ea.png"
+}, {
+  "id" : 1689277174,
+  "name" : "SNW Erica Ortegas",
+  "shortName" : "SNW ORTEGAS",
+  "artId" : 207,
+  "artPath" : "/assets/207.a9b66a10.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 29,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2272956905,
+    "name" : "Defensive Flaws",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 227,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 2416006584,
+    "name" : "Frequency Plating",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 235,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/207.a9b66a10.png"
+}, {
+  "id" : 2695272429,
+  "name" : "Nyota Uhura",
+  "shortName" : "UHURA",
+  "artId" : 7,
+  "artPath" : "/assets/7.7fb3f5ab.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 1,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3587051486,
+    "name" : "Hailing Frequencies Open",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 11
+  },
+  "officerAbility" : {
+    "id" : 2416805344,
+    "name" : "Target That Signal",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 46,
+    "flag" : 12
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/7.7fb3f5ab.png"
+}, {
+  "id" : 3394864658,
+  "name" : "Vartoq",
+  "shortName" : "VARTOQ",
+  "artId" : 80,
+  "artPath" : "/assets/80.a9f1a3c3.png",
+  "factionId" : 4153667145,
+  "rarity" : "Common",
+  "classId" : 1,
+  "synergyId" : 13,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 913371453,
+    "name" : "Interceptor Specialist",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 71,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 3632112638,
+    "name" : "Kinetic Boost",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 30,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/80.a9f1a3c3.png"
+}, {
+  "id" : 531187684,
+  "name" : "Mirek",
+  "shortName" : "MIREK",
+  "artId" : 32,
+  "artPath" : "/assets/32.ee3ed328.png",
+  "factionId" : 669838839,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 5,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3030072621,
+    "name" : "Burning Vengeance",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 23,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 259747624,
+    "name" : "Acid bitterness",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 35,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/32.ee3ed328.png"
+}, {
+  "id" : 3304441016,
+  "name" : "Seven of Eleven",
+  "shortName" : "SEVEN OF ELEVEN",
+  "artId" : 114,
+  "artPath" : "/assets/114.4faf270f.png",
+  "factionId" : 2943562711,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 16,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3774124358,
+    "name" : "Resistance is Futile",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 94,
+    "flag" : 9
+  },
+  "officerAbility" : {
+    "id" : 1955519035,
+    "name" : "Strengthen the Unimatrix",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/114.4faf270f.png"
+}, {
+  "id" : 1070197892,
+  "name" : "Deanna Troi",
+  "shortName" : "DEANNA TROI",
+  "artId" : 173,
+  "artPath" : "/assets/173.5444114f.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 2,
+  "synergyId" : 23,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1458678084,
+    "name" : "Telepathic Predictions",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 132,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 1578395870,
+    "name" : "Nemesis",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 188,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/173.5444114f.png"
+}, {
+  "id" : 677303054,
+  "name" : "Harcourt Fenton Mudd",
+  "shortName" : "HARRY MUDD",
+  "artId" : 130,
+  "artPath" : "/assets/130.2d526d72.png",
+  "factionId" : -1,
+  "rarity" : "Epic",
+  "classId" : 2,
+  "synergyId" : 11,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2186472721,
+    "name" : "Two steps ahead",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 142,
+    "flag" : 33
+  },
+  "officerAbility" : {
+    "id" : 143246507,
+    "name" : "823 ways to die",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 131,
+    "flag" : 9
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/130.2d526d72.png"
+}, {
+  "id" : 1395454844,
+  "name" : "Three Of Eleven",
+  "shortName" : "THREE OF ELEVEN",
+  "artId" : 179,
+  "artPath" : "/assets/179.41874130.png",
+  "factionId" : 2943562711,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 16,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1222862242,
+    "name" : "Efficient Gas Acquisition",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 5,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 2422039622,
+    "name" : "Resource Protection Protocols",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 1,
+    "flag" : 29
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/179.41874130.png"
+}, {
+  "id" : 1028718336,
+  "name" : "Odo",
+  "shortName" : "ODO",
+  "artId" : 231,
+  "artPath" : "/assets/231.2c18fdfe.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 32,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2099858237,
+    "name" : "Unfit To Lead",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 329102020,
+    "name" : "Fluidic Strength",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 267,
+    "flag" : 24
+  },
+  "belowDecksAbility" : {
+    "id" : 3392361409,
+    "name" : "Right Is Might",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 268,
+    "flag" : 19
+  },
+  "imageUrl" : "https://stfc.space/assets/231.2c18fdfe.png"
+}, {
+  "id" : 3155244352,
+  "name" : "Montgomery Scott",
+  "shortName" : "SCOTTY",
+  "artId" : 4,
+  "artPath" : "/assets/4.5d255a04.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 3,
+  "synergyId" : 1,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 233399498,
+    "name" : "Miracle Worker",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 44,
+    "flag" : 26
+  },
+  "officerAbility" : {
+    "id" : 1704676580,
+    "name" : "Born Engineer",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 15,
+    "flag" : 31
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/4.5d255a04.png"
+}, {
+  "id" : 668528267,
+  "name" : "Javaid",
+  "shortName" : "JAVAID",
+  "artId" : 21,
+  "artPath" : "/assets/21.097b0d37.png",
+  "factionId" : 669838839,
+  "rarity" : "Uncommon",
+  "classId" : 1,
+  "synergyId" : 3,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2120680252,
+    "name" : "Overwhelming Fire",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 31,
+    "flag" : 14
+  },
+  "officerAbility" : {
+    "id" : 640569748,
+    "name" : "Reinforcements",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 16
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/21.097b0d37.png"
+}, {
+  "id" : 98548875,
+  "name" : "Woteln",
+  "shortName" : "WOTELN",
+  "artId" : 13,
+  "artPath" : "/assets/13.74d07c56.png",
+  "factionId" : 4153667145,
+  "rarity" : "Uncommon",
+  "classId" : 2,
+  "synergyId" : 2,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4287045306,
+    "name" : "Scattering Field",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 32,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2759234550,
+    "name" : "Interceptor Affinity",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 14,
+    "flag" : 15
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/13.74d07c56.png"
+}, {
+  "id" : 3923643019,
+  "name" : "Leonard McCoy",
+  "shortName" : "BONES",
+  "artId" : 3,
+  "artPath" : "/assets/3.6aee0153.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 1,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 188993107,
+    "name" : "I'm a Doctor, not a ...",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 42,
+    "flag" : 70
+  },
+  "officerAbility" : {
+    "id" : 1520108895,
+    "name" : "Excellent Medicine",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 18,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/3.6aee0153.png"
+}, {
+  "id" : 2765885322,
+  "name" : "Grace Chen",
+  "shortName" : "CHEN",
+  "artId" : 71,
+  "artPath" : "/assets/71.40cec368.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 2,
+  "synergyId" : 12,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4019544321,
+    "name" : "Modifications",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 24
+  },
+  "officerAbility" : {
+    "id" : 4155292475,
+    "name" : "Energy Absorber",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 17,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/71.40cec368.png"
+}, {
+  "id" : 2178926216,
+  "name" : "Benjamin Sisko",
+  "shortName" : "BENJAMIN SISKO",
+  "artId" : 213,
+  "artPath" : "/assets/213.a2c4e206.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 32,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3663862053,
+    "name" : "Defensive Measures",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 247,
+    "flag" : 24
+  },
+  "officerAbility" : {
+    "id" : 2210405629,
+    "name" : "Persistence Is Key",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 246,
+    "flag" : 18
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/213.a2c4e206.png"
+}, {
+  "id" : 329940464,
+  "name" : "Christopher Pike",
+  "shortName" : "PIKE",
+  "artId" : 90,
+  "artPath" : "/assets/90.a5ff2bbe.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 7,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 156238802,
+    "name" : "Teaching Moments",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 70
+  },
+  "officerAbility" : {
+    "id" : 2383265567,
+    "name" : "Advanced Training",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 10,
+    "flag" : 34
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/90.a5ff2bbe.png"
+}, {
+  "id" : 4066988596,
+  "name" : "Cadet Hikaru Sulu",
+  "shortName" : "CADET SULU",
+  "artId" : 88,
+  "artPath" : "/assets/88.e316fa16.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 1,
+  "synergyId" : 14,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1782601905,
+    "name" : "Big Shot",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1980387696,
+    "name" : "Fighting Spirit",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/88.e316fa16.png"
+}, {
+  "id" : 2449957978,
+  "name" : "Emperor Georgiou",
+  "shortName" : "EMP. GEORGIOU",
+  "artId" : 140,
+  "artPath" : "/assets/140.60312974.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 19,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4172773477,
+    "name" : "Imperatorial Attack",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 157,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 2557888665,
+    "name" : "Bombardment",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 155,
+    "flag" : 9
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/140.60312974.png"
+}, {
+  "id" : 725106789,
+  "name" : "Beckett Mariner",
+  "shortName" : "BECKETT MARINER",
+  "artId" : 196,
+  "artPath" : "/assets/196.f8b9939b.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 28,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1071905094,
+    "name" : "Unfit To Lead",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2587348908,
+    "name" : "Get It Together!",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 218,
+    "flag" : 35
+  },
+  "belowDecksAbility" : {
+    "id" : 409777518,
+    "name" : "Winging' It",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 222,
+    "flag" : 8
+  },
+  "imageUrl" : "https://stfc.space/assets/196.f8b9939b.png"
+}, {
+  "id" : 3523093667,
+  "name" : "Reginald Barclay",
+  "shortName" : "REGINALD BARCLAY",
+  "artId" : 205,
+  "artPath" : "/assets/205.c2a079c8.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 3,
+  "synergyId" : 30,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3238544460,
+    "name" : "Unfit To Lead",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 3136273375,
+    "name" : "Win Them Over",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 230,
+    "flag" : 35
+  },
+  "belowDecksAbility" : {
+    "id" : 337243133,
+    "name" : "Bolstered Ship's Stores",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 231,
+    "flag" : 29
+  },
+  "imageUrl" : "https://stfc.space/assets/205.c2a079c8.png"
+}, {
+  "id" : 3479870516,
+  "name" : "Jaylah",
+  "shortName" : "JAYLAH",
+  "artId" : 94,
+  "artPath" : "/assets/94.09f72333.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 3,
+  "synergyId" : 21,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3406935770,
+    "name" : "Scavenger",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 125,
+    "flag" : 59
+  },
+  "officerAbility" : {
+    "id" : 565052704,
+    "name" : "The Beats and Shouting!",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 173,
+    "flag" : 9
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/94.09f72333.png"
+}, {
+  "id" : 1670351312,
+  "name" : "TOS Hikaru Sulu",
+  "shortName" : "TOS SULU",
+  "artId" : 154,
+  "artPath" : "/assets/154.c2beee8e.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 20,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 261387865,
+    "name" : "Optimist At Heart",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 6,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 3831328818,
+    "name" : "I'll Protect You!",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 167,
+    "flag" : 18
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/154.c2beee8e.png"
+}, {
+  "id" : 3742595916,
+  "name" : "SNW Hemmer",
+  "shortName" : "SNW HEMMER",
+  "artId" : 208,
+  "artPath" : "/assets/208.7308b468.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 3,
+  "synergyId" : 29,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2356235387,
+    "name" : "Unfit To Lead",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 3879504116,
+    "name" : "Fix What Is Broken",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 24
+  },
+  "belowDecksAbility" : {
+    "id" : 3078181122,
+    "name" : "Telepathic Resolve",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 238,
+    "flag" : 35
+  },
+  "imageUrl" : "https://stfc.space/assets/208.7308b468.png"
+}, {
+  "id" : 1925563045,
+  "name" : "Weyoun",
+  "shortName" : "WEYOUN",
+  "artId" : 223,
+  "artPath" : "/assets/223.a47ab5f9.png",
+  "factionId" : -1,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 34,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3603567245,
+    "name" : "Silver Tongue",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 261,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 1777728821,
+    "name" : "Manipulate, Cajole, Deceive",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 264,
+    "flag" : 9
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/223.a47ab5f9.png"
+}, {
+  "id" : 2446409392,
+  "name" : "Raphaël DuPont",
+  "shortName" : "DUPONT",
+  "artId" : 39,
+  "artPath" : "/assets/39.6e99ebce.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 8,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4020180140,
+    "name" : "Grade III Miner",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 159,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 3267066178,
+    "name" : "Hidden Stash",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 13,
+    "flag" : 29
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/39.6e99ebce.png"
+}, {
+  "id" : 43410162,
+  "name" : "Pan",
+  "shortName" : "PAN",
+  "artId" : 121,
+  "artPath" : "/assets/121.97fa34f9.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 10,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1080113780,
+    "name" : "Getting Up To Speed",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 3,
+    "flag" : 21
+  },
+  "officerAbility" : {
+    "id" : 2657236509,
+    "name" : "Mistakes Were Made",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 129,
+    "flag" : 67
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/121.97fa34f9.png"
+}, {
+  "id" : 743931698,
+  "name" : "Airiam",
+  "shortName" : "AIRIAM",
+  "artId" : 136,
+  "artPath" : "/assets/136.d8c7d7b1.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 1,
+  "synergyId" : 18,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3029331443,
+    "name" : "Isogen Miner",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 151,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 235386558,
+    "name" : "Cybernetic Tactician",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 152,
+    "flag" : 67
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/136.d8c7d7b1.png"
+}, {
+  "id" : 3156736320,
+  "name" : "Helvia",
+  "shortName" : "HELVIA",
+  "artId" : 53,
+  "artPath" : "/assets/53.e627dbff.png",
+  "factionId" : 669838839,
+  "rarity" : "Common",
+  "classId" : 1,
+  "synergyId" : 8,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 774401700,
+    "name" : "Parsteel Miner",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 5,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 2541405785,
+    "name" : "Gold Rush",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 9,
+    "flag" : 22
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/53.e627dbff.png"
+}, {
+  "id" : 1602389738,
+  "name" : "Kati",
+  "shortName" : "KATI",
+  "artId" : 65,
+  "artPath" : "/assets/65.8b3df42f.png",
+  "factionId" : -1,
+  "rarity" : "Uncommon",
+  "classId" : 2,
+  "synergyId" : 10,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3199621934,
+    "name" : "Hail of Fire",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 24,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 905884666,
+    "name" : "Enhanced Weaponry",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 27,
+    "flag" : 19
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/65.8b3df42f.png"
+}, {
+  "id" : 2822661458,
+  "name" : "Khan Noonien Singh",
+  "shortName" : "KHAN",
+  "artId" : 60,
+  "artPath" : "/assets/60.37826ba0.png",
+  "factionId" : -1,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 10,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1479384085,
+    "name" : "Ruthless Mastermind",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 81,
+    "flag" : 24
+  },
+  "officerAbility" : {
+    "id" : 4235813457,
+    "name" : "Savage Tenacity",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 24,
+    "flag" : 18
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/60.37826ba0.png"
+}, {
+  "id" : 3816036121,
+  "name" : "Domitia",
+  "shortName" : "DOMITIA",
+  "artId" : 51,
+  "artPath" : "/assets/51.4992cd19.png",
+  "factionId" : 669838839,
+  "rarity" : "Common",
+  "classId" : 2,
+  "synergyId" : 8,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2591028018,
+    "name" : "Dilithium Miner",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 5,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 2687495170,
+    "name" : "Hurry Home",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 9,
+    "flag" : 22
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/51.4992cd19.png"
+}, {
+  "id" : 1622062016,
+  "name" : "Instructor Spock",
+  "shortName" : "INSTR. SPOCK",
+  "artId" : 84,
+  "artPath" : "/assets/84.bc2197bb.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 2,
+  "synergyId" : 14,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1862576044,
+    "name" : "Knowledgeable",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2372470621,
+    "name" : "Kobayashi Maru",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/84.bc2197bb.png"
+}, {
+  "id" : 2593842933,
+  "name" : "Worf",
+  "shortName" : "WORF",
+  "artId" : 177,
+  "artPath" : "/assets/177.704c8fa7.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 23,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2418798268,
+    "name" : "Headlong Into Battle",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 9,
+    "flag" : 22
+  },
+  "officerAbility" : {
+    "id" : 3612793883,
+    "name" : "Only Fools Have No Fear",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 189,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/177.704c8fa7.png"
+}, {
+  "id" : 2219055924,
+  "name" : "Otto",
+  "shortName" : "OTTO",
+  "artId" : 64,
+  "artPath" : "/assets/64.d6c9994c.png",
+  "factionId" : -1,
+  "rarity" : "Uncommon",
+  "classId" : 3,
+  "synergyId" : 10,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 935457644,
+    "name" : "Smash the Defenses",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2283189229,
+    "name" : "Brute Force",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/64.d6c9994c.png"
+}, {
+  "id" : 440622131,
+  "name" : "Hugh Culber",
+  "shortName" : "CULBER",
+  "artId" : 137,
+  "artPath" : "/assets/137.9602941a.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 2,
+  "synergyId" : 18,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3511725168,
+    "name" : "Protective",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 150,
+    "flag" : 16
+  },
+  "officerAbility" : {
+    "id" : 2499304252,
+    "name" : "Learned from the Best",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 146,
+    "flag" : 46
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/137.9602941a.png"
+}, {
+  "id" : 1683164967,
+  "name" : "Data",
+  "shortName" : "DATA",
+  "artId" : 171,
+  "artPath" : "/assets/171.b71a80b8.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 2,
+  "synergyId" : 23,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 399317258,
+    "name" : "Positronic Precision",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 176,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 264286170,
+    "name" : "Effort Yields Its Own Rewards",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 177,
+    "flag" : 25
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/171.b71a80b8.png"
+}, {
+  "id" : 1127234629,
+  "name" : "Alexander Marcus",
+  "shortName" : "MARCUS",
+  "artId" : 43,
+  "artPath" : "/assets/43.e8611c61.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 6,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2221311201,
+    "name" : "Overpower",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 6,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 1877391678,
+    "name" : "Shady Methods",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 31,
+    "flag" : 14
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/43.e8611c61.png"
+}, {
+  "id" : 3583932904,
+  "name" : "Five of Eleven",
+  "shortName" : "FIVE OF ELEVEN",
+  "artId" : 111,
+  "artPath" : "/assets/111.d5b15291.png",
+  "factionId" : 2943562711,
+  "rarity" : "Epic",
+  "classId" : 3,
+  "synergyId" : 16,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1107085046,
+    "name" : "Weaponry is irrelevant",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 172,
+    "flag" : 24
+  },
+  "officerAbility" : {
+    "id" : 4049923936,
+    "name" : "You will be assimilated",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 4,
+    "flag" : 59
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/111.d5b15291.png"
+}, {
+  "id" : 3722250154,
+  "name" : "Carol Marcus",
+  "shortName" : "CAROL",
+  "artId" : 92,
+  "artPath" : "/assets/92.b1dffaee.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 2,
+  "synergyId" : 9,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2068090718,
+    "name" : "Applied Science",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2541302043,
+    "name" : "Weapons Expert",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/92.b1dffaee.png"
+}, {
+  "id" : 2543722471,
+  "name" : "SNW La'an Noonien-Singh",
+  "shortName" : "SNW LA'AN",
+  "artId" : 203,
+  "artPath" : "/assets/203.d4b2fbe6.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 29,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3619590668,
+    "name" : "Unfit To Lead",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2282961192,
+    "name" : "Warp Overdrive",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 9,
+    "flag" : 22
+  },
+  "belowDecksAbility" : {
+    "id" : 786504700,
+    "name" : "Secure Logistics",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 232,
+    "flag" : 28
+  },
+  "imageUrl" : "https://stfc.space/assets/203.d4b2fbe6.png"
+}, {
+  "id" : 1437818828,
+  "name" : "Badgey",
+  "shortName" : "BADGEY",
+  "artId" : 198,
+  "artPath" : "/assets/198.1c3d3ea3.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 2,
+  "synergyId" : 28,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 376030463,
+    "name" : "Unfit To Lead",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1821429098,
+    "name" : "Whee! Murder!",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 217,
+    "flag" : 24
+  },
+  "belowDecksAbility" : {
+    "id" : 2353995811,
+    "name" : "Haha! You're Going To Die!",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 221,
+    "flag" : 25
+  },
+  "imageUrl" : "https://stfc.space/assets/198.1c3d3ea3.png"
+}, {
+  "id" : 3961190554,
+  "name" : "Decius",
+  "shortName" : "DECIUS",
+  "artId" : 31,
+  "artPath" : "/assets/31.d2c01eaa.png",
+  "factionId" : 669838839,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 5,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3943819030,
+    "name" : "Reckless",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 20,
+    "flag" : 25
+  },
+  "officerAbility" : {
+    "id" : 207614493,
+    "name" : "Honor Guard",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/31.d2c01eaa.png"
+}, {
+  "id" : 3155462804,
+  "name" : "Elea Mäkinen",
+  "shortName" : "MÄKINEN",
+  "artId" : 42,
+  "artPath" : "/assets/42.eaffb3a5.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 3,
+  "synergyId" : 8,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3618813132,
+    "name" : "Advanced Mining",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 5,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 2208202896,
+    "name" : "Isogen Mining",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 151,
+    "flag" : 20
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/42.eaffb3a5.png"
+}, {
+  "id" : 1580157615,
+  "name" : "Georgiou",
+  "shortName" : "GEORGIOU",
+  "artId" : 138,
+  "artPath" : "/assets/138.6718067a.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 18,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3904063321,
+    "name" : "Never Fire First",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 145,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 2490699031,
+    "name" : "Deceptive Warfare",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 23,
+    "flag" : 67
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/138.6718067a.png"
+}, {
+  "id" : 1916661181,
+  "name" : "Jadzia Dax",
+  "shortName" : "JADZIA DAX",
+  "artId" : 218,
+  "artPath" : "/assets/218.d5d5bd74.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 3,
+  "synergyId" : 32,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3902853214,
+    "name" : "Keen Eye",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 272,
+    "flag" : 25
+  },
+  "officerAbility" : {
+    "id" : 1999054927,
+    "name" : "Warrior Spirit",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 273,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/218.d5d5bd74.png"
+}, {
+  "id" : 4110037371,
+  "name" : "Gabriel Lorca",
+  "shortName" : "LORCA",
+  "artId" : 139,
+  "artPath" : "/assets/139.24925791.png",
+  "factionId" : -1,
+  "rarity" : "Epic",
+  "classId" : 2,
+  "synergyId" : 19,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 598057792,
+    "name" : "Manipulation",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 154,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 3344613248,
+    "name" : "Quick Thinking",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 28,
+    "flag" : 67
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/139.24925791.png"
+}, {
+  "id" : 3594947012,
+  "name" : "Qa'ug",
+  "shortName" : "QA'UG",
+  "artId" : 27,
+  "artPath" : "/assets/27.6447a143.png",
+  "factionId" : 4153667145,
+  "rarity" : "Uncommon",
+  "classId" : 2,
+  "synergyId" : 4,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4197012360,
+    "name" : "Excel under Pressure",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 24
+  },
+  "officerAbility" : {
+    "id" : 2314534937,
+    "name" : "Blood and Honor",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 21,
+    "flag" : 12
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/27.6447a143.png"
+}, {
+  "id" : 1137482318,
+  "name" : "William T. Riker",
+  "shortName" : "WILLIAM T. RIKER",
+  "artId" : 172,
+  "artPath" : "/assets/172.6d395e81.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 23,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 855610396,
+    "name" : "Vibrant Authority",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 186,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1577212247,
+    "name" : "The Icarus Factor",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 187,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/172.6d395e81.png"
+}, {
+  "id" : 656972203,
+  "name" : "Nero",
+  "shortName" : "NERO",
+  "artId" : 15,
+  "artPath" : "/assets/15.a8fb5ceb.png",
+  "factionId" : 669838839,
+  "rarity" : "Epic",
+  "classId" : 3,
+  "synergyId" : 3,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1824840463,
+    "name" : "Joy In Vengeance",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 43,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1215201819,
+    "name" : "See the Flaws",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 23,
+    "flag" : 67
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/15.a8fb5ceb.png"
+}, {
+  "id" : 180486983,
+  "name" : "Changeling Kira",
+  "shortName" : "CHANGELING KIRA",
+  "artId" : 216,
+  "artPath" : "/assets/216.095e1c2a.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 32,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3152638070,
+    "name" : "Tactical Infiltration",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 248,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 2108234991,
+    "name" : "Know Your Enemy",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 249,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/216.095e1c2a.png"
+}, {
+  "id" : 2204519406,
+  "name" : "Geordi La Forge",
+  "shortName" : "GEORDI LA FORGE",
+  "artId" : 175,
+  "artPath" : "/assets/175.5ed20568.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 3,
+  "synergyId" : 23,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 345049752,
+    "name" : "Field-Strip a Fusion Reactor",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 180,
+    "flag" : 62
+  },
+  "officerAbility" : {
+    "id" : 330406172,
+    "name" : "The Mind's Eye",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 181,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/175.5ed20568.png"
+}, {
+  "id" : 2333021829,
+  "name" : "Livis",
+  "shortName" : "LIVIS",
+  "artId" : 18,
+  "artPath" : "/assets/18.fcee9111.png",
+  "factionId" : 669838839,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 3,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2144007762,
+    "name" : "Wartime Repairs",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 8,
+    "flag" : 26
+  },
+  "officerAbility" : {
+    "id" : 2714109144,
+    "name" : "Bolstered",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 15,
+    "flag" : 31
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/18.fcee9111.png"
+}, {
+  "id" : 1330179266,
+  "name" : "Ro Mudd",
+  "shortName" : "RO MUDD",
+  "artId" : 125,
+  "artPath" : "/assets/125.ae81e9eb.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 11,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1604629509,
+    "name" : "Endless Ambition",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 2,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 3958845992,
+    "name" : "Fatal Charm",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 135,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/125.ae81e9eb.png"
+}, {
+  "id" : 988947581,
+  "name" : "James T. Kirk",
+  "shortName" : "KIRK",
+  "artId" : 1,
+  "artPath" : "/assets/1.6df9e1af.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 1,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4102716881,
+    "name" : "Leader",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 41,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 2068068163,
+    "name" : "Inspirational",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 6,
+    "flag" : 67
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/1.6df9e1af.png"
+}, {
+  "id" : 2184439996,
+  "name" : "Martok",
+  "shortName" : "MARTOK",
+  "artId" : 184,
+  "artPath" : "/assets/184.c76ea08b.png",
+  "factionId" : 4153667145,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 24,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 876485508,
+    "name" : "Supreme Commander",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 198,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 4048510643,
+    "name" : "Unwavering Loyalty",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 199,
+    "flag" : 15
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/184.c76ea08b.png"
+}, {
+  "id" : 1349602017,
+  "name" : "Rima",
+  "shortName" : "RIMA",
+  "artId" : 122,
+  "artPath" : "/assets/122.3b252c51.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 10,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2804399891,
+    "name" : "You'll pay for that",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1975058516,
+    "name" : "Systems Critical",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 24,
+    "flag" : 18
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/122.3b252c51.png"
+}, {
+  "id" : 913104893,
+  "name" : "Kuron",
+  "shortName" : "KURON",
+  "artId" : 25,
+  "artPath" : "/assets/25.b30e3e02.png",
+  "factionId" : 4153667145,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 4,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1556590305,
+    "name" : "No Negotiations",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 30,
+    "flag" : 11
+  },
+  "officerAbility" : {
+    "id" : 2443405066,
+    "name" : "Merciless Pursue",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 3,
+    "flag" : 21
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/25.b30e3e02.png"
+}, {
+  "id" : 361377304,
+  "name" : "Tal",
+  "shortName" : "TAL",
+  "artId" : 30,
+  "artPath" : "/assets/30.abfeb765.png",
+  "factionId" : 669838839,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 5,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2857502443,
+    "name" : "Loyal Officer",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 32,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 3206018140,
+    "name" : "Resistance",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 31
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/30.abfeb765.png"
+}, {
+  "id" : 3681781473,
+  "name" : "Garak",
+  "shortName" : "GARAK",
+  "artId" : 221,
+  "artPath" : "/assets/221.07e31e04.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 33,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2779404384,
+    "name" : "Plain, Simple Garak",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 255,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 988061493,
+    "name" : "Outcast Spy",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 256,
+    "flag" : 18
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/221.07e31e04.png"
+}, {
+  "id" : 339027623,
+  "name" : "Kira Nerys",
+  "shortName" : "KIRA NERYS",
+  "artId" : 226,
+  "artPath" : "/assets/226.d129f258.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 32,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4189787473,
+    "name" : "Unfit To Lead",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 234251988,
+    "name" : "Steel Determination",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 249,
+    "flag" : 33
+  },
+  "belowDecksAbility" : {
+    "id" : 4121832941,
+    "name" : "Guerrilla Strategy",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 271,
+    "flag" : 18
+  },
+  "imageUrl" : "https://stfc.space/assets/226.d129f258.png"
+}, {
+  "id" : 1983456684,
+  "name" : "Kumak",
+  "shortName" : "KUMAK",
+  "artId" : 17,
+  "artPath" : "/assets/17.be548b5c.png",
+  "factionId" : 669838839,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 3,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1446865370,
+    "name" : "Discipline",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 2642188917,
+    "name" : "Watch the World burn",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/17.be548b5c.png"
+}, {
+  "id" : 2432668775,
+  "name" : "K'Bisch",
+  "shortName" : "K'BISCH",
+  "artId" : 52,
+  "artPath" : "/assets/52.5037e8bd.png",
+  "factionId" : 4153667145,
+  "rarity" : "Common",
+  "classId" : 3,
+  "synergyId" : 8,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 762142944,
+    "name" : "Tritanium Miner",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 5,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 2133714071,
+    "name" : "Defensive Mining",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/52.5037e8bd.png"
+}, {
+  "id" : 1617168639,
+  "name" : "Marla McGivers",
+  "shortName" : "MARLA",
+  "artId" : 62,
+  "artPath" : "/assets/62.cf383cea.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 10,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2905060077,
+    "name" : "History Repeats Itself",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 8,
+    "flag" : 26
+  },
+  "officerAbility" : {
+    "id" : 1434879169,
+    "name" : "Let Me Help You",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 2,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/62.cf383cea.png"
+}, {
+  "id" : 107451388,
+  "name" : "TOS James T. Kirk",
+  "shortName" : "TOS KIRK",
+  "artId" : 150,
+  "artPath" : "/assets/150.68296612.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 20,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3524108217,
+    "name" : "3D Strategist",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 160,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1602353343,
+    "name" : "It's all we have to go on",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 161,
+    "flag" : 67
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/150.68296612.png"
+}, {
+  "id" : 3106264505,
+  "name" : "Tiza",
+  "shortName" : "TIZA",
+  "artId" : 128,
+  "artPath" : "/assets/128.7b2553f4.png",
+  "factionId" : -1,
+  "rarity" : "Common",
+  "classId" : 1,
+  "synergyId" : 11,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 254956305,
+    "name" : "Security Breach",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 139,
+    "flag" : 33
+  },
+  "officerAbility" : {
+    "id" : 780595425,
+    "name" : "Mirani Technology",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 137,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/128.7b2553f4.png"
+}, {
+  "id" : 680147223,
+  "name" : "Komal",
+  "shortName" : "KOMAL",
+  "artId" : 79,
+  "artPath" : "/assets/79.d3b68452.png",
+  "factionId" : 4153667145,
+  "rarity" : "Common",
+  "classId" : 3,
+  "synergyId" : 13,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1339536277,
+    "name" : "Battleship Specialist",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 72,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 508815580,
+    "name" : "Resist Kinetic",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 18,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/79.d3b68452.png"
+}, {
+  "id" : 423029416,
+  "name" : "TOS Leonard McCoy",
+  "shortName" : "TOS MCCOY",
+  "artId" : 153,
+  "artPath" : "/assets/153.e7b913a2.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 20,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1411083962,
+    "name" : "We're Rescuing You!",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 166,
+    "flag" : 24
+  },
+  "officerAbility" : {
+    "id" : 1471902954,
+    "name" : "Just An Old Country Doctor",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/153.e7b913a2.png"
+}, {
+  "id" : 2757127113,
+  "name" : "TOS Spock",
+  "shortName" : "TOS SPOCK",
+  "artId" : 151,
+  "artPath" : "/assets/151.4149c85c.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 2,
+  "synergyId" : 20,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2015269686,
+    "name" : "Live Long",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 162,
+    "flag" : 30
+  },
+  "officerAbility" : {
+    "id" : 2578265840,
+    "name" : "Prosper",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 163,
+    "flag" : 19
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/151.4149c85c.png"
+}, {
+  "id" : 2498836305,
+  "name" : "Honorguard Worf",
+  "shortName" : "HONORGUARD WORF",
+  "artId" : 182,
+  "artPath" : "/assets/182.587f3d1b.png",
+  "factionId" : 4153667145,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 24,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2884241557,
+    "name" : "Soldier of the Empire",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 190,
+    "flag" : 13
+  },
+  "officerAbility" : {
+    "id" : 4096806574,
+    "name" : "Rage of Khitomer",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 191,
+    "flag" : 18
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/182.587f3d1b.png"
+}, {
+  "id" : 3490516652,
+  "name" : "Four of Eleven",
+  "shortName" : "FOUR OF ELEVEN",
+  "artId" : 180,
+  "artPath" : "/assets/180.aaf0708f.png",
+  "factionId" : 2943562711,
+  "rarity" : "Epic",
+  "classId" : 3,
+  "synergyId" : 16,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1641795234,
+    "name" : "Efficient Ore Acquisition",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 5,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 189386619,
+    "name" : "Cargo Optimization Algorithms",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 1,
+    "flag" : 28
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/180.aaf0708f.png"
+}, {
+  "id" : 1800794103,
+  "name" : "Tilly",
+  "shortName" : "TILLY",
+  "artId" : 134,
+  "artPath" : "/assets/134.e53d3e43.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 3,
+  "synergyId" : 18,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1999787012,
+    "name" : "The Power of Math",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 147,
+    "flag" : 30
+  },
+  "officerAbility" : {
+    "id" : 1776666269,
+    "name" : "Hold Your Horses!",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/134.e53d3e43.png"
+}, {
+  "id" : 370544309,
+  "name" : "Ten of Eleven",
+  "shortName" : "TEN OF ELEVEN",
+  "artId" : 115,
+  "artPath" : "/assets/115.0b9e279f.png",
+  "factionId" : 2943562711,
+  "rarity" : "Epic",
+  "classId" : 3,
+  "synergyId" : 16,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2859510273,
+    "name" : "Multiplicative Extraction",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 126,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 3585546924,
+    "name" : "Tribble Mining Collective",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 5,
+    "flag" : 20
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/115.0b9e279f.png"
+}, {
+  "id" : 2959514562,
+  "name" : "Vemet",
+  "shortName" : "VEMET",
+  "artId" : 16,
+  "artPath" : "/assets/16.0901de06.png",
+  "factionId" : 669838839,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 3,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4289717791,
+    "name" : "Romulan Tenacity",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 39,
+    "flag" : 31
+  },
+  "officerAbility" : {
+    "id" : 2633638696,
+    "name" : "Feel the Heat",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 23,
+    "flag" : 30
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/16.0901de06.png"
+}, {
+  "id" : 755079845,
+  "name" : "Stonn",
+  "shortName" : "STONN",
+  "artId" : 50,
+  "artPath" : "/assets/50.77e2bf4f.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 8,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2656033988,
+    "name" : "Ore Miner",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 5,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 3963393918,
+    "name" : "Pack Rat",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 1,
+    "flag" : 28
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/50.77e2bf4f.png"
+}, {
+  "id" : 3191841428,
+  "name" : "Fess",
+  "shortName" : "FESS",
+  "artId" : 193,
+  "artPath" : "/assets/193.781783ca.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 27,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4265842515,
+    "name" : "Pursue Profit Where You Find It",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 5,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 2110567361,
+    "name" : "Cut Corners If You Need To",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 212,
+    "flag" : 29
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/193.781783ca.png"
+}, {
+  "id" : 3627600020,
+  "name" : "Six of Eleven",
+  "shortName" : "SIX OF ELEVEN",
+  "artId" : 116,
+  "artPath" : "/assets/116.3c570852.png",
+  "factionId" : 2943562711,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 16,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 115416486,
+    "name" : "We are the Borg",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 30
+  },
+  "officerAbility" : {
+    "id" : 3353791415,
+    "name" : "Defenses are irrelevant",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 127,
+    "flag" : 25
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/116.3c570852.png"
+}, {
+  "id" : 407568868,
+  "name" : "Zahra",
+  "shortName" : "ZAHRA",
+  "artId" : 59,
+  "artPath" : "/assets/59.89f1d1e3.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 3,
+  "synergyId" : 9,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4231113561,
+    "name" : "Station Expert",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 15,
+    "flag" : 31
+  },
+  "officerAbility" : {
+    "id" : 243472742,
+    "name" : "Home Engineer",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/59.89f1d1e3.png"
+}, {
+  "id" : 2334517642,
+  "name" : "Quark",
+  "shortName" : "QUARK",
+  "artId" : 191,
+  "artPath" : "/assets/191.964b8d82.png",
+  "factionId" : -1,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 27,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3140201508,
+    "name" : "Don't Let Them Take Anything",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 209,
+    "flag" : 29
+  },
+  "officerAbility" : {
+    "id" : 2656564852,
+    "name" : "Take Everything They Have",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 210,
+    "flag" : 20
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/191.964b8d82.png"
+}, {
+  "id" : 989647182,
+  "name" : "One of Eleven",
+  "shortName" : "ONE OF ELEVEN",
+  "artId" : 110,
+  "artPath" : "/assets/110.99f621b8.png",
+  "factionId" : 2943562711,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 16,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2296568320,
+    "name" : "Adaptive Shielding",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 91,
+    "flag" : 33
+  },
+  "officerAbility" : {
+    "id" : 4130092864,
+    "name" : "Bodyguard",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 92,
+    "flag" : 29
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/110.99f621b8.png"
+}, {
+  "id" : 1455040265,
+  "name" : "T'Laan",
+  "shortName" : "T'LAAN",
+  "artId" : 74,
+  "artPath" : "/assets/74.ef49cec5.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 2,
+  "synergyId" : 12,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 746079457,
+    "name" : "Thorough Scans",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 10,
+    "flag" : 34
+  },
+  "officerAbility" : {
+    "id" : 2109540283,
+    "name" : "Objective Defense",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 18,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/74.ef49cec5.png"
+}, {
+  "id" : 1577339063,
+  "name" : "B'Etor",
+  "shortName" : "B'ETOR",
+  "artId" : 189,
+  "artPath" : "/assets/189.783ed105.png",
+  "factionId" : 669838839,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 25,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2319707047,
+    "name" : "Behind the Scenes",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 206,
+    "flag" : 48
+  },
+  "officerAbility" : {
+    "id" : 2971941649,
+    "name" : "Varied Income Streams",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 4,
+    "flag" : 54
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/189.783ed105.png"
+}, {
+  "id" : 176044746,
+  "name" : "Rukor",
+  "shortName" : "RUKOR",
+  "artId" : 81,
+  "artPath" : "/assets/81.027034dc.png",
+  "factionId" : 4153667145,
+  "rarity" : "Common",
+  "classId" : 1,
+  "synergyId" : 13,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2058272079,
+    "name" : "Explorer Specialist",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 73,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2461367983,
+    "name" : "Energy Boost",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 29,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/81.027034dc.png"
+}, {
+  "id" : 1353192478,
+  "name" : "Mara",
+  "shortName" : "MARA",
+  "artId" : 23,
+  "artPath" : "/assets/23.f1ef5f09.png",
+  "factionId" : 4153667145,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 4,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1304319250,
+    "name" : "Icy Analyst",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 34,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1955068300,
+    "name" : "Wife of a Dahar",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 15
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/23.f1ef5f09.png"
+}, {
+  "id" : 3769449499,
+  "name" : "Ash Tyler",
+  "shortName" : "TYLER",
+  "artId" : 135,
+  "artPath" : "/assets/135.3b79657f.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 18,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1485218350,
+    "name" : "Hold Position",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 148,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 2478131502,
+    "name" : "The Beast Inside",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 149,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/135.3b79657f.png"
+}, {
+  "id" : 3628828668,
+  "name" : "Hendorff",
+  "shortName" : "HENDORFF",
+  "artId" : 45,
+  "artPath" : "/assets/45.085d2fec.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 3,
+  "synergyId" : 7,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1815450665,
+    "name" : "Excellent Security",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 24
+  },
+  "officerAbility" : {
+    "id" : 4056050786,
+    "name" : "Explorer Trainer",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 73,
+    "flag" : 34
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/45.085d2fec.png"
+}, {
+  "id" : 776602621,
+  "name" : "Gaila",
+  "shortName" : "GAILA",
+  "artId" : 72,
+  "artPath" : "/assets/72.1e03dc64.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 3,
+  "synergyId" : 12,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2055328539,
+    "name" : "Parsteel Hunter",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 4,
+    "flag" : 59
+  },
+  "officerAbility" : {
+    "id" : 2166644813,
+    "name" : "Critical Avoidance",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 19
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/72.1e03dc64.png"
+}, {
+  "id" : 177664289,
+  "name" : "Beverly Crusher",
+  "shortName" : "BEVERLY CRUSHER",
+  "artId" : 174,
+  "artPath" : "/assets/174.46230235.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 23,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4222722823,
+    "name" : "First, Do No Harm",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 178,
+    "flag" : 30
+  },
+  "officerAbility" : {
+    "id" : 697043235,
+    "name" : "Unshakeable Moral Code",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 179,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/174.46230235.png"
+}, {
+  "id" : 3314108979,
+  "name" : "Geoffrey Hadley",
+  "shortName" : "HADLEY",
+  "artId" : 48,
+  "artPath" : "/assets/48.327ca43d.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 3,
+  "synergyId" : 7,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 511272321,
+    "name" : "Galaxy Traveler",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 9,
+    "flag" : 22
+  },
+  "officerAbility" : {
+    "id" : 2331408146,
+    "name" : "Survey Trainer",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 70,
+    "flag" : 34
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/48.327ca43d.png"
+}, {
+  "id" : 1248750548,
+  "name" : "Rom",
+  "shortName" : "ROM",
+  "artId" : 194,
+  "artPath" : "/assets/194.deeca4fd.png",
+  "factionId" : -1,
+  "rarity" : "Epic",
+  "classId" : 3,
+  "synergyId" : 27,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3546112970,
+    "name" : "Decline Their Generosity",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 215,
+    "flag" : 10
+  },
+  "officerAbility" : {
+    "id" : 479594847,
+    "name" : "Impress With Your Opulence",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 214,
+    "flag" : 9
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/194.deeca4fd.png"
+}, {
+  "id" : 3114234402,
+  "name" : "Linkasa",
+  "shortName" : "LINKASA",
+  "artId" : 28,
+  "artPath" : "/assets/28.5421ad85.png",
+  "factionId" : 4153667145,
+  "rarity" : "Uncommon",
+  "classId" : 3,
+  "synergyId" : 4,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2086809246,
+    "name" : "Way of the Klingon",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 2401299714,
+    "name" : "Defensive Tactics",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 16
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/28.5421ad85.png"
+}, {
+  "id" : 2613379706,
+  "name" : "Damar",
+  "shortName" : "DAMAR",
+  "artId" : 222,
+  "artPath" : "/assets/222.e21e36f1.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 33,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2543230650,
+    "name" : "Dominion Collaborator",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 257,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 1272288893,
+    "name" : "Liquid Courage",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 258,
+    "flag" : 19
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/222.e21e36f1.png"
+}, {
+  "id" : 1860865109,
+  "name" : "Pon",
+  "shortName" : "PON",
+  "artId" : 225,
+  "artPath" : "/assets/225.25b04d8d.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 34,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2775643020,
+    "name" : "Lost in Translation",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 263,
+    "flag" : 10
+  },
+  "officerAbility" : {
+    "id" : 2006290587,
+    "name" : "Breen Served Cold",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 266,
+    "flag" : 18
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/225.25b04d8d.png"
+}, {
+  "id" : 97787926,
+  "name" : "SNW Nyota Uhura",
+  "shortName" : "SNW UHURA",
+  "artId" : 206,
+  "artPath" : "/assets/206.e0544f20.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 29,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2975835149,
+    "name" : "Critical Targeting",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 227,
+    "flag" : 19
+  },
+  "officerAbility" : {
+    "id" : 3878448065,
+    "name" : "Pre-emptive Maneuvers",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 236,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/206.e0544f20.png"
+}, {
+  "id" : 1958876935,
+  "name" : "Captain Tilly",
+  "shortName" : "CAP. TILLY",
+  "artId" : 144,
+  "artPath" : "/assets/144.32bbd7fc.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 19,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2059684707,
+    "name" : "Ruthlessness",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 156,
+    "flag" : 25
+  },
+  "officerAbility" : {
+    "id" : 1561819154,
+    "name" : "Sadistic",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 153,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/144.32bbd7fc.png"
+}, {
+  "id" : 1116707401,
+  "name" : "Wesley Crusher",
+  "shortName" : "WESLEY CRUSHER",
+  "artId" : 176,
+  "artPath" : "/assets/176.d9ab04df.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 23,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2111864873,
+    "name" : "When The Bough Breaks",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 184,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 424820476,
+    "name" : "Traveler's Scion",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/176.d9ab04df.png"
+}, {
+  "id" : 2702893021,
+  "name" : "SNW Spock",
+  "shortName" : "SNW SPOCK",
+  "artId" : 202,
+  "artPath" : "/assets/202.54414aff.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 29,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2246477690,
+    "name" : "Predictable",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 227,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 1101292289,
+    "name" : "Heavy Shields",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 229,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/202.54414aff.png"
+}, {
+  "id" : 868427019,
+  "name" : "Origins Stamets",
+  "shortName" : "ORIGINS STAMETS",
+  "artId" : 143,
+  "artPath" : "/assets/143.77952e5b.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 3,
+  "synergyId" : 17,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2081533684,
+    "name" : "Biologist",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 1703022152,
+    "name" : "No Time To Waste",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 9,
+    "flag" : 22
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/143.77952e5b.png"
+}, {
+  "id" : 1083140166,
+  "name" : "Goon",
+  "shortName" : "GOON",
+  "artId" : 127,
+  "artPath" : "/assets/127.143a95fb.png",
+  "factionId" : -1,
+  "rarity" : "Uncommon",
+  "classId" : 2,
+  "synergyId" : 11,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3587777576,
+    "name" : "Grizzled Veteran",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 133,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 2608766342,
+    "name" : "Military Training",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 10,
+    "flag" : 34
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/127.143a95fb.png"
+}, {
+  "id" : 3534264929,
+  "name" : "Origins Saru",
+  "shortName" : "ORIGINS SARU",
+  "artId" : 142,
+  "artPath" : "/assets/142.2d4c235d.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 2,
+  "synergyId" : 17,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 714063495,
+    "name" : "Vigilant",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 1714820297,
+    "name" : "Prey Instinct",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 15,
+    "flag" : 31
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/142.2d4c235d.png"
+}, {
+  "id" : 1556052341,
+  "name" : "T'Pring",
+  "shortName" : "T'PRING",
+  "artId" : 49,
+  "artPath" : "/assets/49.2cd41eb7.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 8,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3248153153,
+    "name" : "Gas Miner",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 5,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 1776341383,
+    "name" : "Hidden Stash",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 13,
+    "flag" : 29
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/49.2cd41eb7.png"
+}, {
+  "id" : 3465002315,
+  "name" : "Krell",
+  "shortName" : "KRELL",
+  "artId" : 24,
+  "artPath" : "/assets/24.8ce6eb15.png",
+  "factionId" : 4153667145,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 4,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3599377845,
+    "name" : "Retribution",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 28,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 678167089,
+    "name" : "Federation Contacts",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 35,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/24.8ce6eb15.png"
+}, {
+  "id" : 634330627,
+  "name" : "Harcourt Fenton Mudd",
+  "shortName" : "MUDD",
+  "artId" : 123,
+  "artPath" : "/assets/123.44d51fd1.png",
+  "factionId" : -1,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 11,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2953367854,
+    "name" : "The Ultimate Con",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 128,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1501211612,
+    "name" : "Down but Never Out",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 29,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/123.44d51fd1.png"
+}, {
+  "id" : 2030703558,
+  "name" : "Paul Stamets",
+  "shortName" : "PAUL STAMETS",
+  "artId" : 133,
+  "artPath" : "/assets/133.c852dd53.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 18,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1584210106,
+    "name" : "Network Navigator",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 146,
+    "flag" : 46
+  },
+  "officerAbility" : {
+    "id" : 862911683,
+    "name" : "Snarky Genius",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 13
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/133.c852dd53.png"
+}, {
+  "id" : 1310878702,
+  "name" : "Gul Dukat",
+  "shortName" : "GUL DUKAT",
+  "artId" : 220,
+  "artPath" : "/assets/220.3ae329a1.png",
+  "factionId" : -1,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 33,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1381531883,
+    "name" : "Prefect of Bajor",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 253,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 2187582501,
+    "name" : "Manic Ambition",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 254,
+    "flag" : 9
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/220.3ae329a1.png"
+}, {
+  "id" : 3381802332,
+  "name" : "Yuki Sulu",
+  "shortName" : "YUKI",
+  "artId" : 37,
+  "artPath" : "/assets/37.e1026f27.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 6,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1427535254,
+    "name" : "Disrupting Field",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 30
+  },
+  "officerAbility" : {
+    "id" : 264056742,
+    "name" : "Romulan Grudge",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 37,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/37.e1026f27.png"
+}, {
+  "id" : 1752126880,
+  "name" : "TOS Nyota Uhura",
+  "shortName" : "TOS UHURA",
+  "artId" : 152,
+  "artPath" : "/assets/152.70622719.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 20,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1796469058,
+    "name" : "Sorry, Neither",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 164,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 2247949691,
+    "name" : "Modulation Frequency Found",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 165,
+    "flag" : 33
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/152.70622719.png"
+}, {
+  "id" : 2475235160,
+  "name" : "Azetbur",
+  "shortName" : "AZETBUR",
+  "artId" : 11,
+  "artPath" : "/assets/11.b6dad242.png",
+  "factionId" : 4153667145,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 2,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1262973132,
+    "name" : "Armor is Obsolete",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 28,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 3301945997,
+    "name" : "Weapon Contribution",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 22,
+    "flag" : 13
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/11.b6dad242.png"
+}, {
+  "id" : 194631754,
+  "name" : "Cadet Nyota Uhura",
+  "shortName" : "CADET UHURA",
+  "artId" : 87,
+  "artPath" : "/assets/87.0466a874.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 3,
+  "synergyId" : 14,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 734855586,
+    "name" : "Scan the enemy",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2570807487,
+    "name" : "Negotiations",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 16,
+    "flag" : 30
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/87.0466a874.png"
+}, {
+  "id" : 2601201375,
+  "name" : "Klaa",
+  "shortName" : "KLAA",
+  "artId" : 77,
+  "artPath" : "/assets/77.75663b04.png",
+  "factionId" : 4153667145,
+  "rarity" : "Uncommon",
+  "classId" : 1,
+  "synergyId" : 13,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2580371455,
+    "name" : "Hot Pursuit",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 3,
+    "flag" : 21
+  },
+  "officerAbility" : {
+    "id" : 1433248203,
+    "name" : "Critical Strike",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 27,
+    "flag" : 19
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/77.75663b04.png"
+}, {
+  "id" : 2847497836,
+  "name" : "Kras",
+  "shortName" : "KRAS",
+  "artId" : 76,
+  "artPath" : "/assets/76.8bc3cf95.png",
+  "factionId" : 4153667145,
+  "rarity" : "Epic",
+  "classId" : 2,
+  "synergyId" : 13,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3721061052,
+    "name" : "Art of War",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 74,
+    "flag" : 69
+  },
+  "officerAbility" : {
+    "id" : 3322010576,
+    "name" : "Know your Enemy",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 11,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/76.8bc3cf95.png"
+}, {
+  "id" : 1853520303,
+  "name" : "Cadet Leonard McCoy",
+  "shortName" : "CADET MCCOY",
+  "artId" : 85,
+  "artPath" : "/assets/85.cc82313b.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 2,
+  "synergyId" : 14,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 779039619,
+    "name" : "Doctor",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 47,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 4225330505,
+    "name" : "Psychologist",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 2,
+    "flag" : 69
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/85.cc82313b.png"
+}, {
+  "id" : 949329475,
+  "name" : "Eurydice",
+  "shortName" : "EURYDICE",
+  "artId" : 124,
+  "artPath" : "/assets/124.dbe0a302.png",
+  "factionId" : -1,
+  "rarity" : "Epic",
+  "classId" : 3,
+  "synergyId" : 11,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3789527814,
+    "name" : "Opportunist",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 138,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1608351478,
+    "name" : "Delta Quadrant Technology",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 134,
+    "flag" : 30
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/124.dbe0a302.png"
+}, {
+  "id" : 3865023367,
+  "name" : "D'Vana Tendi",
+  "shortName" : "D'VANA TENDI",
+  "artId" : 200,
+  "artPath" : "/assets/200.47506b72.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 2,
+  "synergyId" : 28,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 454329452,
+    "name" : "Unfit To Lead",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 698615866,
+    "name" : "Yay, Friends!",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 224,
+    "flag" : 35
+  },
+  "belowDecksAbility" : {
+    "id" : 2296451322,
+    "name" : "Fix It Right Up!",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 226,
+    "flag" : 31
+  },
+  "imageUrl" : "https://stfc.space/assets/200.47506b72.png"
+}, {
+  "id" : 1841597470,
+  "name" : "Next Gen Data",
+  "shortName" : "NEXT GEN DATA",
+  "artId" : 160,
+  "artPath" : "/assets/160.4448c523.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 1,
+  "synergyId" : 22,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 834551032,
+    "name" : "The Measure of a Man",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 80249640,
+    "name" : "Power Play",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/160.4448c523.png"
+}, {
+  "id" : 631590783,
+  "name" : "Next Gen Riker",
+  "shortName" : "NEXT GEN RIKER",
+  "artId" : 161,
+  "artPath" : "/assets/161.f1622c81.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 1,
+  "synergyId" : 22,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 735446036,
+    "name" : "The Riker Maneuver",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1603399419,
+    "name" : "The Riker Lean",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/161.f1622c81.png"
+}, {
+  "id" : 3542999283,
+  "name" : "Eleven of Eleven",
+  "shortName" : "ELEVEN OF ELEVEN",
+  "artId" : 181,
+  "artPath" : "/assets/181.d115a38e.png",
+  "factionId" : 2943562711,
+  "rarity" : "Epic",
+  "classId" : 2,
+  "synergyId" : 16,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3830386207,
+    "name" : "Efficient Crystal Acquisition",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 5,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 3620433776,
+    "name" : "Advanced Warp Theory",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 9,
+    "flag" : 22
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/181.d115a38e.png"
+}, {
+  "id" : 2235857051,
+  "name" : "Vella",
+  "shortName" : "VELLA",
+  "artId" : 20,
+  "artPath" : "/assets/20.327c0253.png",
+  "factionId" : 669838839,
+  "rarity" : "Uncommon",
+  "classId" : 2,
+  "synergyId" : 3,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3575708063,
+    "name" : "Overmatch",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 33,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 4246759861,
+    "name" : "Sturdy Companion",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/20.327c0253.png"
+}, {
+  "id" : 1730335425,
+  "name" : "Chang",
+  "shortName" : "CHANG",
+  "artId" : 9,
+  "artPath" : "/assets/9.795eabb9.png",
+  "factionId" : 4153667145,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 2,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 242644831,
+    "name" : "Cry Havoc",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2157413500,
+    "name" : "Dogs of War",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 11
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/9.795eabb9.png"
+}, {
+  "id" : 339936167,
+  "name" : "Arix",
+  "shortName" : "ARIX",
+  "artId" : 19,
+  "artPath" : "/assets/19.af25b82f.png",
+  "factionId" : 669838839,
+  "rarity" : "Uncommon",
+  "classId" : 2,
+  "synergyId" : 3,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2603504550,
+    "name" : "Plasma Backlash",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 23,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 193818243,
+    "name" : "Powered Armor",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 16
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/19.af25b82f.png"
+}, {
+  "id" : 2651130337,
+  "name" : "Sesha",
+  "shortName" : "SESHA",
+  "artId" : 126,
+  "artPath" : "/assets/126.145194da.png",
+  "factionId" : -1,
+  "rarity" : "Common",
+  "classId" : 2,
+  "synergyId" : 11,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 196211263,
+    "name" : "Always on Guard",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 132,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 4129104008,
+    "name" : "Intimidation",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 136,
+    "flag" : 19
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/126.145194da.png"
+}, {
+  "id" : 4019230068,
+  "name" : "Cath",
+  "shortName" : "CATH",
+  "artId" : 195,
+  "artPath" : "/assets/195.3aba7430.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 27,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1100318825,
+    "name" : "Rely on Nobody",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 170,
+    "flag" : 55
+  },
+  "officerAbility" : {
+    "id" : 1250096698,
+    "name" : "Show Them What You Can Do",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 216,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/195.3aba7430.png"
+}, {
+  "id" : 3835531386,
+  "name" : "Ikat'ika",
+  "shortName" : "IKAT’IKA",
+  "artId" : 224,
+  "artPath" : "/assets/224.7fc2ad42.png",
+  "factionId" : -1,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 34,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4151549753,
+    "name" : "Honored Elder",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 229,
+    "flag" : 24
+  },
+  "officerAbility" : {
+    "id" : 3744176993,
+    "name" : "Created To Win",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 265,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/224.7fc2ad42.png"
+}, {
+  "id" : 2241990218,
+  "name" : "SNW Christopher Pike",
+  "shortName" : "SNW PIKE",
+  "artId" : 201,
+  "artPath" : "/assets/201.6945e777.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 29,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3308805436,
+    "name" : "Prepared For Anything",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 228,
+    "flag" : 33
+  },
+  "officerAbility" : {
+    "id" : 1761806598,
+    "name" : "Quick Thinking",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 177,
+    "flag" : 33
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/201.6945e777.png"
+}, {
+  "id" : 2639742910,
+  "name" : "Lursa",
+  "shortName" : "LURSA",
+  "artId" : 188,
+  "artPath" : "/assets/188.3d339132.png",
+  "factionId" : 669838839,
+  "rarity" : "Uncommon",
+  "classId" : 3,
+  "synergyId" : 25,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1037918091,
+    "name" : "Adapt As Necessary",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 207,
+    "flag" : 47
+  },
+  "officerAbility" : {
+    "id" : 3409009998,
+    "name" : "Fear is Power",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 205,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/188.3d339132.png"
+}, {
+  "id" : 1525867544,
+  "name" : "Cadet James T. Kirk",
+  "shortName" : "CADET KIRK",
+  "artId" : 83,
+  "artPath" : "/assets/83.a0aae93a.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 1,
+  "synergyId" : 14,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2369873168,
+    "name" : "Motivational",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "officerAbility" : {
+    "id" : 3200446473,
+    "name" : "Tactician",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/83.a0aae93a.png"
+}, {
+  "id" : 3217575459,
+  "name" : "Next Gen Troi",
+  "shortName" : "NEXT GEN TROI",
+  "artId" : 162,
+  "artPath" : "/assets/162.56b5e59f.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 2,
+  "synergyId" : 22,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 715015459,
+    "name" : "Face of the Enemy",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 38,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 870791323,
+    "name" : "Empathic",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/162.56b5e59f.png"
+}, {
+  "id" : 3553398304,
+  "name" : "John Harrison",
+  "shortName" : "HARRISON",
+  "artId" : 38,
+  "artPath" : "/assets/38.601e4ab8.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 6,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2099626491,
+    "name" : "Weapon Designer",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 33,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 3875841674,
+    "name" : "Sabotage",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 33
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/38.601e4ab8.png"
+}, {
+  "id" : 2486433247,
+  "name" : "Brad Boimler",
+  "shortName" : "BRAD BOIMLER",
+  "artId" : 197,
+  "artPath" : "/assets/197.92ea2300.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 1,
+  "synergyId" : 28,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 976476321,
+    "name" : "Unfit To Lead",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 3954073301,
+    "name" : "The Real Action",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 22,
+    "flag" : 25
+  },
+  "belowDecksAbility" : {
+    "id" : 419878869,
+    "name" : "The Boimler Effect",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 220,
+    "flag" : 24
+  },
+  "imageUrl" : "https://stfc.space/assets/197.92ea2300.png"
+}, {
+  "id" : 3479942533,
+  "name" : "Strike Team SNW La'an",
+  "shortName" : "STRIKE TEAM LA'AN",
+  "artId" : 209,
+  "artPath" : "/assets/209.d8df0da7.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 31,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3065338757,
+    "name" : "Targeting Optimization",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 240,
+    "flag" : 9
+  },
+  "officerAbility" : {
+    "id" : 3785159004,
+    "name" : "Shield Backdoor",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 239,
+    "flag" : 67
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/209.d8df0da7.png"
+}, {
+  "id" : 1608562191,
+  "name" : "Kang",
+  "shortName" : "KANG",
+  "artId" : 22,
+  "artPath" : "/assets/22.3768f0fd.png",
+  "factionId" : 4153667145,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 4,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 840557541,
+    "name" : "Dahar Master",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 28,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 469743570,
+    "name" : "Blood Oath",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 21,
+    "flag" : 12
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/22.3768f0fd.png"
+}, {
+  "id" : 2865735742,
+  "name" : "Lucia Gonzales",
+  "shortName" : "GONZALES",
+  "artId" : 70,
+  "artPath" : "/assets/70.9ab32dec.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 1,
+  "synergyId" : 12,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2126712571,
+    "name" : "Solution Finder",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 24,
+    "flag" : 18
+  },
+  "officerAbility" : {
+    "id" : 3597408330,
+    "name" : "Problem Solver",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 27,
+    "flag" : 19
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/70.9ab32dec.png"
+}, {
+  "id" : 2518604778,
+  "name" : "Barot",
+  "shortName" : "BAROT",
+  "artId" : 89,
+  "artPath" : "/assets/89.67610e80.png",
+  "factionId" : 4153667145,
+  "rarity" : "Rare",
+  "classId" : 2,
+  "synergyId" : 8,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 703289562,
+    "name" : "Crystal Mining",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 5,
+    "flag" : 20
+  },
+  "officerAbility" : {
+    "id" : 2398413031,
+    "name" : "Deceptive Weakness",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 31
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/89.67610e80.png"
+}, {
+  "id" : 3579242146,
+  "name" : "TOS Montgomery Scott",
+  "shortName" : "TOS SCOTTY",
+  "artId" : 155,
+  "artPath" : "/assets/155.d912f40c.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 20,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 895293227,
+    "name" : "A Garbage Scow!!",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 168,
+    "flag" : 23
+  },
+  "officerAbility" : {
+    "id" : 1072929447,
+    "name" : "She'll launch on time",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 170,
+    "flag" : 55
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/155.d912f40c.png"
+}, {
+  "id" : 47699744,
+  "name" : "Sam Rutherford",
+  "shortName" : "SAM RUTHERFORD",
+  "artId" : 199,
+  "artPath" : "/assets/199.3d166354.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 28,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2470302426,
+    "name" : "Unfit To Lead",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2260942311,
+    "name" : "I Hope This Works...",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 24
+  },
+  "belowDecksAbility" : {
+    "id" : 1495104260,
+    "name" : "Cybernetic Overclocking",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 225,
+    "flag" : 30
+  },
+  "imageUrl" : "https://stfc.space/assets/199.3d166354.png"
+}, {
+  "id" : 1250418815,
+  "name" : "Liviana Charvanek",
+  "shortName" : "CHARVANEK",
+  "artId" : 29,
+  "artPath" : "/assets/29.4ea8792d.png",
+  "factionId" : 669838839,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 5,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3930256423,
+    "name" : "Romulan Tactician",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 23,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 2825675256,
+    "name" : "Mind Games",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 22,
+    "flag" : 13
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/29.4ea8792d.png"
+}, {
+  "id" : 2775384983,
+  "name" : "Jabilo M'Benga",
+  "shortName" : "M'BENGA",
+  "artId" : 58,
+  "artPath" : "/assets/58.a944d620.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 2,
+  "synergyId" : 9,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3760528359,
+    "name" : "Break Through",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 20,
+    "flag" : 25
+  },
+  "officerAbility" : {
+    "id" : 64409548,
+    "name" : "Slip Through",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 19,
+    "flag" : 24
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/58.a944d620.png"
+}, {
+  "id" : 2517597941,
+  "name" : "Vixis",
+  "shortName" : "VIXIS",
+  "artId" : 78,
+  "artPath" : "/assets/78.dc1cbc8e.png",
+  "factionId" : 4153667145,
+  "rarity" : "Uncommon",
+  "classId" : 2,
+  "synergyId" : 13,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3053788649,
+    "name" : "Fake Communiques",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 12,
+    "flag" : 11
+  },
+  "officerAbility" : {
+    "id" : 3174366498,
+    "name" : "Energy Absorption",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 17,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/78.dc1cbc8e.png"
+}, {
+  "id" : 1427486959,
+  "name" : "Jean-Luc Picard",
+  "shortName" : "JEAN-LUC PICARD",
+  "artId" : 170,
+  "artPath" : "/assets/170.fb709ebe.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 23,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1022859147,
+    "name" : "Make It So",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 182,
+    "flag" : 70
+  },
+  "officerAbility" : {
+    "id" : 3573803212,
+    "name" : "Engage",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 183,
+    "flag" : 19
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/170.fb709ebe.png"
+}, {
+  "id" : 1724793140,
+  "name" : "SNW Una Chin-Riley",
+  "shortName" : "SNW UNA",
+  "artId" : 204,
+  "artPath" : "/assets/204.0d6d9775.png",
+  "factionId" : 2064723306,
+  "rarity" : "Epic",
+  "classId" : 3,
+  "synergyId" : 29,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 208396594,
+    "name" : "Modified Weaponry",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 234,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 3288424435,
+    "name" : "Engine Redlining",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 3,
+    "flag" : 21
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/204.0d6d9775.png"
+}, {
+  "id" : 2354305961,
+  "name" : "Strike Team SNW Ortegas",
+  "shortName" : "STRIKE TEAM ORTEGAS",
+  "artId" : 211,
+  "artPath" : "/assets/211.fefd265d.png",
+  "factionId" : 2064723306,
+  "rarity" : "Rare",
+  "classId" : 3,
+  "synergyId" : 31,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4241392103,
+    "name" : "Safety Coefficients",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 242,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 1842949267,
+    "name" : "Thermal Modulation",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 243,
+    "flag" : 11
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/211.fefd265d.png"
+}, {
+  "id" : 3221819893,
+  "name" : "M'Ral",
+  "shortName" : "M'RAL",
+  "artId" : 14,
+  "artPath" : "/assets/14.5adc0ae8.png",
+  "factionId" : 4153667145,
+  "rarity" : "Uncommon",
+  "classId" : 1,
+  "synergyId" : 2,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 508362235,
+    "name" : "On the Hunt",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 22,
+    "flag" : 13
+  },
+  "officerAbility" : {
+    "id" : 1987416811,
+    "name" : "Strengthener",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 35
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/14.5adc0ae8.png"
+}, {
+  "id" : 909354959,
+  "name" : "Ghrush",
+  "shortName" : "GHRUSH",
+  "artId" : 921,
+  "artPath" : "/assets/921.8b8f2777.png",
+  "factionId" : -1,
+  "rarity" : "Epic",
+  "classId" : 1,
+  "synergyId" : 26,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 741219458,
+    "name" : "What's Mine Is Mine",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 13,
+    "flag" : 29
+  },
+  "officerAbility" : {
+    "id" : 1514072808,
+    "name" : "Fight or Flight",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 9,
+    "flag" : 23
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/921.8b8f2777.png"
+}, {
+  "id" : 282462507,
+  "name" : "Arkady Ivanov",
+  "shortName" : "ARKADY",
+  "artId" : 6,
+  "artPath" : "/assets/6.8dc3dae5.png",
+  "factionId" : 2064723306,
+  "rarity" : "Uncommon",
+  "classId" : 1,
+  "synergyId" : 1,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4151870740,
+    "name" : "Always Enthusiast",
+    "percentage" : false,
+    "maxLevel" : 7,
+    "artId" : 6,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 3062248728,
+    "name" : "Shields Refactor",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 7,
+    "flag" : 30
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/6.8dc3dae5.png"
+}, {
+  "id" : 2567136252,
+  "name" : "Shev Akria",
+  "shortName" : "SHEV",
+  "artId" : 73,
+  "artPath" : "/assets/73.652a66a0.png",
+  "factionId" : 2064723306,
+  "rarity" : "Common",
+  "classId" : 3,
+  "synergyId" : 12,
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2509864835,
+    "name" : "Tritanium Hunter",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 4,
+    "flag" : 59
+  },
+  "officerAbility" : {
+    "id" : 1009573168,
+    "name" : "Justice Dealer",
+    "percentage" : true,
+    "maxLevel" : 7,
+    "artId" : 29,
+    "flag" : 8
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space/assets/73.652a66a0.png"
+} ]
