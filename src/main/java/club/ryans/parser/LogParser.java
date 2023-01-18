@@ -11,7 +11,7 @@ public class LogParser {
     private State state;
 
     public ParseResult parse(final InputStream inputStream) {
-        Scanner scanner = new Scanner(inputStream, Charsets.UTF_8);
+        Scanner scanner = new Scanner(inputStream, Charsets.UTF_8.name());
         state = State.HEADER;
         List<ParseTable> tables = new ArrayList<>();
         ParseTable currentTable = new ParseTable();
