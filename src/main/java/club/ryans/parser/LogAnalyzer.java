@@ -36,6 +36,7 @@ public class LogAnalyzer {
         log.setShips(shipMap.values().stream().collect(Collectors.toList()));
 
         computeRoundsSurvived(log.getRounds(), shipMap, log.getEvents());
+        computeDamageStats(shipMap, log.getEvents());
 
         return log;
     }
@@ -84,6 +85,10 @@ public class LogAnalyzer {
                 return BattleType.SOLO_ARMADA;
             }
 
+            if (player.getShipName().contains("Borg Sphere")) {
+                return BattleType.SOLO_ARMADA;
+            }
+
             return BattleType.ARMADA;
         }
 
@@ -111,6 +116,7 @@ public class LogAnalyzer {
         for (Ship ship : shipMap.values()) {
             ship.setSurvived(true);
             ship.setRoundsSurvived(rounds);
+            ship.setShieldDropped(false);
         }
 
         for (BattleEvent event : events) {
@@ -120,6 +126,30 @@ public class LogAnalyzer {
                 Ship ship = shipMap.get(shipDestroyedEvent.getShip());
                 ship.setSurvived(false);
                 ship.setRoundsSurvived(shipDestroyedEvent.getRound());
+            }
+
+            if (event instanceof ShieldDepletedEvent) {
+                ShieldDepletedEvent shieldDepletedEvent = (ShieldDepletedEvent) event;
+
+                Ship ship = shipMap.get(shieldDepletedEvent.getShip());
+                ship.setShieldDropped(true);
+                ship.setRoundShieldDropped(shieldDepletedEvent.getRound());
+            }
+        }
+    }
+
+    private void computeDamageStats(final Map<ShipIdentifier, Ship> shipMap, final List<BattleEvent> events) {
+        for (BattleEvent event : events) {
+            if (event instanceof AttackEvent) {
+                AttackEvent attackEvent = (AttackEvent) event;
+
+                int round = attackEvent.getRound();
+                Damage damage = attackEvent.getDamage();
+                Ship attacker = shipMap.get(attackEvent.getAttacker());
+                Ship defender = shipMap.get(attackEvent.getDefender());
+
+                attacker.getDamageReport().addDamageDealt(round, damage);
+                defender.getDamageReport().addDamageReceived(round, damage);
             }
         }
     }

@@ -41,4 +41,8 @@ public class Ship {
 
     private boolean survived;
     private int roundsSurvived;
+    private boolean shieldDropped;
+    private int roundShieldDropped;
+
+    private DamageReport damageReport = new DamageReport();
 }

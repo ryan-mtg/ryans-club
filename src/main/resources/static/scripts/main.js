@@ -120,6 +120,11 @@ function setText(elementId, text) {
     document.getElementById(elementId).innerText = text;
 }
 
+function addTextCell(row, text) {
+    let textCell = row.insertCell();
+    textCell.innerText = text;
+}
+
 function createElement(tag, text, classes) {
     let element = document.createElement(tag);
     element.innerText = text;
@@ -316,7 +321,8 @@ async function uploadLog() {
 
 function updateLog(log) {
     updateLogSummary(log);
-    addShips(log.ships);
+    addShips(log.ships, log.type == 'SOLO_ARMADA');
+    makeGraphs(log);
 
     let logSection = document.getElementById('log');
     showElement(logSection);
@@ -356,7 +362,7 @@ function removeAllChildren(element) {
     element.textContent = '';
 }
 
-function addShips(ships) {
+function addShips(ships, isSolo) {
     let container = document.getElementById('ships-container');
     removeAllChildren(container);
     for (let i = 0; i < ships.length; i++) {
@@ -365,7 +371,7 @@ function addShips(ships) {
         shipElement.classList.add('ship-section');
         shipElement.classList.add(getShipRarityStyle(ship));
 
-        shipElement.appendChild(createElement('h3', getPlayerName(ship)));
+        shipElement.appendChild(createElement('h3', isSolo ? getShipName(ship) : getPlayerName(ship)));
 
         if (ship.shipClass) {
             let shipImage = document.createElement('img');
@@ -375,11 +381,105 @@ function addShips(ships) {
             shipElement.appendChild(shipImage);
         }
 
-        shipElement.appendChild(createElement('div', getShipName(ship)));
+        shipElement.appendChild(createElement('div', isSolo ? getPlayerName(ship) : getShipName(ship)));
         shipElement.appendChild(getShipSurvivalElement(ship));
+        shipElement.appendChild(getShieldDroppedElement(ship));
+        shipElement.appendChild(getShipDamageSummary(ship))
 
         container.appendChild(shipElement);
     }
+}
+
+function makeGraphs(log) {
+    let damageData = [];
+    let mitigationData = [];
+    let piercingData = [];
+    let shotsData = [];
+    let labels = [];
+
+    for (let round = 1; round <= log.rounds; round++) {
+        labels.push(`Round ${round}`);
+    }
+
+    log.ships.forEach(ship => {
+        const roundsData = ship.damageReport.rounds;
+
+        let dealtTotal = [];
+        let mitigationPerRound = [];
+        let piercingPerRound = [];
+        let shotsPerRound = [];
+        for (let round = 1; round <= log.rounds; round++) {
+            let damage = round < roundsData.length ? roundsData[round].dealt.total.total : 0;
+            dealtTotal.push(damage);
+
+            if (round < roundsData.length && roundsData[round].received.total.shots > 0) {
+                let mitigation = roundsData[round].received.total.mitigation;
+                mitigationPerRound.push(mitigation);
+            } else {
+                mitigationPerRound.push(null);
+            }
+
+            if (round < roundsData.length && roundsData[round].dealt.total.shots > 0) {
+                let piercing = roundsData[round].dealt.total.piercing;
+                piercingPerRound.push(piercing);
+            } else {
+                piercingPerRound.push(null);
+            }
+
+            let shots = round < roundsData.length ? roundsData[round].dealt.total.shots : 0;
+            shotsPerRound.push(shots);
+        }
+
+        const name = getShipName(ship);
+
+        damageData.push({
+            label: name,
+            data: dealtTotal,
+            borderWidth: 1
+        });
+
+        mitigationData.push({
+            label: name,
+            data: mitigationPerRound,
+            borderWidth: 1
+        });
+
+        piercingData.push({
+            label: name,
+            data: piercingPerRound,
+            borderWidth: 1
+        });
+
+        shotsData.push({
+            label: name,
+            data: shotsPerRound,
+            borderWidth: 1
+        });
+    });
+
+    const damageCanvas = document.getElementById('damage-canvas');
+    makeChart('damage-canvas', 'bar', labels, damageData);
+    makeChart('mitigation-canvas', 'line', labels, mitigationData);
+    makeChart('piercing-canvas', 'line', labels, piercingData);
+    makeChart('shots-canvas', 'bar', labels, shotsData);
+}
+
+function makeChart(canvasId, type, labels, datasets) {
+    const canvas = document.getElementById(canvasId);
+    new Chart(canvas, {
+        type: type,
+        data: {
+            labels: labels,
+            datasets: datasets
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
 }
 
 function getPlayerName(ship) {
@@ -405,6 +505,59 @@ function getShipSurvivalElement(ship) {
     }
 
     return createElement('div', `Defeated in ${ship.roundsSurvived} rounds`, ['defeat']);
+}
+
+function getShieldDroppedElement(ship) {
+    if (ship.shieldDropped) {
+        return createElement('div', `Shield dropped in round ${ship.roundShieldDropped}`, ['defeat']);
+    }
+
+    return createElement('div', 'Shields held', ['victory']);
+}
+
+function scoplifyNumber(number) {
+    if (number > 1_000_000) {
+        return `${Math.floor(number / 1_000_000)}M`;
+    }
+
+    if (number > 1_000) {
+        return `${Math.floor(number / 1_000)}K`;
+    }
+
+    return number;
+}
+
+function getShipDamageSummary(ship) {
+    let damageReport = ship.damageReport;
+
+    let table = document.createElement('table');
+    let headerRow = table.createTHead().insertRow();
+    addTextCell(headerRow, 'Damage');
+    addTextCell(headerRow, 'Dealt');
+    addTextCell(headerRow, 'Received');
+
+    let tableBody = table.createTBody();
+    let totalRow = tableBody.insertRow();
+    addTextCell(totalRow, 'Total');
+    addTextCell(totalRow, scoplifyNumber(damageReport.dealt.total.total));
+    addTextCell(totalRow, scoplifyNumber(damageReport.received.total.total));
+
+    let mitigatedRow = tableBody.insertRow();
+    addTextCell(mitigatedRow, 'Mitigated');
+    addTextCell(mitigatedRow, scoplifyNumber(damageReport.dealt.total.mitigated));
+    addTextCell(mitigatedRow, scoplifyNumber(damageReport.received.total.mitigated));
+
+    let shieldRow = tableBody.insertRow();
+    addTextCell(shieldRow, 'Shield');
+    addTextCell(shieldRow, scoplifyNumber(damageReport.dealt.total.shield));
+    addTextCell(shieldRow, scoplifyNumber(damageReport.received.total.shield));
+
+    let hullRow = tableBody.insertRow();
+    addTextCell(hullRow, 'Hull');
+    addTextCell(hullRow, scoplifyNumber(damageReport.dealt.total.hull));
+    addTextCell(hullRow, scoplifyNumber(damageReport.received.total.hull));
+
+    return table;
 }
 
 function getRarityStyle(rarity) {

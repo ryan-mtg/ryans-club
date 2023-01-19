@@ -14,10 +14,7 @@ public class AttackEvent extends BattleEvent {
 
     private boolean criticalHit;
 
-    private long hullDamage;
-    private long shieldDamage;
-    private long mitigatedDamage;
-    private long totalDamage;
+    private Damage damage = new Damage();
 
     public String getType() {
         return TYPE;

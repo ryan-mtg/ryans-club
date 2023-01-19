@@ -117,11 +117,12 @@ public class EventTableAnalyzer implements TableAnalyzer {
         event.getDefender().setShipName(getValue(TARGET_SHIP, row));
         event.setAttackerIsArmada(getValue(TARGET_IS_ARMADA, row));
 
-        event.setCriticalHit(getValue(CRITICAL_HIT, row));
-        event.setHullDamage(getValue(HULL_DAMAGE, row));
-        event.setShieldDamage(getValue(SHIELD_DAMAGE, row));
-        event.setMitigatedDamage(getValue(MITIGATED_DAMAGE, row));
-        event.setTotalDamage(getValue(TOTAL_DAMAGE, row));
+        boolean critical = getValue(CRITICAL_HIT, row);
+        long hull = getValue(HULL_DAMAGE, row);
+        long shield = getValue(SHIELD_DAMAGE, row);
+        long mitigated = getValue(MITIGATED_DAMAGE, row);
+        long total = getValue(TOTAL_DAMAGE, row);
+        event.setDamage(new Damage(hull, shield, mitigated, total, critical));
         return event;
     }
 

@@ -798,6 +798,9 @@ input[type=text].emote {
     box-shadow: 0 0 .25em var(--rarity-color);
     padding: 0 1rem;
 
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
     min-height: 8rem;
     min-width: 8rem;
 }
@@ -814,6 +817,12 @@ input[type=text].emote {
     alignment: bottom;
     height: 64px;
     max-width: 64px;
+}
+
+
+.graph-container {
+    position: relative;
+    min-width: 40vw;
 }
 
 /* ITEMS */

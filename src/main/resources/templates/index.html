@@ -5,6 +5,8 @@
     <title>Ryan's Club</title>
     <div th:replace="fragments :: includes"></div>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@stfc">
     <meta name="twitter:title" content="Ryan's Club">
@@ -29,11 +31,35 @@
                 <div>Lines: <span id="lines"></span></div>
             </section>
 
-            <section class="shipClasses-section">
+            <section class="ships-section">
                 <h2>Ships</h2>
 
                 <section id="ships-container">
                 </section>
+            </section>
+
+            <section class="graphs-section">
+                <h2>Graphs</h2>
+
+                <h3>Damage</h3>
+                <div class="graph-container">
+                    <canvas id="damage-canvas"></canvas>
+                </div>
+
+                <h3>Mitigation</h3>
+                <div class="graph-container">
+                    <canvas id="mitigation-canvas"></canvas>
+                </div>
+
+                <h3>Piercing</h3>
+                <div class="graph-container">
+                    <canvas id="piercing-canvas"></canvas>
+                </div>
+
+                <h3>Shots</h3>
+                <div class="graph-container">
+                    <canvas id="shots-canvas"></canvas>
+                </div>
             </section>
         </section>
 
