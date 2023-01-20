@@ -391,7 +391,10 @@ function addShips(ships, isSolo) {
 }
 
 function makeGraphs(log) {
-    let damageData = [];
+    let damageDealtData = [];
+    let criticalDamageDealtData = [];
+    let damageReceivedData = [];
+    let criticalDamageReceivedData = [];
     let mitigationData = [];
     let piercingData = [];
     let shotsData = [];
@@ -404,13 +407,43 @@ function makeGraphs(log) {
     log.ships.forEach(ship => {
         const roundsData = ship.damageReport.rounds;
 
-        let dealtTotal = [];
+        let damageDealtPerRound = {mitigated: [], shield: [], hull: []};
+        let criticalDamageDealtPerRound = {critical: [], regular: []};
+        let damageReceivedPerRound = {mitigated: [], shield: [], hull: []};
+        let criticalDamageReceivedPerRound = {critical: [], regular: []};
         let mitigationPerRound = [];
         let piercingPerRound = [];
         let shotsPerRound = [];
         for (let round = 1; round <= log.rounds; round++) {
-            let damage = round < roundsData.length ? roundsData[round].dealt.total.total : 0;
-            dealtTotal.push(damage);
+            let mitigated = round < roundsData.length ? roundsData[round].dealt.total.mitigated : 0;
+            damageDealtPerRound.mitigated.push(mitigated);
+
+            let shield = round < roundsData.length ? roundsData[round].dealt.total.shield : 0;
+            damageDealtPerRound.shield.push(shield);
+
+            let hull = round < roundsData.length ? roundsData[round].dealt.total.hull : 0;
+            damageDealtPerRound.hull.push(hull);
+
+            let critical = round < roundsData.length ? roundsData[round].dealt.critical.total : 0;
+            criticalDamageDealtPerRound.critical.push(critical);
+
+            let regular = round < roundsData.length ? roundsData[round].dealt.regular.total : 0;
+            criticalDamageDealtPerRound.regular.push(regular);
+
+            mitigated = round < roundsData.length ? roundsData[round].received.total.mitigated : 0;
+            damageReceivedPerRound.mitigated.push(mitigated);
+
+            shield = round < roundsData.length ? roundsData[round].received.total.shield : 0;
+            damageReceivedPerRound.shield.push(shield);
+
+            hull = round < roundsData.length ? roundsData[round].received.total.hull : 0;
+            damageReceivedPerRound.hull.push(hull);
+
+            critical = round < roundsData.length ? roundsData[round].received.critical.total : 0;
+            criticalDamageReceivedPerRound.critical.push(critical);
+
+            regular = round < roundsData.length ? roundsData[round].received.regular.total : 0;
+            criticalDamageReceivedPerRound.regular.push(regular);
 
             if (round < roundsData.length && roundsData[round].received.total.shots > 0) {
                 let mitigation = roundsData[round].received.total.mitigation;
@@ -432,36 +465,46 @@ function makeGraphs(log) {
 
         const name = getShipName(ship);
 
-        damageData.push({
-            label: name,
-            data: dealtTotal,
-            borderWidth: 1
-        });
+        damageDealtData.push(makeStackedDataSet(name + ' - mitigation', damageDealtPerRound.mitigated, name));
+        damageDealtData.push(makeStackedDataSet(name + ' - shield', damageDealtPerRound.shield, name));
+        damageDealtData.push(makeStackedDataSet(name + ' - hull', damageDealtPerRound.hull, name));
+        criticalDamageDealtData.push(makeStackedDataSet(name + ' - critical', criticalDamageDealtPerRound.critical, name));
+        criticalDamageDealtData.push(makeStackedDataSet(name + ' - regular', criticalDamageDealtPerRound.regular, name));
 
-        mitigationData.push({
-            label: name,
-            data: mitigationPerRound,
-            borderWidth: 1
-        });
-
-        piercingData.push({
-            label: name,
-            data: piercingPerRound,
-            borderWidth: 1
-        });
-
-        shotsData.push({
-            label: name,
-            data: shotsPerRound,
-            borderWidth: 1
-        });
+        damageReceivedData.push(makeStackedDataSet(name + ' - mitigation', damageReceivedPerRound.mitigated, name));
+        damageReceivedData.push(makeStackedDataSet(name + ' - shield', damageReceivedPerRound.shield, name));
+        damageReceivedData.push(makeStackedDataSet(name + ' - hull', damageDealtPerRound.hull, name));
+        criticalDamageReceivedData.push(makeStackedDataSet(name + ' - critical', criticalDamageReceivedPerRound.critical, name));
+        criticalDamageReceivedData.push(makeStackedDataSet(name + ' - regular', criticalDamageReceivedPerRound.regular, name));
+        mitigationData.push(makeDataSet(name, mitigationPerRound));
+        piercingData.push(makeDataSet(name, piercingPerRound));
+        shotsData.push(makeDataSet(name, shotsPerRound));
     });
 
-    const damageCanvas = document.getElementById('damage-canvas');
-    makeChart('damage-canvas', 'bar', labels, damageData);
+    makeChart('damage-dealt-canvas', 'bar', labels, damageDealtData);
+    makeChart('critical-damage-dealt-canvas', 'bar', labels, criticalDamageDealtData);
+    makeChart('damage-received-canvas', 'bar', labels, damageReceivedData);
+    makeChart('critical-damage-received-canvas', 'bar', labels, criticalDamageReceivedData);
     makeChart('mitigation-canvas', 'line', labels, mitigationData);
     makeChart('piercing-canvas', 'line', labels, piercingData);
     makeChart('shots-canvas', 'bar', labels, shotsData);
+}
+
+function makeDataSet(label, data) {
+    return {
+        label,
+        data,
+        borderWidth: 1
+    };
+}
+
+function makeStackedDataSet(label, data, stack) {
+    return {
+        label,
+        data,
+        borderWidth: 1,
+        stack
+    };
 }
 
 function makeChart(canvasId, type, labels, datasets) {

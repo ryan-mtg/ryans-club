@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class DamageTotal {
-    private Damage normal = new Damage();
+    private Damage regular = new Damage();
     private Damage critical = new Damage();
     private Damage total = new Damage();
 
@@ -12,7 +12,7 @@ public class DamageTotal {
         if (damage.isCritical()) {
             critical.add(damage);
         } else {
-            normal.add(damage);
+            regular.add(damage);
         }
         total.add(damage);
     }

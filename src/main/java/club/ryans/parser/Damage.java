@@ -21,6 +21,7 @@ public class Damage {
         this.shield = shield;
         this.mitigated = mitigated;
         this.total = total;
+        this.critical = critical;
         this.shots = 1;
 
         this.mitigation = ((double) mitigated) / total;
