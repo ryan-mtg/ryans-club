@@ -2,6 +2,7 @@ plugins {
 	id 'org.springframework.boot' version '2.6.0'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id 'org.hidetake.ssh' version '2.10.1'
 }
 
 group = 'club.ryans'
@@ -17,6 +18,17 @@ configurations {
 
 repositories {
 	mavenCentral()
+}
+
+def deploymentProperties = new Properties()
+file('secret/deployment.properties').withInputStream {deploymentProperties.load(it) }
+
+remotes {
+	server {
+		host = deploymentProperties.getProperty('hostname')
+		user = deploymentProperties.getProperty('user')
+		identity = file(deploymentProperties.getProperty('keyfile'))
+	}
 }
 
 dependencies {
@@ -63,5 +75,23 @@ task configureResources {
 processResources {
 	dependsOn(configureResources)
 	duplicatesStrategy = DuplicatesStrategy.INCLUDE
+}
+
+task install {
+	group = 'application'
+	description = 'Installs the necessary files to a new server.'
+
+	doLast {
+		ssh.run {
+			session(remotes.server) {
+				execute 'sudo mkdir -p /var/stfc'
+				execute 'mkdir -p install-stfc'
+				put from: file('src/deploy/deploy.sh'), into: 'install-stfc/deploy.sh'
+				execute 'chmod +x install-stfc/deploy.sh'
+				put from: file('src/deploy/stfc.service'), into: 'install-stfc/stfc.service'
+				execute 'sudo cp install-stfc/stfc.service /etc/systemd/system'
+			}
+		}
+	}
 }
 
