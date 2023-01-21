@@ -547,7 +547,11 @@ function makeStackedDataSet(label, data, stack) {
 
 function makeChart(canvasId, type, labels, datasets) {
     const canvas = document.getElementById(canvasId);
-    new Chart(canvas, {
+    if (canvas.chart) {
+        canvas.chart.destroy();
+    }
+
+    let chart = new Chart(canvas, {
         type: type,
         data: {
             labels: labels,
@@ -561,6 +565,7 @@ function makeChart(canvasId, type, labels, datasets) {
             }
         }
     });
+    canvas.chart = chart;
 }
 
 function getPlayerName(ship) {
