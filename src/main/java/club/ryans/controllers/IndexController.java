@@ -1,13 +1,21 @@
 package club.ryans.controllers;
 
+import club.ryans.models.RawLog;
+import club.ryans.models.managers.LogManager;
 import club.ryans.models.managers.OfficerManager;
 import club.ryans.models.managers.ShipManager;
 import club.ryans.models.managers.AssetManager;
+import club.ryans.parser.Log;
+import club.ryans.parser.LogAnalyzer;
+import club.ryans.parser.ParseResult;
+import club.ryans.utility.Json;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
 @Controller
 @RequiredArgsConstructor
@@ -21,10 +29,34 @@ public class IndexController {
     @Autowired
     private AssetManager assetManager;
 
+    @Autowired
+    private LogManager logManager;
+
+    @Autowired
+    private final LogAnalyzer analyzer;
+
     @GetMapping(value = {"/", "index.html"})
     public String index(final Model model) {
-        model.addAttribute("recipient", "world!");
+        model.addAttribute("logs", logManager.getLogCount());
         return "index";
+    }
+
+    @GetMapping("/log/{tag}")
+    public String log(final Model model, @PathVariable final String tag) {
+        RawLog rawLog = logManager.getLogFromTag(tag);
+
+        try {
+            ObjectMapper mapper = Json.createObjectMapper();
+            ParseResult parseResult = mapper.readValue(rawLog.getData(), ParseResult.class);
+            Log log = analyzer.analyze(parseResult, rawLog.getFileName(), rawLog.getTag());
+
+            model.addAttribute("raw_log", rawLog);
+            model.addAttribute("log", log);
+            return "log";
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new RuntimeException("Something went wrong!");
+        }
     }
 
     @GetMapping(value = "/officers")

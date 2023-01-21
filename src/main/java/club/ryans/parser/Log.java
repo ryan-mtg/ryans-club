@@ -8,6 +8,8 @@ import java.util.List;
 
 @Data
 public class Log {
+    private String fileName;
+    private String tag;
     private Instant time;
     private String location;
     private BattleType type;

@@ -17,15 +17,15 @@
     <meta property="og:description" content="Service for looking at STFC logs">
     <meta property="og:locale" content="en_US">
 </head>
-<body data-theme="dark">
-    <div th:replace="fragments :: header('Ryan\'s Club Log Parser')"></div>
+<body data-theme="dark" onload="initializeLog()">
+    <div th:replace="fragments :: header('Log ' + ${raw_log.fileName})"></div>
 
     <main>
         <section id="log" class="log" hidden>
-            <input id="log-tag" type="hidden">
+            <input id="log-tag" type="hidden" th:value="${raw_log.tag}">
 
             <section id="log-summary" class="summary">
-                <h2 id="summary-title">Log Result</h2>
+                <h2 id="summary-title">Log Result</h1>
                 <div>Result: <span id="outcome"></span></div>
                 <div>Rounds: <span id="rounds"></span></div>
                 <div>Location: <span id="location"></span></div>

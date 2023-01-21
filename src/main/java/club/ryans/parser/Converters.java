@@ -4,6 +4,7 @@ import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 
 public class Converters {
     public static String convertString(final String value) {
@@ -27,7 +28,12 @@ public class Converters {
     }
 
     public static Instant convertTime(final String value) {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("M/d/uuuu h:mm:ss a");
-        return LocalDateTime.parse(value, formatter).toInstant(ZoneOffset.UTC);
+        try {
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("uuuu-MM-dd h:mm:ss a");
+            return LocalDateTime.parse(value, formatter).toInstant(ZoneOffset.UTC);
+        } catch (DateTimeParseException e) {
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("M/d/uuuu h:mm:ss a");
+            return LocalDateTime.parse(value, formatter).toInstant(ZoneOffset.UTC);
+        }
     }
 }

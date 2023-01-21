@@ -14,6 +14,17 @@ function showElement(element) {
     element.hidden = false;
 }
 
+async function makeGet(endpoint, parameters) {
+    let url = new URL(endpoint, location.origin);
+    url.search = new URLSearchParams(parameters).toString();
+    const settings = getGetSettings();
+
+    const response = await fetch(url, settings);
+
+    handleError(response);
+    return response;
+}
+
 async function makePost(endpoint, parameters) {
     const settings = getPostSettings(parameters);
 
@@ -52,6 +63,11 @@ function getPostSettings(parameters) {
     let settings = getRequestSettings('POST');
     addSecurityField(settings);
 }
+
+function getGetSettings() {
+    return getRequestSettings('GET');
+}
+
 
 function getFormDataPostSettings(formData) {
     return {
@@ -110,6 +126,10 @@ function isSafari() {
 
 function getValue(elementId) {
     return document.getElementById(elementId).value;
+}
+
+function setValue(elementId, value) {
+    return document.getElementById(elementId).value = value;
 }
 
 function getInt(elementId) {
@@ -297,6 +317,24 @@ function hideForm(formName, hideOnEscapeFunction) {
 
 const FILE_SIZE_LIMIT = 1 * 1024 * 1024;
 
+async function copyLogLink() {
+    const tag = getValue('log-tag');
+    let url = new URL(window.location.href);
+    url.search = '';
+    url.pathname = 'log/' + tag;
+
+    copyToClipboard(url.toString(), 'Link copied');
+}
+
+async function initializeLog() {
+    const tag = getValue('log-tag');
+    const response = await makeGet('/api/public/log', {tag});
+    if (response.ok) {
+        const log = await response.json();
+        updateLog(log);
+    }
+}
+
 async function uploadLog() {
     const fileInput = document.getElementById('log-file-button');
 
@@ -312,7 +350,7 @@ async function uploadLog() {
     const formData = new FormData();
     formData.append('file', fileInput.files[0]);
 
-    const response = await makeFormDataPost('api/public/submit_log', formData);
+    const response = await makeFormDataPost('/api/public/submit_log', formData);
     if (response.ok) {
         const log = await response.json();
         updateLog(log);
@@ -334,12 +372,12 @@ function updateLogSummary(log) {
     summary.classList.add(log.outcome ? 'victory' : 'defeat');
     summary.classList.remove(log.outcome ? 'defeat' : 'victory');
 
-    document.getElementById('summary-title').innerText = getLogTitle(log);
+    setText('summary-title', getLogTitle(log));
+    setValue('log-tag', log.tag);
     setText('outcome', log.outcome ? 'Victory' : 'Defeat');
     setText('location', log.location);
     setText('rounds', log.rounds);
     setText('time', toCozyReadableDate(new Date(log.time)));
-    setText('lines', log.lines);
 }
 
 function getLogTitle(log) {

@@ -15,14 +15,15 @@ public class LogAnalyzer {
     private final OfficerManager officerManager;
     private final ShipManager shipManager;
 
-    public Log analyze(ParseResult parseResult) {
+    public Log analyze(final ParseResult parseResult, final String fileName, final String tag) {
         Log log = new Log();
 
         for (ParseTable parseTable : parseResult.getTables()) {
             analyzeTable(log, parseTable);
         }
 
-
+        log.setFileName(fileName);
+        log.setTag(tag);
         log.setOutcome(computeOutcome(log));
         log.setType(computeBattleType(log));
         log.setRounds(computeRounds(log.getEvents()));
