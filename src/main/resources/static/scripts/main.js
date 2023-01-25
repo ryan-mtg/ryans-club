@@ -17,14 +17,14 @@ const CRITICAL = 'critical';
 const REGULAR = 'regular';
 
 const SHIP_COLORS = [
-    {background: 'red', border: 'pink'},
-    {background: 'blue', border: 'lightblue'},
-    {background: 'green', border: 'lightgreen'},
-    {background: 'yellow', border: 'lightyellow'},
-    {background: 'purple', border: 'lightpurple'},
-    {background: 'orange', border: 'orange'},
-    {background: 'pink', border: 'lightpink'},
-    {background: 'black', border: 'grey'},
+    {background: 'rgba(256, 156, 156, .8)', border: 'red'},
+    {background: 'rgba(156, 156, 256, .8)', border: 'blue'},
+    {background: 'rgba(156, 256, 156, .6)', border: 'green'},
+    {background: 'white', border: 'yellow'},
+    {background: 'mauve', border: 'purple'},
+    {background: 'desert', border: 'orange'},
+    {background: 'pink', border: 'pink'},
+    {background: 'grey', border: 'black'},
 ];
 
 const DAMAGE_TYPE_COLORS = {
@@ -184,7 +184,9 @@ function addTextCell(row, text) {
 
 function createElement(tag, text, classes) {
     let element = document.createElement(tag);
-    element.innerText = text;
+    if (text) {
+        element.innerText = text;
+    }
 
     if (classes) {
         element.classList.add(classes);
@@ -434,6 +436,7 @@ function addShips(ships, isSolo) {
         shipElement.classList.add(getShipRarityStyle(ship));
 
         shipElement.appendChild(createElement('h3', isSolo ? getShipName(ship) : getPlayerName(ship)));
+        shipElement.appendChild(createElement('div', isSolo ? getPlayerName(ship) : getShipName(ship)));
 
         if (ship.shipClass) {
             let shipImage = document.createElement('img');
@@ -443,7 +446,6 @@ function addShips(ships, isSolo) {
             shipElement.appendChild(shipImage);
         }
 
-        shipElement.appendChild(createElement('div', isSolo ? getPlayerName(ship) : getShipName(ship)));
         shipElement.appendChild(getShipSurvivalElement(ship));
         shipElement.appendChild(getShieldDroppedElement(ship));
         shipElement.appendChild(getShipDamageSummary(ship))
@@ -467,6 +469,7 @@ function makeGraphs(log) {
     }
 
     let shipColorIndex = 0;
+    let useShipName = shouldUseShipName(log.type);
 
     log.ships.forEach(ship => {
         const roundsData = ship.damageReport.rounds;
@@ -527,31 +530,29 @@ function makeGraphs(log) {
             shotsPerRound.push(shots);
         }
 
-        const name = getShipName(ship);
+        const name = useShipName ? getShipName(ship) : getPlayerName(ship);
 
         const shipColor = SHIP_COLORS[shipColorIndex++];
 
-        damageDealtData.push(makeStackedDataSet(name + ' - hull', damageDealtPerRound.hull, name, shipColor,
-            DAMAGE_TYPE_COLORS[HULL]));
-        damageDealtData.push(makeStackedDataSet(name + ' - shield', damageDealtPerRound.shield, name, shipColor,
-            DAMAGE_TYPE_COLORS[SHIELD]));
+        damageDealtData.push(makeStackedDataSet(name + ' - hull', damageDealtPerRound.hull, name, shipColor, 1));
+        damageDealtData.push(makeStackedDataSet(name + ' - shield', damageDealtPerRound.shield, name, shipColor, 2));
         damageDealtData.push(makeStackedDataSet(name + ' - mitigation', damageDealtPerRound.mitigated, name,
-            shipColor, DAMAGE_TYPE_COLORS[MITIGATED]));
+            shipColor, 3));
         criticalDamageDealtData.push(makeStackedDataSet(name + ' - regular', criticalDamageDealtPerRound.regular,
-            name, shipColor, DAMAGE_TYPE_COLORS[REGULAR]));
+            name, shipColor, 1));
         criticalDamageDealtData.push(makeStackedDataSet(name + ' - critical', criticalDamageDealtPerRound.critical,
-            name, shipColor, DAMAGE_TYPE_COLORS[CRITICAL]));
+            name, shipColor, 2));
 
         damageReceivedData.push(makeStackedDataSet(name + ' - hull', damageDealtPerRound.hull, name, shipColor,
-            DAMAGE_TYPE_COLORS[HULL]));
+            1));
         damageReceivedData.push(makeStackedDataSet(name + ' - shield', damageReceivedPerRound.shield, name,
-            shipColor, DAMAGE_TYPE_COLORS[SHIELD]));
+            shipColor, 2));
         damageReceivedData.push(makeStackedDataSet(name + ' - mitigation', damageReceivedPerRound.mitigated, name,
-            shipColor, DAMAGE_TYPE_COLORS[MITIGATED]));
+            shipColor, 3));
         criticalDamageReceivedData.push(makeStackedDataSet(name + ' - regular',
-            criticalDamageReceivedPerRound.regular, name, shipColor, DAMAGE_TYPE_COLORS[REGULAR]));
+            criticalDamageReceivedPerRound.regular, name, shipColor, 1));
         criticalDamageReceivedData.push(makeStackedDataSet(name + ' - critical',
-            criticalDamageReceivedPerRound.critical, name, shipColor, DAMAGE_TYPE_COLORS[CRITICAL]));
+            criticalDamageReceivedPerRound.critical, name, shipColor, 2));
         mitigationData.push(makeDataSet(name, mitigationPerRound, shipColor));
         piercingData.push(makeDataSet(name, piercingPerRound, shipColor));
         shotsData.push(makeDataSet(name, shotsPerRound, shipColor));
@@ -566,6 +567,50 @@ function makeGraphs(log) {
     makeChart('shots-canvas', 'bar', labels, shotsData);
 }
 
+function shouldUseShipName(battleType) {
+    return battleType == 'SOLO_ARMADA';
+}
+
+function createDiagonalPattern(colors) {
+    let shape = document.createElement('canvas');
+    shape.width = 10;
+    shape.height = 10;
+    let c = shape.getContext('2d');
+    c.fillStyle = colors.background;
+    c.fillRect(0, 0, 10, 10);
+    c.strokeStyle = colors.border;
+    c.lineWidth = 3;
+    c.beginPath();
+    c.moveTo(2, 0);
+    c.lineTo(10, 8);
+    c.stroke();
+    c.beginPath();
+    c.moveTo(0, 8);
+    c.lineTo(2, 10);
+    c.stroke();
+    return c.createPattern(shape, 'repeat');
+}
+
+function createHorizontalPattern(colors) {
+    let shape = document.createElement('canvas');
+    shape.width = 10;
+    shape.height = 10;
+    let c = shape.getContext('2d');
+    c.fillStyle = colors.background;
+    c.fillRect(0, 0, 10, 10);
+    c.strokeStyle = colors.border;
+    c.lineWidth = 2;
+    c.beginPath();
+    c.moveTo(0, 2);
+    c.lineTo(10, 2);
+    c.stroke();
+    c.beginPath();
+    c.moveTo(0, 7);
+    c.lineTo(10, 7);
+    c.stroke();
+    return c.createPattern(shape, 'repeat');
+}
+
 function makeDataSet(label, data, colors) {
     return {
         label,
@@ -576,12 +621,23 @@ function makeDataSet(label, data, colors) {
     };
 }
 
-function makeStackedDataSet(label, data, stack, shipColors, backgroundColor) {
+function styleBackground(colors, style) {
+    switch (style) {
+        case 1:
+            return colors.background;
+        case 2:
+            return createDiagonalPattern(colors);
+        case 3:
+            return createHorizontalPattern(colors);
+    }
+}
+
+function makeStackedDataSet(label, data, stack, shipColors, style) {
     return {
         label,
         data,
-        backgroundColor,
-        borderColor: shipColors.background,
+        backgroundColor: styleBackground(shipColors, style),
+        borderColor: shipColors.border,
         borderWidth: 2,
         stack
     };
@@ -605,7 +661,6 @@ function makeChart(canvasId, type, labels, datasets) {
         options: {
             plugins: {
                 legend: {
-                    position: 'left',
                     labels: {
                         color: yellow,
                     }
@@ -660,12 +715,21 @@ function getShipSurvivalElement(ship) {
         return createElement('div', 'Survived', ['victory']);
     }
 
-    return createElement('div', `Defeated in ${ship.roundsSurvived} rounds`, ['defeat']);
+    let survivalElement = createElement('div');
+    survivalElement.appendChild(document.createTextNode('Defeated in '));
+    survivalElement.appendChild(createElement('span', `${ship.roundsSurvived}`, ['defeat']));
+    survivalElement.appendChild(document.createTextNode(' rounds'));
+
+    return survivalElement;
 }
 
 function getShieldDroppedElement(ship) {
     if (ship.shieldDropped) {
-        return createElement('div', `Shield dropped in round ${ship.roundShieldDropped}`, ['defeat']);
+        let shieldElement = createElement('div');
+        shieldElement.appendChild(document.createTextNode('Shield dropped in round '));
+        shieldElement.appendChild(createElement('span', `${ship.roundShieldDropped}`, ['defeat']));
+
+        return shieldElement;
     }
 
     return createElement('div', 'Shields held', ['victory']);
