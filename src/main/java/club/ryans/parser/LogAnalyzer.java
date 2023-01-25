@@ -5,6 +5,7 @@ import club.ryans.models.managers.ShipManager;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -34,7 +35,9 @@ public class LogAnalyzer {
                 shipAnalyzer.analyze(log.getType(), log.getPlayers(), log.getShips(), log.getEvents());
 
         Map<ShipIdentifier, Ship> shipMap = result.getShipMap();
-        log.setShips(shipMap.values().stream().collect(Collectors.toList()));
+        List<Ship> ships = shipMap.values().stream().collect(Collectors.toList());
+        Collections.sort(ships, LogAnalyzer::shipComparer);
+        log.setShips(ships);
 
         computeRoundsSurvived(log.getRounds(), shipMap, log.getEvents());
         computeDamageStats(shipMap, log.getEvents());
@@ -153,5 +156,23 @@ public class LogAnalyzer {
                 defender.getDamageReport().addDamageReceived(round, damage);
             }
         }
+    }
+
+    private static int shipComparer(final Ship a, final Ship b) {
+        if (a.isPlayer() != b.isPlayer()) {
+            return a.isPlayer() ? -1 : 1;
+        }
+
+        int r = a.getShipIdentifier().getPlayerName().compareTo(b.getShipIdentifier().getPlayerName());
+        if (r != 0) {
+            return r;
+        }
+
+        r = a.getShipIdentifier().getShipName().compareTo(b.getShipIdentifier().getShipName());
+        if (r != 0) {
+            return r;
+        }
+
+        return 0;
     }
 }

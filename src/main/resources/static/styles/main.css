@@ -778,6 +778,7 @@ input[type=text].emote {
 
     padding-inline: 3rem;
     padding-block: .5rem;
+    margin-inline: 3rem;
     margin-bottom: 2rem;
     min-height: 8rem;
     min-width: 8rem;
@@ -789,6 +790,7 @@ input[type=text].emote {
 
 #ships-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 2rem;
 }
@@ -796,7 +798,7 @@ input[type=text].emote {
 .ship-section {
     border: var(--rarity-color, blue) .125rem solid;
     box-shadow: 0 0 .25em var(--rarity-color);
-    padding: 0 1rem;
+    padding: .5rem 1rem;
 
     display: flex;
     flex-direction: column;
@@ -822,7 +824,7 @@ input[type=text].emote {
 
 .graph-container {
     position: relative;
-    min-width: 40vw;
+    min-width: 50vw;
 }
 
 /* ITEMS */

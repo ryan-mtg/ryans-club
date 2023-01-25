@@ -1,3 +1,40 @@
+const DATE_FORMATTER = new Intl.DateTimeFormat('en-US', {month: 'short', day: 'numeric'});
+const TIME_FORMATTER = new Intl.DateTimeFormat('en-US', {hour: 'numeric', minute: '2-digit'});
+
+const MS_IN_SECOND = 1000;
+const MS_IN_MINUTE = 60 * MS_IN_SECOND;
+const MS_IN_HOUR = 60 * MS_IN_MINUTE;
+const MS_IN_DAY = 24 * MS_IN_HOUR;
+
+const S_IN_MINUTE = 60;
+const S_IN_HOUR = 60 * S_IN_MINUTE;
+const S_IN_DAY = 24 * S_IN_HOUR;
+
+const MITIGATED = 'mitigated';
+const SHIELD = 'shield';
+const HULL = 'hull';
+const CRITICAL = 'critical';
+const REGULAR = 'regular';
+
+const SHIP_COLORS = [
+    {background: 'red', border: 'pink'},
+    {background: 'blue', border: 'lightblue'},
+    {background: 'green', border: 'lightgreen'},
+    {background: 'yellow', border: 'lightyellow'},
+    {background: 'purple', border: 'lightpurple'},
+    {background: 'orange', border: 'orange'},
+    {background: 'pink', border: 'lightpink'},
+    {background: 'black', border: 'grey'},
+];
+
+const DAMAGE_TYPE_COLORS = {
+    mitigated: 'rgba(156, 256, 156, .6)',
+    shield: 'rgba(156, 156, 256, .8)',
+    hull: 'rgba(256, 156, 156, .8)',
+    critical: 'rgba(256, 156, 156, .8)',
+    regular: 'rgba(156, 156, 256, .8)',
+};
+
 function hideElementById(elementId) {
     hideElement(document.getElementById(elementId));
 }
@@ -178,19 +215,6 @@ function pluralize(amount, thing) {
     }
     return `${amount} ${thing}s`;
 }
-
-const DATE_FORMATTER = new Intl.DateTimeFormat('en-US', {month: 'short', day: 'numeric'});
-const TIME_FORMATTER = new Intl.DateTimeFormat('en-US', {hour: 'numeric', minute: '2-digit'});
-
-const MS_IN_SECOND = 1000;
-const MS_IN_MINUTE = 60 * MS_IN_SECOND;
-const MS_IN_HOUR = 60 * MS_IN_MINUTE;
-const MS_IN_DAY = 24 * MS_IN_HOUR;
-
-const S_IN_MINUTE = 60;
-const S_IN_HOUR = 60 * S_IN_MINUTE;
-const S_IN_DAY = 24 * S_IN_HOUR;
-
 
 function createLocalDate(timestamp) {
     return new Date(timestamp);
@@ -442,6 +466,8 @@ function makeGraphs(log) {
         labels.push(`Round ${round}`);
     }
 
+    let shipColorIndex = 0;
+
     log.ships.forEach(ship => {
         const roundsData = ship.damageReport.rounds;
 
@@ -503,20 +529,32 @@ function makeGraphs(log) {
 
         const name = getShipName(ship);
 
-        damageDealtData.push(makeStackedDataSet(name + ' - mitigation', damageDealtPerRound.mitigated, name));
-        damageDealtData.push(makeStackedDataSet(name + ' - shield', damageDealtPerRound.shield, name));
-        damageDealtData.push(makeStackedDataSet(name + ' - hull', damageDealtPerRound.hull, name));
-        criticalDamageDealtData.push(makeStackedDataSet(name + ' - critical', criticalDamageDealtPerRound.critical, name));
-        criticalDamageDealtData.push(makeStackedDataSet(name + ' - regular', criticalDamageDealtPerRound.regular, name));
+        const shipColor = SHIP_COLORS[shipColorIndex++];
 
-        damageReceivedData.push(makeStackedDataSet(name + ' - mitigation', damageReceivedPerRound.mitigated, name));
-        damageReceivedData.push(makeStackedDataSet(name + ' - shield', damageReceivedPerRound.shield, name));
-        damageReceivedData.push(makeStackedDataSet(name + ' - hull', damageDealtPerRound.hull, name));
-        criticalDamageReceivedData.push(makeStackedDataSet(name + ' - critical', criticalDamageReceivedPerRound.critical, name));
-        criticalDamageReceivedData.push(makeStackedDataSet(name + ' - regular', criticalDamageReceivedPerRound.regular, name));
-        mitigationData.push(makeDataSet(name, mitigationPerRound));
-        piercingData.push(makeDataSet(name, piercingPerRound));
-        shotsData.push(makeDataSet(name, shotsPerRound));
+        damageDealtData.push(makeStackedDataSet(name + ' - hull', damageDealtPerRound.hull, name, shipColor,
+            DAMAGE_TYPE_COLORS[HULL]));
+        damageDealtData.push(makeStackedDataSet(name + ' - shield', damageDealtPerRound.shield, name, shipColor,
+            DAMAGE_TYPE_COLORS[SHIELD]));
+        damageDealtData.push(makeStackedDataSet(name + ' - mitigation', damageDealtPerRound.mitigated, name,
+            shipColor, DAMAGE_TYPE_COLORS[MITIGATED]));
+        criticalDamageDealtData.push(makeStackedDataSet(name + ' - regular', criticalDamageDealtPerRound.regular,
+            name, shipColor, DAMAGE_TYPE_COLORS[REGULAR]));
+        criticalDamageDealtData.push(makeStackedDataSet(name + ' - critical', criticalDamageDealtPerRound.critical,
+            name, shipColor, DAMAGE_TYPE_COLORS[CRITICAL]));
+
+        damageReceivedData.push(makeStackedDataSet(name + ' - hull', damageDealtPerRound.hull, name, shipColor,
+            DAMAGE_TYPE_COLORS[HULL]));
+        damageReceivedData.push(makeStackedDataSet(name + ' - shield', damageReceivedPerRound.shield, name,
+            shipColor, DAMAGE_TYPE_COLORS[SHIELD]));
+        damageReceivedData.push(makeStackedDataSet(name + ' - mitigation', damageReceivedPerRound.mitigated, name,
+            shipColor, DAMAGE_TYPE_COLORS[MITIGATED]));
+        criticalDamageReceivedData.push(makeStackedDataSet(name + ' - regular',
+            criticalDamageReceivedPerRound.regular, name, shipColor, DAMAGE_TYPE_COLORS[REGULAR]));
+        criticalDamageReceivedData.push(makeStackedDataSet(name + ' - critical',
+            criticalDamageReceivedPerRound.critical, name, shipColor, DAMAGE_TYPE_COLORS[CRITICAL]));
+        mitigationData.push(makeDataSet(name, mitigationPerRound, shipColor));
+        piercingData.push(makeDataSet(name, piercingPerRound, shipColor));
+        shotsData.push(makeDataSet(name, shotsPerRound, shipColor));
     });
 
     makeChart('damage-dealt-canvas', 'bar', labels, damageDealtData);
@@ -528,19 +566,23 @@ function makeGraphs(log) {
     makeChart('shots-canvas', 'bar', labels, shotsData);
 }
 
-function makeDataSet(label, data) {
+function makeDataSet(label, data, colors) {
     return {
         label,
         data,
+        backgroundColor: colors.background,
+        borderColor: colors.border,
         borderWidth: 1
     };
 }
 
-function makeStackedDataSet(label, data, stack) {
+function makeStackedDataSet(label, data, stack, shipColors, backgroundColor) {
     return {
         label,
         data,
-        borderWidth: 1,
+        backgroundColor,
+        borderColor: shipColors.background,
+        borderWidth: 2,
         stack
     };
 }
@@ -551,6 +593,9 @@ function makeChart(canvasId, type, labels, datasets) {
         canvas.chart.destroy();
     }
 
+    const yellow = 'rgba(255, 255, 0, .7)';
+    const lightYellow = 'rgba(255, 255, 224, .3)';
+
     let chart = new Chart(canvas, {
         type: type,
         data: {
@@ -558,9 +603,34 @@ function makeChart(canvasId, type, labels, datasets) {
             datasets: datasets
         },
         options: {
+            plugins: {
+                legend: {
+                    position: 'left',
+                    labels: {
+                        color: yellow,
+                    }
+                }
+            },
             scales: {
+                x: {
+                    grid: {
+                        color: lightYellow,
+                    },
+                    ticks: {
+                        color: yellow,
+                    }
+                },
                 y: {
-                    beginAtZero: true
+                    grid: {
+                        color: lightYellow,
+                    },
+                    ticks: {
+                        callback: function(value, index, ticks) {
+                            return scoplifyNumber(value);
+                        },
+                        color: yellow,
+                    },
+                    beginAtZero: true,
                 }
             }
         }
@@ -617,6 +687,7 @@ function getShipDamageSummary(ship) {
     let damageReport = ship.damageReport;
 
     let table = document.createElement('table');
+    table.classList.add('data-table');
     let headerRow = table.createTHead().insertRow();
     addTextCell(headerRow, 'Damage');
     addTextCell(headerRow, 'Dealt');

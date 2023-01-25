@@ -45,4 +45,20 @@ public class Ship {
     private int roundShieldDropped;
 
     private DamageReport damageReport = new DamageReport();
+
+    public boolean isPlayer() {
+        if (shipIdentifier.getPlayerName() == null) {
+            return false;
+        }
+
+        if (shipIdentifier.getAlliance() != null) {
+            return true;
+        }
+
+        if (shipIdentifier.getPlayerName().toLowerCase().equals(shipIdentifier.getShipName().toLowerCase())) {
+            return false;
+        }
+
+        return true;
+    }
 }
