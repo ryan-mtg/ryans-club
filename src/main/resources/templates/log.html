@@ -40,42 +40,131 @@
                 </section>
             </section>
 
+            <h2>Graphs</h2>
             <section class="graphs-section">
-                <h2>Graphs</h2>
+                <div role="tablist" class="graph-tabs">
+                    <button id="damage-dealt-tab" role="tab" aria-controls="damage-dealt-panel" aria-selected="true"
+                            onclick="selectTab(event)">
+                        Damage Dealt
+                    </button>
 
-                <h3>Damage Dealt</h3>
-                <div class="graph-container">
-                    <canvas id="damage-dealt-canvas"></canvas>
+                    <button id="damage-received-tab" role="tab" aria-controls="damage-received-panel"
+                            aria-selected="false" onclick="selectTab(event)">
+                        Damage Received
+                    </button>
+
+                    <button id="mitigation-tab" role="tab" aria-controls="mitigation-panel" aria-selected="false"
+                            onclick="selectTab(event)">
+                        Mitigation
+                    </button>
+
+                    <button id="piercing-tab" role="tab" aria-controls="piercing-panel" aria-selected="false"
+                            onclick="selectTab(event)">
+                        Piercing
+                    </button>
+
+                    <button id="shots-tab" role="tab" aria-controls="shots-panel" aria-selected="false"
+                            onclick="selectTab(event)">
+                        Shots
+                    </button>
                 </div>
 
-                <h3>Critical Damage Dealt</h3>
-                <div class="graph-container">
-                    <canvas id="critical-damage-dealt-canvas"></canvas>
+                <div id="damage-dealt-panel" role="tabpanel" aria-labelledby="damage-dealt-tab" tabindex="0">
+                    <div role="tablist" class="damage-dealt-graph-tabs">
+                        <button id="total-damage-dealt-tab" role="tab" aria-controls="total-damage-dealt-panel"
+                                aria-selected="true" onclick="selectTab(event)">
+                            Total
+                        </button>
+
+                        <button id="mitigation-damage-dealt-tab" role="tab" aria-controls="mitigation-damage-dealt-panel"
+                                aria-selected="false" onclick="selectTab(event)">
+                            Mitigation
+                        </button>
+
+                        <button id="critical-damage-dealt-tab" role="tab" aria-controls="critical-damage-dealt-panel"
+                                aria-selected="false" onclick="selectTab(event)">
+                            Critical
+                        </button>
+                    </div>
+
+                    <div id="total-damage-dealt-panel" role="tabpanel" aria-labelledby="total-damage-dealt-tab"
+                         tabindex="0">
+                        <div class="graph-container">
+                            <canvas id="damage-dealt-canvas"></canvas>
+                        </div>
+                    </div>
+
+                    <div id="mitigation-damage-dealt-panel" role="tabpanel" aria-labelledby="mitigation-damage-dealt-tab"
+                         tabindex="0" hidden>
+                        <div class="graph-container">
+                            <canvas id="mitigation-damage-dealt-canvas"></canvas>
+                        </div>
+                    </div>
+
+                    <div id="critical-damage-dealt-panel" role="tabpanel" aria-labelledby="critical-damage-dealt-tab"
+                         tabindex="0" hidden>
+                        <div class="graph-container">
+                            <canvas id="critical-damage-dealt-canvas"></canvas>
+                        </div>
+                    </div>
                 </div>
 
-                <h3>Damage Received</h3>
-                <div class="graph-container">
-                    <canvas id="damage-received-canvas"></canvas>
+                <div id="damage-received-panel" role="tabpanel" aria-labelledby="damage-received-tab" tabindex="0" hidden>
+                    <div role="tablist" class="damage-received-graph-tabs">
+                        <button id="total-damage-received-tab" role="tab" aria-controls="total-damage-received-panel"
+                                aria-selected="true" onclick="selectTab(event)">
+                            Total
+                        </button>
+
+                        <button id="mitigation-damage-received-tab" role="tab" aria-controls="mitigation-damage-received-panel"
+                                aria-selected="false" onclick="selectTab(event)">
+                            Mitigation
+                        </button>
+
+                        <button id="critical-damage-received-tab" role="tab" aria-controls="critical-damage-received-panel"
+                                aria-selected="false" onclick="selectTab(event)">
+                            Critical
+                        </button>
+                    </div>
+
+                    <div id="total-damage-received-panel" role="tabpanel" aria-labelledby="total-damage-received-tab"
+                         tabindex="0">
+                        <div class="graph-container">
+                            <canvas id="damage-received-canvas"></canvas>
+                        </div>
+                    </div>
+
+                    <div id="mitigation-damage-received-panel" role="tabpanel" aria-labelledby="mitigation-damage-received-tab"
+                         tabindex="0" hidden>
+                        <div class="graph-container">
+                            <canvas id="mitigation-damage-received-canvas"></canvas>
+                        </div>
+                    </div>
+
+                    <div id="critical-damage-received-panel" role="tabpanel" aria-labelledby="critical-damage-received-tab"
+                         tabindex="0" hidden>
+                        <div class="graph-container">
+                            <canvas id="critical-damage-received-canvas"></canvas>
+                        </div>
+                    </div>
                 </div>
 
-                <h3>Critical Damage Received</h3>
-                <div class="graph-container">
-                    <canvas id="critical-damage-received-canvas"></canvas>
+                <div id="mitigation-panel" role="tabpanel" aria-labelledby="mitigation-tab" tabindex="0" hidden>
+                    <div class="graph-container">
+                        <canvas id="mitigation-canvas"></canvas>
+                    </div>
                 </div>
 
-                <h3>Mitigation</h3>
-                <div class="graph-container">
-                    <canvas id="mitigation-canvas"></canvas>
+                <div id="piercing-panel" role="tabpanel" aria-labelledby="piercing-tab" tabindex="0" hidden>
+                    <div class="graph-container">
+                        <canvas id="piercing-canvas"></canvas>
+                    </div>
                 </div>
 
-                <h3>Piercing</h3>
-                <div class="graph-container">
-                    <canvas id="piercing-canvas"></canvas>
-                </div>
-
-                <h3>Shots</h3>
-                <div class="graph-container">
-                    <canvas id="shots-canvas"></canvas>
+                <div id="shots-panel" role="tabpanel" aria-labelledby="shots-tab" tabindex="0" hidden>
+                    <div class="graph-container">
+                        <canvas id="shots-canvas"></canvas>
+                    </div>
                 </div>
             </section>
         </section>

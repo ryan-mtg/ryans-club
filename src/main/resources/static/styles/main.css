@@ -335,6 +335,53 @@ input.deck-name {
     vertical-align: text-bottom;
 }
 
+.graph-tabs {
+    --tab-color: yellow;
+    --tab-hover-color: khaki;
+}
+
+.damage-dealt-graph-tabs {
+    --tab-color: red;
+    --tab-hover-color: pink;
+}
+
+.damage-received-graph-tabs {
+    --tab-color: green;
+    --tab-hover-color: lime;
+}
+
+[role="tablist"] {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+[role="tab"] {
+    flex: 2 1 auto;
+    color: var(--text-color);
+    font-weight: bold;
+    cursor: pointer;
+    padding-block: .5rem;
+    background-color: inherit;
+    border: none;
+}
+
+[role="tab"][aria-selected="true"] {
+    border-bottom: 3px solid var(--tab-color);
+    color: var(--tab-color, var(--text-color));
+    outline: 0;
+}
+
+[role="tab"]:hover,
+[role="tab"]:not([aria-selected="true"]):focus {
+    border-bottom: 3px solid var(--tab-hover-color);
+    color: var(--tab-hover-color, var(--text-color));
+    outline: 0;
+}
+
+
 .button-area {
     position: absolute;
     top: 0;
@@ -779,7 +826,6 @@ input[type=text].emote {
     padding-inline: 3rem;
     padding-block: .5rem;
     margin-inline: 3rem;
-    margin-bottom: 2rem;
     min-height: 8rem;
     min-width: 8rem;
 }
@@ -821,6 +867,9 @@ input[type=text].emote {
     max-width: 64px;
 }
 
+.graphs-section {
+    min-height: 500px;
+}
 
 .graph-container {
     position: relative;

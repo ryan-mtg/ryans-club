@@ -316,6 +316,51 @@ function copyToClipboard(value, message) {
 }
 
 // ----------------------
+// Tab related functions
+// ----------------------
+
+function getPanel(tab) {
+    return document.getElementById(tab.getAttribute('aria-controls'));
+}
+
+function deactivateTabs(tabList, exceptionTab) {
+    for (let i = 0; i < tabList.children.length; i++) {
+        let tab = tabList.children[i];
+        if (tab == exceptionTab) {
+            continue;
+        }
+        tab.setAttribute('aria-selected', false);
+        tab.setAttribute('tabindex', -1);
+        const panel = getPanel(tab);
+        if (panel != null) {
+            hideElement(panel);
+        }
+    }
+}
+
+async function selectTab(event) {
+    let tab = event.target;
+    while (tab && tab.getAttribute('role') != 'tab') {
+        tab = tab.parentElement;
+    }
+
+    if (!tab) {
+        return;
+    }
+
+    let panel = getPanel(tab);
+    showElement(panel);
+    let tabList = tab.parentElement;
+    if (tabList.getAttribute('role') == 'tablist') {
+        deactivateTabs(tabList, tab);
+    }
+
+    tab.removeAttribute('tabindex');
+    tab.setAttribute('aria-selected', true);
+}
+
+
+// ----------------------
 // Form related functions
 // ----------------------
 
@@ -456,9 +501,13 @@ function addShips(ships, isSolo) {
 
 function makeGraphs(log) {
     let damageDealtData = [];
+    let mitigationDamageDealtData = [];
     let criticalDamageDealtData = [];
+
     let damageReceivedData = [];
+    let mitigationDamageReceivedData = [];
     let criticalDamageReceivedData = [];
+
     let mitigationData = [];
     let piercingData = [];
     let shotsData = [];
@@ -474,9 +523,9 @@ function makeGraphs(log) {
     log.ships.forEach(ship => {
         const roundsData = ship.damageReport.rounds;
 
-        let damageDealtPerRound = {mitigated: [], shield: [], hull: []};
+        let damageDealtPerRound = {mitigated: [], shield: [], hull: [], total: []};
         let criticalDamageDealtPerRound = {critical: [], regular: []};
-        let damageReceivedPerRound = {mitigated: [], shield: [], hull: []};
+        let damageReceivedPerRound = {mitigated: [], shield: [], hull: [], total: []};
         let criticalDamageReceivedPerRound = {critical: [], regular: []};
         let mitigationPerRound = [];
         let piercingPerRound = [];
@@ -490,6 +539,9 @@ function makeGraphs(log) {
 
             let hull = round < roundsData.length ? roundsData[round].dealt.total.hull : 0;
             damageDealtPerRound.hull.push(hull);
+
+            let total = round < roundsData.length ? roundsData[round].dealt.total.total : 0;
+            damageDealtPerRound.total.push(total);
 
             let critical = round < roundsData.length ? roundsData[round].dealt.critical.total : 0;
             criticalDamageDealtPerRound.critical.push(critical);
@@ -505,6 +557,9 @@ function makeGraphs(log) {
 
             hull = round < roundsData.length ? roundsData[round].received.total.hull : 0;
             damageReceivedPerRound.hull.push(hull);
+
+            total = round < roundsData.length ? roundsData[round].received.total.total : 0;
+            damageReceivedPerRound.total.push(total);
 
             critical = round < roundsData.length ? roundsData[round].received.critical.total : 0;
             criticalDamageReceivedPerRound.critical.push(critical);
@@ -534,20 +589,24 @@ function makeGraphs(log) {
 
         const shipColor = SHIP_COLORS[shipColorIndex++];
 
-        damageDealtData.push(makeStackedDataSet(name + ' - hull', damageDealtPerRound.hull, name, shipColor, 1));
-        damageDealtData.push(makeStackedDataSet(name + ' - shield', damageDealtPerRound.shield, name, shipColor, 2));
-        damageDealtData.push(makeStackedDataSet(name + ' - mitigation', damageDealtPerRound.mitigated, name,
-            shipColor, 3));
+        damageDealtData.push(makeDataSet(name, damageDealtPerRound.total, shipColor));
+        mitigationDamageDealtData.push(makeStackedDataSet(name + ' - hull', damageDealtPerRound.hull, name,
+            shipColor, 1));
+        mitigationDamageDealtData.push(makeStackedDataSet(name + ' - shield', damageDealtPerRound.shield, name,
+            shipColor, 2));
+        mitigationDamageDealtData.push(makeStackedDataSet(name + ' - mitigation', damageDealtPerRound.mitigated,
+            name, shipColor, 3));
         criticalDamageDealtData.push(makeStackedDataSet(name + ' - regular', criticalDamageDealtPerRound.regular,
             name, shipColor, 1));
         criticalDamageDealtData.push(makeStackedDataSet(name + ' - critical', criticalDamageDealtPerRound.critical,
             name, shipColor, 2));
 
-        damageReceivedData.push(makeStackedDataSet(name + ' - hull', damageDealtPerRound.hull, name, shipColor,
+        damageReceivedData.push(makeDataSet(name, damageReceivedPerRound.total, shipColor));
+        mitigationDamageReceivedData.push(makeStackedDataSet(name + ' - hull', damageReceivedPerRound.hull, name, shipColor,
             1));
-        damageReceivedData.push(makeStackedDataSet(name + ' - shield', damageReceivedPerRound.shield, name,
+        mitigationDamageReceivedData.push(makeStackedDataSet(name + ' - shield', damageReceivedPerRound.shield, name,
             shipColor, 2));
-        damageReceivedData.push(makeStackedDataSet(name + ' - mitigation', damageReceivedPerRound.mitigated, name,
+        mitigationDamageReceivedData.push(makeStackedDataSet(name + ' - mitigation', damageReceivedPerRound.mitigated, name,
             shipColor, 3));
         criticalDamageReceivedData.push(makeStackedDataSet(name + ' - regular',
             criticalDamageReceivedPerRound.regular, name, shipColor, 1));
@@ -559,8 +618,10 @@ function makeGraphs(log) {
     });
 
     makeChart('damage-dealt-canvas', 'bar', labels, damageDealtData);
+    makeChart('mitigation-damage-dealt-canvas', 'bar', labels, mitigationDamageDealtData);
     makeChart('critical-damage-dealt-canvas', 'bar', labels, criticalDamageDealtData);
     makeChart('damage-received-canvas', 'bar', labels, damageReceivedData);
+    makeChart('mitigation-damage-received-canvas', 'bar', labels, mitigationDamageReceivedData);
     makeChart('critical-damage-received-canvas', 'bar', labels, criticalDamageReceivedData);
     makeChart('mitigation-canvas', 'line', labels, mitigationData);
     makeChart('piercing-canvas', 'line', labels, piercingData);
