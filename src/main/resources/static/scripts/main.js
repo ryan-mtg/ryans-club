@@ -379,7 +379,7 @@ async function uploadLog() {
     const response = await makeFormDataPost('/api/public/submit_log', formData);
     if (response.ok) {
         const log = await response.json();
-        updateLog(log);
+        window.location.replace('/log/' + log.tag);
     }
 }
 

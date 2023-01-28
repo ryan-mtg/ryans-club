@@ -21,65 +21,7 @@
     <div th:replace="fragments :: header('Ryan\'s Club Log Parser')"></div>
 
     <main>
-        <section id="log" class="log" hidden>
-            <input id="log-tag" type="hidden">
-
-            <section id="log-summary" class="summary">
-                <h2 id="summary-title">Log Result</h2>
-                <div>Result: <span id="outcome"></span></div>
-                <div>Rounds: <span id="rounds"></span></div>
-                <div>Location: <span id="location"></span></div>
-                <div>Time: <span id="time"></span></div>
-                <button onclick="copyLogLink()">Share</button>
-            </section>
-
-            <section class="ships-section">
-                <h2>Ships</h2>
-
-                <section id="ships-container">
-                </section>
-            </section>
-
-            <section class="graphs-section">
-                <h2>Graphs</h2>
-
-                <h3>Damage Dealt</h3>
-                <div class="graph-container">
-                    <canvas id="damage-dealt-canvas"></canvas>
-                </div>
-
-                <h3>Critical Damage Dealt</h3>
-                <div class="graph-container">
-                    <canvas id="critical-damage-dealt-canvas"></canvas>
-                </div>
-
-                <h3>Damage Received</h3>
-                <div class="graph-container">
-                    <canvas id="damage-received-canvas"></canvas>
-                </div>
-
-                <h3>Critical Damage Received</h3>
-                <div class="graph-container">
-                    <canvas id="critical-damage-received-canvas"></canvas>
-                </div>
-
-                <h3>Mitigation</h3>
-                <div class="graph-container">
-                    <canvas id="mitigation-canvas"></canvas>
-                </div>
-
-                <h3>Piercing</h3>
-                <div class="graph-container">
-                    <canvas id="piercing-canvas"></canvas>
-                </div>
-
-                <h3>Shots</h3>
-                <div class="graph-container">
-                    <canvas id="shots-canvas"></canvas>
-                </div>
-            </section>
-        </section>
-
+        <h2>Upload a Log</h2>
         <form onsubmit="uploadLog(); return false">
             <input type="file" id="log-file-button" name="log-file" class="form-button"><br>
             <input type="submit" value="Submit" class="form-button">
