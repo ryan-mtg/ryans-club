@@ -725,6 +725,16 @@ function makeChart(canvasId, type, labels, datasets) {
                     labels: {
                         color: yellow,
                     }
+                },
+                zoom: {
+                    zoom: {
+                        wheel: {
+                            enabled: true
+                        }
+                    },
+                    pan: {
+                        enabled: true
+                    }
                 }
             },
             scales: {
