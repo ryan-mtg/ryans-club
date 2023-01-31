@@ -590,42 +590,39 @@ function makeGraphs(log) {
         const shipColor = SHIP_COLORS[shipColorIndex++];
 
         damageDealtData.push(makeDataSet(name, damageDealtPerRound.total, shipColor));
-        mitigationDamageDealtData.push(makeStackedDataSet(name + ' - hull', damageDealtPerRound.hull, name,
-            shipColor, 1));
-        mitigationDamageDealtData.push(makeStackedDataSet(name + ' - shield', damageDealtPerRound.shield, name,
-            shipColor, 2));
-        mitigationDamageDealtData.push(makeStackedDataSet(name + ' - mitigation', damageDealtPerRound.mitigated,
-            name, shipColor, 3));
-        criticalDamageDealtData.push(makeStackedDataSet(name + ' - regular', criticalDamageDealtPerRound.regular,
-            name, shipColor, 1));
-        criticalDamageDealtData.push(makeStackedDataSet(name + ' - critical', criticalDamageDealtPerRound.critical,
-            name, shipColor, 2));
+        mitigationDamageDealtData.push(makeStackedDataSet(name, HULL, damageDealtPerRound.hull, shipColor, 1));
+        mitigationDamageDealtData.push(makeStackedDataSet(name, SHIELD, damageDealtPerRound.shield, shipColor, 2));
+        mitigationDamageDealtData.push(makeStackedDataSet(name, MITIGATED, damageDealtPerRound.mitigated, shipColor,
+            3));
+        criticalDamageDealtData.push(makeStackedDataSet(name, REGULAR, criticalDamageDealtPerRound.regular, shipColor,
+            1));
+        criticalDamageDealtData.push(makeStackedDataSet(name, CRITICAL, criticalDamageDealtPerRound.critical, shipColor,
+            2));
 
         damageReceivedData.push(makeDataSet(name, damageReceivedPerRound.total, shipColor));
-        mitigationDamageReceivedData.push(makeStackedDataSet(name + ' - hull', damageReceivedPerRound.hull, name, shipColor,
-            1));
-        mitigationDamageReceivedData.push(makeStackedDataSet(name + ' - shield', damageReceivedPerRound.shield, name,
-            shipColor, 2));
-        mitigationDamageReceivedData.push(makeStackedDataSet(name + ' - mitigation', damageReceivedPerRound.mitigated, name,
+        mitigationDamageReceivedData.push(makeStackedDataSet(name, HULL, damageReceivedPerRound.hull, shipColor, 1));
+        mitigationDamageReceivedData.push(makeStackedDataSet(name, SHIELD, damageReceivedPerRound.shield, shipColor,
+            2));
+        mitigationDamageReceivedData.push(makeStackedDataSet(name, MITIGATED, damageReceivedPerRound.mitigated,
             shipColor, 3));
-        criticalDamageReceivedData.push(makeStackedDataSet(name + ' - regular',
-            criticalDamageReceivedPerRound.regular, name, shipColor, 1));
-        criticalDamageReceivedData.push(makeStackedDataSet(name + ' - critical',
-            criticalDamageReceivedPerRound.critical, name, shipColor, 2));
+        criticalDamageReceivedData.push(makeStackedDataSet(name, REGULAR, criticalDamageReceivedPerRound.regular,
+            shipColor, 1));
+        criticalDamageReceivedData.push(makeStackedDataSet(name, CRITICAL, criticalDamageReceivedPerRound.critical,
+            shipColor, 2));
         mitigationData.push(makeDataSet(name, mitigationPerRound, shipColor));
         piercingData.push(makeDataSet(name, piercingPerRound, shipColor));
         shotsData.push(makeDataSet(name, shotsPerRound, shipColor));
     });
 
-    makeChart('damage-dealt-canvas', 'bar', labels, damageDealtData);
-    makeChart('mitigation-damage-dealt-canvas', 'bar', labels, mitigationDamageDealtData);
-    makeChart('critical-damage-dealt-canvas', 'bar', labels, criticalDamageDealtData);
-    makeChart('damage-received-canvas', 'bar', labels, damageReceivedData);
-    makeChart('mitigation-damage-received-canvas', 'bar', labels, mitigationDamageReceivedData);
-    makeChart('critical-damage-received-canvas', 'bar', labels, criticalDamageReceivedData);
-    makeChart('mitigation-canvas', 'line', labels, mitigationData);
-    makeChart('piercing-canvas', 'line', labels, piercingData);
-    makeChart('shots-canvas', 'bar', labels, shotsData);
+    makeChart('damage-dealt-canvas', 'bar', labels, damageDealtData, false);
+    makeChart('mitigation-damage-dealt-canvas', 'bar', labels, mitigationDamageDealtData, true);
+    makeChart('critical-damage-dealt-canvas', 'bar', labels, criticalDamageDealtData, true);
+    makeChart('damage-received-canvas', 'bar', labels, damageReceivedData, false);
+    makeChart('mitigation-damage-received-canvas', 'bar', labels, mitigationDamageReceivedData, true);
+    makeChart('critical-damage-received-canvas', 'bar', labels, criticalDamageReceivedData, true);
+    makeChart('mitigation-canvas', 'line', labels, mitigationData, false);
+    makeChart('piercing-canvas', 'line', labels, piercingData, false);
+    makeChart('shots-canvas', 'bar', labels, shotsData, false);
 }
 
 function shouldUseShipName(battleType) {
@@ -693,18 +690,19 @@ function styleBackground(colors, style) {
     }
 }
 
-function makeStackedDataSet(label, data, stack, shipColors, style) {
+function makeStackedDataSet(stack, damageType, data, shipColors, style) {
     return {
-        label,
+        label: stack + ' - ' + damageType,
         data,
         backgroundColor: styleBackground(shipColors, style),
         borderColor: shipColors.border,
         borderWidth: 2,
-        stack
+        stack,
+        damageType
     };
 }
 
-function makeChart(canvasId, type, labels, datasets) {
+function makeChart(canvasId, type, labels, datasets, overrideLegend) {
     const canvas = document.getElementById(canvasId);
     if (canvas.chart) {
         canvas.chart.destroy();
@@ -712,6 +710,65 @@ function makeChart(canvasId, type, labels, datasets) {
 
     const yellow = 'rgba(255, 255, 0, .7)';
     const lightYellow = 'rgba(255, 255, 224, .3)';
+
+    const generateLabels = Chart.defaults.plugins.legend.labels.generateLabels;
+    const onClick = Chart.defaults.plugins.legend.onClick;
+
+    const generateStackedLabels = function(chart) {
+        let oldLabels = generateLabels(chart);
+        let stackState = chart.stackState || {};
+        let seen = {};
+        let stackLabels = [];
+        let damageTypeLabels = [];
+        oldLabels.forEach(label => {
+            let meta = chart.getDatasetMeta(label.datasetIndex);
+            let stack = meta.stack;
+            let damageType = meta._dataset.damageType;
+
+            if (!seen[stack]) {
+                let newLabel = {...label};
+                newLabel.text = stack;
+                newLabel.rcType = 'stack';
+                newLabel.rcValue = stack;
+                stackLabels.push(newLabel);
+                seen[stack] = true;
+                stackState[stack] = stackState[stack] || {visibility: true, datasetIndices: []};
+            }
+            stackState[stack].datasetIndices.push(label.datasetIndex);
+
+            if (!seen[damageType]) {
+                let newLabel = {...label};
+                newLabel.text = damageType;
+                newLabel.rcType = 'damageType';
+                newLabel.rcValue = damageType;
+                damageTypeLabels.push(newLabel);
+                seen[damageType] = true;
+                stackState[damageType] = stackState[damageType] || {visibility: true, datasetIndices: []};
+            }
+            stackState[damageType].datasetIndices.push(label.datasetIndex);
+        });
+
+        chart.stackState = stackState;
+        return stackLabels.concat(damageTypeLabels);
+    }
+
+    const stackedOnClick = function (click, legendItem, legend) {
+        const value = legendItem.rcValue;
+        let stackState = legend.chart.stackState;
+        if (!value) {
+            return onClick(click, legendItem, legend);
+        }
+
+        stackState[value].visibility = !stackState[value].visibility;
+        legendItem.hidden = !stackState[value].visibility;
+
+        stackState[value].datasetIndices.forEach(index => {
+            const dataset = chart.data.datasets[index];
+            const visible = stackState[dataset.stack].visibility && stackState[dataset.damageType].visibility;
+            chart.setDatasetVisibility(index, visible);
+        });
+        chart.update();
+    }
 
     let chart = new Chart(canvas, {
         type: type,
@@ -722,7 +779,9 @@ function makeChart(canvasId, type, labels, datasets) {
         options: {
             plugins: {
                 legend: {
+                    onClick: overrideLegend ? stackedOnClick : onClick,
                     labels: {
+                        generateLabels: overrideLegend ? generateStackedLabels : generateLabels,
                         color: yellow,
                     }
                 },
@@ -807,12 +866,24 @@ function getShieldDroppedElement(ship) {
 }
 
 function scoplifyNumber(number) {
+    if (number > 1_000_000_000_000) {
+        return `${Math.floor(number / 1_000_000_000_000)}T`;
+    }
+
+    if (number > 1_000_000_000) {
+        return `${Math.floor(number / 1_000_000_000)}B`;
+    }
+
     if (number > 1_000_000) {
         return `${Math.floor(number / 1_000_000)}M`;
     }
 
     if (number > 1_000) {
         return `${Math.floor(number / 1_000)}K`;
+    }
+
+    if (number < 0) {
+        return '-' + scoplifyNumber(-number);
     }
 
     return number;
