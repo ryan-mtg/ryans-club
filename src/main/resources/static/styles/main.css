@@ -190,10 +190,6 @@ input[type=number] {
     margin-top: .25rem;
 }
 
-input.deck-name {
-    size: 80;
-}
-
 .pseudo-link {
     cursor: pointer;
 }
@@ -512,7 +508,6 @@ input.deck-name {
 }
 
 .navitem img {
-    position: center;
     vertical-align: middle;
 }
 
@@ -597,7 +592,6 @@ table {
     cursor: pointer;
     font-size: medium;
     padding: .25rem;
-    vertical-align: center;
 }
 
 .edit-button img {
@@ -607,6 +601,10 @@ table {
 
 .edit-button:hover {
     background: var(--highlight-color);
+}
+
+#events-table {
+    width: 100%;
 }
 
 .data-table td {
@@ -857,12 +855,12 @@ input[type=text].emote {
     color: green;
 }
 
+.events-section .defeat,
 .ship-section .defeat {
-    color: red;
+    color: hsl(0,79%,72%);
 }
 
 .ship-icon {
-    alignment: bottom;
     height: 64px;
     max-width: 64px;
 }

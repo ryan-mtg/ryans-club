@@ -180,6 +180,7 @@ function setText(elementId, text) {
 function addTextCell(row, text) {
     let textCell = row.insertCell();
     textCell.innerText = text;
+    return textCell;
 }
 
 function createElement(tag, text, classes) {
@@ -432,6 +433,7 @@ function updateLog(log) {
     updateLogSummary(log);
     addShips(log.ships, log.type == 'SOLO_ARMADA');
     makeGraphs(log);
+    addEvents(log);
 
     let logSection = document.getElementById('log');
     showElement(logSection);
@@ -821,6 +823,75 @@ function makeChart(canvasId, type, labels, datasets, overrideLegend) {
         }
     });
     canvas.chart = chart;
+}
+
+function createShipNamer(battleType, ships) {
+    return {
+        nameShip: function (shipIdentifier) {
+            return shipIdentifier.shipName;
+        }
+    };
+}
+
+function addEvents(log) {
+    let shipNamer = createShipNamer(log.type, log.ships);
+    let eventsTable = document.getElementById('events-table');
+    let tableBody = eventsTable.createTBody();
+    for (let i = 0; i < log.events.length; i++) {
+        createEventRow(tableBody, log.events[i], shipNamer);
+    }
+}
+
+function createEventRow(tableBody, event, shipNamer) {
+    let row = tableBody.insertRow();
+
+    addTextCell(row, event.round);
+    switch (event.type) {
+        case 'Attack Event':
+            return createAttackEventRow(row, event, shipNamer);
+        case 'Charging Weapon Event':
+            return createChargingWeaponEventRow(row, event, shipNamer);
+        case 'Officer Proc Event':
+            return createOfficerProcEventRow(row, event, shipNamer);
+        case 'Shield Depleted Event':
+            return createShieldDepletedEventRow(row, event, shipNamer);
+        case 'Ship Destroyed Event':
+            return createShipDestroyedEventRow(row, event, shipNamer);
+        default:
+            console.log('unknown event type: ' + event.type);
+    }
+}
+
+function createAttackEventRow(row, event, shipNamer) {
+    addTextCell(row, shipNamer.nameShip(event.attacker));
+    addTextCell(row, 'Attacks');
+    addTextCell(row, shipNamer.nameShip(event.defender));
+    addTextCell(row, scoplifyNumber(event.damage.total) + ' damage');
+}
+
+function createChargingWeaponEventRow(row, event, shipNamer) {
+    addTextCell(row, shipNamer.nameShip(event.ship));
+    addTextCell(row, 'Charging Weapon');
+    addTextCell(row, event.charge + '%');
+}
+
+function createOfficerProcEventRow(row, event, shipNamer) {
+    addTextCell(row, shipNamer.nameShip(event.ship));
+    addTextCell(row, 'Officer Ability');
+    addTextCell(row, event.abilityOwnerName);
+    addTextCell(row, event.abilityName);
+}
+
+function createShieldDepletedEventRow(row, event, shipNamer) {
+    addTextCell(row, shipNamer.nameShip(event.ship));
+    let cell = addTextCell(row, 'Shield depleted');
+    cell.classList.add('defeat');
+}
+
+function createShipDestroyedEventRow(row, event, shipNamer) {
+    addTextCell(row, shipNamer.nameShip(event.ship));
+    let cell = addTextCell(row, 'Ship destroyed');
+    cell.classList.add('defeat');
 }
 
 function getPlayerName(ship) {
