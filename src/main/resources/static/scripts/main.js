@@ -495,6 +495,8 @@ function addShips(ships, isSolo) {
 
         shipElement.appendChild(getShipSurvivalElement(ship));
         shipElement.appendChild(getShieldDroppedElement(ship));
+        shipElement.appendChild(getAverageMitigationElement(ship));
+        shipElement.appendChild(getAveragePiercingElement(ship));
         shipElement.appendChild(getShipOfficerSummary(ship));
         shipElement.appendChild(getShipDamageSummary(ship));
 
@@ -935,6 +937,21 @@ function getShieldDroppedElement(ship) {
     }
 
     return createElement('div', 'Shields held', ['victory']);
+}
+
+function formatPercent(value) {
+    return (value * 100).toFixed(2) + '%';
+}
+
+function getAverageMitigationElement(ship) {
+    const mitigation = formatPercent(ship.damageReport.received.total.mitigation);
+    return createElement('div', `Average Mitigation: ${mitigation}`);
+}
+
+
+function getAveragePiercingElement(ship) {
+    const piercing = formatPercent(ship.damageReport.dealt.total.piercing);
+    return createElement('div', `Average Piercing: ${piercing}`);
 }
 
 function scoplifyNumber(number) {
