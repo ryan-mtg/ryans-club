@@ -613,6 +613,10 @@ table {
     border: 1px solid black;
 }
 
+.center-cell {
+    text-align: center;
+}
+
 .label-table {
     display: inline-block;
 }
@@ -863,6 +867,12 @@ input[type=text].emote {
 .ship-icon {
     height: 64px;
     max-width: 64px;
+}
+
+.officer-icon {
+    height: 32px;
+    max-width: 32px;
+    vertical-align: bottom;
 }
 
 .graphs-section {

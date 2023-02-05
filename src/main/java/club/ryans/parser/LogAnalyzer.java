@@ -41,6 +41,7 @@ public class LogAnalyzer {
 
         computeRoundsSurvived(log.getRounds(), shipMap, log.getEvents());
         computeDamageStats(shipMap, log.getEvents());
+        computeOfficerStats(shipMap, log.getEvents());
 
         return log;
     }
@@ -156,6 +157,18 @@ public class LogAnalyzer {
                 defender.getDamageReport().addDamageReceived(round, damage);
             }
         }
+    }
+
+    private void computeOfficerStats(final Map<ShipIdentifier, Ship> shipMap, final List<BattleEvent> events) {
+        for (BattleEvent event : events) {
+            if (event instanceof OfficerProcEvent) {
+                OfficerProcEvent officerProcEvent = (OfficerProcEvent) event;
+                Ship ship = shipMap.get(officerProcEvent.getShip());
+                ship.getOfficerReport().addProc(officerProcEvent.getAbilityOwnerName(),
+                        officerProcEvent.getAbilityName());
+            }
+        }
+        shipMap.values().forEach(ship -> ship.getOfficerReport().findOfficers(officerManager));
     }
 
     private static int shipComparer(final Ship a, final Ship b) {

@@ -495,7 +495,8 @@ function addShips(ships, isSolo) {
 
         shipElement.appendChild(getShipSurvivalElement(ship));
         shipElement.appendChild(getShieldDroppedElement(ship));
-        shipElement.appendChild(getShipDamageSummary(ship))
+        shipElement.appendChild(getShipOfficerSummary(ship));
+        shipElement.appendChild(getShipDamageSummary(ship));
 
         container.appendChild(shipElement);
     }
@@ -958,6 +959,39 @@ function scoplifyNumber(number) {
     }
 
     return number;
+}
+
+function getShipOfficerSummary(ship) {
+    const counts = ship.officerReport.counts;
+    if (counts.length == 0) {
+        return document.createTextNode('');
+    }
+
+    let table = document.createElement('table');
+    table.classList.add('data-table');
+    let headerRow = table.createTHead().insertRow();
+    addTextCell(headerRow, 'Officer');
+    addTextCell(headerRow, 'Ability');
+    addTextCell(headerRow, 'Procs');
+
+    let tableBody = table.createTBody();
+    for (let i = 0; i < counts.length; i++) {
+        const officerCount = counts[i];
+        let row = tableBody.insertRow();
+        let nameCell = row.insertCell();
+
+        let officerImage = document.createElement('img');
+        officerImage.src = officerCount.officer.imageUrl;
+        officerImage.alt = officerImage.title = officerCount.officer.name;
+        officerImage.classList.add('officer-icon');
+        nameCell.appendChild(officerImage);
+        nameCell.classList.add('center-cell');
+
+        addTextCell(row, officerCount.ability);
+        addTextCell(row, officerCount.count);
+    }
+
+    return table;
 }
 
 function getShipDamageSummary(ship) {

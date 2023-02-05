@@ -26,6 +26,7 @@ public class OfficerManager {
     private final StfcSpaceClient stfcSpaceClient;
     private final AssetManager assetManager;
     private final Map<Long, Officer> officerMap = new HashMap<>();
+    private final Map<String, Officer> nameMap = new HashMap<>();
 
     private static final Map<String, BiConsumer<Officer, String>> FIELD_MAP =
             new HashMap<String, BiConsumer<Officer, String>>() {{
@@ -61,11 +62,16 @@ public class OfficerManager {
         return officerMap.values();
     }
 
+    public Officer getOfficer(final String name) {
+        return nameMap.get(name);
+    }
+
     private void initialize() {
         List<club.ryans.stfcspace.json.Officer> officers = stfcSpaceClient.officer();
         for (club.ryans.stfcspace.json.Officer officerJson : officers) {
             Officer officer = createOfficer(officerJson);
             officerMap.put(officer.getId(), officer);
+            nameMap.put(officer.getName(), officer);
         }
 
         List<Field> fields = stfcSpaceClient.officers();
@@ -98,6 +104,7 @@ public class OfficerManager {
             List<Officer> officers = mapper.readValue(stream, new TypeReference<List<Officer>>() {});
             for (Officer officer : officers) {
                 officerMap.put(officer.getId(), officer);
+                nameMap.put(officer.getName(), officer);
             }
         } catch (Exception e) {
             e.printStackTrace();

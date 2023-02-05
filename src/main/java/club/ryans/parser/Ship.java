@@ -45,6 +45,7 @@ public class Ship {
     private int roundShieldDropped;
 
     private DamageReport damageReport = new DamageReport();
+    private OfficerReport officerReport = new OfficerReport();
 
     public boolean isPlayer() {
         if (shipIdentifier.getPlayerName() == null) {
