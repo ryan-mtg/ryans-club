@@ -884,6 +884,39 @@ input[type=text].emote {
     min-width: 50vw;
 }
 
+.pagination {
+    display: inline-block;
+    margin-block: 1rem;
+}
+
+.pagination span {
+    color: var(--accent-color-dark);
+    cursor: pointer;
+    padding: .5rem 1rem;
+    border: 1px solid var(--separator-color);
+}
+
+.pagination span:hover {
+    background-color: var(--background-color-alternate);
+    border-color: var(--accent-color-dark);
+}
+
+.pagination span:first-child {
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+
+.pagination span:last-child {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.pagination .current {
+    color: var(--accent-color-light);
+    font-weight: bold;
+    border-color: var(--accent-color-light);
+}
+
 /* ITEMS */
 .item-block {
     border: var(--rarity-color, blue) .125rem solid;

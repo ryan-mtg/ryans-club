@@ -5,6 +5,8 @@
     <title>Ryan's Club</title>
     <div th:replace="fragments :: includes"></div>
 
+    <script type="module" src="/scripts/log.js"></script>
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"
@@ -25,7 +27,7 @@
     <meta property="og:description" content="Service for looking at STFC logs">
     <meta property="og:locale" content="en_US">
 </head>
-<body data-theme="dark" onload="initializeLog()">
+<body data-theme="dark">
     <div th:replace="fragments :: header('Log ' + ${raw_log.fileName})"></div>
 
     <main>
@@ -38,7 +40,7 @@
                 <div>Rounds: <span id="rounds"></span></div>
                 <div>Location: <span id="location"></span></div>
                 <div>Time: <span id="time"></span></div>
-                <button onclick="copyLogLink()">Share</button>
+                <button class="share-log-button">Share</button>
             </section>
 
             <section class="ships-section">
@@ -179,6 +181,8 @@
             <section class="events-section">
                 <h2>Events</h2>
 
+                <section class="pagination"><span class="previous-page">&laquo;</span><span class="next-page">&raquo;</span></section>
+
                 <table id="events-table" class="data-table">
                     <thead><tr>
                         <th>Round</th>
@@ -188,6 +192,8 @@
                         <th>Description</th>
                     </tr></thead>
                 </table>
+
+                <section class="pagination"><span class="previous-page">&laquo;</span><span class="next-page">&raquo;</span></section>
             </section>
         </section>
 
