@@ -62,7 +62,9 @@ test {
 task configureResources {
 	doFirst {
 		def secretResourceDir = 'secret/local/resources'
-		if (gradle.startParameter.taskNames.contains('bootJar') || gradle.startParameter.taskNames.contains('assemble')) {
+		if (gradle.startParameter.taskNames.contains('bootJar')
+				|| gradle.startParameter.taskNames.contains('assemble')
+				|| gradle.startParameter.taskNames.contains('deploy')) {
 			secretResourceDir = 'secret/deploy/resources'
 		}
 		sourceSets {
@@ -78,6 +80,24 @@ task configureResources {
 processResources {
 	dependsOn(configureResources)
 	duplicatesStrategy = DuplicatesStrategy.INCLUDE
+}
+
+task deploy {
+	group = 'application'
+	description = 'Builds and uploads deployment jar to EC2 instance.'
+	dependsOn(bootJar)
+
+	doLast {
+		println '< doing deploy of ' + bootJar.archiveFile.get().asFile.name
+		ssh.run {
+			session(remotes.server) {
+				put from: bootJar.archiveFile.get().asFile, into: 'install-stfc'
+				def result = execute 'sudo install-stfc/deploy.sh'
+				println result
+			}
+		}
+		println '> deploy done'
+	}
 }
 
 task install {
