@@ -1,0 +1,52 @@
+package club.ryans.models.managers;
+
+import club.ryans.models.Building;
+import club.ryans.models.generators.DataFileManager;
+import club.ryans.utility.Json;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.extern.slf4j.Slf4j;
+
+import java.io.InputStream;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+@Slf4j
+public class BuildingManager {
+    public static final String DATA_FILE_NAME = "buildings.json";
+
+    private final DataFileManager dataFileManager;
+    private final Map<Long, Building> buildingMap = new HashMap<>();
+    private final Map<String, Building> nameMap = new HashMap<>();
+
+    public BuildingManager(final DataFileManager dataFileManager) {
+        this.dataFileManager = dataFileManager;
+
+        loadFile();
+    }
+
+    public Collection<Building> getBuildings() {
+        return buildingMap.values();
+    }
+
+    public Building getBuilding(final String name) {
+        return nameMap.get(name);
+    }
+
+    private void loadFile() {
+        ObjectMapper mapper = Json.createObjectMapper();
+
+        try {
+            InputStream stream = dataFileManager.getStream(DATA_FILE_NAME);
+            List<Building> buildings = mapper.readValue(stream, new TypeReference<List<Building>>() {});
+            for (Building building : buildings) {
+                buildingMap.put(building.getId(), building);
+                nameMap.put(building.getName(), building);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}

@@ -22,7 +22,7 @@ public class AssetManager {
 
     public AssetManager() {
         try {
-            String url = "https://stfc.space/assets/thumbs.7ca14615.js";
+            String url = "https://stfc.space/assets/thumbs.26c9a2bd.js";
             HttpClient httpClient = HttpClients.createDefault();
             HttpGet httpGet = new HttpGet(url);
             HttpResponse response = httpClient.execute(httpGet);
@@ -45,12 +45,26 @@ public class AssetManager {
         return assets.get(assets.size() - 1).getPath();
     }
 
+    /*
+    public String makeUrl(final Asset asset)  {
+        return makeAssetUrl(asset.getId(), asset.getType());
+    }
+     */
+
     public static String makeUrl(final String path) {
         return "https://stfc.space" + path;
     }
 
+    public String getBuildingPath(final int artId) {
+        return getAssetPath(artId, AssetType.BUILDING);
+    }
+
     public String getOfficerPath(final int artId) {
         return getAssetPath(artId, AssetType.OFFICER);
+    }
+
+    public String getResourcePath(final int artId) {
+        return getAssetPath(artId, AssetType.RESOURCE);
     }
 
     public String getShipPath(final int artId) {
@@ -62,6 +76,10 @@ public class AssetManager {
     }
 
     private String getAssetPath(final int artId, final AssetType type) {
+        if (artId == 82 && type == AssetType.SHIP) {
+            return getAssetPath(30, type); // fix for stfc.space's HEG'TA bug
+        }
+
         List<Asset> assets = assetMap.get(artId);
         if (assets == null) {
             return "";

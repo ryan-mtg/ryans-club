@@ -926,7 +926,7 @@
   "id" : 3432906971,
   "name" : "HEGH'TA",
   "artId" : 82,
-  "artPath" : "/assets/82.1980820b.png",
+  "artPath" : "/assets/82.24b73cc6.png",
   "factionId" : 4153667145,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -942,7 +942,7 @@
     "description" : "<color=#309BBF>Open the Wound</color>\nAs long as the opponent has a <color=#FFC926>Hull Breach</color>, every time the Hegh'ta hits it with a weapon attack, it increases the  Critical Hit Chances by <color=#40FF60>{0:#.#%}</color>.\n\n<color=#B8DEE5>Ship Abilities are always active.</color>",
     "shortDescription" : "<color=#40FF60>+{0:#.#%}</color> to Crit. Chance against Hull Breach"
   },
-  "imageUrl" : "https://stfc.space/assets/82.1980820b.png"
+  "imageUrl" : "https://stfc.space/assets/82.24b73cc6.png"
 }, {
   "id" : 673187302,
   "name" : "CENTURION",
@@ -1447,6 +1447,27 @@
     "shortDescription" : "<color=#40FF60>+{0:0.00#%}</color> damage against Romulan ships"
   },
   "imageUrl" : "https://stfc.space/assets/43.cf4420c6.png"
+}, {
+  "id" : 3803001941,
+  "name" : "VI'DAR TALIOS",
+  "artId" : 122,
+  "artPath" : "/assets/122.1f54c09e.png",
+  "factionId" : -1,
+  "rarity" : "Epic",
+  "maxTier" : 12,
+  "grade" : 4,
+  "scrapLevel" : -1,
+  "blueprintsRequired" : 100,
+  "hullType" : 0,
+  "maxLevel" : 60,
+  "blueprintName" : "VI'DAR TALIOS Blueprint Part",
+  "description" : "For the Romulan Star Empire, the Vi'Dar Talios represents the culmination of years fraught with strife and hardship. As the Borg Collective continued their encroachment into the Alpha Quadrant, civilian and military casualties grew exponentially. While the Romulans counted their losses, the need to understand this daunting new enemy outgrew the need to fight them. Although the original Vi'Dar design remains a formidable weapon in the fight against the Borg, the time has come for the Romulan Star Empire to bolster their arsenal. The Vi'Dar Talios will be the saber that pierces the very heart of the Collective. With the maiden voyage of this fearsome starship, the Alpha Quadrant continues to prove to the Borg that resistance is far from futile.",
+  "bonus" : {
+    "name" : "Collective Severance",
+    "description" : "<color=#309BBF>Collective Severance</color>\n\nIncrease damage by <color=#40FF60>{0:#.#%}</color>  against Borg hostiles.\n\n<color=#B8DEE5>Ship Abilities are always active.</color>",
+    "shortDescription" : "<color=#40FF60>+{0:0#%}</color> Damage vs Borg hostiles"
+  },
+  "imageUrl" : "https://stfc.space/assets/122.1f54c09e.png"
 }, {
   "id" : 2483093372,
   "name" : "USS ENTERPRISE",

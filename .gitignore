@@ -11,6 +11,9 @@ out/
 # secret directory
 secret/
 
+# generated data files directory
+data/
+
 # Compiled class file
 *.class
 

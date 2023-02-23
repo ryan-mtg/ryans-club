@@ -13,7 +13,7 @@
 
         <div class="blocks-container">
             <a th:each="officer: ${officers}" class="unstyled-link" th:href="'officer/' + ${officer.id}">
-                <div class="item-block" th:classappend="${officer.style}">
+                <div class="item-block" th:classappend="${officer.style()}">
                     <img class="large-set-icon" th:src="${officer.imageUrl}">
 
                     <div class="rows">

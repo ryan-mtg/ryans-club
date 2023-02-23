@@ -1,8 +1,10 @@
 package club.ryans.controllers;
 
 import club.ryans.models.RawLog;
+import club.ryans.models.managers.BuildingManager;
 import club.ryans.models.managers.LogManager;
 import club.ryans.models.managers.OfficerManager;
+import club.ryans.models.managers.ResourceManager;
 import club.ryans.models.managers.ShipManager;
 import club.ryans.models.managers.AssetManager;
 import club.ryans.parser.Log;
@@ -21,7 +23,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 @RequiredArgsConstructor
 public class IndexController {
     @Autowired
+    private BuildingManager buildingManager;
+
+    @Autowired
     private OfficerManager officerManager;
+
+    @Autowired
+    private ResourceManager resourceManager;
 
     @Autowired
     private ShipManager shipManager;
@@ -59,11 +67,25 @@ public class IndexController {
         }
     }
 
+    @GetMapping(value = "/buildings")
+    public String buildings(final Model model) {
+        model.addAttribute("buildings", buildingManager.getBuildings());
+        model.addAttribute("assets", assetManager);
+        return "buildings";
+    }
+
     @GetMapping(value = "/officers")
     public String officers(final Model model) {
         model.addAttribute("officers", officerManager.getOfficers());
         model.addAttribute("assets", assetManager);
         return "officers";
+    }
+
+    @GetMapping(value = "/resources")
+    public String resources(final Model model) {
+        model.addAttribute("resources", resourceManager.getResources());
+        model.addAttribute("assets", assetManager);
+        return "resources";
     }
 
     @GetMapping(value = "/ships")

@@ -4,4 +4,6 @@ public enum AssetType {
     UNKNOWN,
     SHIP,
     OFFICER,
+    BUILDING,
+    RESOURCE,
 }

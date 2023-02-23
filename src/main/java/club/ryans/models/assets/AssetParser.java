@@ -23,7 +23,6 @@ public class AssetParser {
         Scanner scanner = new Scanner(inputStream);
         scanner.useDelimiter("\"");
 
-
         Map<Integer, List<Asset>> assetMap = new HashMap<>();
         while(scanner.hasNext()) {
             if (scanner.hasNext(ASSET_PATTERN)) {
@@ -51,13 +50,22 @@ public class AssetParser {
             currentType = AssetType.SHIP;
         } else if (url.equals("/assets/1.6df9e1af.png")) {
             currentType = AssetType.OFFICER;
+        } else if (url.equals("/assets/0.3c58978d.png")) {
+            currentType = AssetType.BUILDING;
+        } else if (url.equals("/assets/1.080b32d6.png")) {
+            currentType = AssetType.RESOURCE;
         }
+
     }
 
     private void postcheckAsset(final String url) {
         if (url.equals("/assets/99.7e35dbf3.png")) {
             currentType = AssetType.UNKNOWN;
         } else if (url.equals("/assets/999.17ff5135.png")) {
+            currentType = AssetType.UNKNOWN;
+        } else if (url.equals("/assets/9.e7af31bc.png")) {
+            currentType = AssetType.UNKNOWN;
+        } else if (url.equals("/assets/95.b09c5bed.png")) {
             currentType = AssetType.UNKNOWN;
         }
     }
@@ -66,10 +74,10 @@ public class AssetParser {
         if (assetMap.containsKey(index)) {
             List<Asset> existingAssets = assetMap.get(index);
             if (contains(existingAssets, path)) {
-                LOGGER.info("Collision! at {}, old value same as new", index);
+                LOGGER.trace("Collision! at {}, old value same as new", index);
             } else {
                 existingAssets.add(new Asset(index, currentType, path));
-                LOGGER.info("Collision! at {}, new value: {}", index, path);
+                LOGGER.trace("Collision! at {}, new value: {}", index, path);
             }
         } else {
             LOGGER.info("adding asset: {} -> {}", index, path);
