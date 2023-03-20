@@ -5,6 +5,8 @@
     <title>Ryan's Club</title>
     <div th:replace="fragments :: includes"></div>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@ryans_club">
     <meta name="twitter:title" content="Ryan's Club">
@@ -16,10 +18,11 @@
     <meta property="og:locale" content="en_US">
 </head>
 <body data-theme="dark">
-    <div th:replace="fragments :: header('Ryan\'s Club Log Parser')"></div>
+    <div th:replace="fragments :: header('Forbidden!')"></div>
 
     <main>
-        <div th:replace="fragments :: upload_log"></div>
+        <h2>You are not allowed to access this page!</h2>
+        <p>How about you head on back to the <a href="/">main page</a>.</p>
     </main>
 </body>
 </html>

@@ -22,7 +22,7 @@ public class ModelsConfig {
     private final AssetManager assetManager;
     private final DataFileManager dataFileManager;
 
-    private boolean shouldGenerate = true;
+    private boolean shouldGenerate = false;
     private boolean generateOnly = false;
 
     public ModelsConfig() {

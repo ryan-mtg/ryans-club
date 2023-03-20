@@ -27,12 +27,36 @@
         </div>
 
         <header>
-            <a class="logo-link" href="https://stfc.servobot.info">
+            <a class="logo-link" href="/">
                 <img class="logo" src="/images/logo.png" alt="Ryan's Club"></a>
 
             <h1 th:text="${title}"></h1>
 
-            <div class="logo-balance"></div>
+            <section th:if="${user.authenticated}" class="login-section">
+                <div th:if="${user.registered}">
+                    <a class="homepage-button" th:href="@{/user}">
+                        <span th:text="${user.displayName}"></span>
+                    </a>
+                </div>
+                <div th:if="${user.authenticated && !user.registered}">
+                    <a class="homepage-button" th:href="@{/register}">
+                        Register
+                    </a>
+                </div>
+                <div>
+                    <form id="logout-form" method="post" action="/logout">
+                        <input name="_csrf" type="hidden" th:value="${_csrf.token}">
+                        <input class="logout-button" type="submit" value="Log Out"></input>
+                    </form>
+                </div>
+            </section>
+
+            <section th:if="${!user.authenticated}" class="login-section">
+                <a class="discord-login-button" th:href="@{/oauth2/authorization/discord}">
+                    Login
+                    <img src="/images/discord.png" alt="Discord">
+                </a>
+            </section>
         </header>
     </div>
 
@@ -53,6 +77,20 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </div>
+
+    <!-- upload log -->
+    <div th:fragment="upload_log">
+        <h2>Upload a Log</h2>
+
+        <p th:if="!${user.authenticated}" class="warning">You must log in before submitting logs for them to be saved.</p>
+        <p class="warning">While the site is still in beta, logs may be purged every now and then.</pl>
+
+        <form onsubmit="uploadLog(); return false">
+            <input type="hidden" id="log-file-user-id" th:value="${user.authenticated ? user.id : 0}">
+            <input type="file" id="log-file-button" name="log-file" class="form-button"><br>
+            <input type="submit" value="Submit" class="form-button">
+        </form>
     </div>
 
     <!-- star -->

@@ -34,13 +34,14 @@ public class LogSerializer {
     }
 
     public RawLog createLog(final String tag, final String hash, final int version, final int flags,
-            final int ipAddress, final String fileName, final Instant logTime, final Instant submissionTime,
-            final String data) {
+            final Integer userId, final int ipAddress, final String fileName, final Instant logTime,
+            final Instant submissionTime, final String data) {
         LogRow logRow = new LogRow();
         logRow.setTag(tag);
         logRow.setFlags(flags);
         logRow.setFlags(version);
         logRow.setHash(hash);
+        logRow.setUserId(userId);
         logRow.setIpAddress(ipAddress);
         logRow.setFileName(fileName);
         logRow.setLogTime(logTime.getEpochSecond());
@@ -60,6 +61,7 @@ public class LogSerializer {
         Instant submissionTime = Instant.ofEpochSecond(logRow.getSubmissionTime());
 
         return new RawLog(logRow.getId(), logRow.getTag(), logRow.getHash(), logRow.getVersion(), logRow.getFlags(),
-                logRow.getIpAddress(), logRow.getFileName(), logTime, submissionTime, logRow.getData());
+                logRow.getUserId(), logRow.getIpAddress(), logRow.getFileName(), logTime, submissionTime,
+                logRow.getData());
     }
 }

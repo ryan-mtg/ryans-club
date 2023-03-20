@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Ryan's Club</title>
+    <title th:text="${user.displayName}"></title>
     <div th:replace="fragments :: includes"></div>
 
     <meta name="twitter:card" content="summary">
@@ -16,10 +16,18 @@
     <meta property="og:locale" content="en_US">
 </head>
 <body data-theme="dark">
-    <div th:replace="fragments :: header('Ryan\'s Club Log Parser')"></div>
+    <div th:replace="fragments :: header(${user.displayName})"></div>
 
     <main>
+        <ul>
+            <li><b>Server:</b> <span th:text="${user.server}"></span></li>
+        </ul>
+
         <div th:replace="fragments :: upload_log"></div>
+
+        <h2>Logs</h2>
+        <ul>
+        </ul>
     </main>
 </body>
 </html>

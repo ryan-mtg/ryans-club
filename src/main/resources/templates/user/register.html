@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <div th:replace="fragments :: includes"></div>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ryans_club">
+    <meta name="twitter:title" content="Ryan's Club">
+
+    <meta property="og:title" content="Ryan's Club">
+    <meta property="og:image" content="/images/logo.png">
+    <meta property="og:type" content="webpage">
+    <meta property="og:description" content="Service for looking at STFC logs">
+    <meta property="og:locale" content="en_US">
+</head>
+<body data-theme="dark">
+    <div th:replace="fragments :: header('New User Registration')"></div>
+
+    <main>
+        <h2>Hello <span th:text="${user.displayName}"></span></h2>
+
+        <p>Please fill out the following to complete registration.</p>
+
+        <form class="form-block" onsubmit="registerUser(); return false">
+            <input id="register-user-id" type="hidden" th:value="${user.id}">
+
+            <div class="form-input">
+                <label>STFC Server</label>
+                <input id="register-user-server" type="number" min="1" max="200" autocomplete="off" required>
+            </div>
+
+            <div class="form-input">
+                <label>In Game Name</label>
+                <input id="register-user-handle" type="text" size="20" placeholder="Handle" autocomplete="off" required>
+            </div>
+
+            <input type="submit" value="Register" class="form-submit-button">
+        </form>
+    </main>
+</body>
+</html>

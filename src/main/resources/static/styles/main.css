@@ -20,6 +20,9 @@
 
     --text-font-family: 'Roboto Condensed', sans-serif;
     --title-font-family: 'Lato', sans-serif;
+
+    --discord-color: hsl(227, 58%, 65%);
+    --discord-color-dark: hsl(227, 58%, 45%);
 }
 
 body {
@@ -153,9 +156,76 @@ header {
     margin-left: 5rem;
 }
 
-.logo-balance {
-    margin-right: 5rem;
+.login-section {
+    margin-right: 5em;
     min-width: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    font-weight: bold;
+}
+
+.discord-login-button {
+    padding-top: .4rem;
+    padding-bottom: .3rem;
+    padding-right: .5rem;
+    padding-left: .75rem;
+    min-width: 50px;
+    min-height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: center;
+
+    color: var(--accent-color);
+    border: 3px solid var(--discord-color);
+    border-radius: .5rem;
+    background-color: var(--background-color);
+}
+
+.discord-login-button:hover {
+    color: var(--accent-color-light);
+    background-color: var(--background-color-alternate);
+    border: 3px solid var(--discord-color-dark)
+}
+
+.discord-login-button img {
+    vertical-align: center;
+    max-height: 30px;
+}
+
+.homepage-button {
+    padding-block: .75rem;
+    padding-inline: 1.5rem;
+    min-width: 50px;
+    min-height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+
+    color: var(--accent-color-text);
+    background-color: var(--accent-color);
+    border-radius: .5rem;
+}
+
+.homepage-button:hover {
+    background-color: var(--accent-color-light);
+}
+
+.logout-button {
+    padding-block: .75rem;
+    padding-inline: 1.5rem;
+    min-width: 50px;
+    min-height: 30px;
+    cursor: pointer;
+
+    color: var(--primary-color-text);
+    background-color: var(--primary-color-dark);
+    border-radius: .5rem;
+    border: none;
+    font-weight: bold;
 }
 
 .separated {
@@ -176,14 +246,46 @@ li {
 input[type=number] {
     width: 5em;
     text-align: right;
+
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
 
 .form-input input {
     margin: .25rem;
 }
 
-.form-button {
-    margin-block: .5rem;
+.form-block {
+    border: 2px solid var(--separator-color);
+    margin-top: 1rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.form-submit-button {
+    float: right;
+    margin-top: .5rem;
+    margin-right: .5rem;
+
+    padding-block: .75rem;
+    padding-inline: 1.5rem;
+    min-width: 50px;
+    min-height: 30px;
+    cursor: pointer;
+
+    color: var(--accent-color-text);
+    background-color: var(--accent-color);
+    border-radius: .5rem;
+    border: none;
+    font-weight: bold;
+}
+
+.form-submit-button:hover {
+    background-color: var(--accent-color-dark);
 }
 
 .form-select {
@@ -303,6 +405,12 @@ input[type=number] {
 #warning-banner {
     color: black;
     background-color: goldenrod;
+}
+
+.warning {
+    color: lightgrey;
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 
 #error-banner {
@@ -662,12 +770,6 @@ input[type=text].name {
 input[type=text].emote {
     box-sizing: border-box;
     min-width: 3em;
-}
-
-.form-block {
-    display: inline-block;
-    margin-bottom: 7px;
-    margin-right: 2em;
 }
 
 .form-container {

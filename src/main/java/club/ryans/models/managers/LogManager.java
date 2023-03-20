@@ -2,6 +2,7 @@ package club.ryans.models.managers;
 
 import club.ryans.data.serializers.LogSerializer;
 import club.ryans.models.RawLog;
+import club.ryans.security.user.User;
 import org.springframework.stereotype.Component;
 
 import javax.xml.bind.DatatypeConverter;
@@ -28,7 +29,8 @@ public class LogManager {
         return logSerializer.countLogs();
     }
 
-    public RawLog submitLog(final int ipAddress, final String fileName, final String data, final Instant logTime) {
+    public RawLog submitLog(final User user, final int ipAddress, final String fileName, final String data,
+            final Instant logTime) {
         String hash = computeHash(data);
 
         if(logSerializer.hasHash(hash)) {
@@ -37,7 +39,8 @@ public class LogManager {
 
         String tag = tagManager.createTag();
         Instant submissionTime = Instant.now();
-        return logSerializer.createLog(tag, hash, CURRENT_VERSION, DEFAULT_FLAGS, ipAddress, fileName, logTime,
+        Integer userId = user == null ? null : user.getId();
+        return logSerializer.createLog(tag, hash, CURRENT_VERSION, DEFAULT_FLAGS, userId, ipAddress, fileName, logTime,
                 submissionTime, data);
     }
 

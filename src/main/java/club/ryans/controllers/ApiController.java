@@ -6,17 +6,20 @@ import club.ryans.parser.Log;
 import club.ryans.parser.LogAnalyzer;
 import club.ryans.parser.LogParser;
 import club.ryans.parser.ParseResult;
+import club.ryans.security.user.User;
+import club.ryans.security.user.UserManager;
 import club.ryans.utility.Json;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
@@ -24,23 +27,22 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 @Slf4j
-@Controller
-@RequestMapping("/api/public")
+@RestController
+@RequestMapping("/api")
 @RequiredArgsConstructor
 public class ApiController {
     Pattern IP_ADDRESS_PATTERN = Pattern.compile("(\\d+)\\.(\\d+)\\.(\\d+)\\.(\\d+)");
 
     private final LogParser parser = new LogParser();
 
-    @Autowired
     private final LogManager logManager;
-
-    @Autowired
     private final LogAnalyzer analyzer;
+    private final UserManager userManager;
 
     @PostMapping("/submit_log")
     public ResponseEntity submitLog(final HttpServletRequest request,
-                @RequestParam("file") final MultipartFile logFile) {
+                @RequestParam("file") final MultipartFile logFile,
+                @RequestParam(value = "user", required = false) Integer userId) {
         try {
             ParseResult parseResult = parser.parse(logFile.getInputStream());
             String fileName = logFile.getOriginalFilename();
@@ -48,7 +50,9 @@ public class ApiController {
             int ipAddress = convertIpAddress(request.getRemoteAddr());
             ObjectMapper mapper = Json.createObjectMapper();
             String data = mapper.writeValueAsString(parseResult);
-            RawLog rawLog = logManager.submitLog(ipAddress, fileName, data, log.getTime());
+
+            User user = userId == null ? null : userManager.lookupUser(userId);
+            RawLog rawLog = logManager.submitLog(user, ipAddress, fileName, data, log.getTime());
             log.setTag(rawLog.getTag());
 
             return ResponseEntity.ok(log);
@@ -74,6 +78,17 @@ public class ApiController {
         }
     }
 
+    @Getter
+    private static class RegisterUserRequest {
+        private int userId;
+        private int server;
+        private String handle;
+    }
+
+    @PostMapping("/register_user")
+    public User registerUser(@RequestBody final RegisterUserRequest request) {
+        return userManager.registerUser(request.getUserId(), request.getServer(), request.getHandle());
+    }
 
     private int convertIpAddress(final String ipString) {
         Matcher matcher = IP_ADDRESS_PATTERN.matcher(ipString);

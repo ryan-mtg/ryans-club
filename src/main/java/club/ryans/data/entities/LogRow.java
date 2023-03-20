@@ -37,6 +37,9 @@ public class LogRow {
     @Size(min = 1, max = Constraints.HASH_SIZE)
     private String hash;
 
+    @Column(name = "user_id")
+    private Integer userId;
+
     @NotNull
     @Column(name = "ip_address")
     private int ipAddress;

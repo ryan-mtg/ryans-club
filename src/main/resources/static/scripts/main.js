@@ -67,13 +67,13 @@ async function handleError(response) {
 function addSecurityField(settings) {
     const security = document.getElementById('security-token').dataset;
     settings.headers[security.header] = security.token;
-    settings.body = JSON.stringify(parameters);
     return settings;
 }
 
 function getPostSettings(parameters) {
     let settings = getRequestSettings('POST');
-    addSecurityField(settings);
+    settings.body = JSON.stringify(parameters);
+    return addSecurityField(settings);
 }
 
 function getGetSettings() {
@@ -82,13 +82,14 @@ function getGetSettings() {
 
 
 function getFormDataPostSettings(formData) {
-    return {
+    let settings = {
         method: 'POST',
         body: formData,
         headers: {
             Accept: 'application/json'
         },
     };
+    return addSecurityField(settings);
 }
 
 function getRequestSettings(method) {
@@ -380,10 +381,16 @@ async function uploadLog() {
         return;
     }
 
+    const userId = getInt('log-file-user-id');
+
     const formData = new FormData();
     formData.append('file', fileInput.files[0]);
 
-    const response = await makeFormDataPost('/api/public/submit_log', formData);
+    if (userId != 0) {
+        formData.append('user', userId);
+    }
+
+    const response = await makeFormDataPost('/api/submit_log', formData);
     if (response.ok) {
         const log = await response.json();
         window.location.replace('/log/' + log.tag);
@@ -615,4 +622,15 @@ function scoplifyNumber(number) {
 function getRarityStyle(rarity) {
     const lowerRarity = rarity.toLowerCase();
     return `rarity-${lowerRarity}`;
+}
+
+async function registerUser() {
+    const userId = getInt('register-user-id');
+    const server = getInt('register-user-server');
+    const handle = getValue('register-user-handle');
+    let response = await makePost('/api/register_user', {userId, server, handle});
+
+    if (response.ok) {
+        window.location = '/user';
+    }
 }

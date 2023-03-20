@@ -13,6 +13,7 @@ public class RawLog {
     private String hash;
     private int version;
     private int flags;
+    private Integer userId;
     private int ipAddress;
     private String fileName;
     private Instant logTime;

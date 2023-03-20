@@ -10,7 +10,7 @@ async function initializeLogs() {
 initializeLogs();
 
 async function initializeLog(tag) {
-    const response = makeGet('/api/public/log', {tag});
+    const response = makeGet('/api/log', {tag});
     response.then((response) => response.json().then(updateLog));
 
     document.querySelectorAll('.share-log-button')

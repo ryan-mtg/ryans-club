@@ -49,6 +49,16 @@ public class IndexController {
         return "index";
     }
 
+    @GetMapping("register")
+    public String registerNewUser() {
+        return "user/register";
+    }
+
+    @GetMapping("user")
+    public String profile() {
+        return "user/profile";
+    }
+
     @GetMapping("/log/{tag}")
     public String log(final Model model, @PathVariable final String tag) {
         RawLog rawLog = logManager.getLogFromTag(tag);
