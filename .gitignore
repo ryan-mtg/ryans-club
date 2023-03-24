@@ -1,18 +1,18 @@
 # Gradle directory
-.gradle/
+/.gradle/
 
 # IntelliJ directory
-.idea/
+/.idea/
 
 # build directories
-build/
-out/
+/build/
+/out/
 
 # secret directory
-secret/
+/secret/
 
 # generated data files directory
-data/
+/data/
 
 # Compiled class file
 *.class
