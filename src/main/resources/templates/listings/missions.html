@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Mission</title>
+    <div th:replace="fragments :: includes"></div>
+</head>
+<body>
+    <div th:replace="fragments :: header('Missions')"></div>
+
+    <main>
+        <div class="blocks-container">
+            <a th:each="mission: ${missions}" class="unstyled-link" th:href="'mission/' + ${mission.id}">
+                <div class="item-block">
+                    <div class="rows">
+                        <span class="set-title" th:text="${mission.title}"></span>
+
+                        <span>
+                            <span th:text="${mission.id}"></span> |
+                            <span th:text="${mission.recommendedLevel}"></span>
+                            <span th:if="${mission.hasStartSystem()}">
+                                <div th:each="system: ${mission.pickupSystems}">
+                                    <span class="note" th:text="${system.name}"></span>
+                                </div>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+</body>
+</html>

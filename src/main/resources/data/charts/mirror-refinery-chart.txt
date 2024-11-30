@@ -1,0 +1,85 @@
+research_chart {
+    title: Mirror Refinery,
+    research: 67656,
+    id: mirror-refinery,
+    columns: [
+        column {
+            title: Research Level,
+        },
+        chest_group {
+            title: Raw Trellium-A,
+            cooldown: 20h,
+            id: trellium-a,
+            costResource: 67001,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                }
+            ],
+            rewards: [
+                column {
+                    title: Liquid Trellium-D,
+                    resource: 67003,
+                },
+                column {
+                    title: Common Mirror Dust,
+                    resource: 67007,
+                    probabilities: [80%, 20%],
+                },
+                column {
+                    title: Rare Mirror Dust,
+                    resource: 67009,
+                    probabilities: [33%],
+                },
+            ],
+        },
+        chest_group {
+            title: Raw Trellium-D,
+            cooldown: 68h,
+            id: trellium-d,
+            costResource: 67002,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                }
+            ],
+            rewards: [
+                column {
+                    title: Liquid Trellium-D,
+                    resource: 67003,
+                },
+                column {
+                    title: Uncommon Mirror Dust,
+                    resource: 67008,
+                    probabilities: [80%, 20%],
+                },
+                column {
+                    title: Epic Mirror Dust,
+                    resource: 67010,
+                    probabilities: [33%],
+                },
+            ],
+        },
+    ],
+
+    rows: [
+        [0, 2800, 11000, 40, 150/300, 155, 4200, 16500, 140, 275/550, 250],
+        [1, 3000, 12000, 55, 200/400, 200, 4500, 18000, 180, 400/750, 300],
+        [2, 3200, 13000, 70, 270/540, 260, 4800, 19000, 240, 500/1000, 400],
+        [3, 3400, 14000, 85, 350/700, 320, 5100, 19500, 300, 650/1250, 450],
+        [4, 36000, 145000, 200, 800/1500, 700, 42000, 165000, 650, 1400/2800, 1000],
+        [5, 39000, 155000, 225, 900/1800, 780, 45000, 180000, 750, 1600/3200, 1100],
+        [6, 42000, 165000, 250, 1000/2000, 870, 48000, 195000, 850, 1800/3600, 1200],
+        [7, 45000, 180000, 280, 1100/2300, 950, 50000, 200000, 950, 2000/4000, 1300],
+        [8, 365000, 1500000, 400, 1700/3300, 1350, 500000, 2000000, 1400, 3000/6000, 1900],
+        [9, 510000, 2000000, 450, 1800/3700, 1450, 530000, 2100000, 1500, 3200/6400, 2000],
+        [10, 535000, 2100000, 500, 2000/4000, 1600, 550000, 2200000, 1700, 3600/7200, 2100],
+        [11, 565000, 2200000, 600, 2300/4700, 1800, 570000, 2300000, 2000, 4000/8000, 2300],
+    ],
+}

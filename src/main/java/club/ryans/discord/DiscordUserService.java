@@ -1,8 +1,8 @@
 package club.ryans.discord;
 
-import club.ryans.security.user.User;
+import club.ryans.models.player.User;
 import club.ryans.security.user.UserInfo;
-import club.ryans.security.user.UserManager;
+import club.ryans.models.managers.UserManager;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.GrantedAuthority;

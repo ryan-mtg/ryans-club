@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ryan's Club</title>
+    <div th:replace="fragments :: includes"></div>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ryans_club">
+    <meta name="twitter:title" content="Ryan's Club">
+
+    <meta property="og:title" content="Ryan's Club">
+    <meta property="og:image" content="/images/logo.png">
+    <meta property="og:type" content="webpage">
+    <meta property="og:description" content="Service for looking at STFC logs">
+    <meta property="og:locale" content="en_US">
+</head>
+<body data-theme="dark">
+    <div th:replace="fragments :: header(${alliance.name} + ' Alliance')"></div>
+
+    <main>
+        <h2 class="separated">Territories</h2>
+        <table class="data-table">
+            <thead><tr>
+                <th>Name</th>
+                <th>Resources</th>
+                <th>Services</th>
+                <th>Takeover (CT)</th>
+                <th>Notes</th>
+            </tr></thead>
+            <tbody>
+                <row th:each="ownership: ${alliance.ownerships}" th:with="territory=${ownership.territory}">
+                    <tr>
+                        <td th:text="${territory.name}"></td>
+                        <td>
+                            <div class="rss-icon-container">
+                                <span th:each="resource: ${territory.resources()}">
+                                    <img class="small-icon" th:src="${resource.getImageUrl()}"
+                                        th:title="${resource.name}">
+                                </span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rss-icon-container">
+                                <span th:each="service: ${ownership.serviceApplications}">
+                                    <img class="small-icon" th:src="${service.getImageUrl()}"
+                                         th:classappend="${service.style}"
+                                         th:title="${service.name} + ': ' + ${service.description}">
+                                </span>
+                            </div>
+                        </td>
+                        <td th:text="${territory.takeover}"></td>
+                        <td th:text="${territory.notes}"></td>
+                    </tr>
+                </row>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

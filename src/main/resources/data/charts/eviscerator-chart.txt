@@ -1,0 +1,49 @@
+chart {
+    title: Gorn Eviscerator,
+    id: gorn-eviscerator,
+    ship: GORN EVISCERATOR,
+    columns: [
+        column {
+            title: Tier,
+        },
+        claim_group {
+            title: Axion Plama Claim,
+            cooldown: 22h,
+            id: axion-plasma,
+            resource: 66002,
+
+            capacity: column {
+                title: Capacity,
+            },
+            rewards: [
+                column {
+                    title: Axion Plasma,
+                },
+            ],
+            fallback_claims: [
+                resource_amount {
+                    resource: 66001,
+                    amount: 100,
+                },
+            ],
+        },
+    ],
+
+    rows: [
+        [1, 30000, 7500],
+        [2, 30300, 7800],
+        [3, 30600, 8100],
+        [4, 30900, 8400],
+        [5, 31200, 8700],
+        [6, 31500, 9000],
+        [7, 31800, 9300],
+        [8, 32100, 9600],
+        [9, 32400, 9900],
+        [10, 32700, 10200],
+        [11, 33000, 10500],
+        [12, 33300, 10800],
+        [13, 33600, 11100],
+        [14, 33900, 11400],
+        [15, 34200, 11700],
+    ],
+}

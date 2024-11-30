@@ -19,6 +19,7 @@ public class ShipManager {
 
     private final DataFileManager dataFileManager;
     private final Map<Long, ShipClass> shipMap = new HashMap<>();
+    private final Map<Long, ShipClass> stfcSpaceIdMap = new HashMap<>();
     private final Map<String, ShipClass> abilityMap = new HashMap<>();
     private final Map<String, ShipClass> nameMap = new HashMap<>();
 
@@ -40,6 +41,14 @@ public class ShipManager {
         return nameMap.get(name);
     }
 
+    public ShipClass getShipClass(final long id) {
+        return shipMap.get(id);
+    }
+
+    public ShipClass getShipClassFromStfcSpaceId(final long stfcSpaceId) {
+        return stfcSpaceIdMap.get(stfcSpaceId);
+    }
+
     private void loadFile() {
         ObjectMapper mapper = Json.createObjectMapper();
 
@@ -48,6 +57,7 @@ public class ShipManager {
             List<ShipClass> shipClasses = mapper.readValue(stream, new TypeReference<List<ShipClass>>() {});
             for (ShipClass shipClass : shipClasses) {
                 shipMap.put(shipClass.getId(), shipClass);
+                stfcSpaceIdMap.put(shipClass.getStfcSpaceId(), shipClass);
                 abilityMap.put(shipClass.getBonus().getName(), shipClass);
                 nameMap.put(shipClass.getName(), shipClass);
             }

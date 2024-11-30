@@ -7,6 +7,8 @@ import java.util.List;
 
 @Data
 public class Building {
+    public static final long OPS_ID = 0;
+
     private long id;
     private String name;
     private String description;

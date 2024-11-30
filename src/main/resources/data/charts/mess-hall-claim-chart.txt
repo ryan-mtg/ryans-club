@@ -1,0 +1,28 @@
+ops_chart {
+    title: Mess Hall,
+    id: mess-hall,
+    columns: [
+        column {
+            title: Level,
+        },
+        claim_group {
+            title: Mess Hall Claim,
+            cooldown: 22h,
+            id: mess-hall,
+            rewards: [
+                column {
+                    title: Replicator Rations,
+                    resource: 60050,
+                },
+            ],
+        },
+    ],
+
+    rows: [
+        [15-29, 1500],
+        [30-39, 2000],
+        [40-49, 2500],
+        [50-59, 3000],
+        [60-70, 3500],
+    ],
+}

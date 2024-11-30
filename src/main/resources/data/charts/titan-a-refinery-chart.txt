@@ -1,0 +1,128 @@
+chart {
+    title: Titan-A Refinery,
+    id: titan-a-refinery,
+    ship: USS TITAN-A,
+    columns: [
+        column {
+            title: Tier,
+        },
+        chest_group {
+            title: Fleet Commander SP Refine,
+            cooldown: 22h,
+            id: fleet-commander-skill-points-refine,
+            costResource: 53018,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                },
+                chest {
+                    chests: 3,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Rare Skill Point Fragments,
+                    resource: 53016,
+                },
+                column {
+                    title: Uncommon Commander Skill Points,
+                    resource: 50103,
+                },
+            ],
+        },
+        chest_group {
+            title: Titan-A Ship Parts Refine,
+            cooldown: 22h,
+            id: titan-a-ship-parts-refine,
+            costResource: 53017,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                }
+            ],
+            rewards: [
+                column {
+                    title: Parts,
+                    resource: 53002,
+                },
+            ],
+        },
+        chest_group {
+            title: Veridium Isotope Refine,
+            cooldown: 22h,
+            id: veridium-isotope-refine,
+            costResource: 53017,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                }
+            ],
+            rewards: [
+                column {
+                    title: Veridium Isotopes,
+                    resource: 53009,
+                },
+            ],
+        },
+        column_group {
+            title: Fortification Ability,
+            columns: [
+                column {
+                    title: Duration,
+                },
+                column {
+                    title: Cooldown,
+                },
+            ],
+        },
+        column_group {
+            title: Max Fortification Ability,
+            columns: [
+                column {
+                    title: Duration,
+                },
+                column {
+                    title: Cooldown,
+                },
+            ],
+        },
+        column {
+            title: Ships Fortified,
+        },
+        claim_group {
+            title: Daily Claim,
+            id: radioactive-titanite,
+            cooldown: 22h,
+            rewards: [
+                column {
+                    title: Radioactive Titanite,
+                    resource: 53008,
+                },
+            ],
+        },
+    ],
+
+    rows: [
+        [1, 1000, 2000, 5000, 32, 35, 1000, 3000, 1110/2220/6660, 1000, 3000, 135/265/795, 240s, 480s, X, X, 2, 4000],
+        [2, 1000, 2000, 5000, 35, 37, 1000, 3000, 1388/2775/8325, 1000, 3000, 149/292/875, ?, ?, X, X, 3, 4250],
+        [3, 1000, 2000, 5000, 40, 40, 1000, 3000, 1730/3455/10300, 1000, 3000, 160/320/960, 280s, 440s, 700s, 3600s, 4, 4500],
+        [4, 1000, 2000, 5000, 45, 42, 1000, 3000, 2155/4305/12900, 1000, 3000, 185/365/1095, 300s, 420s, 725s, 3600s, 5, 4750],
+        [5, 1000, 2000, 5000, 50, 45, 1000, 3000, 2680/5360/16000, 1000, 3000, 200/400/1200, 320s, 406s, 750s, 3600s, 6, 5000],
+        [6, 1000, 2000, 5000, 55, 47, 1000, 3000, 3335/6665/19900, 1000, 3000, 220/435/1305, 340s, ?, 775s, 3600s, 7, 5250],
+        [7, 1000, 2000, 5000, 60, 50, 1000, 3000, 4135/8265/24700, 1000, 3000, 240/480/1440, 360s, 370s, 800s, 3600s, 8, 5500],
+        [8, 1000, 2000, 5000, 67, 55, 1000, 3000, 5120/10200/30700, 1000, 3000, 270/540/1620, 380s, 354s, 825s, 3600s, 9, 5750],
+        [9, 1000, 2000, 5000, 75, 60, 1000, 3000, 6335/12600/38000, 1000, 3000, 310/620/1860, 400s, 335s, 850s, 3600s, 10, 6000],
+        [10, 1000, 2000, 5000, 82, 65, 1000, 3000, 7830/15600/46900, 1000, 3000, 360/720/2160, 420s, 315s, 875s, 3600s, 11, 6250],
+        [11, 1000, 2000, 5000, 90, 70, 1000, 3000, ?/?/?, 1000, 3000, ?/?/?, ?, ?, ?, ?, 12, 6500],
+        [12, 1000, 2000, 5000, 100, 75, 1000, 3000, 9675/19300/58000, 1000, 3000, ?/?/?, 460s, ?, 925s, ?, 13, 6750],
+    ],
+}

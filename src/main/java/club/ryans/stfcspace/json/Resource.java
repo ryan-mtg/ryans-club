@@ -16,4 +16,7 @@ public class Resource {
 
     @JsonProperty("sorting_index")
     private int sortingIndex;
+
+    @JsonProperty("loca_id")
+    private int localId;
 }

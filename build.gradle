@@ -2,7 +2,6 @@ plugins {
 	id 'org.springframework.boot' version '2.6.0'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
-	id 'org.hidetake.ssh' version '2.10.1'
 }
 
 group = 'club.ryans'
@@ -20,15 +19,13 @@ repositories {
 	mavenCentral()
 }
 
-def deploymentProperties = new Properties()
-file('secret/deployment.properties').withInputStream {deploymentProperties.load(it) }
+project.ext.set('secretDir', 'secret/local')
 
-remotes {
-	server {
-		host = deploymentProperties.getProperty('hostname')
-		user = deploymentProperties.getProperty('user')
-		identity = file(deploymentProperties.getProperty('keyfile'))
-	}
+if (gradle.startParameter.taskNames.contains('bootJar')
+		|| gradle.startParameter.taskNames.contains('assemble')
+		|| gradle.startParameter.taskNames.contains('install')
+		|| gradle.startParameter.taskNames.contains('deploy')) {
+	project.ext.set('secretDir', 'secret/deploy')
 }
 
 dependencies {
@@ -41,19 +38,23 @@ dependencies {
 	implementation 'mysql:mysql-connector-java'
 	implementation 'org.apache.httpcomponents:httpclient:4.+'
 	implementation 'org.jsoup:jsoup:1.+'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	// implementation 'org.springframework.session:spring-session-jdbc'
+	implementation 'org.springframework.session:spring-session-jdbc'
 
 	implementation ('net.dv8tion:JDA:5.0.0-alpha.12') {
 		exclude module: 'opus-java'
 	}
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
 
 test {
@@ -83,20 +84,14 @@ processResources {
 	duplicatesStrategy = DuplicatesStrategy.INCLUDE
 }
 
-task deploy {
+task deploy(type:Exec) {
 	group = 'application'
-	description = 'Builds and uploads deployment jar to EC2 instance.'
+	description = 'Builds and deploys assembly jar.'
 	dependsOn(bootJar)
 
-	doLast {
+	doFirst {
 		println '< doing deploy of ' + bootJar.archiveFile.get().asFile.name
-		ssh.run {
-			session(remotes.server) {
-				put from: bootJar.archiveFile.get().asFile, into: 'install-stfc'
-				def result = execute 'sudo install-stfc/deploy.sh'
-				println result
-			}
-		}
+		commandLine = ['cmd', '/C', 'src\\scripts\\deploy.bat']
 		println '> deploy done'
 	}
 }
@@ -106,6 +101,7 @@ task install {
 	description = 'Installs the necessary files to a new server.'
 
 	doLast {
+		/*
 		ssh.run {
 			session(remotes.server) {
 				execute 'sudo mkdir -p /var/stfc'
@@ -116,6 +112,6 @@ task install {
 				execute 'sudo cp install-stfc/stfc.service /etc/systemd/system'
 			}
 		}
+		 */
 	}
 }
-

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Dailies</title>
+    <div th:replace="fragments :: includes"></div>
+</head>
+<body data-theme="dark">
+    <div th:replace="fragments :: header(title='Dailies')"></div>
+
+    <main>
+        <h1>Daily Tasks</h1>
+
+        <div>
+            <div class="option-selector" th:attr=="data-group=${dailies.defaultGroupId}"
+                ><span th:each="group : ${dailies.groups}"
+                   th:id="'daily-' + ${group.id} + '-selector'" th:text="${group.name}"
+                   class="selector-item" onclick="selectDailyGroup(this)" th:attr="data-group-id=${group.id}"
+                   th:classappend="${group.id == dailies.defaultGroupId} ? 'selected' : ''"></span></div>
+        </div>
+
+        <div>
+            <div th:each="group : ${dailies.groups}" th:id="'daily-' + ${group.id} + '-panel'"
+                    th:hidden="${group.id} != ${dailies.defaultGroupId}">
+
+                <div th:each="subgroup : ${group.subgroups}">
+                    <h2 class="subgroup-header">
+                        <img th:if="${subgroup.shipClass}" th:src="${subgroup.shipClass.imageUrl}" class="subgroup-ship">
+                        <span th:text="${subgroup.name}"></span>
+                    </h2>
+
+                    <div class="daily-task-blocks-container">
+                        <div th:each="daily : ${subgroup.dailies}" class="daily-task-block"
+                                th:attr="data-daily=${daily.id}">
+                            <div class="daily-task-header">
+                                <h3 th:text="${daily.name}"></h3>
+                            </div>
+                            <div class="daily-task-content">
+                                <th:block th:if="${daily.selector}">
+                                    <div th:if="${daily.selector.opsType}">
+                                        <h2>Ops</h2>
+                                        <div>Level <span th:text="${daily.selector.opsLevel}"></span></div>
+                                    </div>
+                                    <div th:if="${daily.selector.shipType}">
+                                        <img class="bundle-ship" th:src="${daily.selector.shipClass.imageUrl}">
+                                        <div th:text="${daily.selector.shipClass.name}"></div>
+                                        <div>Tier <span th:text="${daily.selector.tier}"></span></div>
+                                    </div>
+                                    <div th:if="${daily.selector.buildingType}">
+                                        <img class="bundle-ship" th:src="${daily.selector.building.imageUrl}">
+                                        <div th:text="${daily.selector.building.name}"></div>
+                                        <div>Level <span th:text="${daily.selector.level}"></span></div>
+                                    </div>
+                                    <div th:if="${daily.selector.researchType}">
+                                        <img class="daily-research" th:src="${daily.selector.research.imageUrl}"
+                                             th:classappend="${daily.selector.research.style}">
+                                        <div th:text="${utility.sanitize(daily.selector.research.name)}"></div>
+                                        <div>Level <span th:text="${daily.selector.level}"></span></div>
+                                    </div>
+                                </th:block>
+
+                                <div th:if="${daily.redeem}">
+                                    <h4>Chests</h4>
+                                    <div class="option-selector compact" th:attr="data-chest=${daily.selectedChestIndex}">
+                                        <span th:each="chest,iterator : ${daily.prices}"
+                                            th:id="'daily-' + ${daily.id} + '-chest-' + ${iterator.index}"
+                                            class="selector-item" onclick="selectDailyChest(this)"
+                                            th:attr="data-chest=${iterator.index}"
+                                            th:classappend="${iterator.index == daily.selectedChestIndex ? 'selected' : 'not-selected'}"
+                                            th:text="${chest.name}">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div th:if="${daily.claim}">
+                                    <h4>Chests</h4>
+                                    <div class="option-selector compact">
+                                        <span class="selector-item selected">Free</span>
+                                    </div>
+                                </div>
+
+                                <div th:if="${daily.redeem}" class="daily-task-subblock">
+                                    <h4>Cost</h4>
+                                    <div th:id="'daily-' + ${daily.id} + '-costs'" class="daily-task-item-container">
+                                        <div th:each="requirement : ${daily.required}" class="daily-task-item">
+                                            <img class="daily-resource" th:src="${requirement.resource.imageUrl}"
+                                                th:classappend="${requirement.resource.style}">
+                                            <div th:text="${requirement.resource.name}"></div>
+                                            <div th:if="${requirement.ready}">
+                                                <span th:text="${requirement.redeems}"></span> Redeems
+                                            </div>
+                                            <div th:unless="${requirement.ready}">
+                                                <span class="task-unready"
+                                                      th:text="${utility.scoplify(requirement.stillNeeded)}"></span>
+                                                /
+                                                <span th:text="${utility.scoplify(requirement.cost)}"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div th:if="${daily.claim}" class="daily-task-subblock">
+                                    <h4>Capacity</h4>
+                                    <div th:if="${daily.overCapacity}">
+                                        <div>Over capacity.</div>
+                                        <div><span class="task-unready" th:text="${daily.usesRequired}"></span> uses
+                                            required.
+                                        </div>
+                                    </div>
+                                    <div th:if="${daily.underCapacity}">
+                                        <div><span th:text="${daily.amount}"></span> /
+                                            <span th:text="${daily.capacity.amount}"></span>
+                                        </div>
+                                    </div>
+                                    <div th:if="${daily.hasNoCapacity()}">
+                                        <div>No limit</div>
+                                    </div>
+                                </div>
+
+                                <div th:if="${daily.redeem}" class="daily-task-subblock">
+                                    <h4>Reward</h4>
+                                    <div th:id="'daily-' + ${daily.id} + '-rewards'" class="daily-task-item-container">
+                                        <div th:each="reward : ${daily.selectedRewards}" class="daily-task-item">
+                                            <img class="daily-resource" th:src="${reward.resource.imageUrl}"
+                                                 th:classappend="${reward.resource.style}">
+                                            <div th:text="${reward.display}"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div th:if="${daily.claim}" class="daily-task-subblock">
+                                    <h4>Claim</h4>
+                                    <div class="daily-task-item-container">
+                                        <div th:each="claim : ${daily.claims}" class="daily-task-item">
+                                            <img class="daily-resource" th:src="${claim.resource.imageUrl}">
+                                            <div>
+                                                <span th:text="${utility.scoplify(claim.amount)}"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>

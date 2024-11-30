@@ -1,0 +1,98 @@
+ops_chart {
+    title: 2★ Materials Refinery,
+    id: grade-2-materials-refinery,
+    columns: [
+        column {
+            title: Ops,
+        },
+        chest_group {
+            title: 2★ Crystal,
+            cooldown: 22h,
+            id: grade-2-crystal,
+            costResource: 7,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                },
+                chest {
+                    chests: 3,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Common,
+                    resource: 18,
+                },
+                column {
+                    title: Uncommon,
+                    resource: 19,
+                },
+            ],
+        },
+        chest_group {
+            title: 2★ Gas,
+            cooldown: 22h,
+            id: grade-2-gas,
+            costResource: 6,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                },
+                chest {
+                    chests: 3,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Common,
+                    resource: 16,
+                },
+                column {
+                    title: Uncommon,
+                    resource: 17,
+                },
+            ],
+        },
+        chest_group {
+            title: 2★ Ore,
+            cooldown: 22h,
+            id: grade-2-ore,
+            costResource: 5,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                },
+                chest {
+                    chests: 3,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Common,
+                    resource: 14,
+                },
+                column {
+                    title: Uncommon,
+                    resource: 15,
+                },
+            ],
+        },
+    ],
+
+    rows: [
+        [10-11, 3K, X, X, 15/23/30, 6/12, 3K, X, X, 15/23/30, 6/12, 3K, X, X, 15/23/30, 6/12],
+        [12-13, 3K, 15K, X, 62/93/124, 5/7/18, 3K, 15K, X, 62/93/124, 5/7/18, 3K, 15K, X, 62/93/124, 5/7/18],
+        [14-15, 3K, 15K, X, 125/188/250, 6/10/24, 3K, 15K, X, 125/188/250, 6/10/24, 3K, 15K, X, 125/188/250, 6/10/24],
+        [16-17, 3K, 15K, 50K, 150/225/300, 7/12/30, 3K, 15K, 50K, 150/225/300, 7/12/30, 3K, 15K, 50K, 150/225/300, 7/12/30],
+        [18-70, 3K, 15K, 50K, 300/340/600, 8/15/40, 3K, 15K, 50K, 300/340/600, 8/15/40, 3K, 15K, 50K, 300/340/600, 8/15/40],
+    ],
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+    <div th:replace="fragments :: includes"></div>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ryans_club">
+    <meta name="twitter:title" content="Ryan's Club">
+
+    <meta property="og:title" content="Ryan's Club">
+    <meta property="og:image" content="/images/logo.png">
+    <meta property="og:type" content="webpage">
+    <meta property="og:description" content="Service for looking at STFC logs">
+    <meta property="og:locale" content="en_US">
+</head>
+<body data-theme="dark">
+    <div th:replace="fragments :: header('Users')"></div>
+
+    <main>
+        <h2>Users</h2>
+        <table class="data-table">
+            <thead><tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Discord</th>
+                <th>Registration</th>
+                <th>Server</th>
+                <th>Sync</th>
+                <th>Flags</th>
+            </tr></thead>
+            <tbody>
+                <tr th:each="user : ${users}">
+                    <td th:text="${user.id}">Id</td>
+                    <td th:text="${user.displayName}">Name</td>
+                    <td th:text="${user.discordName}">Discord</td>
+                    <td th:text="${Time.toDevString(user.registrationTime)}">Registration</td>
+                    <td th:text="${user.account?.server}">Server</td>
+                    <td th:text="${user.account?.syncToken}">Sync</td>
+                    <td>
+                        <span th:if="${user.isAdmin()}">(admin)</span>
+                        <span th:if="${user.isRegistered()}">(registered)</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Invites</h2>
+        <table id="invite-table" class="data-table">
+            <thead><tr>
+                <th>Id</th>
+                <th>State</th>
+                <th>Token</th>
+                <th>Creator</th>
+                <th>Creation Time</th>
+                <th>User</th>
+                <th>Use Time</th>
+            </tr></thead>
+            <tbody>
+                <tr th:each="invite : ${invites}">
+                    <td th:text="${invite.id}">Id</td>
+                    <td th:text="${invite.stateDisplay}" th:class="${invite.style}">State</td>
+                    <td>
+                        <span th:text="${invite.token}"></span>
+                        <button class="rc-button row-button">Copy</button>
+                    </td>
+                    <td th:text="${invite.creator?.displayName}">Creator</td>
+                    <td th:text="${Time.toDevString(invite.creationTime)}">Creation</td>
+                    <td th:text="${invite.user?.displayName}">User</td>
+                    <td th:text="${invite.useTime}">Use</td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="secondary-button separated" onclick="createInvite()">
+            Create Invite
+        </button>
+    </main>
+</body>
+</html>

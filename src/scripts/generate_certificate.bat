@@ -1,13 +1,15 @@
 @echo off
 
-Rem This script generates an SSL certificate used for the production instance of this service.
+REM This script generates an SSL certificate used for the production instance of this service.
+REM Run in the project's root directory (password must match what's in the secret\deploy):
+REM    src\scripts\generate_certificate.bat <password>
 
 set certbot_dir=c:\Certbot\live\servobot.info-0001
 set resources_dir=secret\deploy\resources
 set keystore_dir=%resources_dir%\keystore
 
 IF "%1" == "" GOTO USAGE
-    set password=%1
+set password=%1
 
 IF EXIST "build.gradle" GOTO GENERATE
 GOTO DIRECTORY
@@ -15,7 +17,7 @@ GOTO DIRECTORY
 :GENERATE
     echo Invoking certificate challenge.
     echo.
-    REM certbot certonly --manual --preferred-challenges dns -d servobot.info -d stfc.servobot.info
+    certbot certonly --manual --preferred-challenges dns -d servobot.info -d stfc.servobot.info
 
     DEL secret\deploy\stfc.p12
     echo.

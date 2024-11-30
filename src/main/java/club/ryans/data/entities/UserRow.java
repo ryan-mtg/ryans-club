@@ -35,12 +35,9 @@ public class UserRow {
     @Column(name = "discord_id")
     private long discordId;
 
-    private Integer server;
-
-    @Column(name = "game_name")
-    @Size(min = 1, max = Constraints.USER_NAME_SIZE)
-    private String gameName;
+    @Column(name = "main_account_id")
+    private Integer accountId;
 
     @Column(name = "registration_time")
-    private long registrationTime;
+    private Long registrationTime;
 }

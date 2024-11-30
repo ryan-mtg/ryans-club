@@ -19,14 +19,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.BiConsumer;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 @Slf4j
 public class BuildingGenerator {
     private static final Map<String, BiConsumer<Building, String>> FIELD_MAP =
             new HashMap<String, BiConsumer<Building, String>>() {{
-                put("name", Building::setName);
-                put("description", Building::setDescription);
+                put("starbase_module", BuildingGenerator::conditionallySetName);
+                put("starbase_module_name", Building::setName);
+                put("starbase_module_description", Building::setDescription);
             }};
 
     private final AssetManager assetManager;
@@ -54,14 +56,30 @@ public class BuildingGenerator {
 
         Utility.applyFields(fields, this::lookup, FIELD_MAP);
 
+        Map<String, Building> nameMap = new HashMap<>();
+        buildingMap.forEach((id, building) -> nameMap.put(building.getName(), building));
+
         for (Building building : buildingMap.values()) {
-            queryBuilding(building);
+            String name = building.getName();
+            int length = name.length();
+            if (length > 2 && name.charAt(length - 2) == ' ' && name.charAt(length - 1) != 'A') {
+                String aBuilding = name.substring(0, length - 1) + 'A';
+                if (nameMap.containsKey(aBuilding)) {
+                    building.setArtPath(nameMap.get(aBuilding).getArtPath());
+                }
+                queryBuilding(building);
+            }
         }
 
         writeFile();
     }
 
     private void queryBuilding(final Building building) {
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+        }
+
         BuildingDetails buildingDetails = stfcSpaceClient.building(building.getId());
 
         building.setLevels(buildingDetails.getLevels().stream().map(this::createLevel).collect(Collectors.toList()));
@@ -133,5 +151,22 @@ public class BuildingGenerator {
         });
 
         dataFileManager.writeFile(BuildingManager.DATA_FILE_NAME, buildings);
+    }
+
+    private static BiConsumer<club.ryans.models.Building, String> conditionallySetNameFancy(
+            final Function<Building, String> getter, final BiConsumer<Building, String> setter) {
+
+        return (building, name) -> {
+            String buildingName = getter.apply(building);
+            if (buildingName == null) {
+                setter.accept(building, name);
+            }
+        };
+    }
+
+    private static void conditionallySetName(final Building building, final String name) {
+        if (building.getName() == null) {
+            building.setName(name);
+        }
     }
 }

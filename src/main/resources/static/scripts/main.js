@@ -166,10 +166,24 @@ function createElement(tag, text, classes) {
     }
 
     if (classes) {
-        element.classList.add(classes);
+        classes.forEach(c => element.classList.add(c));
     }
 
     return element;
+}
+
+function createDiv(text, classes) {
+    return createElement('div', text, classes);
+}
+
+function createSpan(text, classes) {
+    return createElement('span', text, classes);
+}
+
+function createImg(src, classes) {
+    let img = createElement('img', null, classes);
+    img.src = src;
+    return img;
 }
 
 function getOrdinalSuffix(ordinal) {
@@ -335,7 +349,6 @@ async function selectTab(event) {
     tab.removeAttribute('tabindex');
     tab.setAttribute('aria-selected', true);
 }
-
 
 // ----------------------
 // Form related functions
@@ -625,12 +638,229 @@ function getRarityStyle(rarity) {
 }
 
 async function registerUser() {
-    const userId = getInt('register-user-id');
     const server = getInt('register-user-server');
     const handle = getValue('register-user-handle');
-    let response = await makePost('/api/register_user', {userId, server, handle});
+    const inviteToken = getValue('register-user-invite-token');
+    let response = await makePost('/api/register_user', {server, handle, inviteToken});
 
     if (response.ok) {
         window.location = '/user';
     }
+}
+
+// ----------------------
+// Selector Functions
+// ----------------------
+
+function removeSelected(elementId) {
+    let element = document.getElementById(elementId);
+    element.classList.remove('selected');
+}
+
+// ----------------------
+// Profile Page Functions
+// ----------------------
+
+async function createSyncToken() {
+    let response = await makePost('/api/create_sync_token', {});
+
+    if (response.ok) {
+        const syncToken = await response.json();
+
+        hideElementById('create-sync-token-button');
+        showElementById('copy-sync-token-button');
+        setValue('sync-token', syncToken);
+
+        let modIniExample = document.getElementById('mod-ini-example');
+        const newText = modIniExample.innerText.replace("[sync-token]", syncToken)
+        modIniExample.innerText = newText;
+    }
+}
+
+function copySyncToken() {
+    const token = getValue('sync-token');
+    copyToClipboard(token, 'Sync Token copied to clipboard');
+}
+
+async function updateSpocksClubSyncToken() {
+    const token = getValue('spocks-club-sync-token');
+    let response = await makePost('/api/update_spocks_club_sync_token', {token});
+
+    if (response.ok) {
+        alert("updated!");
+    }
+}
+
+function selectItem(newItemSelector, newItemType) {
+    let selector = newItemSelector.parentElement;
+
+    removeSelected(`item-${selector.dataset.item}-selector`);
+    hideElementById(`item-${selector.dataset.item}-panel`);
+
+    newItemSelector.classList.add('selected');
+    showElementById(`item-${newItemType}-panel`);
+    selector.dataset.item = newItemType;
+}
+
+function selectInventory(newGroupSelector) {
+    let selector = newGroupSelector.parentElement;
+
+    removeSelected(`inventory-${selector.dataset.group}-selector`);
+    hideElementById(`inventory-${selector.dataset.group}-panel`);
+
+    newGroupSelector.classList.add('selected');
+    const newGroup = newGroupSelector.dataset.groupId;
+    showElementById(`inventory-${newGroup}-panel`);
+    selector.dataset.group = newGroup;
+}
+
+function selectDailyGroup(newGroupSelector) {
+    let selector = newGroupSelector.parentElement;
+
+    removeSelected(`daily-${selector.dataset.group}-selector`);
+    hideElementById(`daily-${selector.dataset.group}-panel`);
+
+    newGroupSelector.classList.add('selected');
+    const newGroup = newGroupSelector.dataset.groupId;
+    showElementById(`daily-${newGroup}-panel`);
+    selector.dataset.group = newGroup;
+}
+
+async function selectDailyChest(newChestSelector) {
+    let dailyBlock = getDailyBlock(newChestSelector);
+    const dailyId = getDailyId(dailyBlock);
+    let selector = newChestSelector.parentElement;
+
+    const newChest = parseInt(newChestSelector.dataset.chest);
+
+    const parameters = {daily: dailyId, chest: newChest};
+    let response = await makePost('/api/update_daily', parameters);
+
+    if (response.ok) {
+        let dailyTask = await response.json();
+        removeSelected(`daily-${dailyId}-chest-${selector.dataset.chest}`);
+
+        newChestSelector.classList.add('selected');
+        selector.dataset.chest = newChest;
+
+        updateDailyTask(dailyBlock, dailyTask);
+    }
+}
+
+function updateDailyTask(dailyBlock, dailyTask) {
+    const dailyId = getDailyId(dailyBlock);
+
+    let costs = document.getElementById(`daily-${dailyId}-costs`);
+    costs.innerHTML = '';
+    dailyTask.required.forEach(requirement => {
+        const resource = requirement.resource;
+
+        let requirementItem = createDiv(null, ['daily-task-item']);
+
+        let img = createImg(resource.imageUrl, ['daily-resource', resource.style]);
+        requirementItem.appendChild(img);
+
+        requirementItem.appendChild(createDiv(resource.name));
+
+        if (requirement.ready) {
+            const redeemsText = `${requirement.redeems} Redeems`;
+            requirementItem.appendChild(createDiv(redeemsText));
+        } else {
+            let unreadyDiv = createDiv();
+
+            unreadyDiv.appendChild(createSpan(scoplifyNumber(requirement.stillNeeded), ['task-unready']));
+            unreadyDiv.appendChild(document.createTextNode(' / '));
+            unreadyDiv.appendChild(createSpan(scoplifyNumber(requirement.cost)));
+            requirementItem.appendChild(unreadyDiv);
+        }
+
+        costs.appendChild(requirementItem);
+    });
+
+    let rewards = document.getElementById(`daily-${dailyId}-rewards`);
+    rewards.innerHTML = '';
+    dailyTask.selectedRewards.forEach(reward => {
+        const resource = reward.resource;
+
+        let rewardItem = createDiv(null, ['daily-task-item']);
+
+        let img = createImg(resource.imageUrl, ['daily-resource', resource.style]);
+        rewardItem.appendChild(img);
+
+        rewardItem.appendChild(createDiv(reward.display));
+
+        rewards.appendChild(rewardItem);
+    });
+}
+
+function getDailyBlock(element) {
+    while (!element.classList.contains('daily-task-block')) {
+        element = element.parentElement;
+    }
+
+    return element;
+}
+
+function getDailyId(element) {
+    return getDailyBlock(element).dataset.daily;
+}
+
+// ----------------------
+// Crewing drag and drop
+// ----------------------
+
+function officerDragStart(event) {
+    const officerId = event.target.dataset.officerId;
+    event.dataTransfer.setData('text/plain', officerId);
+    event.dataTransfer.dropEffect = 'move';
+}
+
+function officerDragEnd(event) {
+    if (event.dataTransfer.dropEffect != 'none') {
+        event.target.draggable = false;
+    }
+}
+
+function officerDragOver(event) {
+    event.preventDefault();
+    event.dataTransfer.dropEffect = 'move';
+}
+
+function officerDrop(event) {
+    event.preventDefault();
+    let officerSlot = getContainerSlot(event.target);
+
+    const newOfficerId = event.dataTransfer.getData('text/plain');
+
+    if ('officerId' in officerSlot.dataset) {
+        const oldOfficerId = officerSlot.dataset.officerId;
+        let oldOfficerBlock = document.getElementById(`officer-${oldOfficerId}-block`);
+        oldOfficerBlock.draggable = true;
+    }
+    officerSlot.innerHTML = '';
+
+    officerSlot.dataset.officerId = newOfficerId;
+    officerSlot.appendChild(createOfficerBlock(newOfficerId));
+}
+
+function getContainerSlot(element) {
+    while (element) {
+        if (element.classList.contains('bridge-slot') || element.classList.contains('officer-slot')) {
+            return element;
+        }
+        element = element.parentNode;
+    }
+}
+
+function createOfficerBlock(officerId) {
+    let definitionBlock = document.getElementById(`officer-${officerId}-block`);
+
+    let image = createElement('img', null, 'large-set-icon');
+    image.src = definitionBlock.dataset.imageSrc;
+    image.draggable = false;
+
+    let officerDiv = createElement('div', null, 'crew-block');
+    officerDiv.appendChild(image);
+    officerDiv.classList.add(definitionBlock.dataset.style);
+    return officerDiv;
 }

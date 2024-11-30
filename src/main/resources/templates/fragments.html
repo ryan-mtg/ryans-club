@@ -5,7 +5,7 @@
 </head>
 <body>
     <!-- header -->
-    <div th:fragment="header(title)">
+    <div th:fragment="header(title)" th:with="showLogin= ${showLogin} ?: true">
         <span id="security-token" th:attr="data-token=${_csrf.token}, data-header=${_csrf.headerName}"></span>
 
         <div class="info-banner-frame">
@@ -27,12 +27,16 @@
         </div>
 
         <header>
-            <a class="logo-link" href="/">
-                <img class="logo" src="/images/logo.png" alt="Ryan's Club"></a>
+            <a class="logo-link" href="/"><img class="logo" src="/images/logo.png" alt="Ryan's Club"></a>
 
             <h1 th:text="${title}"></h1>
 
-            <section th:if="${user.authenticated}" class="login-section">
+            <section th:if="${user.authenticated} AND ${showLogin}" class="login-section">
+                <div th:if="${user.admin}">
+                    <a class="homepage-button" th:href="@{/admin}">
+                        <span>Admin</span>
+                    </a>
+                </div>
                 <div th:if="${user.registered}">
                     <a class="homepage-button" th:href="@{/user}">
                         <span th:text="${user.displayName}"></span>
@@ -51,12 +55,14 @@
                 </div>
             </section>
 
-            <section th:if="${!user.authenticated}" class="login-section">
+            <section th:if="${!user.authenticated} AND ${showLogin}" class="login-section">
                 <a class="discord-login-button" th:href="@{/oauth2/authorization/discord}">
                     Login
                     <img src="/images/discord.png" alt="Discord">
                 </a>
             </section>
+
+            <section th:if="!${showLogin}"></section>
         </header>
     </div>
 
@@ -72,7 +78,8 @@
     <div th:fragment="includes" th:remove="tag">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <link href="/styles/main.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript" src="/scripts/main.js"> </script>
+        <script type="text/javascript" src="/scripts/main.js"></script>
+        <script th:if="${user.admin}" type="text/javascript" src="/scripts/admin.js"></script>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -80,7 +87,7 @@
     </div>
 
     <!-- upload log -->
-    <div th:fragment="upload_log">
+    <div th:fragment="upload_log" th:if="false">
         <h2>Upload a Log</h2>
 
         <p th:if="!${user.authenticated}" class="warning">You must log in before submitting logs for them to be saved.</p>
@@ -89,7 +96,7 @@
         <form onsubmit="uploadLog(); return false">
             <input type="hidden" id="log-file-user-id" th:value="${user.authenticated ? user.id : 0}">
             <input type="file" id="log-file-button" name="log-file" class="form-button"><br>
-            <input type="submit" value="Submit" class="form-button">
+            <input type="submit" value="Submit" class="primary-button">
         </form>
     </div>
 

@@ -1,0 +1,64 @@
+ops_chart {
+    title: Mirror Rift Keys,
+    id: mirror-rift-keys,
+    columns: [
+        column {
+            title: Ops,
+        },
+        claim_group {
+            title: Rift Keys Claim,
+            cooldown: 20h,
+            id: rift-key-claim,
+            resource: 67004,
+            capacity: column {
+                title: Capacity,
+            }
+            rewards: [
+                column {
+                    title: Rift Keys,
+                },
+            ],
+        },
+        chest_group {
+            title: Rift Key Exchange,
+            cooldown: 20h,
+            id: rift-key-exchange,
+            costResource: 67003,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                }
+            ],
+            rewards: [
+                column {
+                    title: Common Rift Keys,
+                    resource: 67004,
+                    rolls: 2,
+                    probabilities: [45%, 45%, 10%],
+                },
+                column {
+                    title: Uncommon Rift Keys,
+                    resource: 67005,
+                    rolls: 1,
+                    probabilities: [35%, 35%, 20%, 10%],
+                },
+                column {
+                    title: Uncommon Rift Keys,
+                    resource: 67005,
+                    rolls: 1,
+                    value: 10/40,
+                    cellType: chance/probabilities,
+                },
+            ],
+        },
+    ],
+
+    rows: [
+        [40-50, 400, 400, 20, 50, 100/200/300, 50/100/200/300, 2%/90%/10%],
+        [51-60, 500, 500, 30, 70, 150/300/400, 75/125/250/400, 3%/70%/30%],
+        [61-70, 600, 600, 40, 80, 200/400/500, 100/150/300/500, 5%/50%/50%],
+    ],
+}

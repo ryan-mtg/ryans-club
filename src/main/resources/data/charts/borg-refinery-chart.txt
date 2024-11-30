@@ -1,0 +1,230 @@
+chart {
+    title: Borg Refinery,
+    id: borg-refinery,
+    ship: VI'DAR TALIOS,
+    columns: [
+        column {
+            title: Tier,
+        },
+        chest_group {
+            title: Charged Nanoprobes,
+            cooldown: 22h,
+            id: charged-nanoprobes,
+            costResource: 7140,
+            rewardResource: 7170,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                },
+                chest {
+                    chests: 3,
+                    research: [{0, 1}],
+                },
+            ],
+            rewards: [
+                column {
+                    title: Reward,
+                },
+            ],
+        },
+        chest_group {
+            title: Active Nanoprobes,
+            cooldown: 22h,
+            id: active-nanoprobes,
+            costResource: 7140,
+            rewardResource: 7141,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                }
+            ],
+            rewards: [
+                column {
+                    title: Reward,
+                },
+            ],
+        },
+        chest_group {
+            title: Borg Solo Armada Directives,
+            cooldown: 22h,
+            id: borg-solo-directives,
+            costResource: 7170,
+            rewardResource: 50004,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Reward,
+                },
+            ],
+        },
+        chest_group {
+            title: Indy Creds,
+            cooldown: 22h,
+            id: independent-credits,
+            costResource: 7170,
+            rewardResource: 0,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Reward,
+                },
+            ],
+        },
+        chest_group {
+            title: Fed Creds,
+            cooldown: 22h,
+            id: federation-credits,
+            costResource: 7170,
+            rewardResource: 73,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Reward,
+                },
+            ],
+        },
+        chest_group {
+            title: Klingon Creds,
+            cooldown: 22h,
+            id: klingon-credits,
+            costResource: 7170,
+            rewardResource: 74,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Reward,
+                },
+            ],
+        },
+        chest_group {
+            title: Rom Creds,
+            cooldown: 22h,
+            id: romulan-credits,
+            costResource: 7170,
+            rewardResource: 75,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Reward,
+                },
+            ],
+        },
+        chest_group {
+            title: Fed Rep,
+            cooldown: 22h,
+            id: federation-reputation,
+            costResource: 7170,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Rep,
+                    resource: 100,
+                },
+                column {
+                    title: Negative Rep,
+                    resource: 101,
+                },
+                column {
+                    title: Negative Rep,
+                    resource: 102,
+                },
+            ],
+        },
+        chest_group {
+            title: Klingon Rep,
+            cooldown: 22h,
+            id: klingon-reputation,
+            costResource: 7170,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Rep,
+                    resource: 101,
+                },
+                column {
+                    title: Negative Rep,
+                    resource: 100,
+                },
+                column {
+                    title: Negative Rep,
+                    resource: 102,
+                },
+            ],
+        },
+        chest_group {
+            title: Rom Rep,
+            cooldown: 22h,
+            id: romulan-reputation,
+            costResource: 7170,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Rep,
+                    resource: 102,
+                },
+                column {
+                    title: Negative Rep,
+                    resource: 100,
+                },
+                column {
+                    title: Negative Rep,
+                    resource: 101,
+                },
+            ],
+        },
+    ],
+
+    rows: [
+        [1, 115100, 510000, 1020000, 23000, 92100, 230200, 3600, 32000, 134, 9375, 167, 9375, 380, 9375, 380, 9375, 380, 6000, 80000, -40000, -40000, 6000, 80000, -40000, -40000, 6000, 80000, -40000, -40000],
+        [2, 138100, 552400, 1104800, 24000, 110500, 276200, 3675, 32000, 134, 10625, 205, 10625, 420, 10625, 420, 10625, 420, 7200, 105000, -52500, -52500, 7200, 105000, -52500, -52500, 17200, 05000, -52500, -52500],
+        [3, 165700, 662900, 1325800, 25000, 132600, 331500, 3728, 35800, 140, 12250, 230, 12250, 450, 12250, 450, 12250, 450, 9000, 125000, -67500, -67500, 9000, 125000, -67500, -67500, 9000, 125000, -67500, -67500],
+        [3, 165700, 662900, 1325800, 25000, 132600, 331500, 3728, 35800, 140, 12250, 230, 12250, 450, 12250, 450, 12250, 450, 9000, 250000, -125000, -125000, 9000, 250000, -125000, -125000, 9000, 250000, -125000, -125000]
+        [4, 209600, 838500, 1677000, 27000, 167700, 419300, 3780, 49500, 150, 13500, 285, 13500, 545, 13500, 545, 13500, 545, 10800, 290000, -145000, -145000, 10800, 290000, -145000, -145000, 10800, 290000, -145000, -145000]
+        [5, 260100, 1040600, 2081200, 28800, 208100, 520300, 4216, 49500, 150, 14400, 330, 14400, 575, 14400, 575, 14400, 575, 11520, 580000, -290000, -290000, 11520, 580000, -290000, -290000, 11520, 580000, -290000, -290000]
+        [6, 322500, 1289900, 2579800, 29700, 258000, 645000, 4274, 49500, 150, 14850, 377, 14850, 605, 14850, 605, 14850, 605, 11880, 1200000, -600000, -600000, 11880, 1200000, -600000, -600000, 11880, 1200000, -600000, -600000]
+        [7, 399400, 1597500, 3195000, 33000, 319500, 798700, 4331, 60000, 167, 16500, 430, 16500, 635, 16500, 635, 16500, 635, 13200, 2400000, -1200000, -1200000, 13200, 2400000, -1200000, -1200000, 13200, 2400000, -1200000, -1200000]
+        [8, 494100, 1976400, 3952800, 42500, 395300, 988200, 4763, 75000, 175, 21250, 482, 21250, 665, 21250, 665, 21250, 665, 17000, 4600000, -2300000, -2300000, 17000, 4600000, -2300000, -2300000, 17000, 4600000, -2300000, -2300000]
+        [9, 610800, 2443000, 4886000, 51000, 488600, 1221500, 4763, 90000, 180, 25500, 540, 25500, 675, 25500, 675, 25500, 675, 20400, 9000000, -4500000, -4500000, 20400, 9000000, -4500000, -4500000, 20400, 9000000, -4500000, -4500000]
+        [10, 715900, 2863400, 5726800, 54250, 572700, 1431700, 5239, 105000, 190, 27125, 592, 27125, 970, 27125, 970, 27125, 970, 21700, 17000000, -8500000, -8500000, 21700, 17000000, -8500000, -8500000, 21700, 17000000, -8500000, -8500000]
+        [11, 833000, 3293000, 6586000, 60000, 658600, 1646500, 5498, 125000, 200, 30000, 637, 30000, 1020, 30000, 1020, 30000, 1020, 24000, 30000000, -15000000, -15000000, 24000, 30000000, -15000000, -15000000, 24000, 30000000, -15000000, -15000000]
+        [12, 987900, 3951600, 7903200, 70000, 790300, 1975800, 5771, 125000, 200, 35000, 687, 35000, 1090, 35000, 1090, 35000, 1090, 28000, 60000000, -30000000, -30000000, 28000, 60000000, -30000000, -30000000, 28000, 60000000, -30000000, -30000000]
+    ],
+}

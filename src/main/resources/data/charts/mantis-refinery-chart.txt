@@ -1,0 +1,133 @@
+chart {
+    title: Mantis Refinery,
+    ship: MANTIS,
+    id: mantis-refinery,
+    columns: [
+        column {
+            title: Tier,
+        },
+        chest_group {
+            title: Synthetic Nitrium,
+            cooldown: 22h,
+            id: nitrium,
+            costResource: 45017,
+            rewardResource: 45018,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                }
+            ],
+            rewards: [
+                column {
+                    title: Reward,
+                    research: [{0, 0}, {1, 0}],
+                },
+                column {
+                    title: MR lvl 1,
+                    research: [{0, 1}, {1, 0}],
+                },
+                column {
+                    title: MR lvl 2,
+                    research: [{0, 2}, {1, 0}],
+                },
+                column {
+                    title: Reward,
+                    research: [{0, 0}, {1, 1}],
+                },
+                column {
+                    title: MR lvl 1,
+                    research: [{0, 1}, {1, 1}],
+                },
+                column {
+                    title: MR lvl 2,
+                    research: [{0, 2}, {1, 1}],
+                },
+            ],
+        },
+        chest_group {
+            title: Synthetic Ion,
+            cooldown: 70h,
+            id: synthetic-ion,
+            costResource: 45017,
+            rewardResource: 45019,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                }
+            ],
+            rewards: [
+                column {
+                    title: Reward,
+                    research: [{53100, 0}],
+                },
+                column {
+                    title: Apocrita Refit,
+                    research: [{53100, 1}],
+                },
+            ],
+        },
+        chest_group {
+            title: Syndicate XP,
+            cooldown: 22h,
+            id: syndicate-xp,
+            costResource: 45017,
+            rewardResource: 37003,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                }
+            ],
+            rewards: [
+                column {
+                    title: Reward,
+                },
+            ],
+        },
+        chest_group {
+            title: Hull Fragments,
+            cooldown: 46h,
+            id: hull-fragments,
+            costResource: 45017,
+            rewardResource: 45025,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Reward,
+                    research: [{53100, 0}],
+                },
+                column {
+                    title: Apocrita Refit,
+                    research: [{53100, 1}],
+                },
+            ],
+        },
+    ],
+
+    rows: [
+        [1, 3000, 15000, 150, 203, 270, 225, 278, 345, 6000, 30000, 200, 260, 6000, 30000, 1510, 6000, 1000, 1300],
+        [2, 4000, 20000, 300, 405, 540, 450, 555, 690, 7000, 35000, 400, 520, 7000, 35000, 1575, 7000, 1050, 1365],
+        [3, 6500, 32500, 750, 1013, 1350, 1125, 1388, 1725, 11000, 55000, 1000, 1300, 11000, 55000, 1650, 11000, 1100, 1430],
+        [4, 9000, 45000, 1500, 2025, 2700, 2250, 2775, 3450, 15000, 75000, 2000, 2600, 15000, 75000, 1750, 15000, 1150, 1495],
+        [5, 13000, 65000, 3000, 4050, 5400, 4500, 5550, 6900, 21000, 105000, 4000, 5200, 21000, 105000, 1900, 21000, 1200, 1560],
+        [6, 17000, 85000, 4500, 6075, 8100, 6750, 8325, 10350, 27000, 135000, 6000, 7800, 27000, 135000, 2075, 27000, 1250, 1625],
+        [7, 25000, 125000, 6000, 8100, 10800, 9000, 11100, 13800, 40000, 200000, 8000, 10400, 40000, 200000, 2250, 40000, 1300, 1690],
+        [8, 33000, 165000, 10500, 14175, 18900, 15750, 19425, 24150, 50000, 250000, 14000, 18200, 50000, 250000, 2475, 50000, 1350, 1755],
+        [9, 49000, 245000, 15000, 20250, 27000, 22500, 27750, 34500, 70000, 350000, 20000, 26000, 70000, 350000, 2700, 70000, 1400, 1820],
+        [10, 67000, 335000, 25000, 33750, 45000, 37500, 46250, 57500, 90000, 450000, 35000, 45500, 90000, 450000, 3000, 90000, 1450, 1885],
+        [11, 110000, 550000, 40000, 54000, 72000, 60000, 74000, 92000, 130000, 650000, 55000, 71500, 130000, 650000, 3300, 130000, 1500, 1950],
+        [12, 200000, 1000000, 70000, 94500, 126000, 105000, 129500, 161000, 230000, 1150000, 95000, 123500, 230000, 1150000, 3750, 230000, 1800, 2340],
+    ],
+}

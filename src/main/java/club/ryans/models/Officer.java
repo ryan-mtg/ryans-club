@@ -6,6 +6,7 @@ import lombok.Data;
 @Data
 public class Officer {
     private long id;
+    private long stfcSpaceId;
     private String name;
     private String shortName;
 
@@ -13,10 +14,10 @@ public class Officer {
     private String artPath;
 
     private long factionId;
-    private String rarity;
+    private Rarity rarity;
 
-    private int classId;
-    private int synergyId;
+    private String divisionName;
+    private String synergyGroup;
     private int maxRank;
 
     private OfficerAbility captainAbility;
@@ -28,6 +29,6 @@ public class Officer {
     }
 
     public String style() {
-        return String.format("rarity-%s", rarity.toLowerCase());
+        return rarity.toStyle();
     }
 }

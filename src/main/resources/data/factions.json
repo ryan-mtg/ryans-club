@@ -1,0 +1,127 @@
+[ {
+  "0" : "ENEMY"
+}, {
+  "1" : "HOSTILE"
+}, {
+  "2" : "UNTRUSTWORTHY"
+}, {
+  "3" : "NEUTRAL"
+}, {
+  "4" : "TOLERATED"
+}, {
+  "5" : "NEIGHBOR"
+}, {
+  "6" : "FRIENDLY"
+}, {
+  "7" : "FAVORED"
+}, {
+  "8" : "CONSORT"
+}, {
+  "9" : "ASSOCIATE"
+}, {
+  "10" : "RESPECTED"
+}, {
+  "11" : "ACCOMPLICE"
+}, {
+  "12" : "AFFILIATE"
+}, {
+  "13" : "ALLY"
+}, {
+  "14" : "SERVANT"
+}, {
+  "15" : "PAWN"
+}, {
+  "16" : "FRIEND"
+}, {
+  "17" : "CELEBRATED"
+}, {
+  "18" : "ADMIRED"
+}, {
+  "19" : "ESTEEMED"
+}, {
+  "20" : "COMMENDED"
+}, {
+  "21" : "GLORIFIED"
+}, {
+  "22" : "CHAMPION"
+}, {
+  "23" : "LACKEY"
+}, {
+  "24" : "ABETTOR"
+}, {
+  "25" : "TROUBLE-MAKER"
+}, {
+  "26" : "SCOUNDREL"
+}, {
+  "27" : "ACCOMPLICE"
+}, {
+  "28" : "KNOWN ASSOCIATE"
+}, {
+  "29" : "PARTNER"
+}, {
+  "30" : "OUTLAW"
+}, {
+  "31" : "DISTINGUISHED"
+}, {
+  "32" : "GUARDIAN"
+}, {
+  "33" : "LEADER"
+}, {
+  "34" : "PIONEER"
+}, {
+  "35" : "Footsoldier"
+}, {
+  "36" : "LEGEND"
+}, {
+  "37" : "WARRIOR"
+}, {
+  "40" : "DIGNITARY"
+}, {
+  "41" : "RENOWNED"
+}, {
+  "42" : "VENERATED"
+}, {
+  "43" : "REVERED"
+}, {
+  "44" : "IDOLIZED"
+}, {
+  "45" : "HERO"
+}, {
+  "100" : "CELEBRATED"
+}, {
+  "101" : "ESTEEMED"
+}, {
+  "102" : "VENERATED"
+}, {
+  "103" : "EXALTED"
+}, {
+  "104" : "LIBERATOR"
+}, {
+  "47001" : "GUERRILLA"
+}, {
+  "47002" : "MILITIA"
+}, {
+  "47003" : "PAGH-STRONG"
+}, {
+  "47004" : "HIGA METAR"
+}, {
+  "47005" : "KOHN-MA"
+}, {
+  "47006" : "ORNATHIA"
+}, {
+  "47007" : "RESISTER"
+}, {
+  "47008" : "PROPHET CHOSEN"
+}, {
+  "61300" : "ASSET"
+}, {
+  "61301" : "ANALYST"
+}, {
+  "61302" : "INFILTRATOR"
+}, {
+  "61303" : "AGENT"
+}, {
+  "61304" : "HANDLER"
+}, {
+  "61305" : "SPYMASTER"
+} ]

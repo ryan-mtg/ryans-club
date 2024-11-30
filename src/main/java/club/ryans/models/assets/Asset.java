@@ -9,4 +9,8 @@ public class Asset {
     private int id;
     private AssetType type;
     private String path;
+
+    public String getStyle() {
+        return "asset-" + type.name().toLowerCase();
+    }
 }

@@ -19,6 +19,7 @@ public class ResourceManager {
 
     private final DataFileManager dataFileManager;
     private final Map<Long, Resource> resourceMap = new HashMap<>();
+    private final Map<Long, Resource> stfcSpaceIdMap = new HashMap<>();
     private final Map<String, Resource> nameMap = new HashMap<>();
 
     public ResourceManager(final DataFileManager dataFileManager) {
@@ -35,6 +36,10 @@ public class ResourceManager {
         return resourceMap.get(id);
     }
 
+    public Resource getResourceFromStfcSpaceId(final long stfcSpaceId) {
+        return stfcSpaceIdMap.get(stfcSpaceId);
+    }
+
     public Resource getResource(final String name) {
         return nameMap.get(name);
     }
@@ -47,6 +52,7 @@ public class ResourceManager {
             List<Resource> resources = mapper.readValue(stream, new TypeReference<List<Resource>>() {});
             for (Resource resource : resources) {
                 resourceMap.put(resource.getId(), resource);
+                stfcSpaceIdMap.put(resource.getStfcSpaceId(), resource);
                 nameMap.put(resource.getName(), resource);
             }
         } catch (Exception e) {

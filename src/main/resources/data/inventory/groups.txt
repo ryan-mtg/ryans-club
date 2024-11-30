@@ -1,0 +1,568 @@
+inventory {
+    groups: [
+        group {
+            name: Base,
+            id: base,
+            default: true,
+            subgroups: [
+                subgroup {
+                    name: Loyalty,
+                    resources: [7101, 8010, 43002],
+                },
+                subgroup {
+                    name: Recruits,
+                    resources: [65, 66, 71, 62101, 36013],
+                },
+                subgroup {
+                    name: XP,
+                    resources: [70, 120, 34001, 90],
+                },
+                subgroup {
+                    name: Badges,
+                    resources: [110, 111, 112],
+                },
+                subgroup {
+                    name: Galaxy,
+                    resources: [72, 901, 902, 60051],
+                },
+                subgroup {
+                    name: Peace Shields,
+                    resources: [1501, 1502, 1503, 1504, 1505, 1506, 1507, 1508, 1509],
+                },
+            ],
+        },
+        group {
+            name: Armadas,
+            id: armadas,
+            default: false,
+            subgroups: [
+                subgroup {
+                    name: Regular,
+                    resources: [6200, 6201, 6206, 6207, 6202, 6203, 6204],
+                },
+                subgroup {
+                    name: Eclipse,
+                    resources: [9003, 9004, 9005, 9006, 9007, 9008],
+                },
+                subgroup {
+                    name: Dominion,
+                    resources: [47010, 47011, 47012, 47006, 47007, 47008, 47009],
+                },
+                subgroup {
+                    name: Borg,
+                    resources: [9106, 7193, 7173, 51015, 51014],
+                },
+                subgroup {
+                    name: Borg Solos,
+                    resources: [50004, 50005, 50006, 50001, 50002, 50003],
+                },
+                subgroup {
+                    name: Formation,
+                    resources: [54201, 57201],
+                },
+                subgroup {
+                    name: Xindi,
+                    resources: [64100, 64101],
+                },
+                subgroup {
+                    name: Miscellaneous,
+                    resources: [9099, 58005, 58006],
+                },
+            ]
+        },
+        group {
+            name: Factions,
+            id: factions,
+            default: true,
+            subgroups: [
+                subgroup {
+                    name: Federation,
+                    resources: [100, 73, 428, 67, 46030],
+                },
+                subgroup {
+                    name: Klingon,
+                    resources: [101, 74, 429, 68, 46032],
+                },
+                subgroup {
+                    name: Romulan,
+                    resources: [102, 75, 430, 69, 46031],
+                },
+                subgroup {
+                    name: Augment,
+                    resources: [113, 76, 0],
+                },
+                subgroup {
+                    name: Rogue,
+                    resources: [9000, 9014, 9015, 9016, 9017, 9018, 9019, 9020],
+                },
+                subgroup {
+                    name: Bajoran,
+                    resources: [47002, 47003, 47004, 47005],
+                },
+                subgroup {
+                    name: Ex-Borg,
+                    resources: [52001, 52002, 62001, 62002, 62003, 62006, 62008],
+                },
+                subgroup {
+                    name: Section 31,
+                    resources: [61301, 68002, 61302, 68001],
+                },
+                subgroup {
+                    name: Syndicate,
+                    resources: [37003],
+                },
+            ]
+        },
+        group {
+            name: Materials,
+            id: materials,
+            default: true,
+            subgroups: [
+                subgroup {
+                    name: 2★ Materials,
+                    resources: [5, 6, 7, 14, 15, 16, 17, 18, 19],
+                },
+                subgroup {
+                    name: 3★ Materials,
+                    resources: [8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+                },
+                subgroup {
+                    name: 4★ Materials,
+                    resources: [11, 12, 13, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+                },
+                subgroup {
+                    name: 5★ Materials,
+                    resources: [266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280],
+                },
+                subgroup {
+                    name: 6★ Materials,
+                    resources: [35017, 35018, 35019, 35020, 35021, 35022, 35023, 35024, 35025, 35026, 35027, 35028, 35029, 35030, 35031],
+                },
+                subgroup {
+                    name: 7★ Materials,
+                    resources: [60060, 60061, 60062, 60063, 60064, 60065, 60066, 60067, 60068, 60069, 60070, 60071],
+                },
+            ]
+        },
+        group {
+            name: Resources,
+            id: resources,
+            default: true,
+            subgroups: [
+                subgroup {
+                    name: Resources,
+                    resources: [61, 62, 63, 60073, 60074, 60075, 60001, 60002, 60003, 60073, 60074, 60075],
+                },
+                subgroup {
+                    name: Parsteel Tokens,
+                    resources: [2000, 2001, 2002, 35042, 60034, 60037, 60040, 60043],
+                },
+                subgroup {
+                    name: Tritanium Tokens,
+                    resources: [2100, 2101, 2102, 35043, 60035, 60038, 60041, 60044],
+                },
+                subgroup {
+                    name: Dilithium Tokens,
+                    resources: [2200, 2201, 2202, 35044, 60036, 60039, 60042, 60045],
+                },
+            ],
+        },
+        group {
+            name: Ship Parts,
+            id: ship-parts,
+            default: true,
+            subgroups: [
+                subgroup {
+                    name: 1★ Parts,
+                    resources: [1, 2, 3, 4],
+                },
+                subgroup {
+                    name: 2★ Parts,
+                    resources: [236, 237, 238, 239],
+                },
+                subgroup {
+                    name: 3★ Parts,
+                    resources: [240, 241, 242, 243],
+                },
+                subgroup {
+                    name: 4★ Parts,
+                    resources: [250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265],
+                },
+                subgroup {
+                    name: 5★ Parts,
+                    resources: [35001, 35002, 35003, 35004, 35005, 35006, 35007, 35008, 35009, 35010, 35011, 35012, 35013, 35014, 35015, 35016],
+                },
+                subgroup {
+                    name: 6★ Parts,
+                    resources: [60053, 60054, 60055, 60056, 60101, 60102, 60103, 60104, 60105, 60106, 60107, 60108, 60109, 60110, 60111, 60112],
+                },
+            ],
+        },
+        group {
+            name: Buildings,
+            id: buildings,
+            default: false,
+            subgroups: [
+                subgroup {
+                    name: Armada Control Center,
+                    resources: [6205, 6209],
+                },
+                subgroup {
+                    name: Armory,
+                    resources: [48050],
+                },
+                subgroup {
+                    name: Artifact Gallery,
+                    resources: [54302, 54303],
+                },
+                subgroup {
+                    name: Command Center,
+                    resources: [50100],
+                },
+                subgroup {
+                    name: District 56,
+                    resources: [68500, 68501],
+                },
+                subgroup {
+                    name: Exocomp Factory,
+                    resources: [33011, 33009],
+                },
+                subgroup {
+                    name: Facade,
+                    resources: [61510],
+                },
+                subgroup {
+                    name: Holodeck,
+                    resources: [63014, 43003, 43007, 43002],
+                },
+                subgroup {
+                    name: Mess Hall,
+                    resources: [52301, 52300],
+                },
+                subgroup {
+                    name: Court of Q,
+                    resources: [56101, 56102, 56103, 56104, 56105, 56106, 56107, 56108, 56109, 56110, 56111, 56112, 56113, 56114],
+                },
+                subgroup {
+                    name: Shuttle Bay,
+                    resources: [34003, 34002, 34001],
+                },
+                subgroup {
+                    name: Subspace Relay,
+                    resources: [44004, 44005],
+                },
+                subgroup {
+                    name: Treasury,
+                    resources: [40006, 60050, 41010],
+                },
+                subgroup {
+                    name: The War Room,
+                    resources: [65501, 65500],
+                },
+            ],
+        },
+        group {
+            name: Ships,
+            id: ships,
+            default: false,
+            subgroups: [
+                subgroup {
+                    name: Botany Bay,
+                    resources: [41, 42, 43, 44, 45],
+                },
+                subgroup {
+                    name: Franklin,
+                    resources: [78, 149, 79, 91, 80, 81, 82, 83, 84, 85, 86, 87, 92, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160],
+                },
+                subgroup {
+                    name: Stella,
+                    resources: [9002, 9022, 9009, 9010, 9011, 9012, 9013],
+                },
+                subgroup {
+                    name: Discovery,
+                    resources: [9031, 9032, 9033, 9034, 9035, 9036, 9038],
+                },
+                subgroup {
+                    name: Vi'Dar,
+                    resources: [7140, 7141, 7170, 7182],
+                },
+                subgroup {
+                    name: Meridian,
+                    resources: [4001, 4002, 4003, 4004, 4005, 4006, 4007, 32001, 32002, 32003],
+                },
+                subgroup {
+                    name: Sarcophagus,
+                    resources: [9060],
+                },
+                subgroup {
+                    name: D'Vor,
+                    resources: [142, 64, 39002, 143, 39001, 39004, 39005],
+                },
+                subgroup {
+                    name: Amalgam,
+                    resources: [38005, 38004, 38015],
+                },
+                subgroup {
+                    name: Mantis,
+                    resources: [45017, 45018, 45020, 45025, 45045, 45046, 45047, 45048, 45049, 45050, 45051, 45052, 45053, 45054, 45055],
+                },
+                subgroup {
+                    name: Cerritos,
+                    resources: [41004, 41001, 41002, 41003, 41007],
+                },
+                subgroup {
+                    name: Defiant,
+                    resources: [47001, 48005, 48006, 48007, 48008, 48009, 48010, 48011, 48012, 48013, 48014, 48015, 48016, 48017, 48018],
+                },
+                subgroup {
+                    name: Titan-A,
+                    resources: [53008, 53017, 53018, 53002, 53012, 53013],
+                },
+                subgroup {
+                    name: Voyager,
+                    resources: [55003, 55004, 55001, 55005, 55006],
+                },
+                subgroup {
+                    name: Borg Cube,
+                    resources: [60501, 60503, 60502, 60518, 60519, 60520, 60504, 60505, 60506, 60507, 60508, 60509, 60510, 60511, 60512, 60513, 60514, 60515, 60516],
+                },
+                subgroup {
+                    name: Monaveen,
+                    resources: [58003, 58004, 58007, 58001, 58002, 58008],
+                },
+                subgroup {
+                    name: Enterprise NX-01,
+                    resources: [62004, 62005, 63002, 63007, 63008, 63001, 63004, 63003, 63005],
+                },
+                subgroup {
+                    name: Gorn Eviscerator,
+                    resources: [65401, 66402, 66002, 66001, 66011, 66012, 66013, 66014, 66015, 66016, 66017, 66018, 66019, 66020, 66021, 66022],
+                },
+            ],
+        },
+        group {
+            name: Artifacts,
+            id: artifacts,
+            default: false,
+            subgroups: [
+                subgroup {
+                    name: Tokens,
+                    resources: [54300, 54301, 54304, 55315, 64016, 64015],
+                },
+                subgroup {
+                    name: Artifacts,
+                    resources: [54305, 54306, 54307, 54308, 54309, 54310, 54311, 54312, 54313, 54314, 54315, 54316, 54317, 54318, 54319, 54320, 54321, 54322, 54323, 54324, 54325, 54326, 54327, 54328, 54329, 54330, 54330, 54331, 54332],
+                },
+                subgroup {
+                    name: Isolytic Artifacts,
+                    resources: [55300, 55301, 55302, 55303, 55304, 55305, 55306, 55307, 55308, 55309, 55310, 55311, 55312, 55313, 55314, 55313, ],
+                },
+                subgroup {
+                    name: Temporal Artifacts,
+                    resources: [64301, 64302, 64303, 64304, 64305, 64306, 64307, 64308, 64309, 64310, 64311, 64312, 64313, 64314, 64315],
+                },
+            ],
+        },
+        group {
+            name: Forbidden Tech,
+            id: forbidden-tech,
+            default: false,
+            subgroups: [
+                subgroup {
+                    name: Daily,
+                    resources: [56100, 56700, 56701],
+                },
+                subgroup {
+                    name: Tier Up Material,
+                    resources: [56702, 56703, 56704],
+                },
+                subgroup {
+                    name: Fragments,
+                    resources: [56706, 56707, 56708, 56709],
+                },
+            ],
+        },
+        group {
+            name: Mirror,
+            id: mirror,
+            default: false,
+            subgroups: [
+                subgroup {
+                    name: Rift Keys,
+                    resources: [67013, 67004, 67005, 67006],
+                },
+                subgroup {
+                    name: Mirror Dust,
+                    resources: [67007, 67008, 67009, 67010, 67011, 69005],
+                },
+                subgroup {
+                    name: Trellium,
+                    resources: [67001, 67002, 67003, 69004, 69009],
+                },
+            ],
+        },
+        group {
+            name: Events,
+            id: events,
+            default: false,
+            subgroups: [
+                subgroup {
+                    name: Tickets,
+                    resources: [9069, 9103],
+                },
+                subgroup {
+                    name: Apex Outlaw,
+                    description: Once a week on Thursday,
+                    resources: [7263, 9024, 9025, 9026],
+                },
+                subgroup {
+                    name: Invasions,
+                    description: Twice a month,
+                    resources: [69006, 69008, 69015, 69037, 64041],
+                },
+                subgroup {
+                    name: Return of the Mega Cube,
+                    description: During arc intermissions,
+                    resources: [7184, 9107],
+                },
+                subgroup {
+                    name: Incursions,
+                    description: Once a month,
+                    resources: [44010, 44008, 44009, 54151],
+                },
+                subgroup {
+                    name: Bounty Hunt,
+                    description: About twice a year,
+                    resources: [56010, 56011],
+                },
+                subgroup {
+                    name: Alliance Tournament,
+                    resources: [69503, 69502, 69504],
+                },
+            ],
+        }
+        group {
+            name: Speed Ups,
+            id: speed-ups,
+            default: false,
+            subgroups: [
+                subgroup {
+                    name: Speed Ups,
+                    resources: [1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016],
+                },
+                subgroup {
+                    name: Repair Speed Ups,
+                    resources: [1201, 1202, 1203, 1204, 1205, 1206, 1207, 1208, 1209, 1210, 1211, 1212, 1213, 1214, 1215],
+                },
+                subgroup {
+                    name: Away Team Speed Ups,
+                    resources: [1301, 1302, 1303, 1304, 1305, 1306, 1307],
+                },
+                subgroup {
+                    name: Sigma Speed Ups,
+                    resources: [60004, 60005, 60006, 60007, 60008, 60009, 60010, 60011, 60012, 60013, 60014, 60015, 60016, 60017, 60018],
+                },
+                subgroup {
+                    name: Sigma Repair Speed Ups,
+                    resources: [60019, 60020, 60021, 60022, 60023, 60024, 60025, 60026, 60027, 60028, 60029, 60030, 60031, 60032, 60033],
+                },
+            ],
+        },
+        group {
+            name: Warp Tokens,
+            id: warp-tokens,
+            default: false,
+            subgroups: [
+                subgroup {
+                    name: Hostile Zone Tokens,
+                    resources: [7159, 45016, 55010, 63006, 64014],
+                },
+                subgroup {
+                    name: Mining,
+                    resources: [6011, 6012, 6013, 9021],
+                },
+                subgroup {
+                    name: Lucrative Mining,
+                    resources: [6014, 47014, 47015],
+                },
+            ],
+        },
+        group {
+            name: Territory,
+            id: territory,
+            default: false,
+            subgroups: [
+                subgroup {
+                    name: Particles,
+                    resources: [4018, 4019, 4020, 4021, 59500],
+                },
+                subgroup {
+                    name: Raw Isogen,
+                    resources: [4001, 4002, 4003],
+                },
+                subgroup {
+                    name: Refined Isogen,
+                    resources: [4004, 4005, 4006, 4007],
+                },
+                subgroup {
+                    name: Progenitor Resources,
+                    resources: [4010, 4011, 4012, 4013],
+                },
+            ],
+        },
+        group {
+            name: Fleet Commanders,
+            id: fleet-commanders,
+            default: false,
+            subgroups: [
+                subgroup {
+                    name: Commander Stuff,
+                    resources: [50102, 50103, 50104, 50108, 50110, 50112, 50113],
+                },
+                subgroup {
+                    name: Slot,
+                    resources: [59013],
+                },
+                subgroup {
+                    name: FC Kirk,
+                    resources: [50106, 50126, 50127, 50128, 50129, 50130, 50131],
+                },
+                subgroup {
+                    name: FC Spock,
+                    resources: [50105, 50101, 50109, 50111, 50122, 50123, 50124],
+                },
+                subgroup {
+                    name: FC Locutus,
+                    resources: [50107, 50133, 50134, 50135, 50136, 50137, 50138],
+                },
+                subgroup {
+                    name: FC Seven of Nine,
+                    resources: [53131],
+                },
+                subgroup {
+                    name: FC Janeway,
+                    resources: [57302],
+                },
+                subgroup {
+                    name: FC Sloan,
+                    resources: [61100],
+                },
+            ],
+        },
+        group {
+            name: Alliance,
+            id: alliance,
+            default: false,
+            subgroups: [
+                subgroup {
+                    name: Base,
+                    resources: [140, 46000],
+                },
+                subgroup {
+                    name: Tournaments,
+                    resources: [69503, 69502, 69504],
+                },
+            ],
+        },
+    ],
+}

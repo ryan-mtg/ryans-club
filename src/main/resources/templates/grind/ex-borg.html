@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex Borg</title>
+    <div th:replace="fragments :: includes"></div>
+</head>
+<body data-theme="dark">
+    <div th:replace="fragments :: header(title='Ex Borg', showLogin=false)"></div>
+
+    <main>
+        <h1>Efficiency Bundle Calculator</h1>
+
+        <div class="two-column-container">
+            <section>
+                <h2>Bundles</h2>
+                <div class="bundle-container">
+                    <div th:each="bundle : ${bundles}" class="bundle">
+                        <img class="bundle-ship" th:src="${bundle.ship.imageUrl}">
+                        <div>
+                            <label>Tier</label><br>
+                            <select>
+                                <option value="0"></option>
+                                <th:block th:each="i: ${#numbers.sequence(1, 12)}">
+                                    <option th:value="${i}" th:text="${i}"></option>
+                                </th:block>
+                            </select>
+                        </div>
+                        <h3 th:text="${bundle.ship.name}"></h3>
+                        <div class="option-selector">
+                            <span class="selector-item selected">None
+                            </span><span class="selector-item">1 Chest
+                            </span><span class="selector-item">7 Chests</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Player</h2>
+                <div class="bundle-container">
+
+                    <div class="bundle">
+                        <div>
+                            <label>Ops</label><br>
+                            <select>
+                                <option value="0"></option>
+                                <th:block th:each="i: ${#numbers.sequence(1, 70)}">
+                                    <option th:value="${i}" th:text="${i}"></option>
+                                </th:block>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="bundle">
+                        <div>
+                            <label>Ex Borg Rank</label><br>
+                            <select>
+                                <option value="0"></option>
+                                <th:block th:each="rank: ${ranks}">
+                                    <option th:value="${rank.index}" th:text="${rank.name}"></option>
+                                </th:block>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h2>Sourcing</h2>
+                <div class="bundle-container">
+                    <div class="bundle">
+                        <h3>Freebooter Dailies</h3>
+                        <div class="option-selector">
+                            <span class="selector-item selected">None
+                            </span><span class="selector-item">2 Hostiles
+                            </span><span class="selector-item">6 Hostiles</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Results</h2>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,39 @@
+building_chart {
+    title: Command Center,
+    id: command-center,
+    building: 71,
+    columns: [
+        column {
+            title: Level,
+        },
+        claim_group {
+            title: Command Center Claim,
+            cooldown: 22h,
+            id: command-center,
+            rewards: [
+                column {
+                    title: Quantum Communicators,
+                    resource: 50100,
+                },
+                column {
+                    title: Commander XP,
+                    resource: 50102,
+                },
+                column {
+                    title: Uncommon Commander Credits,
+                    resource: 50108,
+                },
+            ],
+        },
+    ],
+
+    rows: [
+        [1-9, 18, ?, ?],
+        [10-19, 20, ?, ?],
+        [20-29, 22, ?, ?],
+        [30-39, 26, ?, ?],
+        [40-49, 34, 750/1500/7500, 140],
+        [50-59, 42, ?, ?],
+        [60, ?, ?, ?],
+    ],
+}

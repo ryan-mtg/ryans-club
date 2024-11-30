@@ -1,8 +1,8 @@
 package club.ryans.security;
 
 import club.ryans.discord.DiscordUserService;
-import club.ryans.security.user.User;
-import club.ryans.security.user.UserManager;
+import club.ryans.models.player.User;
+import club.ryans.models.managers.UserManager;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -46,7 +46,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/login", "/user").authenticated()
                 .antMatchers("/admin", "/admin/**", "/api/admin/**", "/scripts/admin.js") .access("hasRole('ADMIN')")
                 .antMatchers("/register") .access("hasRole('UNREGISTERED')")
-                .anyRequest().permitAll()
+                .antMatchers("/", "/index.html", "/scripts/**", "/styles/**", "faveicon.ico",
+                        "/images/**", "/api/public/**").permitAll()
+                .anyRequest().authenticated()
             .and().oauth2Login()
                 .userInfoEndpoint().userService(discordUserService).and()
                 .failureHandler(new LoginFailureHandler())
@@ -54,15 +56,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                     .successHandler(new LoginSuccessHandler(requestCache))
             .and().logout(l -> l.logoutUrl("/logout").logoutSuccessUrl("/").permitAll());
-
-        ;
-
-        /*
-        http.authorizeRequests().antMatchers("/", "/index.html", "/scripts/**", "/styles/**", "faveicon.ico", "/images/**").permitAll()
-            .anyRequest().authenticated()
-            .and().formLogin().loginPage("/login").permitAll()
-            .and().logout() .permitAll();
-         */
     }
 
     /*

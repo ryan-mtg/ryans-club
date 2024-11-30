@@ -1,47 +1,74 @@
 package club.ryans.controllers;
 
+import club.ryans.charts.ex.borg.ExBorgEfficiencyCalculator;
+import club.ryans.error.ServerError;
+import club.ryans.models.Building;
 import club.ryans.models.RawLog;
+import club.ryans.models.calculators.BuildingCalculator;
+import club.ryans.models.calculators.DailiesCalculator;
+import club.ryans.models.managers.AllianceManager;
 import club.ryans.models.managers.BuildingManager;
 import club.ryans.models.managers.LogManager;
 import club.ryans.models.managers.OfficerManager;
-import club.ryans.models.managers.ResourceManager;
-import club.ryans.models.managers.ShipManager;
 import club.ryans.models.managers.AssetManager;
+import club.ryans.models.managers.UserManager;
+import club.ryans.models.player.BuildingStats;
+import club.ryans.models.player.DailyConfigurations;
+import club.ryans.models.player.PlayerItems;
+import club.ryans.models.player.User;
 import club.ryans.parser.Log;
 import club.ryans.parser.LogAnalyzer;
 import club.ryans.parser.ParseResult;
 import club.ryans.utility.Json;
+import club.ryans.views.PlayerItemsView;
+import club.ryans.views.inventory.InventoryGrouper;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+import static java.time.LocalTime.now;
+
 @Controller
 @RequiredArgsConstructor
+@Slf4j
 public class IndexController {
     @Autowired
-    private BuildingManager buildingManager;
+    private AllianceManager allianceManager;
 
     @Autowired
     private OfficerManager officerManager;
 
     @Autowired
-    private ResourceManager resourceManager;
-
-    @Autowired
-    private ShipManager shipManager;
+    private BuildingManager buildingManager;
 
     @Autowired
     private AssetManager assetManager;
+
+    @Autowired
+    private ExBorgEfficiencyCalculator exBorgEfficiencyCalculator;
+
+    @Autowired
+    private BuildingCalculator buildingCalculator;
+
+    @Autowired
+    private DailiesCalculator dailiesCalculator;
+
+    @Autowired
+    private UserManager userManager;
 
     @Autowired
     private LogManager logManager;
 
     @Autowired
     private final LogAnalyzer analyzer;
+
+    @Autowired
+    private final InventoryGrouper inventoryGrouper;
 
     @GetMapping(value = {"/", "index.html"})
     public String index(final Model model) {
@@ -55,8 +82,24 @@ public class IndexController {
     }
 
     @GetMapping("user")
-    public String profile() {
+    public String profile(final Model model) {
+        final User user = (User) model.getAttribute("user");
+        final PlayerItems items = userManager.getItems(user);
+        PlayerItemsView itemsView = items != null ? new PlayerItemsView(items, inventoryGrouper) : null;
+        model.addAttribute("items", itemsView);
         return "user/profile";
+    }
+
+    @GetMapping(value = "/user/dailies")
+    public String dailies(final Model model) throws ServerError {
+        final User user = (User) model.getAttribute("user");
+        final PlayerItems items = userManager.getItems(user);
+        final DailyConfigurations dailyConfigurations = userManager.getDailies(user);
+
+        model.addAttribute("dailies", dailiesCalculator.getDailies(items, dailyConfigurations));
+        model.addAttribute("officers", officerManager.getOfficers());
+        model.addAttribute("assets", assetManager);
+        return "user/dailies";
     }
 
     @GetMapping("/log/{tag}")
@@ -77,37 +120,55 @@ public class IndexController {
         }
     }
 
-    @GetMapping(value = "/buildings")
-    public String buildings(final Model model) {
-        model.addAttribute("buildings", buildingManager.getBuildings());
+    @GetMapping(value = "/alliance")
+    public String alliance(final Model model) {
+        model.addAttribute("alliance", allianceManager.createPrototype());
         model.addAttribute("assets", assetManager);
-        return "buildings";
+        return "alliance";
     }
 
-    @GetMapping(value = "/officers")
-    public String officers(final Model model) {
+    @GetMapping(value = "/crews")
+    public String crews(final Model model) {
         model.addAttribute("officers", officerManager.getOfficers());
         model.addAttribute("assets", assetManager);
-        return "officers";
+        return "crews";
     }
 
-    @GetMapping(value = "/resources")
-    public String resources(final Model model) {
-        model.addAttribute("resources", resourceManager.getResources());
+    @GetMapping(value = "/officer/{index}")
+    public String officer(final Model model, @PathVariable final int index) {
+        model.addAttribute("officer", officerManager.getOfficer(index));
         model.addAttribute("assets", assetManager);
-        return "resources";
+        return "officer";
     }
 
-    @GetMapping(value = "/ships")
-    public String ships(final Model model) {
-        model.addAttribute("ships", shipManager.getShips());
+    @GetMapping(value = "/building/{index}")
+    public String building(final Model model, @PathVariable final int index) {
+        LOGGER.info("start of building {}", now());
+        final User user = (User) model.getAttribute("user");
+        final PlayerItems items = userManager.getItems(user);
+
+        Building building = buildingManager.getBuilding(index);
+
+        if (building == null) {
+            return "not_found";
+        }
+
+        BuildingStats stats = buildingCalculator.computePlayerStats(building, items);
+
+        model.addAttribute("building", building);
+        model.addAttribute("stats", stats);
+        model.addAttribute("items", items);
         model.addAttribute("assets", assetManager);
-        return "ships";
+        LOGGER.info("end of building {}", now());
+        return "building";
     }
 
-    @GetMapping(value = "/assets")
-    public String assets(final Model model) {
+    @GetMapping(value = "/ex-borg")
+    public String exBorg(final Model model) {
+        model.addAttribute("bundles", exBorgEfficiencyCalculator.getBundles());
+        model.addAttribute("ranks", exBorgEfficiencyCalculator.getRanks());
+        model.addAttribute("officers", officerManager.getOfficers());
         model.addAttribute("assets", assetManager);
-        return "assets";
+        return "grind/ex-borg";
     }
 }

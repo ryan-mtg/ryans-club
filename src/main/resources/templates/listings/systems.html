@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Systems</title>
+    <div th:replace="fragments :: includes"></div>
+</head>
+<body>
+    <div th:replace="fragments :: header('Systems')"></div>
+
+    <main>
+        <h1>Ships</h1>
+
+        <div class="blocks-container">
+            <a th:each="system: ${systems}" class="unstyled-link" th:href="'system/' + ${system.id}">
+                <div class="item-block">
+                    <div class="rows">
+                        <span class="set-title" th:text="${system.name}"></span>
+
+                        <span>
+                            <span th:text="${system.id}"></span> |
+                            <span th:text="${system.level}"></span>
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+</body>
+</html>

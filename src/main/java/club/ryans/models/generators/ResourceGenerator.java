@@ -18,9 +18,11 @@ import java.util.function.BiConsumer;
 public class ResourceGenerator {
     private static final Map<String, BiConsumer<Resource, String>> FIELD_MAP =
             new HashMap<String, BiConsumer<Resource, String>>() {{
-                put("name", Resource::setName);
+                put("resource_name", Resource::setName);
+                put("resource_name_short", Resource::setShortName);
                 put("name_short", Resource::setShortName);
                 put("description", Resource::setDescription);
+                put("resource_description", Resource::setDescription);
             }};
 
     private final AssetManager assetManager;
@@ -39,6 +41,9 @@ public class ResourceGenerator {
         List<club.ryans.stfcspace.json.Resource> resources = stfcSpaceClient.resource();
         for (club.ryans.stfcspace.json.Resource resourceJson : resources) {
             Resource resource = createResource(resourceJson);
+            if (resourceMap.containsKey(resource.getId())) {
+                LOGGER.info("duplicate resource: {}", resource.getId());
+            }
             resourceMap.put(resource.getId(), resource);
         }
 
@@ -59,7 +64,8 @@ public class ResourceGenerator {
 
     private Resource createResource(final club.ryans.stfcspace.json.Resource resourceJson) {
         Resource resource = new Resource();
-        resource.setId(resourceJson.getId());
+        resource.setId(resourceJson.getLocalId());
+        resource.setStfcSpaceId(resourceJson.getId());
         resource.setGrade(resourceJson.getGrade());
         resource.setRarity(resourceJson.getRarity());
         resource.setArtId(resourceJson.getArtId());

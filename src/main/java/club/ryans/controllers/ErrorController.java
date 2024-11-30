@@ -25,6 +25,17 @@ public class ErrorController implements org.springframework.boot.web.servlet.err
         String requestUrl = request.getAttribute(RequestDispatcher.ERROR_REQUEST_URI).toString();
 
         if (requestUrl.startsWith("/api/")) {
+            if (exception instanceof ServerError) {
+                throw (ServerError) exception;
+            }
+
+            if (exception instanceof Exception) {
+                Exception e = (Exception) exception;
+                if (e.getCause() instanceof ServerError) {
+                    throw (ServerError) e.getCause();
+                }
+            }
+
             if (exception != null) {
                 throw new ServerError(status, (Throwable) exception, "Unknown error");
             }

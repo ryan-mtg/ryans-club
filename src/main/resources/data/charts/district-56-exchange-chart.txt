@@ -1,0 +1,37 @@
+building_chart {
+    title: District 56 Exchange,
+    id: district-56-exchange,
+    building: 79,
+    columns: [
+        column {
+            title: Level,
+        },
+        chest_group {
+            title: Mirror Fragments,
+            cooldown: 22h,
+            id: mirror-fragments,
+            costResource: 67003,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Mirror Fragments,
+                    resource: 68501,
+                },
+            ],
+        },
+    ],
+
+    rows: [
+        [1-10, 50, 25],
+        [11-20, 75, 50],
+        [21-30, 100, 100],
+        [31-40, 125, 150],
+        [41-50, 150, 200],
+        [51-60, ?, 300],
+        [61-70, ?, ?],
+    ],
+}

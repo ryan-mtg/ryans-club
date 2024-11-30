@@ -1,14 +1,14 @@
 :root {
     /* Primary color is blue and variants thereof */
-    --primary-color: hsl(6, 91%, 70%);
-    --primary-color-light: hsl(6, 91%, 80%);
-    --primary-color-dark: hsl(6, 91%, 55%);
+    --primary-color: hsl(0, 100%, 40%);
+    --primary-color-light: hsl(0, 100%, 45%);
+    --primary-color-dark: hsl(0, 100%, 35%);
     --primary-color-text: hsl(51, 55%, 95%);
 
     /* Accent color is yellowish and variants thereof */
-    --accent-color: hsl(51, 100%, 82%);
-    --accent-color-light: hsl(51, 100%, 90%);
-    --accent-color-dark: hsl(51, 100%, 70%);
+    --accent-color: hsl(53, 98%, 47%);
+    --accent-color-light: hsl(53, 98%, 90%);
+    --accent-color-dark: hsl(53, 98%, 47%);
     --accent-color-text: hsl(227, 35%, 18%);
 
     /* Used for displaying info or error messages based on user actions. */
@@ -33,10 +33,10 @@ body {
     /* Background color for items that want a little visual difference from the normal background. */
     --background-color-alternate: #f3f3f3;
 
-    /* VML's accent color is yellowish and variants thereof */
-    --accent-color: hsl(51, 100%, 52%);
-    --accent-color-light: hsl(51, 100%, 67%);
-    --accent-color-dark: hsl(51, 100%, 35%);
+    /* Accent color is yellowish and variants thereof */
+    --accent-color: hsl(53, 98%, 47%);
+    --accent-color-light: hsl(53, 98%, 67%);
+    --accent-color-dark: hsl(53, 98%, 57%);
     --accent-color-text: hsl(227, 35%, 18%);
 
     /* Colors for the navigation links at the top of the page. */
@@ -71,10 +71,10 @@ body {
 body[data-theme='dark'] {
     /* Default colors for text and background. */
     --text-color:  hsl(51, 55%, 95%);
-    --background-color: hsl(227, 35%, 23%);
+    --background-color: hsl(227, 46%, 8%);
 
     /* Background color for items that want a little visual difference from the normal background. */
-    --background-color-alternate: hsl(227, 35%, 18%);
+    --background-color-alternate: hsl(227, 46%, 13%);
 
     /* Colors for the navigation links at the top of the page. */
     --menu-color: hsl(51, 55%, 70%);
@@ -113,7 +113,7 @@ main {
 h1 {
     font-family: var(--title-font-family, sans-serif);
     text-align: center;
-    color: var(--primary-color-dark);
+    color: var(--primary-color);
 
     display: flex;
     align-items: center;
@@ -125,8 +125,7 @@ h1 {
 h2 {
     font-family: var(--title-font-family, sans-serif);
     color: var(--accent-color-dark);
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+    margin-block: .5rem;
 }
 
 h2.title {
@@ -134,9 +133,14 @@ h2.title {
 }
 
 h3 {
+    display: inline-block;
     font-family: var(--title-font-family, sans-serif);
     color: var(--primary-color-dark);
     margin: 0;
+}
+
+h4 {
+    margin-block: .25rem;
 }
 
 header {
@@ -193,7 +197,7 @@ header {
 }
 
 .discord-login-button img {
-    vertical-align: center;
+    vertical-align: middle;
     max-height: 30px;
 }
 
@@ -264,6 +268,62 @@ input::-webkit-inner-spin-button {
     margin-top: 1rem;
     padding: 1rem;
     display: inline-block;
+}
+
+.primary-button {
+    padding-block: .5rem;
+    padding-inline: 1rem;
+    cursor: pointer;
+
+    color: var(--primary-color-text);
+    background-color: var(--primary-color);
+    border-radius: .5rem;
+    border: none;
+    font-weight: bold;
+}
+
+.primary-button:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.secondary-button {
+    padding-block: .5rem;
+    padding-inline: 1rem;
+    cursor: pointer;
+
+    color: var(--accent-color-text);
+    background-color: var(--accent-color);
+    border-radius: .5rem;
+    border: none;
+    font-weight: bold;
+}
+
+.secondary-button:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.rc-button {
+    padding-block: .5rem;
+    padding-inline: 1rem;
+    cursor: pointer;
+
+    font-size: var(--rc-button-size, 1rem);
+    color: var(--accent-color-text);
+    background-color: var(--accent-color);
+    border-radius: .5rem;
+    border: none;
+    font-weight: bold;
+}
+
+.row-button {
+    padding-block: .2rem;
+    padding-inline: .5rem;
+    margin-inline: .5rem;
+    --rc-button-size: .70rem;
+}
+
+.rc-button:hover {
+    background-color: var(--accent-color-dark);
 }
 
 .form-submit-button {
@@ -424,8 +484,9 @@ input::-webkit-inner-spin-button {
 }
 
 .small-icon {
-    width: 1em;
-    height: 1em;
+    width: 50px;
+    height: 50px;
+    vertical-align: bottom;
 }
 
 .banner-icon {
@@ -437,6 +498,17 @@ input::-webkit-inner-spin-button {
 .banner-close {
     font-size: 1.5rem;
     vertical-align: text-bottom;
+}
+
+.service-enabled {
+    border: 1px solid green;
+    border-radius: 7px;
+}
+
+.service-disabled {
+    opacity: .4;
+    border: 1px solid rgba(256, 0, 0, .4);
+    border-radius: 7px;
 }
 
 .graph-tabs {
@@ -715,10 +787,41 @@ table {
     width: 100%;
 }
 
+.data-table {
+}
+
 .data-table td {
-    padding: 2px 15px;
-    border-collapse: collapse;
-    border: 1px solid black;
+    padding: .25rem .5rem ;
+    font-size: .9rem;
+    text-align: left;
+}
+
+.data-table thead {
+    background-color: var(--primary-color-light);
+    color: var(--primary-color-text);
+    inset-block-start: 0;
+}
+
+.data-table th {
+    padding: .5rem .5rem ;
+    overflow: hidden;
+}
+
+.data-table td.number-cell {
+    padding: .25rem .5rem;
+    text-align: center;
+}
+
+.data-table td.center-cell {
+    text-align: center;
+}
+
+.data-table tbody tr {
+    border-bottom: 1px solid var(--separator-color);
+}
+
+.data-table tbody tr:nth-of-type(even) {
+    background-color: var(--background-color-alternate);
 }
 
 .center-cell {
@@ -864,6 +967,35 @@ input[type=text].emote {
     max-height: 64px;
 }
 
+.ini-example {
+    max-width: max-content;
+    white-space: pre;
+    margin-block: 1rem;
+    padding-block: .5rem;
+    padding-inline: 1rem;
+    border: 1px solid white;
+}
+
+.update-block {
+    max-width: max-content;
+    margin-block: 1rem;
+    padding-block: .5rem;
+    padding-inline: 1rem;
+    border: 1px solid white;
+}
+
+.state-error {
+    border: 1px solid red;
+}
+
+.state-pending {
+    border: 1px solid lightblue;
+}
+
+.state-complete {
+    border: 1px solid green;
+}
+
 .star {
     display: inline-block;
     border-radius: .25rem;
@@ -991,7 +1123,7 @@ input[type=text].emote {
     margin-block: 1rem;
 }
 
-.pagination span {
+.pagination span:not(:empty) {
     color: var(--accent-color-dark);
     cursor: pointer;
     padding: .5rem 1rem;
@@ -1018,6 +1150,43 @@ input[type=text].emote {
     font-weight: bold;
     border-color: var(--accent-color-light);
 }
+
+/* SELCTOR */
+.option-selector {
+    display: inline-flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.option-selector span:first-child {
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+
+.option-selector span:last-child {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.option-selector span {
+    display: inline;
+    color: var(--text-color);
+    cursor: pointer;
+    padding: .5rem 1rem;
+    border: 1px solid var(--separator-color);
+    vertical-align: baseline;
+}
+
+.option-selector.compact span {
+    padding: .5rem .75rem;
+}
+
+.option-selector .selected {
+    color: var(--accent-color-light);
+    font-weight: bold;
+    border-color: var(--accent-color-light);
+}
+
 
 /* ITEMS */
 .item-block {
@@ -1046,4 +1215,309 @@ input[type=text].emote {
 
 .rarity-common {
     --rarity-color: gray;
+}
+
+/* CREWS */
+
+.crew-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 3rem;
+    margin-inline: auto;
+}
+
+.crew-area {
+    min-height: max-content;
+    border: 3px solid var(--separator-color);
+    border-radius: 1rem;
+    width: max-content;
+    padding-block: 2rem;
+    padding-inline: 5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.crew-filter-section {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 1rem;
+}
+
+.crew-filter-section select {
+    width: fit-content;
+}
+
+.bridge-slot {
+    border: 2px solid gold;
+    border-radius: .4rem;
+
+    width: 60px;
+    height: 60px;
+}
+
+.officer-slot {
+    border: 2px solid var(--separator-color);
+    border-radius: .4rem;
+
+    width: 60px;
+    height: 60px;
+}
+
+.crew-block {
+    border: var(--rarity-color, blue) .125rem solid;
+    box-shadow: 0 0 .25em var(--rarity-color);
+
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+}
+
+/* BUILDINGS */
+
+.feature-image {
+    vertical-align: middle;
+    max-height: 200px;
+    padding: 1rem;
+    border: 1px solid red;
+    margin: 1rem;
+}
+
+/* EX-BORG EFFICIENCY BUNDLES */
+
+.two-column-container {
+    display: flex;
+}
+
+.two-column-container section {
+    margin: 0 5%;
+    width: 49%;
+}
+
+.two-column-container h3 {
+    text-align: center;
+}
+
+.bundle-container {
+    border-radius: 1rem;
+    border: 1px solid var(--separator-color);
+}
+
+.bundle {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+
+    border-radius: 1rem;
+    border: 1px solid blue;
+    margin: 1rem;
+    padding: .5rem 1rem;
+
+}
+
+.bundle-ship {
+    width: 50px;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+/* COMMON */
+
+.subgroup-header {
+    display: inline-flex;
+    font-size: x-large;
+    border-bottom: 2px solid var(--accent-color-dark);
+    min-width: 30rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    justify-content: space-between;
+}
+
+.subgroup-description {
+    font-size: small;
+    color: gray;
+    align-self: end;
+}
+
+h2.subgroup-header {
+    display: inline-block;
+    border-bottom: 2px solid var(--primary-color-dark);
+}
+
+.subgroup-ship {
+    padding-inline: 1rem;
+    height: 40px;
+    max-width: 40px;
+    vertical-align: middle;
+}
+
+/* INVENTORY */
+
+.inventory-blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    justify-content: start;
+    margin-top: .5rem;
+    margin-block: 1rem;
+    gap: 2rem;
+}
+
+.inventory-block {
+    border: var(--rarity-color, blue) .125rem solid;
+    box-shadow: 0 0 .25em var(--rarity-color);
+    padding: .25rem .5rem;
+    height: 100%;
+
+    display: inline-flex;
+    width: 7rem;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+}
+
+.inventory-block h4 {
+    margin-block: 0;
+    text-align: center;
+    font-size: smaller;
+}
+
+/* DAILY TASKS */
+
+.daily-task-blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    justify-content: start;
+    margin-top: .5rem;
+    margin-block: 1rem;
+    gap: 2rem;
+}
+
+.daily-task-block {
+    border: var(--separator-color) 1px solid;
+    border-radius: .5rem;
+    margin-left: 2rem;
+    padding-block: .25rem;
+    padding-inline: 1rem;
+
+    display: inline-flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: .5rem;
+}
+
+.daily-task-content {
+    display: inline-flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    align-items: start;
+    gap: 1rem;
+}
+
+.daily-resource {
+    height: 30px;
+    max-width: 30px;
+
+    border: var(--rarity-color, blue) 1px solid;
+    border-radius: 3px;
+    padding: 3px;
+    box-shadow: 0 0 .25em var(--rarity-color);
+}
+
+.daily-research {
+    height: 50px;
+
+    border: var(--rarity-color, gray) 1px solid;
+    padding: 3px;
+    box-shadow: 0 0 .25em var(--rarity-color, gray);
+}
+
+.daily-task-content h4 {
+    margin-block: 0;
+    text-align: center;
+    font-size: smaller;
+}
+
+.daily-task-subblock {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .25rem;
+}
+
+.daily-task-item-container {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .25rem;
+}
+
+.daily-task-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .25rem;
+    font-size: x-small;
+}
+
+.task-unready {
+    color: red;
+}
+
+/* ASSETS */
+
+.asset-unknown {
+    border: 2px solid black;
+    margin: 4px;
+    outline: 2px solid maroon;
+}
+
+.asset-research {
+    border: 2px solid red;
+}
+
+.asset-officer {
+    border: 2px solid blue;
+}
+
+.asset-ship {
+    border: 2px solid green;
+}
+
+.asset-refit {
+    border: 2px solid lightgreen;
+}
+
+.asset-resource {
+    border: 2px solid purple;
+}
+
+.asset-ability {
+    border: 2px solid pink;
+}
+
+.asset-forbidden_tech {
+    border: 2px solid orange;
+}
+
+/* Admin */
+
+.invite-available {
+    color: green;
+}
+
+.invite-used {
+    color: orange;
+}
+
+.invite-expired {
+    color: red;
 }

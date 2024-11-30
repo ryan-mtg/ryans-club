@@ -1,0 +1,604 @@
+dailies {
+    groups: [
+        daily_group {
+            name: Material Refines,
+            id: material-refines,
+            default: true,
+            subgroups: [
+                daily_subgroup {
+                    name: 2★ materials,
+                    id: grade-2-materials,
+                    chartId: grade-2-materials-refinery,
+                    dailies: [
+                        ops_daily {
+                            name: 2★ Crystal,
+                            id: grade-2-crystal,
+                            chestGroupId: grade-2-crystal,
+                        },
+                        ops_daily {
+                            name: 2★ Gas,
+                            id: grade-2-gas,
+                            chestGroupId: grade-2-gas,
+                        },
+                        ops_daily {
+                            name: 2★ Ore,
+                            id: grade-2-ore,
+                            chestGroupId: grade-2-ore,
+                        },
+                    ],
+                },
+                daily_subgroup {
+                    name: 3★ materials,
+                    id: grade-3-materials,
+                    chartId: grade-3-materials-refinery,
+                    dailies: [
+                        ops_daily {
+                            name: 3★ Crystal,
+                            id: grade-3-crystal,
+                            chestGroupId: grade-3-crystal,
+                        },
+                        ops_daily {
+                            name: 3★ Gas,
+                            id: grade-3-gas,
+                            chestGroupId: grade-3-gas,
+                        },
+                        ops_daily {
+                            name: 3★ Ore,
+                            id: grade-3-ore,
+                            chestGroupId: grade-3-ore,
+                        },
+                    ],
+                },
+                daily_subgroup {
+                    name: 4★ materials,
+                    id: grade-4-materials,
+                    chartId: grade-4-materials-refinery,
+                    dailies: [
+                        ops_daily {
+                            name: 4★ Crystal,
+                            id: grade-4-crystal,
+                            chestGroupId: grade-4-crystal,
+                        },
+                        ops_daily {
+                            name: 4★ Gas,
+                            id: grade-4-gas,
+                            chestGroupId: grade-4-gas,
+                        },
+                        ops_daily {
+                            name: 4★ Ore,
+                            id: grade-4-ore,
+                            chestGroupId: grade-4-ore,
+                        },
+                    ],
+                },
+            ],
+        },
+        daily_group {
+            name: Ship Part Refines,
+            id: ship-part-refines,
+            default: false,
+            subgroups: [
+                daily_subgroup {
+                    name: 4★ materials,
+                    id: grade-4-ship-parts,
+                    chartId: grade-4-ship-parts-refinery,
+                    dailies: [
+                        ops_daily {
+                            name: 4★ Interceptor Parts,
+                            id: grade-4-interceptor-parts,
+                            chestGroupId: grade-4-interceptor-parts,
+                        },
+                        ops_daily {
+                            name: 4★ Explorer parts,
+                            id: grade-4-explorer-parts,
+                            chestGroupId: grade-4-explorer-parts,
+                        },
+                        ops_daily {
+                            name: 4★ Battleship Parts,
+                            id: grade-4-battleship-parts,
+                            chestGroupId: grade-4-battleship-parts,
+                        },
+                        ops_daily {
+                            name: 4★ Survey Parts,
+                            id: grade-4-survey-parts,
+                            chestGroupId: grade-4-survey-parts,
+                        },
+                    ],
+                },
+                daily_subgroup {
+                    name: 5★ materials,
+                    id: grade-5-ship-parts,
+                    chartId: grade-5-ship-parts-refinery,
+                    dailies: [
+                        ops_daily {
+                            name: 5★ Interceptor Parts,
+                            id: grade-5-interceptor-parts,
+                            chestGroupId: grade-5-interceptor-parts,
+                        },
+                        ops_daily {
+                            name: 5★ Explorer parts,
+                            id: grade-5-explorer-parts,
+                            chestGroupId: grade-5-explorer-parts,
+                        },
+                        ops_daily {
+                            name: 5★ Battleship Parts,
+                            id: grade-5-battleship-parts,
+                            chestGroupId: grade-5-battleship-parts,
+                        },
+                        ops_daily {
+                            name: 5★ Survey Parts,
+                            id: grade-5-survey-parts,
+                            chestGroupId: grade-5-survey-parts,
+                        },
+                    ],
+                },
+                daily_subgroup {
+                    name: 6★ materials,
+                    id: grade-6-ship-parts,
+                    chartId: grade-6-ship-parts-refinery,
+                    dailies: [
+                        ops_daily {
+                            name: 6★ Interceptor Parts,
+                            id: grade-6-interceptor-parts,
+                            chestGroupId: grade-6-interceptor-parts,
+                        },
+                        ops_daily {
+                            name: 6★ Explorer parts,
+                            id: grade-6-explorer-parts,
+                            chestGroupId: grade-6-explorer-parts,
+                        },
+                        ops_daily {
+                            name: 6★ Battleship Parts,
+                            id: grade-6-battleship-parts,
+                            chestGroupId: grade-6-battleship-parts,
+                        },
+                        ops_daily {
+                            name: 6★ Survey Parts,
+                            id: grade-6-survey-parts,
+                            chestGroupId: grade-6-survey-parts,
+                        },
+                    ],
+                },
+            ],
+        },
+        daily_group {
+            name: Gifts,
+            id: gifts,
+            default: false,
+            subgroups: [
+                daily_subgroup {
+                    name: Building Resources,
+                    id: building-resources,
+                    dailies: [
+                        building_claim_daily {
+                            name: Command Center Claim,
+                            id: command-center-claim,
+                            chartId: command-center,
+                            claimGroupId: command-center,
+                        },
+                        building_claim_daily {
+                            name: Optical Diodes Claim,
+                            id: treasury-claim,
+                            chartId: treasury,
+                            claimGroupId: treasury,
+                        },
+                        ops_claim_daily {
+                            name: Replicator Rations Claim,
+                            id: replicator-rations-claim,
+                            chartId: mess-hall,
+                            claimGroupId: mess-hall,
+                        },
+                        claim_daily {
+                            name: Trial Bells Claim,
+                            id: trial-bells-claim,
+                            cooldown: 22h,
+                            capacity: resource_amount {
+                                resource: 56100,
+                                amount: 75,
+                            },
+                            claims: [
+                                resource_amount {
+                                    resource: 56100,
+                                    amount: 80,
+                                },
+                            ],
+                            fallback_claims: [
+                                resource_amount {
+                                    resource: 1203,
+                                    amount: 1,
+                                },
+                            ],
+                        },
+                        claim_daily {
+                            name: Nadion Supply Claim,
+                            id: nadion-supply-claim,
+                            cooldown: 22h,
+                            claims: [
+                                resource_amount {
+                                    resource: 48050,
+                                    amount: 175,
+                                },
+                            ],
+                        },
+                        claim_daily {
+                            name: Nova Squadron Supply Claim,
+                            id: nova-squadron-claim,
+                            cooldown: 22h,
+                            claims: [
+                                resource_amount {
+                                    resource: 70002,
+                                    amount: 580,
+                                },
+                            ],
+                        },
+                        building_claim_daily {
+                            name: Holo-Field Amplifiers Claim,
+                            id: holo-field-amplifiers-claim,
+                            chartId: holodeck,
+                            claimGroupId: holo-field-amplifiers,
+                        },
+                    ],
+                },
+                daily_subgroup {
+                    name: Ship Resources,
+                    id: ship-resources,
+                    dailies: [
+                        claim_daily {
+                            name: Omega-13 Matter Claim,
+                            id: omega-13-matter-claim,
+                            cooldown: 22h,
+                            capacity: resource_amount {
+                                resource: 69002,
+                                amount: 4800,
+                            },
+                            claims: [
+                                resource_amount {
+                                    resource: 69002,
+                                    amount: 1200,
+                                },
+                            ],
+                            fallback_claims: [
+                                resource_amount {
+                                    resource: 69001,
+                                    amount: 100,
+                                },
+                            ],
+                        },
+                        ship_claim_daily {
+                            name: Axion Plama Claim,
+                            id: axion-plasma-claim,
+                            chartId: gorn-eviscerator,
+                            claimGroupId: axion-plasma,
+                        },
+                        ship_claim_daily {
+                            name: Radioactive Titanite Claim,
+                            id: radioactive-titanite-claim,
+                            chartId: titan-a-refinery,
+                            claimGroupId: radioactive-titanite,
+                        },
+                        claim_daily {
+                            name: Transwarp Cells Claim,
+                            id: transwarp-cells-claim,
+                            cooldown: 22h,
+                            capacity: resource_amount {
+                                resource: 7159,
+                                amount: 8,
+                            },
+                            claims: [
+                                resource_amount {
+                                    resource: 7159,
+                                    amount: 2,
+                                },
+                            ],
+                            fallback_claims: [
+                                resource_amount {
+                                    resource: 7140,
+                                    amount: 1K,
+                                },
+                            ],
+                        },
+                        claim_daily {
+                            name: Ancient Beacons Claim,
+                            id: ancient-beacons-claim,
+                            cooldown: 22h,
+                            capacity: resource_amount {
+                                resource: 45016,
+                                amount: 8,
+                            },
+                            claims: [
+                                resource_amount {
+                                    resource: 45016,
+                                    amount: 2,
+                                },
+                            ],
+                            fallback_claims: [
+                                resource_amount {
+                                    resource: 45017,
+                                    amount: 100,
+                                },
+                            ],
+                        },
+                        claim_daily {
+                            name: Condensed Venom Claim,
+                            id: condensed-venom-claim,
+                            cooldown: 22h,
+                            capacity: resource_amount {
+                                resource: 45020,
+                                amount: 5K,
+                            },
+                            claims: [
+                                resource_amount {
+                                    resource: 45020,
+                                    amount: 1K,
+                                },
+                            ],
+                        },
+                    ],
+                },
+            ],
+        },
+        daily_group {
+            name: Mirror Refines,
+            id: mirror-refines,
+            default: false,
+            subgroups: [
+                daily_subgroup {
+                    name: Mirror Refines,
+                    id: mirror-refines,
+                    dailies: [
+                        claim_daily {
+                            name: Mirror Expeditions,
+                            id: mirror-expeditions,
+                            cooldown: 70h,
+                            capacity: resource_amount {
+                                resource: 67013,
+                                amount: 1200,
+                            },
+                            claims: [
+                                resource_amount {
+                                    resource: 67013,
+                                    amount: 900,
+                                },
+                            ]
+                        },
+                        ops_claim_daily {
+                            name: Rift Keys Claim,
+                            id: mirror-rift-keys-claim,
+                            chartId: mirror-rift-keys,
+                            claimGroupId: rift-key-claim,
+                        },
+                        research_daily {
+                            name: Trellium-A Refine,
+                            id: trellium-a-refine,
+                            chartId: mirror-refinery,
+                            chestGroupId: trellium-a,
+                        },
+                        research_daily {
+                            name: Trellium-D Refine,
+                            id: trellium-d-refine,
+                            chartId: mirror-refinery,
+                            chestGroupId: trellium-d,
+                        },
+                    ],
+                },
+                daily_subgroup {
+                    name: Liquid Trellium-D Refines,
+                    id: liquid-trellium-d-refines,
+                    dailies: [
+                        building_daily {
+                            name: District 56 Exchange,
+                            id: district-56-exchange,
+                            chartId: district-56-exchange,
+                            chestGroupId: mirror-fragments,
+                        },
+                        redeem_daily {
+                            name: Holodeck Advancement Exchange,
+                            id: holodeck-advancement-exchange,
+                            chests: chest_group {
+                                title: Holodeck Advancement Exchange,
+                                cooldown: 20h,
+                                id: holodeck-advancement,
+                                costResource: 67003,
+                                costs: [
+                                    chest {
+                                        chests: 1,
+                                        cost: 150,
+                                    },
+                                    chest {
+                                        chests: 2,
+                                        cost: 350,
+                                    },
+                                ],
+                                rewards: [
+                                    column {
+                                        title: Holo-Field Amplifiers,
+                                        resource: 63014,
+                                        probabilities: [46%, 36%, 18%],
+                                        value: 300/450/700,
+                                    },
+                                ],
+                            },
+                        },
+                        ops_daily {
+                            name: Forbidden Tech Exchange,
+                            id: mirror-forbidden-tech-exchange,
+                            chartId: liquid-trellium-d-refinery,
+                            chestGroupId: forbidden-tech-exchange,
+                        },
+                        ops_daily {
+                            name: Mirror Dust Exchange,
+                            id: mirror-dust-exchange,
+                            chartId: liquid-trellium-d-refinery,
+                            chestGroupId: mirror-dust-exchange,
+                        },
+                        ops_daily {
+                            name: Rift Key Exchange,
+                            id: rift-key-exchange,
+                            chartId: mirror-rift-keys,
+                            chestGroupId: rift-key-exchange,
+                        },
+                    ]
+                },
+            ],
+        },
+        daily_group {
+            name: Ship Refines,
+            id: ship-refines,
+            default: false,
+            subgroups: [
+                daily_subgroup {
+                    name: Mantis,
+                    id: mantis,
+                    ship: MANTIS,
+                    chartId: mantis-refinery,
+                    dailies: [
+                        ship_daily {
+                            name: Nitrium Refine,
+                            id: mantis-nitrium,
+                            chestGroupId: nitrium,
+                        },
+                        ship_daily {
+                            name: Synthetic Ion Refine,
+                            id: mantis-synthetic-ion,
+                            chestGroupId: synthetic-ion,
+                        },
+                        ship_daily {
+                            name: Syndicate XP Refine,
+                            id: mantis-syndicate-xp,
+                            chestGroupId: syndicate-xp,
+                        },
+                        ship_daily {
+                            name: Hull Fragments Refine,
+                            id: mantis-hull-fragments,
+                            chestGroupId: hull-fragments,
+                        },
+                    ],
+                },
+                daily_subgroup {
+                    name: Borg,
+                    id: borg,
+                    ship: VI'DAR TALIOS,
+                    chartId: borg-refinery,
+                    dailies: [
+                        ship_daily {
+                            name: Charged Nanoprobes Refine,
+                            id: borg-charged-nanoprobes,
+                            chestGroupId: charged-nanoprobes,
+                        },
+                        ship_daily {
+                            name: Active Nanoprobes Refine,
+                            id: borg-active-nanoprobes,
+                            chestGroupId: active-nanoprobes,
+                        },
+                        ship_daily {
+                            name: Borg Solo Armada Directives,
+                            id: borg-solo-directives,
+                            chestGroupId: borg-solo-directives,
+                        },
+                        ship_daily {
+                            name: Indy Creds Refine,
+                            id: borg-independent-credits,
+                            chestGroupId: independent-credits,
+                        },
+                        ship_daily {
+                            name: Fed Creds Refine,
+                            id: borg-federation-credits,
+                            chestGroupId: federation-credits,
+                        },
+                        ship_daily {
+                            name: Klingon Creds Refine,
+                            id: borg-klingon-credits,
+                            chestGroupId: klingon-credits,
+                        },
+                        ship_daily {
+                            name: Rom Creds Refine,
+                            id: borg-romulan-credits,
+                            chestGroupId: romulan-credits,
+                        },
+                        ship_daily {
+                            name: Fed Rep Refine,
+                            id: borg-federation-reputation,
+                            chestGroupId: federation-reputation,
+                        },
+                        ship_daily {
+                            name: Klingon Rep Refine,
+                            id: borg-klingon-reputation,
+                            chestGroupId: klingon-reputation,
+                        },
+                        ship_daily {
+                            name: Rom Rep Refine,
+                            id: borg-romulan-reputation,
+                            chestGroupId: romulan-reputation,
+                        },
+                    ],
+                },
+                daily_subgroup {
+                    name: Voyager,
+                    id: voyager,
+                    ship: USS VOYAGER,
+                    chartId: voyager-refinery,
+                    dailies: [
+                        ship_daily {
+                            name: Hirogen Refine,
+                            id: voyager-hirogen-loot-exchange,
+                            chestGroupId: hirogen-loot-exchange,
+                        },
+                        ship_daily {
+                            name: Species 8472 Refine,
+                            id: voyager-species-8472-loot-exchange,
+                            chestGroupId: species-8472-loot-exchange,
+                        },
+                        ship_daily {
+                            name: Common Anomaly Sample Refine,
+                            id: voyager-common-anomaly-sample-exchange,
+                            chestGroupId: common-anomaly-sample-exchange,
+                        },
+                        ship_daily {
+                            name: Rare Anomaly Sample Refine,
+                            id: voyager-rare-anomaly-sample-exchange,
+                            chestGroupId: rare-anomaly-sample-exchange,
+                        },
+                    ],
+                },
+                daily_subgroup {
+                    name: Enterprise NX-01,
+                    id: enterprise-nx-01,
+                    ship: ENTERPRISE NX-01,
+                    chartId: enterprise-nx-01-refinery,
+                    dailies: [
+                        ship_daily {
+                            name: Scrap Refine,
+                            id: nx-01-scrap-trade,
+                            chestGroupId: scrap-trade,
+                        },
+                        ship_daily {
+                            name: Xindi-Aquatic Refine,
+                            id: nx-01-xindi-aquatic-exchange,
+                            chestGroupId: xindi-aquatic-exchange,
+                        },
+                        ship_daily {
+                            name: Common Safe Opportunity Refine,
+                            id: nx-01-safe-opportunity-exchange,
+                            chestGroupId: safe-opportunity-exchange,
+                        },
+                        ship_daily {
+                            name: Common Risky Opportunity Refine,
+                            id: nx-01-risky-opportunity-exchange,
+                            chestGroupId: risky-opportunity-exchange,
+                        },
+                        ship_daily {
+                            name: Rare Safe Opportunity Refine,
+                            id: nx-01-special-safe-opportunity-exchange,
+                            chestGroupId: special-safe-opportunity-exchange,
+                        },
+                        ship_daily {
+                            name: Rare Risky Opportunity Refine,
+                            id: nx-01-special-risky-opportunity-exchange,
+                            chestGroupId: special-risky-opportunity-exchange,
+                        },
+                    ],
+                },
+            ],
+        },
+    ],
+}

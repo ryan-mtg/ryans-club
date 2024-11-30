@@ -7,6 +7,9 @@ import lombok.Data;
 public class Officer {
     private long id;
 
+    @JsonProperty("loca_id")
+    private int locaId;
+
     @JsonProperty("art_id")
     private int artId;
 
@@ -15,7 +18,7 @@ public class Officer {
     @JsonProperty("class")
     private int classId;
 
-    private String rarity;
+    private int rarity;
 
     @JsonProperty("synergy_id")
     private int synergyId;

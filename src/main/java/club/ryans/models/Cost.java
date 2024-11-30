@@ -7,4 +7,6 @@ public class Cost {
     private long resourceId;
 
     private long amount;
+
+    private Resource resource;
 }

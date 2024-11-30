@@ -7,10 +7,13 @@ import lombok.Data;
 public class Ship {
     private long id;
 
+    @JsonProperty("loca_id")
+    private int locaId;
+
     @JsonProperty("art_id")
     private int artId;
 
-    private long faction;
+    private Faction faction;
 
     private String rarity;
 

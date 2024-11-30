@@ -21,7 +21,8 @@
                     <tr th:each="instance: ${assets.assetMap}">
                         <td th:text="${instance.key}"></td>
                         <td>
-                            <img th:each="asset: ${instance.value}" class="large-set-icon" th:src="${assets.makeUrl(asset.path)}">
+                            <img th:each="asset: ${instance.value}" class="large-set-icon"
+                                 th:classappend="${asset.style}" th:src="${assets.makeUrl(asset.path)}">
                             </img>
                         </td>
                     </tr>

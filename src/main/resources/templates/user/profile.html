@@ -19,15 +19,164 @@
     <div th:replace="fragments :: header(${user.displayName})"></div>
 
     <main>
+        <h2>Links</h2>
         <ul>
-            <li><b>Server:</b> <span th:text="${user.server}"></span></li>
+            <li><b>Server:</b> <span th:if="${user.account}" th:text="${user.account.server}"></span></li>
+            <li th:if="${items}"><a href="/user/dailies">Dailies</a></li>
         </ul>
 
-        <div th:replace="fragments :: upload_log"></div>
-
+        <!--
         <h2>Logs</h2>
-        <ul>
-        </ul>
+        <div th:replace="fragments :: upload_log"></div>
+        -->
+
+        <div th:unless="${items}">
+            <h2>Sync Token</h2>
+            <p>This token works with the <a href="https://github.com/tashcan/bob/releases">Community Mod</a>'s sync
+                feature. The mod, when configured with the sync url and token, will send Ryan's Club data about the
+                player's ships, researches, resources etc. each time the player logs into the game and keep it updated
+                while playing.</p>
+
+            <div id="mod-ini-example" class="ini-example">[sync]
+    url = "https://servobot.info/api/public/import"
+    token = "<span th:text="${user.account.syncToken} ? ${user.account.syncToken} : '[sync-token]'"></span>"</div>
+
+            <input id="sync-token" type="hidden" th:value="${user.account.syncToken}">
+            <button id="create-sync-token-button" th:hidden="${user.account.syncToken}" class="secondary-button"
+                    onclick="createSyncToken()">
+                Create Sync Token
+            </button>
+            <button id="copy-sync-token-button" th:hidden="!${user.account.syncToken}" class="secondary-button"
+                    onclick="copySyncToken()">
+                Copy Sync Token
+            </button>
+        </div>
+
+        <div th:if="${items}">
+            <h2>Items</h2>
+
+            <div class="option-selector" data-item="sync">
+                <span id="item-sync-selector" class="selector-item selected" onclick="selectItem(this, 'sync')">Syncing
+                </span><span th:if="${items.ships.size() > 0}" id="item-ships-selector" class="selector-item"
+                    onclick="selectItem(this, 'ships')">Ships
+                </span><span th:if="${items.buildings.size() > 0}" id="item-buildings-selector" class="selector-item"
+                    onclick="selectItem(this, 'buildings')">Buildings
+                </span><span th:if="${items.officers.size() > 0}" id="item-officers-selector" class="selector-item"
+                    onclick="selectItem(this, 'officers')">Officers
+                </span><span th:if="${items.resources.size() > 0}" id="item-inventory-selector" class="selector-item"
+                    onclick="selectItem(this, 'inventory')">Inventory</span>
+            </div>
+
+            <div id="item-sync-panel">
+                <h3>Syncing</h3>
+                <p>This token works with the <a href="https://github.com/tashcan/bob/releases">Community Mod</a>'s sync
+                    feature. The mod, when configured with the sync url and token, will send Ryan's Club data about the
+                    player's ships, researches, resources etc. each time the player logs into the game and keep it updated
+                    while playing.</p>
+
+                <div id="mod-ini-example" class="ini-example">[sync]
+    url = "https://servobot.info/api/public/import"
+    token = "<span th:text="${user.account.syncToken} ? ${user.account.syncToken} : '[sync-token]'"></span>"</div>
+
+                <input id="sync-token" type="hidden" th:value="${user.account.syncToken}">
+                <button id="create-sync-token-button" th:hidden="${user.account.syncToken}" class="secondary-button"
+                        onclick="createSyncToken()">
+                    Create Sync Token
+                </button>
+                <button id="copy-sync-token-button" th:hidden="!${user.account.syncToken}" class="secondary-button"
+                        onclick="copySyncToken()">
+                    Copy Sync Token
+                </button>
+                <div th:if="${user.account.syncToken}" class="separated">
+                    <h3>Spock's Club</h3>
+                    <p>
+                        If you already have syncing set up on <a href="https://spocks.club/syncing/">Spock's Club</a>
+                        then you can add your sync token here and Ryan's Club will forward your STFC data to them.
+                    </p>
+                    <input id="spocks-club-sync-token" type="text" size="40"
+                           th:value="${user.account.spocksClubSyncToken}">
+                    <button class="secondary-button" onclick="updateSpocksClubSyncToken()">Set</button>
+                </div>
+            </div>
+
+            <div id="item-ships-panel" hidden>
+                <h3>Ships</h3>
+                <div class="inventory-blocks-container">
+                    <div th:each="ship : ${items.ships}" class="inventory-block" th:classappend="${ship.shipClass.style}">
+                        <h4 th:text="${ship.shipClass.name}"></h4>
+                        <img class="small-icon" th:src="${ship.shipClass.getImageUrl()}" loading="lazy">
+                        <div>T<span th:text="${ship.tier}"></span> &ndash; L<span th:text="${ship.level}"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="item-buildings-panel" hidden>
+                <h3>Buildings</h3>
+                <div class="blocks-container">
+                    <div th:each="building : ${items.buildings}" class="item-block" th:classappend="${building.building.style}">
+                        <div class="rows">
+                            <h4 th:text="${building.building.name}"></h4>
+                            <img class="small-icon" th:src="${building.building.getImageUrl()}" loading="lazy">
+                            <div>Level <span th:text="${building.level}"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="item-officers-panel" hidden>
+                <h3>Officers</h3>
+                <div class="blocks-container">
+                    <div th:each="officer : ${items.officers}" class="item-block" th:classappend="${officer.officer.style}">
+                        <div class="rows">
+                            <h4 th:text="${officer.officer.name}"></h4>
+                            <img class="small-icon" th:src="${officer.officer.getImageUrl()}" loading="lazy">
+                            <div>R<span th:text="${officer.rank}"></span> &ndash; L<span th:text="${officer.level}"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="item-inventory-panel" hidden>
+                <h3>Inventory</h3>
+
+                <div>
+                    <div class="option-selector" th:attr=="data-group=${items.inventory.defaultGroupId}"
+                        ><span th:each="group : ${items.inventory.groups}"
+                            th:id="'inventory-' + ${group.id} + '-selector'" th:text="${group.name}"
+                            class="selector-item" th:onclick="'selectInventory(this)'" th:attr="data-group-id=${group.id}"
+                            th:classappend="${group.id == items.inventory.defaultGroupId} ? 'selected' : ''"></span></div>
+                </div>
+
+                <div th:each="group : ${items.inventory.groups}" th:id="'inventory-' + ${group.id} + '-panel'"
+                    th:hidden="${group.id} != ${items.inventory.defaultGroupId}">
+
+                    <h2 th:text="${group.name}"></h2>
+
+                    <div th:each="subgroup : ${group.subgroups}">
+                        <h3 class="subgroup-header">
+                            <span th:text="${subgroup.name}"></span>
+                            <span class="subgroup-description" th:if="${subgroup.description}"
+                                  th:text="${subgroup.description}"></span>
+                        </h3>
+
+                        <div class="inventory-blocks-container">
+                            <div th:each="item : ${subgroup.items}" class="inventory-block"
+                                 th:classappend="${item.style}">
+                                <h4 th:text="${item.name}"></h4>
+                                <img class="small-icon" th:src="${item.imageUrl}" loading="lazy">
+                                <div th:with="popover='inventory-' + ${group.id} + '-' + ${item.resourceId} + '-popover'">
+                                    <span th:text="${utility.scoplify(item.amount)}"></span>
+                                    <button th:popovertarget="${popover}">ⓘ</button>
+                                    <h2 th:id="${popover}" popover th:text="${item.amount}"></h2>
+                                    <div th:if="${item.annotation}" th:text="${item.annotation}"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </main>
 </body>
 </html>

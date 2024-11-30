@@ -1,0 +1,75 @@
+rank {
+    index: 1,
+    name: Neutral,
+    reputation: 0-1249,
+},
+rank {
+    index: 2,
+    name: Tolerated,
+    reputation: 1250-2999,
+},
+rank {
+    index: 3,
+    name: Neighbor,
+    reputation: 3000-4749,
+},
+rank {
+    index: 4,
+    name: Friendly,
+    reputation: 4750-6999,
+},
+rank {
+    index: 5,
+    name: Favored,
+    reputation: 7000-9499,
+},
+rank {
+    index: 6,
+    name: Associate,
+    reputation: 9500-11999,
+},
+rank {
+    index: 7,
+    name: Respected,
+    reputation: 12000-15499,
+},
+rank {
+    index: 8,
+    name: Commended,
+    reputation: 15500-18999,
+},
+rank {
+    index: 9,
+    name: Glorified,
+    reputation: 19000-22499,
+},
+rank {
+    index: 10,
+    name: Distinguished,
+    reputation: 22500-62999,
+},
+rank {
+    index: 11,
+    name: Celebrated,
+    reputation: 63000-104999,
+},
+rank {
+    index: 12,
+    name: Esteemed,
+    reputation: 105000-153999,
+},
+rank {
+    index: 13,
+    name: Venerated,
+    reputation: 154000-204999,
+},
+rank {
+    index: 14,
+    name: Exalted,
+    reputation: 205000-259999,
+},
+rank {
+    index: 15,
+    name: Liberator,
+    reputation: 260000-260000,
+}

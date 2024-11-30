@@ -1,0 +1,4 @@
+
+CREATE USER stfc IDENTIFIED BY '<password>';
+
+GRANT CREATE, ALTER, INSERT, UPDATE, DELETE, SELECT on stfcdb.* TO stfc;

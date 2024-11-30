@@ -1,6 +1,8 @@
 package club.ryans.models.managers;
 
 import club.ryans.models.Building;
+import club.ryans.models.Cost;
+import club.ryans.models.Level;
 import club.ryans.models.generators.DataFileManager;
 import club.ryans.utility.Json;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -21,10 +23,10 @@ public class BuildingManager {
     private final Map<Long, Building> buildingMap = new HashMap<>();
     private final Map<String, Building> nameMap = new HashMap<>();
 
-    public BuildingManager(final DataFileManager dataFileManager) {
+    public BuildingManager(final DataFileManager dataFileManager, final ResourceManager resourceManager) {
         this.dataFileManager = dataFileManager;
 
-        loadFile();
+        loadFile(resourceManager);
     }
 
     public Collection<Building> getBuildings() {
@@ -35,7 +37,11 @@ public class BuildingManager {
         return nameMap.get(name);
     }
 
-    private void loadFile() {
+    public Building getBuilding(final long id) {
+        return buildingMap.get(id);
+    }
+
+    private void loadFile(final ResourceManager resourceManager) {
         ObjectMapper mapper = Json.createObjectMapper();
 
         try {
@@ -44,9 +50,22 @@ public class BuildingManager {
             for (Building building : buildings) {
                 buildingMap.put(building.getId(), building);
                 nameMap.put(building.getName(), building);
+                inflateLevels(building, resourceManager);
             }
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    private void inflateLevels(final Building building, final ResourceManager resourceManager) {
+        if (building.getLevels() != null) {
+            for (Level level : building.getLevels()) {
+                for (Cost cost : level.getCosts()) {
+                    if (cost.getResourceId() != 0 && cost.getResource() == null) {
+                        cost.setResource(resourceManager.getResourceFromStfcSpaceId(cost.getResourceId()));
+                    }
+                }
+            }
         }
     }
 }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Research</title>
+    <div th:replace="fragments :: includes"></div>
+</head>
+<body>
+    <div th:replace="fragments :: header('Research')"></div>
+
+    <main>
+        <h1>Research</h1>
+
+        <div class="blocks-container">
+            <a th:each="research: ${researches}" class="unstyled-link" th:href="'research/' + ${research.id}">
+                <div class="item-block" th:classappend="${research.style}">
+                    <img class="large-set-icon" th:src="${research.getImageUrl()}">
+
+                    <div class="rows">
+                        <span class="set-title" th:text="${research.name}"></span>
+
+                        <span>
+                            <span th:text="${research.id}"></span> |
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Updates</title>
+    <div th:replace="fragments :: includes"></div>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ryans_club">
+    <meta name="twitter:title" content="Ryan's Club">
+
+    <meta property="og:title" content="Ryan's Club">
+    <meta property="og:image" content="/images/logo.png">
+    <meta property="og:type" content="webpage">
+    <meta property="og:description" content="Service for looking at STFC logs">
+    <meta property="og:locale" content="en_US">
+</head>
+<body data-theme="dark">
+    <div th:replace="fragments :: header('Ryan\'s Club Data Collection')"></div>
+
+    <main>
+        <h2>Updates</h2>
+
+        <div th:each="update: ${updates}" class="update-block" th:classappend="${update.style}">
+            <div>User: <span th:text="${update.user.displayName}"></span></div>
+            <div>Token: <span th:text="${update.user.account.syncToken}"></span></div>
+            <div>Time: <span th:text="${T(club.ryans.utility.Time).toDevString(update.timestamp)}"></span></div>
+            <div>State: <span th:text="${update.state}"></span></div>
+            <div th:if="${update.errorMessage}">Error: <span th:text="${update.errorMessage}"></span></div>
+            <ul>
+                <li th:each="item : ${update.counts}">
+                    <span th:text="${item.key}"></span>: <span th:text="${item.value}"></span>
+                </li>
+            </ul>
+            <div th:if="${update.ships.size() > 0}">
+                <h3>Ships</h3>
+                <div class="blocks-container">
+                    <div th:each="ship : ${update.ships}" class="item-block" th:classappend="${ship.shipClass.style}">
+                        <h4 th:text="${ship.shipClass.name}"></h4>
+                        <img class="small-icon" th:src="${ship.shipClass.getImageUrl()}">
+                        <div>T<span th:text="${ship.tier}"></span> &mdash; L<span th:text="${ship.level}"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div th:if="${update.buildings.size() > 0}">
+                <h3>Buildings</h3>
+                <div class="blocks-container">
+                    <div th:each="building : ${update.buildings}" class="item-block" th:classappend="${building.building.style}">
+                        <h4 th:text="${building.building.name}"></h4>
+                        <img class="small-icon" th:src="${building.building.getImageUrl()}">
+                        <div>L<span th:text="${building.level}"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div th:if="${update.officers.size() > 0}">
+                <h3>Officers</h3>
+                <div class="blocks-container">
+                    <div th:each="officer : ${update.officers}" class="item-block" th:classappend="${officer.officer.style}">
+                        <h4 th:text="${officer.officer.name}"></h4>
+                        <img class="small-icon" th:src="${officer.officer.getImageUrl()}">
+                        <div>R<span th:text="${officer.rank}"></span> &mdash;
+                            L<span th:text="${officer.level}"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div th:if="${update.resources.size() > 0}">
+                <h3>Resources</h3>
+                <div class="blocks-container">
+                    <div th:each="resource : ${update.resources}" class="item-block" th:classappend="${resource.resource.style}">
+                        <h4 th:text="${resource.resource.name}"></h4>
+                        <img class="small-icon" th:src="${resource.resource.getImageUrl()}">
+                        <div># <span th:text="${resource.amount}"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="secondary-button" th:onclick="'showUpdateJson(' + ${update.id} + ')'">Show JSON</button>
+            <div th:id="'update-' + ${update.id} + '-json'" hidden>Json: <span th:text="${update.json}"></span></div>
+        </div>
+    </main>
+</body>
+</html>

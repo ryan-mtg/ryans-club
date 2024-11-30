@@ -1,0 +1,192 @@
+chart {
+    title: Enterprise NX-01 Refinery,
+    id: enterprise-nx-01-refinery,
+    ship: ENTERPRISE NX-01,
+    columns: [
+        column {
+            title: Tier,
+        },
+        chest_group {
+            title: Scrap Trade,
+            cooldown: 22h,
+            id: scrap-trade,
+            costResource: 62004,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Delphic Expanse Token,
+                    resource: 63006,
+                },
+                column {
+                    title: Uncommon Ex-Borg Credits,
+                    resource: 62001,
+                    probabilities: [33%, 33%, 33%],
+                },
+                column {
+                    title: Rare Ex-Borg Credits,
+                    resource: 62002,
+                    probabilities: [33%, 33%, 33%],
+                },
+                column {
+                    title: Epic Ex-Borg Credits,
+                    resource: 62003,
+                    probabilities: [33%, 33%, 33%],
+                },
+            ],
+        },
+        chest_group {
+            title: Xindi-Aquatic Exchange,
+            cooldown: 22h,
+            id: xindi-aquatic-exchange,
+            costResource: 63002,
+            costs: [
+                chest {
+                    chests: 1,
+                },
+                chest {
+                    chests: 2,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Common Ex-Borg Credits,
+                    resource: 52002,
+                },
+                column {
+                    title: Ceramic Composite,
+                    resource: 63001,
+                },
+                column {
+                    title: Choice Opportunity Chips,
+                    resource: 63007,
+                },
+            ],
+        },
+        chest_group {
+            title: Safe Opportunity Exchange,
+            id: safe-opportunity-exchange,
+            costResource: 63007,
+            costs: [
+                chest {
+                    chests: 1,
+                    cost: 100,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Uncommon Ex-Borg Credits,
+                    resource: 62001,
+                },
+                column {
+                    title: Rare Ex-Borg Credits,
+                    resource: 62002,
+                },
+                column {
+                    title: Epic Ex-Borg Credits,
+                    resource: 62003,
+                },
+            ],
+        },
+        chest_group {
+            title: Risky Opportunity Exchange,
+            id: risky-opportunity-exchange,
+            costResource: 63007,
+            costs: [
+                chest {
+                    chests: 1,
+                    cost: 100,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Uncommon Ex-Borg Credits,
+                    resource: 62001,
+                    probabilities: [30%, 68%, 2%],
+                },
+                column {
+                    title: Rare Ex-Borg Credits,
+                    resource: 62002,
+                    probabilities: [30%, 68%, 2%],
+                },
+                column {
+                    title: Epic Ex-Borg Credits,
+                    resource: 62003,
+                    probabilities: [30%, 68%, 2%],
+                },
+            ],
+        },
+        chest_group {
+            title: Special Safe Opportunity Exchange,
+            cooldown: 70h,
+            id: special-safe-opportunity-exchange,
+            costResource: 63008,
+            costs: [
+                chest {
+                    chests: 1,
+                    cost: 30,
+                },
+                chest {
+                    chests: 2,
+                    cost: 100,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Rare Ex-Borg Credits,
+                    resource: 62002,
+                },
+                column {
+                    title: Epic Ex-Borg Credits,
+                    resource: 62003,
+                },
+            ],
+        },
+        chest_group {
+            title: Special Risky Opportunity Exchange,
+            cooldown: 70h,
+            id: special-risky-opportunity-exchange,
+            costResource: 63008,
+            costs: [
+                chest {
+                    chests: 1,
+                    cost: 30,
+                },
+                chest {
+                    chests: 2,
+                    cost: 100,
+                },
+            ],
+            rewards: [
+                column {
+                    title: Rare Ex-Borg Credits,
+                    resource: 62002,
+                    probabilities: [30%, 65%, 5%],
+                },
+                column {
+                    title: Epic Ex-Borg Credits,
+                    resource: 62003,
+                    probabilities: [30%, 65%, 5%],
+                },
+            ],
+        },
+    ],
+
+    rows: [
+        [1, 200, 1, 60/130/190, 32/65/96, 14/32/48, 50000, 220000, 290, 150, 100, 255, 190, 95, 5/350/2700, 5/225/1300, 5/110/650, 550, 250, 5/735/1900, 5/350/950],
+        [2, 300, 1, 65/135/200, 34/68/102, 16/34/52, 70000, 300000, 295, 170, 100, 265, 205, 105, 5/370/2800, 5/240/1400, 5/120/740, 600, 300, 5/780/2000, 5/400/1000],
+        [3, 500, 1, 70/140/210, 36/72/108, 18/38/56, 100000, 420000, 300, 200, 100, 275, 215, 110, 5/385/2900, 5/255/1500, 5/130/800, 650, 330, 5/830/2100, 5/430/1100],
+        [4, 750, 1, 80/145/215, 38/76/114, 20/40/60, 150000, 620000, 305, 240, 100, 290, 230, 120, 5/400/3100, 5/270/1600, 5/140/870, 680, 360, 5/880/2300, 5/460/1200],
+        [5, 1000, 1, 85/150/225, 40/80/122, 22/44/64, 200000, 800000, 310, 295, 100, 300, 245, 130, 5/415/3200, 5/285/1700, 5/155/920, 730, 390, 5/935/2400, 5/500/1300],
+        [6, 1500, 1, 90/155/235, 44/86/130, 24/48/70, 300000, 1200000, 320, 370, 100, 310, 260, 140, 5/435/3300, 5/300/1800, 5/165/1000, 775, 420, 5/1000/2500, 5/550/1400],
+        [7, 5000, 1, 95/160/240, 46/88/134, 26/50/74, 600000, 2400000, 325, 430, 100, 320, 265, 145, 5/440/3400, 5/310/1900, 5/170/1050, 800, 440, 5/1020/2650, 5/565/1450],
+        [8, 8500, 1, 100/165/250, 48/94/142, 28/54/80, 1000000, 4000000, 330, 510, 100, 330, 285, 160, 5/460/3500, 5/330/2000, 5/185/1100, 850, 475, 5/1085/2800, 5/610/1550],
+        [9, 14000, 1, 105/170/260, 50/100/150, 30/58/86, 1300000, 5000000, 335, 605, 100, 345, 300, 170, 5/480/3700, 5/350/2150, 5/200/1200, 900, 500, 5/1150/3000, 5/660/1700],
+        [10, 20000, 1, 110/180/270, 54/106/160, 32/62/94, 2000000, 7500000, 340, 715, 100, 360, 320, 185, 5/500/3850, 5/370/2250, 5/215/1300, 950, 550, 5/1220/3150, 5/715/1850],
+        [11, 25000, 1, 115/185/280, 56/112/168, 34/68/100, 3000000, 11000000, 350, 825, 100, 375, 335, 200, 5/520/4000, 5/395/2400, 5/235/1400, 1000, 600, 5/1300/3350, 5/770/2000],
+        [12, 50000, 1, 120/195/290, 60/120/180, 40/75/120, 4000000, 14000000, 355, 950, 100, 390, 360, 215, 5/540/4200, 5/415/2500, 5/260/1600, 1100, 650, 5/1350/3500, 5/830/2100],
+    ],
+}

@@ -25,9 +25,9 @@ public class ShipGenerator {
 
     private static final Map<String, BiConsumer<ShipClass, String>> FIELD_MAP =
             new HashMap<String, BiConsumer<ShipClass, String>>() {{
-                put("name", ShipClass::setName);
+                put("ship_name", ShipClass::setName);
                 put("blueprint_name", ShipClass::setBlueprintName);
-                put("description", ShipClass::setDescription);
+                put("ship_description", ShipClass::setDescription);
                 put("bonus_name", setBonusField(ShipBonus::setName));
                 put("bonus_description", setBonusField(ShipBonus::setDescription));
                 put("bonus_description_short", setBonusField(ShipBonus::setShortDescription));
@@ -49,23 +49,7 @@ public class ShipGenerator {
 
         List<Field> fields = stfcSpaceClient.ships();
 
-        for (Field field : fields) {
-            long id = Long.parseLong(field.getId());
-            if (id < 0) {
-                continue;
-            }
-
-            ShipClass shipClass = lookup(id);
-            if (shipClass == null) {
-                continue;
-            }
-
-            if (FIELD_MAP.containsKey(field.getKey())) {
-                FIELD_MAP.get(field.getKey()).accept(shipClass, field.getText());
-            } else {
-                LOGGER.info("Unknown ship field: {}", field.getKey());
-            }
-        }
+        Utility.applyFields(fields, this::lookup, FIELD_MAP);
 
         writeFile();
     }
@@ -81,10 +65,11 @@ public class ShipGenerator {
 
     private ShipClass createShip(final club.ryans.stfcspace.json.Ship shipJson) {
         ShipClass shipClass = new ShipClass();
-        shipClass.setId(shipJson.getId());
+        shipClass.setStfcSpaceId(shipJson.getId());
+        shipClass.setId(shipJson.getLocaId());
         shipClass.setArtId(shipJson.getArtId());
         shipClass.setArtPath(assetManager.getShipPath(shipJson.getArtId()));
-        shipClass.setFactionId(shipJson.getFaction());
+        shipClass.setFactionId(shipJson.getFaction().getId());
         shipClass.setRarity(shipJson.getRarity());
         shipClass.setMaxTier(shipJson.getMaxTier());
         shipClass.setGrade(shipJson.getGrade());

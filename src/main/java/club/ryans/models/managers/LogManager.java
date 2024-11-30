@@ -2,7 +2,7 @@ package club.ryans.models.managers;
 
 import club.ryans.data.serializers.LogSerializer;
 import club.ryans.models.RawLog;
-import club.ryans.security.user.User;
+import club.ryans.models.player.User;
 import org.springframework.stereotype.Component;
 
 import javax.xml.bind.DatatypeConverter;

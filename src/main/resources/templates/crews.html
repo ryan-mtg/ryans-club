@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Crews</title>
+    <div th:replace="fragments :: includes"></div>
+</head>
+<body data-theme="dark">
+    <div th:replace="fragments :: header('Crews')"></div>
+
+    <main>
+        <h2>Crew</h2>
+        <section class="crew-view">
+            <h3>Bridge</h3>
+            <div class="crew-area">
+                <div class="bridge-slot" ondragover="officerDragOver(event)" ondrop="officerDrop(event)"></div>
+                <div class="bridge-slot" ondragover="officerDragOver(event)" ondrop="officerDrop(event)"></div>
+                <div class="bridge-slot" ondragover="officerDragOver(event)" ondrop="officerDrop(event)"></div>
+            </div>
+        </section>
+
+        <section class="crew-view">
+            <h3>Lower Decks</h3>
+            <div class="crew-area">
+                <div class="officer-slot"></div>
+                <div class="officer-slot"></div>
+                <div class="officer-slot"></div>
+                <div class="officer-slot"></div>
+                <div class="officer-slot"></div>
+                <div class="officer-slot"></div>
+                <div class="officer-slot"></div>
+            </div>
+        </section>
+
+        <hr>
+
+        <h2>Filters</h2>
+        <section class="crew-filter-section">
+            <label>Name</label>
+            <input type="text" size="50">
+            <label>Group</label>
+            <select>
+                <option>All</option>
+                <option>Unimatrix one</option>
+                <option>s</option>
+            </select>
+            <label>Faction</label>
+            <div class="option-selector">
+                <span class="selector-item">Neutral
+                </span><span class="selector-item">Federation
+                </span><span class="selector-item">Klingon
+                </span><span class="selector-item">Romulan</span>
+            </div>
+            <label>Rarity</label>
+            <div class="option-selector">
+                <span class="selector-item">Common
+                </span><span class="selector-item">Uncommon
+                </span><span class="selector-item">Rare
+                </span><span class="selector-item">Epic</span>
+            </div>
+        </section>
+
+        <hr>
+
+        <h2>Officers</h2>
+        <div class="blocks-container">
+            <div th:each="officer: ${officers}">
+                <div th:id="'officer-' + ${officer.id} + '-block'" class="crew-block"
+                     th:classappend="${officer.style()}" draggable="true"
+                         ondragstart="officerDragStart(event)" ondragend="officerDragEnd(event)"
+                         th:data-officer-id="${officer.id}"
+                         th:data-image-src="${officer.imageUrl}"
+                         th:data-style="${officer.style()}"
+                    >
+                    <img class="large-set-icon" th:src="${officer.imageUrl}" draggable="false"><br>
+                </div><br>
+                <span class="set-title" th:text="${officer.name}"></span>
+            </div>
+        </div>
+        <!-- -->
+    </main>
+</body>
+</html>

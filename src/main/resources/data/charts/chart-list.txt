@@ -1,0 +1,24 @@
+ops_chart, grade-2-materials-refinery-chart.txt
+ops_chart, grade-3-materials-refinery-chart.txt
+ops_chart, grade-4-materials-refinery-chart.txt
+
+ops_chart, grade-4-ship-parts-refinery-chart.txt
+ops_chart, grade-5-ship-parts-refinery-chart.txt
+ops_chart, grade-6-ship-parts-refinery-chart.txt
+
+research_chart, mirror-refinery-chart.txt
+ops_chart, mirror-rift-keys-chart.txt
+ops_chart, liquid-trellium-d-store-chart.txt
+
+building_chart, district-56-exchange-chart.txt
+building_chart, command-center-chart.txt
+building_chart, treasury-claim-chart.txt
+building_chart, holodeck-claim-chart.txt
+ops_chart, mess-hall-claim-chart.txt
+
+ship_chart, borg-refinery-chart.txt
+ship_chart, mantis-refinery-chart.txt
+ship_chart, voyager-refinery-chart.txt
+ship_chart, nx-01-refinery-chart.txt
+ship_chart, titan-a-refinery-chart.txt
+ship_chart, eviscerator-chart.txt

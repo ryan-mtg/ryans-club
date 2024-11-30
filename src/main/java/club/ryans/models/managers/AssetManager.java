@@ -19,10 +19,13 @@ public class AssetManager {
     private static final AssetParser ASSET_PARSER = new AssetParser();
 
     private Map<Integer, List<Asset>> assetMap = new HashMap<>();
+    private final String thumbsVersion;
 
-    public AssetManager() {
+    public AssetManager(final String thumbsVersion) {
+        this.thumbsVersion = thumbsVersion;
+
         try {
-            String url = "https://stfc.space/assets/thumbs.26c9a2bd.js";
+            String url = String.format("https://stfc.space/assets/thumbs-%s.js", thumbsVersion);
             HttpClient httpClient = HttpClients.createDefault();
             HttpGet httpGet = new HttpGet(url);
             HttpResponse response = httpClient.execute(httpGet);
@@ -59,6 +62,10 @@ public class AssetManager {
         return getAssetPath(artId, AssetType.BUILDING);
     }
 
+    public String getResearchPath(final int artId) {
+        return getAssetPath(artId, AssetType.RESEARCH);
+    }
+
     public String getOfficerPath(final int artId) {
         return getAssetPath(artId, AssetType.OFFICER);
     }
@@ -76,6 +83,10 @@ public class AssetManager {
     }
 
     private String getAssetPath(final int artId, final AssetType type) {
+        if (artId == 1 && type == AssetType.RESOURCE) {
+            return getAssetPath(0, type); // fix for stfc.space's parsteel bug
+        }
+
         if (artId == 82 && type == AssetType.SHIP) {
             return getAssetPath(30, type); // fix for stfc.space's HEG'TA bug
         }

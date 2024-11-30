@@ -1,0 +1,14 @@
+source {
+    name: Freebooter Daily,
+
+    ops: {
+        1-37: tiers {},
+        38-39: ranks {
+            [],
+        },
+        1-39: [],
+        1-39: [],
+        1-39: [],
+        1-39: [],
+    },
+}

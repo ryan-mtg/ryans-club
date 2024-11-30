@@ -1,5 +1,7 @@
 package club.ryans.models.assets;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.InputStream;
@@ -13,7 +15,18 @@ import java.util.regex.Pattern;
 
 @Slf4j
 public class AssetParser {
-    private static final Pattern ASSET_PATTERN = Pattern.compile("/assets/(\\d+)\\.([a-zA-Z0-9])+\\.png");
+    private static final Pattern ASSET_PATTERN = Pattern.compile("/assets/(\\d+)-([a-zA-Z0-9_-])+\\.png");
+
+    private static final AssetClass[] assetClasses = {
+            new AssetClass(AssetType.ABILITY, "0-DEE7gJlg.png", "99-BEqqo0PH.png"),      //**
+            new AssetClass(AssetType.SHIP, "0-B4iAKGKF.png", "99-CQrzRRt7.png"),         //**
+            new AssetClass(AssetType.REFIT, "10-B0Pyn1fn.png", "99-BFJekZkY.png"),       //**
+            new AssetClass(AssetType.RESOURCE, "0-BT0hBcsB.png", "95-BZGxwALA.png"),     //**
+            new AssetClass(AssetType.BUILDING, "0-BLZtRV--.png", "9-CLPEU1Sd.png"),      //**
+            new AssetClass(AssetType.OFFICER, "1-BqZHzqHS.png", "999-Btub_Hmy.png"),     //**
+            new AssetClass(AssetType.FORBIDDEN_TECH, "0-CUo7MrV8.png", "9-BB6bJK3J.png"),//**
+            new AssetClass(AssetType.RESEARCH, "0-D_FOTUpt.png", "9-DvYL4aF0.png"),      //**
+    };
 
     private AssetType currentType;
 
@@ -46,27 +59,20 @@ public class AssetParser {
     }
 
     private void precheckAsset(final String url) {
-        if (url.equals("/assets/0.1e18755d.png")) {
-            currentType = AssetType.SHIP;
-        } else if (url.equals("/assets/1.6df9e1af.png")) {
-            currentType = AssetType.OFFICER;
-        } else if (url.equals("/assets/0.3c58978d.png")) {
-            currentType = AssetType.BUILDING;
-        } else if (url.equals("/assets/1.080b32d6.png")) {
-            currentType = AssetType.RESOURCE;
+        for (AssetClass assetClass : assetClasses) {
+            if (url.equals(String.format("/assets/%s", assetClass.getFirst()))) {
+               currentType = assetClass.getType();
+               return;
+            }
         }
-
     }
 
     private void postcheckAsset(final String url) {
-        if (url.equals("/assets/99.7e35dbf3.png")) {
-            currentType = AssetType.UNKNOWN;
-        } else if (url.equals("/assets/999.17ff5135.png")) {
-            currentType = AssetType.UNKNOWN;
-        } else if (url.equals("/assets/9.e7af31bc.png")) {
-            currentType = AssetType.UNKNOWN;
-        } else if (url.equals("/assets/95.b09c5bed.png")) {
-            currentType = AssetType.UNKNOWN;
+        for (AssetClass assetClass : assetClasses) {
+            if (url.equals(String.format("/assets/%s", assetClass.getLast()))) {
+                currentType = AssetType.UNKNOWN;
+                return;
+            }
         }
     }
 
@@ -80,7 +86,7 @@ public class AssetParser {
                 LOGGER.trace("Collision! at {}, new value: {}", index, path);
             }
         } else {
-            LOGGER.info("adding asset: {} -> {}", index, path);
+            LOGGER.trace("adding asset: {} -> {}", index, path);
             List<Asset> assets = new ArrayList<>();
             assets.add(new Asset(index, currentType, path));
             assetMap.put(index, assets);
@@ -89,5 +95,13 @@ public class AssetParser {
 
     private boolean contains(final List<Asset> assets, final String path) {
         return assets.stream().anyMatch(asset -> asset.getPath().equals(path));
+    }
+
+    @Getter
+    @AllArgsConstructor
+    private static class AssetClass {
+        private AssetType type;
+        private String first;
+        private String last;
     }
 }

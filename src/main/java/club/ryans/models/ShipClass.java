@@ -6,6 +6,7 @@ import lombok.Data;
 @Data
 public class ShipClass {
     private long id;
+    private long stfcSpaceId;
     private String name;
 
     private int artId;

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ryan's Club</title>
+    <div th:replace="fragments :: includes"></div>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ryans_club">
+    <meta name="twitter:title" content="Ryan's Club">
+
+    <meta property="og:title" content="Ryan's Club">
+    <meta property="og:image" content="/images/logo.png">
+    <meta property="og:type" content="webpage">
+    <meta property="og:description" content="Service for looking at STFC logs">
+    <meta property="og:locale" content="en_US">
+</head>
+<body data-theme="dark">
+    <div th:replace="fragments :: header('Admin')"></div>
+
+    <main>
+        <ul>
+            <li><a href="/admin/users">Users</a></li>
+            <li><a href="/admin/collector">Collector</a></li>
+        </ul>
+        <h2>Listings</h2>
+        <ul>
+            <li><a href="/listings/assets">Assets</a></li>
+            <li><a href="/listings/buildings">Buildings</a></li>
+            <li><a href="/listings/officers">Officers</a></li>
+            <li><a href="/listings/ships">Ships</a></li>
+            <li><a href="/listings/research">Research</a></li>
+            <li><a href="/listings/resources">Resources</a></li>
+        </ul>
+    </main>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Officers</title>
+    <div th:replace="fragments :: includes"></div>
+</head>
+<body>
+    <div th:replace="fragments :: header(${officer.name})"></div>
+
+    <main>
+        <h1 th:text="${officer.name}"></h1>
+        <section class="officer-feature">
+            <img th:src="${officer.imageUrl}">
+            <p th:text="${officer.synergyGroup}"></p>
+        </section>
+    </main>
+</body>
+</html>
