@@ -38,7 +38,7 @@
                 while playing.</p>
 
             <div id="mod-ini-example" class="ini-example">[sync]
-    url = "https://servobot.info/api/public/import"
+    url = "https://ryans-club.com/api/public/import"
     token = "<span th:text="${user.account.syncToken} ? ${user.account.syncToken} : '[sync-token]'"></span>"</div>
 
             <input id="sync-token" type="hidden" th:value="${user.account.syncToken}">
@@ -75,7 +75,7 @@
                     while playing.</p>
 
                 <div id="mod-ini-example" class="ini-example">[sync]
-    url = "https://servobot.info/api/public/import"
+    url = "https://ryans-club.com/api/public/import"
     token = "<span th:text="${user.account.syncToken} ? ${user.account.syncToken} : '[sync-token]'"></span>"</div>
 
                 <input id="sync-token" type="hidden" th:value="${user.account.syncToken}">
@@ -166,9 +166,15 @@
                                 <img class="small-icon" th:src="${item.imageUrl}" loading="lazy">
                                 <div th:with="popover='inventory-' + ${group.id} + '-' + ${item.resourceId} + '-popover'">
                                     <span th:text="${utility.scoplify(item.amount)}"></span>
-                                    <button th:popovertarget="${popover}">ⓘ</button>
+
+                                    <span th:popovertarget="${popover}">ⓘ</span>
                                     <h2 th:id="${popover}" popover th:text="${item.amount}"></h2>
-                                    <div th:if="${item.annotation}" th:text="${item.annotation}"></div>
+
+                                    <div th:if="${item.annotations}">
+                                        <div th:each="annotation : ${item.annotations}">
+                                            <span th:text="${annotation}"></span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

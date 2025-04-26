@@ -1278,12 +1278,43 @@ input[type=text].emote {
 
 /* BUILDINGS */
 
+.item-feature {
+    margin-top: 3rem;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+    padding: 2rem;
+}
+
 .feature-image {
     vertical-align: middle;
     max-height: 200px;
     padding: 1rem;
     border: 1px solid red;
     margin: 1rem;
+    float: left;
+}
+
+.rarity-item {
+    border: var(--rarity-color, black) 1px solid;
+    border-radius: 3px;
+    padding: 3px;
+    box-shadow: 0 0 .25em var(--rarity-color);
+}
+
+.feature-resource {
+    height: 30px;
+    max-width: 30px;
+    vertical-align: middle;
+}
+
+.table-resource {
+    height: 1rem;
+    max-width: 1rem;
+    vertical-align: middle;
+}
+
+.clear-float {
+    clear: both;
 }
 
 /* EX-BORG EFFICIENCY BUNDLES */

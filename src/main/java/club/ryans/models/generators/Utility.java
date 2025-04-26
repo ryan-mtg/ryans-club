@@ -60,4 +60,11 @@ public class Utility {
             LOGGER.info("Unknown fields: {}", String.join(", ", unknownFields));
         }
     }
+
+    public static void pause() {
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+        }
+    }
 }

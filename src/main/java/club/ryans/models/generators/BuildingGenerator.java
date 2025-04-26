@@ -67,21 +67,18 @@ public class BuildingGenerator {
                 if (nameMap.containsKey(aBuilding)) {
                     building.setArtPath(nameMap.get(aBuilding).getArtPath());
                 }
-                queryBuilding(building);
             }
+
+            LOGGER.info("fetching data for building: {}", name);
+            queryBuilding(building);
         }
 
         writeFile();
     }
 
     private void queryBuilding(final Building building) {
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-        }
-
+        Utility.pause();
         BuildingDetails buildingDetails = stfcSpaceClient.building(building.getId());
-
         building.setLevels(buildingDetails.getLevels().stream().map(this::createLevel).collect(Collectors.toList()));
     }
 

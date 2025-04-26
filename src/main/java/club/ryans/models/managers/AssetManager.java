@@ -17,6 +17,8 @@ import java.util.Map;
 @Slf4j
 public class AssetManager {
     private static final AssetParser ASSET_PARSER = new AssetParser();
+    private static final String ASSET_DOMAIN = "https://assets.stfc.space";
+    private static final String PATH_TEMPLATE = "/thumbs/%s/i/%d.png";
 
     private Map<Integer, List<Asset>> assetMap = new HashMap<>();
     private final String thumbsVersion;
@@ -48,14 +50,8 @@ public class AssetManager {
         return assets.get(assets.size() - 1).getPath();
     }
 
-    /*
-    public String makeUrl(final Asset asset)  {
-        return makeAssetUrl(asset.getId(), asset.getType());
-    }
-     */
-
     public static String makeUrl(final String path) {
-        return "https://stfc.space" + path;
+        return ASSET_DOMAIN + path;
     }
 
     public String getBuildingPath(final int artId) {
@@ -83,12 +79,15 @@ public class AssetManager {
     }
 
     private String getAssetPath(final int artId, final AssetType type) {
-        if (artId == 1 && type == AssetType.RESOURCE) {
-            return getAssetPath(0, type); // fix for stfc.space's parsteel bug
-        }
-
-        if (artId == 82 && type == AssetType.SHIP) {
-            return getAssetPath(30, type); // fix for stfc.space's HEG'TA bug
+        switch (type) {
+            case BUILDING:
+                return String.format(PATH_TEMPLATE, "building", artId);
+            case OFFICER:
+                return String.format(PATH_TEMPLATE, "officer", artId);
+            case RESOURCE:
+                return String.format(PATH_TEMPLATE, "resource", artId);
+            case SHIP:
+                return String.format(PATH_TEMPLATE, "ship", artId);
         }
 
         List<Asset> assets = assetMap.get(artId);

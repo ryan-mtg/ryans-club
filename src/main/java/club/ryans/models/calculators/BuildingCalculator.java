@@ -31,6 +31,7 @@ public class BuildingCalculator {
                 put(78L, 65501L); // The War Room -> Emblem of Honor
                 put(79L, 68501L); // District 56 -> Mirror Fragments
                 put(80L, 70003L); // Nova Squadron -> Starfleet Distinctions
+                put(27L, 48050L); // Armory -> Nadion
                 // put(81L, L); // Independent Archives -> B
             }};
 

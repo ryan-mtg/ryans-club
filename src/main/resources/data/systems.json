@@ -2387,6 +2387,18 @@
   "warp" : 900,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 17967008,
+  "flags" : 0,
+  "name" : "Amargosa",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 38,
+  "x" : -775,
+  "y" : 423,
+  "warp" : 44,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 18003294,
   "flags" : 6,
   "name" : "Brestant",
@@ -2421,6 +2433,18 @@
   "x" : -58,
   "y" : -34,
   "warp" : 25,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 25257265,
+  "flags" : 64,
+  "name" : "Dall'ei - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1423,
+  "y" : -547,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 27898559,
@@ -2517,6 +2541,30 @@
   "x" : 533,
   "y" : -1996,
   "warp" : 75,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 35090120,
+  "flags" : 0,
+  "name" : "Zhaishka",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 40,
+  "x" : 415,
+  "y" : -674,
+  "warp" : 40,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 35383022,
+  "flags" : 16,
+  "name" : "Solquinnar",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 47,
+  "x" : 1417,
+  "y" : 2740,
+  "warp" : 125,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 35869538,
@@ -2627,6 +2675,18 @@
   "warp" : 205,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 43483912,
+  "flags" : 64,
+  "name" : "Gaillian - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1549,
+  "y" : -487,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 44494918,
   "flags" : 3,
   "name" : "Jaq",
@@ -2711,6 +2771,18 @@
   "warp" : 250,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 56861222,
+  "flags" : 64,
+  "name" : "Raceaiq - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1061,
+  "y" : -414,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 58793480,
   "flags" : 2,
   "name" : "Argandu",
@@ -2757,6 +2829,18 @@
   "x" : 1594,
   "y" : 1233,
   "warp" : 95,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 64757250,
+  "flags" : 64,
+  "name" : "Farue M710 - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1597,
+  "y" : -485,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 64785058,
@@ -3011,6 +3095,18 @@
   "warp" : 125,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 87689484,
+  "flags" : 64,
+  "name" : "Mapahon-42 - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1127,
+  "y" : -474,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 90203356,
   "flags" : 3,
   "name" : "Bor",
@@ -3037,7 +3133,7 @@
 }, {
   "id" : 96415758,
   "flags" : 64,
-  "name" : "Undolla",
+  "name" : "Undolla - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -3095,6 +3191,18 @@
   "warp" : 28,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 104145825,
+  "flags" : 64,
+  "name" : "Xizuo - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1511,
+  "y" : -651,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 105829765,
   "flags" : 0,
   "name" : "Alnilam",
@@ -3131,6 +3239,18 @@
   "warp" : 75,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 107308350,
+  "flags" : 16,
+  "name" : "Zephyra",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 44,
+  "x" : 1188,
+  "y" : 2696,
+  "warp" : 125,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 108703132,
   "flags" : 30,
   "name" : "Bess",
@@ -3153,6 +3273,18 @@
   "x" : 358,
   "y" : -181,
   "warp" : 20,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 110848253,
+  "flags" : 16,
+  "name" : "Pherson",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 54,
+  "x" : -1027,
+  "y" : 350,
+  "warp" : 295,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 112840706,
@@ -3215,6 +3347,18 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 118284117,
+  "flags" : 64,
+  "name" : "G-N8 - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1312,
+  "y" : -529,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 119043632,
   "flags" : 18,
   "name" : "Teranth",
@@ -3229,7 +3373,7 @@
 }, {
   "id" : 119698453,
   "flags" : 64,
-  "name" : "Ephane",
+  "name" : "Ephane - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -3273,6 +3417,18 @@
   "x" : 990,
   "y" : 1931,
   "warp" : 285,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 130177885,
+  "flags" : 64,
+  "name" : "Spectra - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1071,
+  "y" : -474,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 133491608,
@@ -3407,6 +3563,18 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 145508565,
+  "flags" : 16,
+  "name" : "Brikker",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 46,
+  "x" : -920,
+  "y" : 445,
+  "warp" : 170,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 146624309,
   "flags" : 2,
   "name" : "Ty'Gokor",
@@ -3417,6 +3585,18 @@
   "x" : 1938,
   "y" : -1115,
   "warp" : 53,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 146823495,
+  "flags" : 16,
+  "name" : "Brucam",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 58,
+  "x" : -1057,
+  "y" : 296,
+  "warp" : 480,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 146966413,
@@ -3453,6 +3633,18 @@
   "x" : 447,
   "y" : -619,
   "warp" : 40,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 148562318,
+  "flags" : 0,
+  "name" : "Starks",
+  "narrative" : "Starks",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 25,
+  "x" : -1800,
+  "y" : 1101,
+  "warp" : 25,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 152399226,
@@ -3525,6 +3717,18 @@
   "x" : 847,
   "y" : -321,
   "warp" : 38,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 165396511,
+  "flags" : 64,
+  "name" : "Hedef - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1312,
+  "y" : -560,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 166663079,
@@ -3755,9 +3959,21 @@
   "warp" : 185,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 189926910,
+  "flags" : 16,
+  "name" : "Neco",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 44,
+  "x" : -917,
+  "y" : 285,
+  "warp" : 150,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 190102920,
   "flags" : 64,
-  "name" : "Wildebeest",
+  "name" : "Wildebeest - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -3769,7 +3985,7 @@
 }, {
   "id" : 193378879,
   "flags" : 64,
-  "name" : "Zobbaria",
+  "name" : "Zobbaria - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -3877,7 +4093,7 @@
 }, {
   "id" : 200204642,
   "flags" : 64,
-  "name" : "Campion",
+  "name" : "Campion - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -4007,6 +4223,18 @@
   "warp" : 24,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 213343727,
+  "flags" : 64,
+  "name" : "Voyayox - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1535,
+  "y" : -640,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 213531443,
   "flags" : 19,
   "name" : "Fect",
@@ -4103,10 +4331,22 @@
   "warp" : 5,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 223061248,
+  "flags" : 64,
+  "name" : "Hemaj - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1356,
+  "y" : -496,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 223913367,
   "flags" : 0,
   "name" : "Taranka",
-  "narrative" : null,
+  "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
   "level" : 25,
@@ -4125,6 +4365,18 @@
   "x" : 1986,
   "y" : 1136,
   "warp" : 95,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 228537085,
+  "flags" : 64,
+  "name" : "Yau - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1453,
+  "y" : -695,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 229390986,
@@ -4161,6 +4413,18 @@
   "x" : 5633,
   "y" : 366,
   "warp" : 1525,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 234745149,
+  "flags" : 64,
+  "name" : "Animanu - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1010,
+  "y" : -457,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 234967607,
@@ -4271,6 +4535,30 @@
   "warp" : 120,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 246737306,
+  "flags" : 16,
+  "name" : "Ilkis",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 70,
+  "x" : 1462,
+  "y" : 2856,
+  "warp" : 1200,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 249162366,
+  "flags" : 16,
+  "name" : "Faolain",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 58,
+  "x" : -1075,
+  "y" : 313,
+  "warp" : 480,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 249829100,
   "flags" : 18,
   "name" : "Delmas",
@@ -4370,7 +4658,7 @@
   "id" : 255461687,
   "flags" : 6,
   "name" : "Narendra",
-  "narrative" : null,
+  "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
   "level" : 25,
@@ -4645,7 +4933,7 @@
 }, {
   "id" : 285372380,
   "flags" : 64,
-  "name" : "Lichfield",
+  "name" : "Lichfield - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -4993,7 +5281,7 @@
 }, {
   "id" : 311841446,
   "flags" : 64,
-  "name" : "Qrin",
+  "name" : "Qrin - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -5017,13 +5305,25 @@
 }, {
   "id" : 313702510,
   "flags" : 64,
-  "name" : "Redwood",
+  "name" : "Redwood - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
   "level" : 40,
   "x" : -986,
   "y" : -700,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 314354333,
+  "flags" : 64,
+  "name" : "Tomsk - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1434,
+  "y" : -571,
   "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
@@ -5097,6 +5397,18 @@
   "x" : -473,
   "y" : -1206,
   "warp" : 5,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 326003384,
+  "flags" : 64,
+  "name" : "Adn'Lo - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1415,
+  "y" : -501,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 326597973,
@@ -5243,6 +5555,18 @@
   "warp" : 18,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 339852216,
+  "flags" : 64,
+  "name" : "Sic'ore - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1625,
+  "y" : -435,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 341686306,
   "flags" : 0,
   "name" : "Stiirat",
@@ -5253,6 +5577,18 @@
   "x" : -120,
   "y" : -458,
   "warp" : 13,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 344501846,
+  "flags" : 16,
+  "name" : "Naidu Reach",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 53,
+  "x" : 1503,
+  "y" : 2776,
+  "warp" : 280,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 344518571,
@@ -5543,6 +5879,30 @@
   "warp" : 56,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 370984270,
+  "flags" : 64,
+  "name" : "Qasoc - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1065,
+  "y" : -395,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 372059810,
+  "flags" : 64,
+  "name" : "Tueoway - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1112,
+  "y" : -491,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 372418396,
   "flags" : 16,
   "name" : "Kurill",
@@ -5699,6 +6059,18 @@
   "warp" : 1700,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 387436689,
+  "flags" : 64,
+  "name" : "Saarte - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1404,
+  "y" : -529,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 389850125,
   "flags" : 18,
   "name" : "Corva Gamma",
@@ -5819,6 +6191,30 @@
   "warp" : 18,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 401361680,
+  "flags" : 64,
+  "name" : "Carinom - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1482,
+  "y" : -739,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 402257536,
+  "flags" : 64,
+  "name" : "VUQ-77 - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1722,
+  "y" : -649,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 402966019,
   "flags" : 4,
   "name" : "Vintaak",
@@ -5829,6 +6225,18 @@
   "x" : 464,
   "y" : -786,
   "warp" : 10,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 403052532,
+  "flags" : 64,
+  "name" : "Ummaboshi - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1230,
+  "y" : -380,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 403078075,
@@ -5853,6 +6261,18 @@
   "x" : 1056,
   "y" : -469,
   "warp" : 70,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 408595350,
+  "flags" : 16,
+  "name" : "Opanth",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 48,
+  "x" : -960,
+  "y" : 323,
+  "warp" : 190,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 409493910,
@@ -5891,6 +6311,18 @@
   "warp" : 65,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 415300008,
+  "flags" : 64,
+  "name" : "Siqatio - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1450,
+  "y" : -504,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 417301799,
   "flags" : 3,
   "name" : "May'lang",
@@ -5903,6 +6335,18 @@
   "warp" : 22,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 418350291,
+  "flags" : 0,
+  "name" : "Stellay",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1102,
+  "y" : -517,
+  "warp" : 10,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 418471590,
   "flags" : 16,
   "name" : "Toen",
@@ -5913,6 +6357,18 @@
   "x" : 1967,
   "y" : 1523,
   "warp" : 160,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 418621477,
+  "flags" : 16,
+  "name" : "Brookfield",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 56,
+  "x" : -1060,
+  "y" : 406,
+  "warp" : 430,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 419363175,
@@ -5949,6 +6405,18 @@
   "x" : 278,
   "y" : -1846,
   "warp" : 75,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 421892294,
+  "flags" : 64,
+  "name" : "Ruwao - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1433,
+  "y" : -636,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 426460617,
@@ -6069,6 +6537,18 @@
   "x" : -1846,
   "y" : 155,
   "warp" : 190,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 438590780,
+  "flags" : 64,
+  "name" : "Chum'a - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1579,
+  "y" : -504,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 439344754,
@@ -6263,6 +6743,18 @@
   "warp" : 75,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 460127682,
+  "flags" : 64,
+  "name" : "G-N9 - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1049,
+  "y" : -490,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 460995644,
   "flags" : 3,
   "name" : "Zizeyab",
@@ -6431,6 +6923,30 @@
   "warp" : 26,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 474130958,
+  "flags" : 64,
+  "name" : "Articoomba - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1266,
+  "y" : -317,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 474271651,
+  "flags" : 64,
+  "name" : "Ilnen - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1351,
+  "y" : -476,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 476037767,
   "flags" : 0,
   "name" : "Bolkano",
@@ -6513,6 +7029,30 @@
   "x" : 2132,
   "y" : 865,
   "warp" : 70,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 485528186,
+  "flags" : 0,
+  "name" : "PDC-81",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1060,
+  "y" : -535,
+  "warp" : 10,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 492018962,
+  "flags" : 64,
+  "name" : "Conodonta - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1712,
+  "y" : -669,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 492395761,
@@ -6733,7 +7273,7 @@
 }, {
   "id" : 519617118,
   "flags" : 64,
-  "name" : "Tenov",
+  "name" : "Tenov - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -6837,6 +7377,18 @@
   "x" : 487,
   "y" : 474,
   "warp" : 40,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 531509277,
+  "flags" : 64,
+  "name" : "Ithaca - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1399,
+  "y" : -667,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 533275603,
@@ -6957,6 +7509,30 @@
   "x" : 4767,
   "y" : 1363,
   "warp" : 900,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 546901732,
+  "flags" : 0,
+  "name" : "El-Aurian",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 38,
+  "x" : -248,
+  "y" : 2109,
+  "warp" : 44,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 547343234,
+  "flags" : 64,
+  "name" : "Kenmare - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1344,
+  "y" : -517,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 548486466,
@@ -7331,6 +7907,18 @@
   "warp" : 100,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 589075321,
+  "flags" : 64,
+  "name" : "Valeu-77 - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1471,
+  "y" : -711,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 589242343,
   "flags" : 16,
   "name" : "Yoton",
@@ -7475,6 +8063,18 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 602919088,
+  "flags" : 16,
+  "name" : "Dravon Expanse",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 58,
+  "x" : 1120,
+  "y" : 2610,
+  "warp" : 440,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 604074052,
   "flags" : 3,
   "name" : "Dle’greffo",
@@ -7583,6 +8183,30 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 611054620,
+  "flags" : 64,
+  "name" : "Nortio-131 - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1660,
+  "y" : -601,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 613331154,
+  "flags" : 17,
+  "name" : "Alpha System",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 40,
+  "x" : -2150,
+  "y" : -2001,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 613539990,
   "flags" : 2,
   "name" : "Izanagi",
@@ -7593,6 +8217,30 @@
   "x" : 1051,
   "y" : -53,
   "warp" : 26,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 614101176,
+  "flags" : 16,
+  "name" : "Toralia",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 54,
+  "x" : -995,
+  "y" : 310,
+  "warp" : 295,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 614612280,
+  "flags" : 64,
+  "name" : "Aperivi - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1358,
+  "y" : -534,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 615737001,
@@ -7629,6 +8277,18 @@
   "x" : 530,
   "y" : -886,
   "warp" : 7,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 618740102,
+  "flags" : 64,
+  "name" : "Charon - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1410,
+  "y" : -723,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 621254028,
@@ -7689,6 +8349,18 @@
   "x" : 629,
   "y" : -419,
   "warp" : 22,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 625973837,
+  "flags" : 64,
+  "name" : "Kuia-C - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1111,
+  "y" : -422,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 626886232,
@@ -7823,6 +8495,18 @@
   "warp" : 35,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 646140176,
+  "flags" : 64,
+  "name" : "Kaoacii - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1472,
+  "y" : -543,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 646853922,
   "flags" : 16,
   "name" : "Mirror Babel",
@@ -7943,6 +8627,18 @@
   "warp" : 150,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 656058860,
+  "flags" : 16,
+  "name" : "Vorex Cluster",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 43,
+  "x" : 1422,
+  "y" : 2691,
+  "warp" : 100,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 656714232,
   "flags" : 18,
   "name" : "Atlhe",
@@ -8039,6 +8735,18 @@
   "warp" : 40,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 664412673,
+  "flags" : 64,
+  "name" : "Aureole - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1574,
+  "y" : -473,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 666248252,
   "flags" : 16,
   "name" : "Vehla",
@@ -8073,6 +8781,18 @@
   "x" : -662,
   "y" : -904,
   "warp" : 5,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 667239107,
+  "flags" : 64,
+  "name" : "Chispas - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1365,
+  "y" : -597,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 669580953,
@@ -8193,6 +8913,30 @@
   "x" : 1182,
   "y" : 1892,
   "warp" : 500,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 678991839,
+  "flags" : 64,
+  "name" : "Articoomb - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1000,
+  "y" : -487,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 679989007,
+  "flags" : 16,
+  "name" : "Taryyn",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 62,
+  "x" : -1132,
+  "y" : 416,
+  "warp" : 1000,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 680711098,
@@ -8351,6 +9095,30 @@
   "warp" : 40,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 704102198,
+  "flags" : 64,
+  "name" : "Tetikok - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -976,
+  "y" : -450,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 707071326,
+  "flags" : 64,
+  "name" : "Erbaxax - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1546,
+  "y" : -700,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 708173724,
   "flags" : 19,
   "name" : "Mayush-yush",
@@ -8471,6 +9239,30 @@
   "warp" : 22,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 718693244,
+  "flags" : 64,
+  "name" : "Tuman - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1636,
+  "y" : -459,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 719410382,
+  "flags" : 16,
+  "name" : "Kenakel",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -952,
+  "y" : 461,
+  "warp" : 195,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 719474967,
   "flags" : 3,
   "name" : "Atreig",
@@ -8529,6 +9321,18 @@
   "x" : 1060,
   "y" : 2650,
   "warp" : 320,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 725352867,
+  "flags" : 0,
+  "name" : "Voluptas",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 40,
+  "x" : -538,
+  "y" : -525,
+  "warp" : 24,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 725572971,
@@ -8663,6 +9467,18 @@
   "warp" : 160,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 737506726,
+  "flags" : 64,
+  "name" : "Juseb - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1085,
+  "y" : -429,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 737799631,
   "flags" : 0,
   "name" : "Aletara",
@@ -8733,6 +9549,18 @@
   "x" : -38,
   "y" : -388,
   "warp" : 25,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 745531826,
+  "flags" : 64,
+  "name" : "Famuauu - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1366,
+  "y" : -462,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 748005167,
@@ -8891,6 +9719,18 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 769760183,
+  "flags" : 64,
+  "name" : "Vicarie - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1211,
+  "y" : -353,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 770951423,
   "flags" : 2,
   "name" : "Glintara",
@@ -8915,6 +9755,18 @@
   "warp" : 125,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 771593318,
+  "flags" : 64,
+  "name" : "Quzehuq - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1513,
+  "y" : -742,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 773013183,
   "flags" : 19,
   "name" : "Ruhe Alpha",
@@ -8937,6 +9789,30 @@
   "x" : -1556,
   "y" : 276,
   "warp" : 250,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 775181112,
+  "flags" : 64,
+  "name" : "RN-4510 - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1288,
+  "y" : -337,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 775913340,
+  "flags" : 64,
+  "name" : "Pediluq - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1523,
+  "y" : -713,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 776435049,
@@ -9203,6 +10079,18 @@
   "warp" : 75,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 802299606,
+  "flags" : 64,
+  "name" : "Johecic - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1387,
+  "y" : -480,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 802497564,
   "flags" : 16,
   "name" : "Shokomylk",
@@ -9261,6 +10149,18 @@
   "x" : 1012,
   "y" : -1960,
   "warp" : 150,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 806106205,
+  "flags" : 0,
+  "name" : "Veridian",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 38,
+  "x" : -751,
+  "y" : 374,
+  "warp" : 44,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 806479454,
@@ -9371,6 +10271,18 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 814468843,
+  "flags" : 64,
+  "name" : "Misneach - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1246,
+  "y" : -327,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 814948003,
   "flags" : 18,
   "name" : "Kor Ar'Ka",
@@ -9381,6 +10293,18 @@
   "x" : 1282,
   "y" : 1506,
   "warp" : 100,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 815965506,
+  "flags" : 64,
+  "name" : "Konot - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1451,
+  "y" : -735,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 816336791,
@@ -9587,6 +10511,18 @@
   "warp" : 285,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 833583816,
+  "flags" : 64,
+  "name" : "Kithara - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1716,
+  "y" : -625,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 833606382,
   "flags" : 18,
   "name" : "FSEP-3819",
@@ -9659,6 +10595,18 @@
   "warp" : 5,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 839734303,
+  "flags" : 16,
+  "name" : "Veil Primus",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : 1218,
+  "y" : 2611,
+  "warp" : 440,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 840163883,
   "flags" : 18,
   "name" : "Brellan Gamma",
@@ -9695,6 +10643,18 @@
   "warp" : 5,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 843022195,
+  "flags" : 16,
+  "name" : "Aeloria Triad",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 46,
+  "x" : 1215,
+  "y" : 2698,
+  "warp" : 150,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 845222989,
   "flags" : 23,
   "name" : "Endron Beta",
@@ -9707,6 +10667,18 @@
   "warp" : 1300,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 845405336,
+  "flags" : 64,
+  "name" : "Jordav - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1233,
+  "y" : -309,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 846029245,
   "flags" : 6,
   "name" : "Khitomer",
@@ -9717,6 +10689,18 @@
   "x" : 750,
   "y" : -673,
   "warp" : 17,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 846420614,
+  "flags" : 64,
+  "name" : "Sitartus B - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1263,
+  "y" : -346,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 847108551,
@@ -9743,6 +10727,18 @@
   "warp" : 65,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 849095091,
+  "flags" : 64,
+  "name" : "Tonyx - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1482,
+  "y" : -684,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 849541812,
   "flags" : 7,
   "name" : "Azha",
@@ -9765,6 +10761,18 @@
   "x" : 2581,
   "y" : 626,
   "warp" : 75,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 852534947,
+  "flags" : 64,
+  "name" : "Aohabec - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1039,
+  "y" : -384,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 853741050,
@@ -9851,6 +10859,18 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 865688495,
+  "flags" : 64,
+  "name" : "Aral - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1329,
+  "y" : -581,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 876124086,
   "flags" : 0,
   "name" : "Exchange Alpha",
@@ -9909,6 +10929,18 @@
   "x" : -28,
   "y" : 2010,
   "warp" : 230,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 882998623,
+  "flags" : 16,
+  "name" : "Cyrenthis Array",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 62,
+  "x" : 1210,
+  "y" : 2597,
+  "warp" : 900,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 884500988,
@@ -10043,6 +11075,18 @@
   "warp" : 160,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 891515892,
+  "flags" : 64,
+  "name" : "Sitartus A - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1227,
+  "y" : -338,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 892076127,
   "flags" : 19,
   "name" : "Tazolka Alpha",
@@ -10069,7 +11113,7 @@
 }, {
   "id" : 893531814,
   "flags" : 64,
-  "name" : "Noulmont",
+  "name" : "Noulmont - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -10125,6 +11169,18 @@
   "x" : 1485,
   "y" : 2929,
   "warp" : 700,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 897887950,
+  "flags" : 64,
+  "name" : "Artemis-DW - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1405,
+  "y" : -690,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 897954743,
@@ -10187,6 +11243,18 @@
   "warp" : 1250,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 901412941,
+  "flags" : 64,
+  "name" : "Oisoe - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1086,
+  "y" : -410,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 902308741,
   "flags" : 0,
   "name" : "Velata",
@@ -10197,6 +11265,18 @@
   "x" : 1630,
   "y" : -660,
   "warp" : 50,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 902745117,
+  "flags" : 16,
+  "name" : "Ithmiris",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 43,
+  "x" : 1491,
+  "y" : 2718,
+  "warp" : 100,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 903675622,
@@ -10295,6 +11375,18 @@
   "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 916864203,
+  "flags" : 16,
+  "name" : "Solyxis Pathway",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 54,
+  "x" : 1130,
+  "y" : 2628,
+  "warp" : 280,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 917428235,
   "flags" : 16,
   "name" : "Kobali",
@@ -10367,6 +11459,18 @@
   "warp" : 160,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 927147466,
+  "flags" : 16,
+  "name" : "Rilnar",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 64,
+  "x" : 1192,
+  "y" : 2586,
+  "warp" : 1150,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 929432095,
   "flags" : 26,
   "name" : "Mirror Orion",
@@ -10415,6 +11519,18 @@
   "warp" : 5,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 932389115,
+  "flags" : 64,
+  "name" : "O'ki - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1082,
+  "y" : -460,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 932520389,
   "flags" : 2,
   "name" : "Amagi",
@@ -10437,6 +11553,30 @@
   "x" : -297,
   "y" : -1335,
   "warp" : 5,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 935601693,
+  "flags" : 64,
+  "name" : "Wou'thorxius - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1686,
+  "y" : -634,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 936963813,
+  "flags" : 16,
+  "name" : "Finnes Expanse",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 43,
+  "x" : 1516,
+  "y" : 2691,
+  "warp" : 100,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 937598579,
@@ -10533,6 +11673,18 @@
   "x" : 1095,
   "y" : 378,
   "warp" : 54,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 950598028,
+  "flags" : 64,
+  "name" : "Schelt - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1280,
+  "y" : -360,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 950666173,
@@ -10643,6 +11795,18 @@
   "warp" : 15,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 960405237,
+  "flags" : 16,
+  "name" : "Meera",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : 1490,
+  "y" : 2816,
+  "warp" : 450,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 962007912,
   "flags" : 18,
   "name" : "Stilhe Beta",
@@ -10713,6 +11877,18 @@
   "x" : 679,
   "y" : -229,
   "warp" : 18,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 966895534,
+  "flags" : 64,
+  "name" : "Vilenul - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1526,
+  "y" : -691,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 968718350,
@@ -10787,6 +11963,18 @@
   "warp" : 19,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 976218266,
+  "flags" : 16,
+  "name" : "Talstris",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 67,
+  "x" : 1529,
+  "y" : 2839,
+  "warp" : 1100,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 976328855,
   "flags" : 0,
   "name" : "Wrund",
@@ -10797,6 +11985,18 @@
   "x" : -144,
   "y" : -409,
   "warp" : 25,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 977045215,
+  "flags" : 16,
+  "name" : "Xandovara Rift",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 47,
+  "x" : 1517,
+  "y" : 2741,
+  "warp" : 125,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 979056637,
@@ -10825,7 +12025,7 @@
 }, {
   "id" : 982059165,
   "flags" : 64,
-  "name" : "Dunnehue",
+  "name" : "Dunnehue - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -10922,7 +12122,7 @@
   "id" : 1002287229,
   "flags" : 0,
   "name" : "Zeta Gray",
-  "narrative" : null,
+  "narrative" : "Zeta Gray",
   "dialogue" : null,
   "dilemmaDescription" : null,
   "level" : 33,
@@ -11123,6 +12323,18 @@
   "warp" : 42,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1022888209,
+  "flags" : 64,
+  "name" : "87 Canpri - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1424,
+  "y" : -658,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1023321354,
   "flags" : 26,
   "name" : "Tetra-pi",
@@ -11205,6 +12417,18 @@
   "x" : 1420,
   "y" : 2916,
   "warp" : 700,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1031295055,
+  "flags" : 64,
+  "name" : "Usagi - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1405,
+  "y" : -597,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1032390550,
@@ -11402,7 +12626,7 @@
   "id" : 1046260664,
   "flags" : 0,
   "name" : "Exchange Beta",
-  "narrative" : null,
+  "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
   "level" : 30,
@@ -11445,6 +12669,18 @@
   "x" : 4992,
   "y" : 1359,
   "warp" : 1000,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1053177966,
+  "flags" : 64,
+  "name" : "Jeriw - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1462,
+  "y" : -485,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1057632272,
@@ -11651,6 +12887,18 @@
   "warp" : 5,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1079408272,
+  "flags" : 64,
+  "name" : "Arbutus - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1639,
+  "y" : -614,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1080694577,
   "flags" : 6,
   "name" : "Terix",
@@ -11661,6 +12909,18 @@
   "x" : 668,
   "y" : 348,
   "warp" : 39,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1081424440,
+  "flags" : 17,
+  "name" : "Omega System",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 40,
+  "x" : -1850,
+  "y" : -2001,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1083010427,
@@ -11711,6 +12971,18 @@
   "warp" : 25,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1085169550,
+  "flags" : 64,
+  "name" : "Muna 9F - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1640,
+  "y" : -642,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1086852937,
   "flags" : 0,
   "name" : "Soltor",
@@ -11725,7 +12997,7 @@
 }, {
   "id" : 1087205188,
   "flags" : 64,
-  "name" : "Struthio",
+  "name" : "Struthio - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -11793,6 +13065,30 @@
   "x" : 202,
   "y" : -395,
   "warp" : 13,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1092043499,
+  "flags" : 16,
+  "name" : "Mehruunahd",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 52,
+  "x" : -1004,
+  "y" : 421,
+  "warp" : 240,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1093703961,
+  "flags" : 64,
+  "name" : "Tiresias - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1572,
+  "y" : -430,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1096814337,
@@ -11867,6 +13163,18 @@
   "warp" : 25,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1104737641,
+  "flags" : 16,
+  "name" : "Estru Partis",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 57,
+  "x" : 1523,
+  "y" : 2814,
+  "warp" : 450,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1104868829,
   "flags" : 16,
   "name" : "Juuska",
@@ -11903,6 +13211,18 @@
   "warp" : 120,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1109035819,
+  "flags" : 16,
+  "name" : "Ephemeris",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 44,
+  "x" : -909,
+  "y" : 315,
+  "warp" : 150,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1109803107,
   "flags" : 22,
   "name" : "Wuk'Vek",
@@ -11913,6 +13233,18 @@
   "x" : 3118,
   "y" : 940,
   "warp" : 160,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1110829605,
+  "flags" : 64,
+  "name" : "Doiq - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1329,
+  "y" : -494,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1112532473,
@@ -12049,7 +13381,7 @@
 }, {
   "id" : 1123944793,
   "flags" : 64,
-  "name" : "Pramrora",
+  "name" : "Pramrora - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -12169,7 +13501,7 @@
 }, {
   "id" : 1133692929,
   "flags" : 64,
-  "name" : "Horden",
+  "name" : "Horden - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -12587,6 +13919,18 @@
   "warp" : 120,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1171796184,
+  "flags" : 64,
+  "name" : "Duloeul - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1457,
+  "y" : -529,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1172806400,
   "flags" : 7,
   "name" : "Helvetios",
@@ -12623,6 +13967,18 @@
   "warp" : 7,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1174075237,
+  "flags" : 16,
+  "name" : "Ryabovali Primus",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : 1463,
+  "y" : 2764,
+  "warp" : 150,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1176057197,
   "flags" : 0,
   "name" : "Vetar",
@@ -12633,6 +13989,18 @@
   "x" : -1784,
   "y" : -219,
   "warp" : 65,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1176416186,
+  "flags" : 64,
+  "name" : "Tupiyii - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1114,
+  "y" : -460,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1176925684,
@@ -12695,6 +14063,18 @@
   "warp" : 700,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1181798024,
+  "flags" : 64,
+  "name" : "Hardenbergia - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1701,
+  "y" : -602,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1184282738,
   "flags" : 7,
   "name" : "Aciben",
@@ -12705,6 +14085,18 @@
   "x" : 456,
   "y" : -368,
   "warp" : 13,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1184589475,
+  "flags" : 64,
+  "name" : "Arro Finte - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1532,
+  "y" : -461,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1186590398,
@@ -12741,6 +14133,18 @@
   "x" : -923,
   "y" : -1981,
   "warp" : 20,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1187390443,
+  "flags" : 16,
+  "name" : "Jamohr",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1128,
+  "y" : 323,
+  "warp" : 700,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1190932932,
@@ -12851,6 +14255,18 @@
   "warp" : 1000,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1205712324,
+  "flags" : 16,
+  "name" : "Qalnax",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 66,
+  "x" : 1125,
+  "y" : 2593,
+  "warp" : 1200,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1206083632,
   "flags" : 19,
   "name" : "Toh'Kaht",
@@ -12873,6 +14289,30 @@
   "x" : 4357,
   "y" : 809,
   "warp" : 700,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1208199723,
+  "flags" : 16,
+  "name" : "Kryndor",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 44,
+  "x" : 1161,
+  "y" : 2697,
+  "warp" : 125,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1211240433,
+  "flags" : 16,
+  "name" : "Eryndor Veil",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 63,
+  "x" : 1399,
+  "y" : 2837,
+  "warp" : 1000,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1212347831,
@@ -12911,6 +14351,18 @@
   "warp" : 54,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1215823589,
+  "flags" : 64,
+  "name" : "Oamitex - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -991,
+  "y" : -438,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1215894218,
   "flags" : 0,
   "name" : "Kordindr",
@@ -12933,6 +14385,18 @@
   "x" : 4289,
   "y" : 163,
   "warp" : 900,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1217646727,
+  "flags" : 64,
+  "name" : "Tas'Ke - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1337,
+  "y" : -549,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1217863325,
@@ -12995,6 +14459,18 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1222069259,
+  "flags" : 64,
+  "name" : "Cagooio - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1097,
+  "y" : -445,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1225355489,
   "flags" : 3,
   "name" : "Benif",
@@ -13041,6 +14517,18 @@
   "x" : 4321,
   "y" : -876,
   "warp" : 1200,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1235152064,
+  "flags" : 64,
+  "name" : "Bawas - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1392,
+  "y" : -452,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1235882575,
@@ -13094,7 +14582,7 @@
   "id" : 1241010127,
   "flags" : 0,
   "name" : "Seevor",
-  "narrative" : null,
+  "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
   "level" : 28,
@@ -13151,6 +14639,18 @@
   "warp" : 1100,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1245348809,
+  "flags" : 64,
+  "name" : "Supla'tha - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1649,
+  "y" : -671,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1245655537,
   "flags" : 7,
   "name" : "Loiat",
@@ -13175,6 +14675,18 @@
   "warp" : 49,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1247308115,
+  "flags" : 0,
+  "name" : "Arena System",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 40,
+  "x" : -2000,
+  "y" : -2001,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1247312085,
   "flags" : 6,
   "name" : "Deneb",
@@ -13197,6 +14709,18 @@
   "x" : 5524,
   "y" : 441,
   "warp" : 1450,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1252349238,
+  "flags" : 64,
+  "name" : "Jiuu-ra - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1673,
+  "y" : -653,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1252637405,
@@ -13233,6 +14757,18 @@
   "x" : 856,
   "y" : -2000,
   "warp" : 230,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1261516639,
+  "flags" : 16,
+  "name" : "Valtara Nexus",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 42,
+  "x" : 1129,
+  "y" : 2674,
+  "warp" : 80,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1261828320,
@@ -13285,7 +14821,7 @@
 }, {
   "id" : 1266770140,
   "flags" : 64,
-  "name" : "Runvadus",
+  "name" : "Runvadus - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -13331,6 +14867,54 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1269581331,
+  "flags" : 64,
+  "name" : "Ha'karii - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1051,
+  "y" : -430,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1270407833,
+  "flags" : 16,
+  "name" : "Osbor",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -975,
+  "y" : 392,
+  "warp" : 195,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1271332910,
+  "flags" : 64,
+  "name" : "Yikux - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1039,
+  "y" : -404,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1272396045,
+  "flags" : 64,
+  "name" : "Pauioia - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -982,
+  "y" : -467,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1273201051,
   "flags" : 18,
   "name" : "Tola Gamma",
@@ -13341,6 +14925,18 @@
   "x" : -1044,
   "y" : -1545,
   "warp" : 20,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1273428985,
+  "flags" : 64,
+  "name" : "Moraru - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1070,
+  "y" : -441,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1277114803,
@@ -13357,7 +14953,7 @@
 }, {
   "id" : 1278073295,
   "flags" : 64,
-  "name" : "Bronco",
+  "name" : "Bronco - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -13463,6 +15059,18 @@
   "warp" : 53,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1287645323,
+  "flags" : 64,
+  "name" : "Lopie - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1429,
+  "y" : -519,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1288104843,
   "flags" : 0,
   "name" : "Uyik",
@@ -13511,6 +15119,18 @@
   "warp" : 24,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1300058489,
+  "flags" : 64,
+  "name" : "Mondan-A - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1083,
+  "y" : -497,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1301278521,
   "flags" : 16,
   "name" : "Mirror Dessica",
@@ -13533,6 +15153,18 @@
   "x" : 550,
   "y" : -459,
   "warp" : 20,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1302751120,
+  "flags" : 64,
+  "name" : "Astilbe - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1615,
+  "y" : -507,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1304670657,
@@ -13703,6 +15335,18 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1324717338,
+  "flags" : 64,
+  "name" : "Aucavoc - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1409,
+  "y" : -468,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1325731364,
   "flags" : 23,
   "name" : "Endurance-429",
@@ -13725,6 +15369,18 @@
   "x" : -2300,
   "y" : 1913,
   "warp" : 120,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1325896982,
+  "flags" : 64,
+  "name" : "Miita - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1492,
+  "y" : -757,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1327228368,
@@ -13775,6 +15431,18 @@
   "warp" : 18,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1335009864,
+  "flags" : 64,
+  "name" : "Iofevan - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1481,
+  "y" : -641,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1339989224,
   "flags" : 6,
   "name" : "Clytomenes",
@@ -13785,6 +15453,18 @@
   "x" : -40,
   "y" : -954,
   "warp" : 7,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1340077643,
+  "flags" : 64,
+  "name" : "Kivif - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1473,
+  "y" : -511,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1340261195,
@@ -13869,6 +15549,18 @@
   "x" : 4607,
   "y" : 743,
   "warp" : 1000,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1349094857,
+  "flags" : 16,
+  "name" : "Benn's Field",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 47,
+  "x" : 1464,
+  "y" : 2734,
+  "warp" : 125,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1351383965,
@@ -14219,6 +15911,18 @@
   "warp" : 160,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1387914878,
+  "flags" : 16,
+  "name" : "Ventalis II",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 53,
+  "x" : 1424,
+  "y" : 2771,
+  "warp" : 280,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1389910171,
   "flags" : 3,
   "name" : "Posel",
@@ -14255,6 +15959,18 @@
   "warp" : 26,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1393780652,
+  "flags" : 64,
+  "name" : "Tuwek - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1549,
+  "y" : -674,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1395184698,
   "flags" : 18,
   "name" : "Litzarr",
@@ -14277,6 +15993,18 @@
   "x" : 676,
   "y" : -250,
   "warp" : 18,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1397132215,
+  "flags" : 64,
+  "name" : "Hwanga - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1049,
+  "y" : -460,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1397246918,
@@ -14365,7 +16093,7 @@
 }, {
   "id" : 1411915100,
   "flags" : 64,
-  "name" : "Dover",
+  "name" : "Dover - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -14493,6 +16221,30 @@
   "x" : 1240,
   "y" : 576,
   "warp" : 54,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1424536390,
+  "flags" : 64,
+  "name" : "Sekoxun - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1557,
+  "y" : -717,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1425258370,
+  "flags" : 0,
+  "name" : "Labajos",
+  "narrative" : "Labajos",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 26,
+  "x" : -1867,
+  "y" : 1135,
+  "warp" : 25,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1427204258,
@@ -14723,6 +16475,18 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1463922789,
+  "flags" : 64,
+  "name" : "Astif-5 - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1204,
+  "y" : -373,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1465141102,
   "flags" : 2,
   "name" : "Dessica",
@@ -14891,6 +16655,18 @@
   "warp" : 18,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1477049165,
+  "flags" : 64,
+  "name" : "Ben Tre - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1492,
+  "y" : -664,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1478413915,
   "flags" : 0,
   "name" : "Omtose",
@@ -14901,6 +16677,18 @@
   "x" : 151,
   "y" : -472,
   "warp" : 13,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1482781041,
+  "flags" : 16,
+  "name" : "Vesperith Zone",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 70,
+  "x" : 1165,
+  "y" : 2581,
+  "warp" : 1500,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1483822098,
@@ -14937,6 +16725,18 @@
   "x" : 5141,
   "y" : 1618,
   "warp" : 1250,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1485830750,
+  "flags" : 16,
+  "name" : "Nova Kron",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 42,
+  "x" : -869,
+  "y" : 409,
+  "warp" : 105,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1490400924,
@@ -15143,6 +16943,18 @@
   "warp" : 70,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1509670335,
+  "flags" : 64,
+  "name" : "Ren Porga - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1677,
+  "y" : -676,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1511016088,
   "flags" : 0,
   "name" : "McAllister C-5",
@@ -15239,6 +17051,30 @@
   "warp" : 1500,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1523840118,
+  "flags" : 64,
+  "name" : "Ke'aks - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1177,
+  "y" : -358,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1524803735,
+  "flags" : 64,
+  "name" : "Robner - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1207,
+  "y" : -322,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1525628723,
   "flags" : 16,
   "name" : "Misalup",
@@ -15273,6 +17109,18 @@
   "x" : 346,
   "y" : -2074,
   "warp" : 50,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1529637591,
+  "flags" : 64,
+  "name" : "Povavuf - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1458,
+  "y" : -749,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1531162992,
@@ -15407,6 +17255,18 @@
   "warp" : 23,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1553690577,
+  "flags" : 64,
+  "name" : "Biciq - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1428,
+  "y" : -485,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1556190441,
   "flags" : 3,
   "name" : "Jeuaiei",
@@ -15417,6 +17277,18 @@
   "x" : 809,
   "y" : -198,
   "warp" : 19,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1556646897,
+  "flags" : 64,
+  "name" : "Nant - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1191,
+  "y" : -336,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1556753534,
@@ -15599,6 +17471,18 @@
   "warp" : 1400,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1570833745,
+  "flags" : 16,
+  "name" : "Veltharion",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 43,
+  "x" : 1538,
+  "y" : 2717,
+  "warp" : 100,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1571296611,
   "flags" : 19,
   "name" : "Nyrheimur Alpha",
@@ -15753,6 +17637,18 @@
   "x" : 2109,
   "y" : 1530,
   "warp" : 160,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1585577963,
+  "flags" : 64,
+  "name" : "Nikanko - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1243,
+  "y" : -357,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1586237489,
@@ -15911,6 +17807,18 @@
   "warp" : 700,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1597556470,
+  "flags" : 64,
+  "name" : "Dioug - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1517,
+  "y" : -675,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1598300560,
   "flags" : 18,
   "name" : "Beku Beta",
@@ -15933,6 +17841,18 @@
   "x" : 923,
   "y" : 3378,
   "warp" : 42,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1599100034,
+  "flags" : 64,
+  "name" : "Saran-8 - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1392,
+  "y" : -575,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1601075051,
@@ -16058,7 +17978,7 @@
   "id" : 1617490775,
   "flags" : 2,
   "name" : "S'mtharz",
-  "narrative" : null,
+  "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
   "level" : 25,
@@ -16069,7 +17989,7 @@
 }, {
   "id" : 1618607980,
   "flags" : 64,
-  "name" : "Sierra",
+  "name" : "Sierra - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -16089,6 +18009,18 @@
   "x" : 5203,
   "y" : 335,
   "warp" : 1100,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1620639953,
+  "flags" : 64,
+  "name" : "Eureka - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1382,
+  "y" : -506,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1624300635,
@@ -16149,6 +18081,18 @@
   "x" : 875,
   "y" : 3279,
   "warp" : 26,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1632381977,
+  "flags" : 64,
+  "name" : "H'Arha - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1633,
+  "y" : -488,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1632573171,
@@ -16247,6 +18191,18 @@
   "warp" : 25,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1641334464,
+  "flags" : 64,
+  "name" : "Eenusix - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1009,
+  "y" : -402,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1643272578,
   "flags" : 0,
   "name" : "Jettas",
@@ -16257,6 +18213,30 @@
   "x" : 969,
   "y" : 2465,
   "warp" : 200,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1643608566,
+  "flags" : 16,
+  "name" : "Armanis Nebula",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 47,
+  "x" : 1446,
+  "y" : 2718,
+  "warp" : 125,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1645068213,
+  "flags" : 64,
+  "name" : "Jiuac - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1442,
+  "y" : -472,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1646316380,
@@ -16439,6 +18419,18 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1657742987,
+  "flags" : 64,
+  "name" : "Taneu - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1332,
+  "y" : -467,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1658706096,
   "flags" : 19,
   "name" : "Kalalisko",
@@ -16461,6 +18453,18 @@
   "x" : -554,
   "y" : -1795,
   "warp" : 6,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1658811084,
+  "flags" : 16,
+  "name" : "Kyana",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 68,
+  "x" : 1144,
+  "y" : 2576,
+  "warp" : 1300,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1660252571,
@@ -16549,13 +18553,25 @@
 }, {
   "id" : 1667392268,
   "flags" : 64,
-  "name" : "Boscobel",
+  "name" : "Boscobel - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
   "level" : 40,
   "x" : -971,
   "y" : -664,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1667722948,
+  "flags" : 64,
+  "name" : "Vodiyir - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1321,
+  "y" : -511,
   "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
@@ -16617,6 +18633,18 @@
   "x" : 534,
   "y" : -821,
   "warp" : 17,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1680831259,
+  "flags" : 64,
+  "name" : "Bisep - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1468,
+  "y" : -623,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1680845187,
@@ -16835,6 +18863,18 @@
   "warp" : 150,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1695744658,
+  "flags" : 64,
+  "name" : "Issigeac - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1457,
+  "y" : -657,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1695798898,
   "flags" : 18,
   "name" : "Nyrheimur Gamma",
@@ -16871,6 +18911,18 @@
   "warp" : 10,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1701371083,
+  "flags" : 64,
+  "name" : "Ivannak - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1029,
+  "y" : -441,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1702244411,
   "flags" : 22,
   "name" : "Holles",
@@ -16905,6 +18957,18 @@
   "x" : 998,
   "y" : 1826,
   "warp" : 185,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1706615660,
+  "flags" : 16,
+  "name" : "Zorathis",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 43,
+  "x" : 1401,
+  "y" : 2716,
+  "warp" : 100,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1709942779,
@@ -17243,6 +19307,18 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1748815154,
+  "flags" : 16,
+  "name" : "Faria",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 40,
+  "x" : -804,
+  "y" : 332,
+  "warp" : 60,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1750736123,
   "flags" : 2,
   "name" : "Vemmi",
@@ -17377,7 +19453,7 @@
 }, {
   "id" : 1760966530,
   "flags" : 64,
-  "name" : "Morass",
+  "name" : "Morass - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -17409,6 +19485,18 @@
   "x" : 3729,
   "y" : 1164,
   "warp" : 285,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1765174377,
+  "flags" : 16,
+  "name" : "Orenthis Constellation",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 46,
+  "x" : 1199,
+  "y" : 2675,
+  "warp" : 175,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1765841654,
@@ -17507,6 +19595,18 @@
   "warp" : 100,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1769462586,
+  "flags" : 64,
+  "name" : "Iufapaf - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1539,
+  "y" : -734,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1770747892,
   "flags" : 16,
   "name" : "Ronkel",
@@ -17531,6 +19631,18 @@
   "warp" : 1100,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1774573590,
+  "flags" : 64,
+  "name" : "Qaeiw - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1427,
+  "y" : -461,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1775451055,
   "flags" : 6,
   "name" : "Tera Lara",
@@ -17541,6 +19653,18 @@
   "x" : 557,
   "y" : -863,
   "warp" : 7,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1775946223,
+  "flags" : 16,
+  "name" : "Sotama",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 64,
+  "x" : -1156,
+  "y" : 350,
+  "warp" : 1320,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1776013633,
@@ -17723,6 +19847,18 @@
   "warp" : 800,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1785249531,
+  "flags" : 64,
+  "name" : "Hinsava - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1058,
+  "y" : -512,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1786096059,
   "flags" : 3,
   "name" : "Ceguh",
@@ -17841,6 +19977,18 @@
   "x" : 464,
   "y" : -351,
   "warp" : 13,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1791830491,
+  "flags" : 64,
+  "name" : "Xaueh - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1499,
+  "y" : -700,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1791961000,
@@ -18035,6 +20183,18 @@
   "warp" : 25,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1815609667,
+  "flags" : 64,
+  "name" : "Karutiv - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1505,
+  "y" : -722,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1816253414,
   "flags" : 22,
   "name" : "Zlim'kach",
@@ -18157,7 +20317,7 @@
 }, {
   "id" : 1834343057,
   "flags" : 64,
-  "name" : "Vervain",
+  "name" : "Vervain - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -18237,6 +20397,18 @@
   "x" : 2206,
   "y" : 1416,
   "warp" : 120,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1845692971,
+  "flags" : 64,
+  "name" : "Juubef - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1028,
+  "y" : -395,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1847701194,
@@ -18395,6 +20567,18 @@
   "warp" : 550,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1867534935,
+  "flags" : 16,
+  "name" : "Chalor Prime",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 42,
+  "x" : 1106,
+  "y" : 2699,
+  "warp" : 80,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1868721060,
   "flags" : 0,
   "name" : "Dawise",
@@ -18503,6 +20687,18 @@
   "warp" : 20,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1880319880,
+  "flags" : 16,
+  "name" : "Lyssara",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 48,
+  "x" : 1168,
+  "y" : 2676,
+  "warp" : 175,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1881017308,
   "flags" : 7,
   "name" : "Bazamex",
@@ -18565,7 +20761,7 @@
 }, {
   "id" : 1887085407,
   "flags" : 64,
-  "name" : "Stepaside",
+  "name" : "Stepaside - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -18573,6 +20769,18 @@
   "x" : -1212,
   "y" : -622,
   "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1888529444,
+  "flags" : 16,
+  "name" : "Itharion Reach",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : 1440,
+  "y" : 2814,
+  "warp" : 450,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1889839786,
@@ -18585,6 +20793,18 @@
   "x" : 2350,
   "y" : 894,
   "warp" : 85,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1889984114,
+  "flags" : 16,
+  "name" : "Horalius",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 46,
+  "x" : -880,
+  "y" : 474,
+  "warp" : 170,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1891192557,
@@ -18657,6 +20877,18 @@
   "x" : 1186,
   "y" : 2776,
   "warp" : 28,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1896325051,
+  "flags" : 16,
+  "name" : "Canavan",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 68,
+  "x" : -1202,
+  "y" : 328,
+  "warp" : 1495,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1896782597,
@@ -18791,6 +21023,18 @@
   "warp" : 90,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1905667130,
+  "flags" : 16,
+  "name" : "Tzhaelor",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 57,
+  "x" : 1404,
+  "y" : 2798,
+  "warp" : 450,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1905676971,
   "flags" : 3,
   "name" : "Fiadh",
@@ -18817,7 +21061,7 @@
 }, {
   "id" : 1910985559,
   "flags" : 64,
-  "name" : "Theetov",
+  "name" : "Theetov - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -18861,6 +21105,18 @@
   "x" : 1440,
   "y" : 592,
   "warp" : 56,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1914375311,
+  "flags" : 64,
+  "name" : "Onix-857 - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1607,
+  "y" : -464,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1916359164,
@@ -19043,6 +21299,18 @@
   "warp" : 26,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1926879408,
+  "flags" : 64,
+  "name" : "Ruput - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1033,
+  "y" : -516,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1927134568,
   "flags" : 6,
   "name" : "Nequencia",
@@ -19139,6 +21407,18 @@
   "warp" : 61,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1934607309,
+  "flags" : 64,
+  "name" : "Barret - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1011,
+  "y" : -506,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1935003290,
   "flags" : 0,
   "name" : "Quo'Kor",
@@ -19175,6 +21455,18 @@
   "warp" : 700,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1938220980,
+  "flags" : 16,
+  "name" : "Corialsis",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1109,
+  "y" : 372,
+  "warp" : 700,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1938653284,
   "flags" : 19,
   "name" : "Tezera Alpha",
@@ -19197,6 +21489,30 @@
   "x" : 3561,
   "y" : -164,
   "warp" : 230,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1940837699,
+  "flags" : 64,
+  "name" : "Dark U'lin - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1370,
+  "y" : -562,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1943060041,
+  "flags" : 16,
+  "name" : "New Salem",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 66,
+  "x" : -1186,
+  "y" : 436,
+  "warp" : 1375,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1943549517,
@@ -19232,6 +21548,18 @@
   "level" : 40,
   "x" : -1190,
   "y" : -944,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1946873957,
+  "flags" : 64,
+  "name" : "Kohl-91 - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1447,
+  "y" : -676,
   "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
@@ -19307,6 +21635,18 @@
   "warp" : 205,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1954535197,
+  "flags" : 64,
+  "name" : "Kuaec - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1105,
+  "y" : -403,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1954730883,
   "flags" : 3,
   "name" : "Xipox",
@@ -19317,6 +21657,18 @@
   "x" : -40,
   "y" : -752,
   "warp" : 8,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1956355859,
+  "flags" : 16,
+  "name" : "Gilmour",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 48,
+  "x" : -975,
+  "y" : 339,
+  "warp" : 190,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1959939005,
@@ -19345,13 +21697,25 @@
 }, {
   "id" : 1961573192,
   "flags" : 64,
-  "name" : "Oleander",
+  "name" : "Oleander - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
   "level" : 40,
   "x" : -975,
   "y" : -607,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1961618369,
+  "flags" : 64,
+  "name" : "R-Yroc - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1383,
+  "y" : -545,
   "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
@@ -19365,6 +21729,18 @@
   "x" : -281,
   "y" : 964,
   "warp" : 120,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1965615272,
+  "flags" : 64,
+  "name" : "Erefanium - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1020,
+  "y" : -478,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1967657235,
@@ -19413,6 +21789,18 @@
   "x" : -1301,
   "y" : -886,
   "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1973941126,
+  "flags" : 16,
+  "name" : "Xyren Cluster",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 42,
+  "x" : 1139,
+  "y" : 2697,
+  "warp" : 80,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1975097390,
@@ -19475,6 +21863,18 @@
   "warp" : 105,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 1979680937,
+  "flags" : 64,
+  "name" : "Poper - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1418,
+  "y" : -741,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 1980030252,
   "flags" : 4,
   "name" : "Zehoro",
@@ -19521,6 +21921,18 @@
   "x" : 3989,
   "y" : 1071,
   "warp" : 520,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1982763679,
+  "flags" : 16,
+  "name" : "Puusha",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 56,
+  "x" : -1027,
+  "y" : 445,
+  "warp" : 430,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1984126753,
@@ -19573,7 +21985,7 @@
 }, {
   "id" : 1985516211,
   "flags" : 64,
-  "name" : "Taria",
+  "name" : "Taria - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
@@ -19617,6 +22029,18 @@
   "x" : 5383,
   "y" : 362,
   "warp" : 1250,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 1993152366,
+  "flags" : 16,
+  "name" : "Nivara",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : 1170,
+  "y" : 2651,
+  "warp" : 190,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 1993626769,
@@ -19677,6 +22101,18 @@
   "x" : 862,
   "y" : -272,
   "warp" : 70,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 2005703667,
+  "flags" : 64,
+  "name" : "Kounsa - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1659,
+  "y" : -621,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 2005977996,
@@ -19751,6 +22187,18 @@
   "warp" : 900,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 2014164166,
+  "flags" : 16,
+  "name" : "Myrthian",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 56,
+  "x" : 1195,
+  "y" : 2628,
+  "warp" : 280,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 2014585949,
   "flags" : 4,
   "name" : "Think Tank",
@@ -19761,6 +22209,18 @@
   "x" : 1009,
   "y" : 2605,
   "warp" : 26,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 2015124198,
+  "flags" : 64,
+  "name" : "Gartem'chk - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1261,
+  "y" : -373,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 2015624080,
@@ -19787,6 +22247,18 @@
   "warp" : 100,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 2017486240,
+  "flags" : 64,
+  "name" : "Jafap - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -989,
+  "y" : -419,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 2018375117,
   "flags" : 0,
   "name" : "Rakan",
@@ -19809,6 +22281,18 @@
   "x" : -219,
   "y" : 992,
   "warp" : 355,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 2019452768,
+  "flags" : 16,
+  "name" : "Jenthara Drift",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 52,
+  "x" : 1165,
+  "y" : 2618,
+  "warp" : 210,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 2020353543,
@@ -19869,6 +22353,18 @@
   "x" : 538,
   "y" : -469,
   "warp" : 20,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 2026485422,
+  "flags" : 16,
+  "name" : "Manmoor",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 70,
+  "x" : -1240,
+  "y" : 387,
+  "warp" : 1585,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 2028145465,
@@ -20099,6 +22595,18 @@
   "warp" : 26,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 2051794260,
+  "flags" : 64,
+  "name" : "Thichi N45 - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1604,
+  "y" : -426,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 2052698931,
   "flags" : 7,
   "name" : "Eisenhorn",
@@ -20109,6 +22617,18 @@
   "x" : 459,
   "y" : -339,
   "warp" : 13,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 2053163298,
+  "flags" : 64,
+  "name" : "Peuyaw - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1456,
+  "y" : -560,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 2053939192,
@@ -20219,15 +22739,51 @@
   "warp" : 22,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 2061833340,
+  "flags" : 64,
+  "name" : "Dejoy - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1018,
+  "y" : -418,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 2063867514,
+  "flags" : 16,
+  "name" : "Partridgeous III",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : 1463,
+  "y" : 2789,
+  "warp" : 190,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 2063988488,
   "flags" : 64,
-  "name" : "Apteryx",
+  "name" : "Apteryx - Mirror",
   "narrative" : "",
   "dialogue" : null,
   "dilemmaDescription" : null,
   "level" : 40,
   "x" : -1048,
   "y" : -610,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 2064262299,
+  "flags" : 64,
+  "name" : "Nan Dah - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1431,
+  "y" : -710,
   "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
@@ -20277,6 +22833,18 @@
   "x" : 1060,
   "y" : 1961,
   "warp" : 400,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 2073673941,
+  "flags" : 64,
+  "name" : "Artani Raux - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1545,
+  "y" : -440,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 2074152378,
@@ -20457,6 +23025,30 @@
   "x" : 1199,
   "y" : 1490,
   "warp" : 95,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 2099100810,
+  "flags" : 64,
+  "name" : "Ka Ona - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1100,
+  "y" : -476,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 2099233375,
+  "flags" : 64,
+  "name" : "Bujar - Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 45,
+  "x" : -1129,
+  "y" : -437,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 2099507268,
@@ -20747,6 +23339,18 @@
   "warp" : 700,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 2135398994,
+  "flags" : 64,
+  "name" : "Halenef - Solo",
+  "narrative" : "",
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 60,
+  "x" : -1533,
+  "y" : -661,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 2135777559,
   "flags" : 23,
   "name" : "Qudorin",
@@ -20771,6 +23375,18 @@
   "warp" : 13,
   "warpWithSuperHighway" : 0
 }, {
+  "id" : 2138453365,
+  "flags" : 64,
+  "name" : "Feun-S - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1590,
+  "y" : -450,
+  "warp" : 0,
+  "warpWithSuperHighway" : 0
+}, {
   "id" : 2139423729,
   "flags" : 0,
   "name" : "Mige",
@@ -20793,6 +23409,18 @@
   "x" : -258,
   "y" : 1005,
   "warp" : 320,
+  "warpWithSuperHighway" : 0
+}, {
+  "id" : 2146773944,
+  "flags" : 64,
+  "name" : "Shawano - Elite Solo",
+  "narrative" : null,
+  "dialogue" : null,
+  "dilemmaDescription" : null,
+  "level" : 50,
+  "x" : -1560,
+  "y" : -457,
+  "warp" : 0,
   "warpWithSuperHighway" : 0
 }, {
   "id" : 2147004992,

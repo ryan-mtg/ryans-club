@@ -30,9 +30,7 @@ public class PublicApiController {
     @PostMapping("/import")
     @CommunityModEntrypoint(token = TOKEN_HEADER)
     public boolean importData(final HttpServletRequest request, final HttpEntity<String> httpEntity) {
-        LOGGER.info(">>> import---");
         User user = (User)request.getAttribute(SYNC_USER_ATTRIBUTE);
-        LOGGER.info(">>> Sync incoming for {} on token {}", user.getDisplayName(), request.getHeader(TOKEN_HEADER));
         try {
             if (user.getAccount().shouldSyncToSpocksClub()) {
                 LOGGER.info("Attempting to sync to Spock's club: {}", user.getAccount().getSpocksClubSyncToken());
@@ -43,13 +41,10 @@ public class PublicApiController {
             throw e;
            // just eat it
         }
-        LOGGER.info(" >> Starting collect");
         Update update = collector.collect(user, httpEntity.getBody());
-        LOGGER.info(" >> Done collecting, starting update");
         if (update.getState() == Update.State.COMPLETE) {
             userManager.updateUser(update);
         }
-        LOGGER.info("<<< Done updating");
         return true;
     }
 }

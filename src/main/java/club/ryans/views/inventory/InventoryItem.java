@@ -1,13 +1,15 @@
 package club.ryans.views.inventory;
 
 import club.ryans.models.accounting.ResourceAmount;
-import lombok.AllArgsConstructor;
 import lombok.Data;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 public class InventoryItem {
     private ResourceAmount resourceAmount;
-    private String annotation;
+    private List<String> annotations = new ArrayList<>();
 
     public InventoryItem(final ResourceAmount resourceAmount) {
         this.resourceAmount = resourceAmount;
@@ -31,5 +33,9 @@ public class InventoryItem {
 
     public String getStyle() {
         return resourceAmount.getResource().getStyle();
+    }
+
+    public void addAnnotation(final String annotation) {
+        annotations.add(annotation);
     }
 }

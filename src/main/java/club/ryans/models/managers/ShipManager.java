@@ -1,6 +1,8 @@
 package club.ryans.models.managers;
 
 import club.ryans.models.ShipClass;
+import club.ryans.models.ShipComponent;
+import club.ryans.models.ShipTier;
 import club.ryans.models.generators.DataFileManager;
 import club.ryans.utility.Json;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -23,10 +25,11 @@ public class ShipManager {
     private final Map<String, ShipClass> abilityMap = new HashMap<>();
     private final Map<String, ShipClass> nameMap = new HashMap<>();
 
-    public ShipManager(final DataFileManager dataFileManager) {
+    public ShipManager(final DataFileManager dataFileManager, final AssetManager assetManager,
+            final ResourceManager resourceManager) {
         this.dataFileManager = dataFileManager;
 
-        loadFile();
+        loadFile(assetManager, resourceManager);
     }
 
     public Collection<ShipClass> getShips() {
@@ -49,7 +52,7 @@ public class ShipManager {
         return stfcSpaceIdMap.get(stfcSpaceId);
     }
 
-    private void loadFile() {
+    private void loadFile(final AssetManager assetManager, final ResourceManager resourceManager) {
         ObjectMapper mapper = Json.createObjectMapper();
 
         try {
@@ -60,9 +63,28 @@ public class ShipManager {
                 stfcSpaceIdMap.put(shipClass.getStfcSpaceId(), shipClass);
                 abilityMap.put(shipClass.getBonus().getName(), shipClass);
                 nameMap.put(shipClass.getName(), shipClass);
+
+                inflateShipClass(shipClass, assetManager, resourceManager);
             }
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    private void inflateShipClass(final ShipClass shipClass, final AssetManager assetManager,
+            final ResourceManager resourceManager) {
+        if (shipClass.getTiers() == null) {
+            return;
+        }
+
+        shipClass.setArtPath(assetManager.getShipPath(shipClass.getArtId()));
+
+        for (ShipTier tier : shipClass.getTiers()) {
+            for (ShipComponent component : tier.getComponents()) {
+                if (component.getBuildCosts() != null) {
+                    component.getBuildCosts().forEach(resourceManager::inflateCost);
+                }
+            }
         }
     }
 }

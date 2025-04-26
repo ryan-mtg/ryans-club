@@ -24,7 +24,6 @@ public class CommunityModInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(final HttpServletRequest request, final HttpServletResponse response, final Object handler)
             throws Exception {
-        LOGGER.info("CMI preHandle");
         HandlerMethod handlerMethod = (HandlerMethod) handler;
 
         CommunityModEntrypoint communityModEntrypoint = handlerMethod.getMethodAnnotation(CommunityModEntrypoint.class);

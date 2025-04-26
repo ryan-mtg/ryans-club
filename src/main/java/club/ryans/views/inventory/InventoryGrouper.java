@@ -181,7 +181,7 @@ public class InventoryGrouper {
                 annotatorMap.get(item.getResourceId()).forEach(annotator -> {
                     List<String> annotations = annotator.getAnnotations(item, playerItems);
                     for (String annotation : annotations) {
-                        item.setAnnotation(annotation);
+                        item.addAnnotation(annotation);
                     }
                 });
             }

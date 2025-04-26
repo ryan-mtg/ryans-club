@@ -1,14 +1,8 @@
 package club.ryans.stfcspace;
 
-import club.ryans.stfcspace.json.Building;
-import club.ryans.stfcspace.json.BuildingDetails;
-import club.ryans.stfcspace.json.Field;
-import club.ryans.stfcspace.json.Mission;
-import club.ryans.stfcspace.json.Officer;
-import club.ryans.stfcspace.json.Research;
-import club.ryans.stfcspace.json.Resource;
-import club.ryans.stfcspace.json.Ship;
+import club.ryans.stfcspace.json.*;
 import club.ryans.stfcspace.json.System;
+import club.ryans.stfcspace.json.ships.ShipClassDetails;
 import feign.Feign;
 import feign.Logger;
 import feign.Param;
@@ -79,8 +73,12 @@ public interface StfcSpaceClient {
     @RequestLine("GET /ship/summary.json")
     List<Ship> ship();
 
+    @RequestLine("GET /ship/{id}.json")
+    ShipClassDetails ship(@Param("id") long id);
+
+
     static String getServerUrl() {
-        return "https://assets.stfc.space/data/latest/";
+        return "https://data.stfc.space/";
     }
 
     static StfcSpaceClient newClient() {

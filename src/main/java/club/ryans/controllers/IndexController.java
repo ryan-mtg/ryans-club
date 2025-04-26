@@ -138,7 +138,7 @@ public class IndexController {
     public String officer(final Model model, @PathVariable final int index) {
         model.addAttribute("officer", officerManager.getOfficer(index));
         model.addAttribute("assets", assetManager);
-        return "officer";
+        return "items/officer";
     }
 
     @GetMapping(value = "/building/{index}")
@@ -160,7 +160,7 @@ public class IndexController {
         model.addAttribute("items", items);
         model.addAttribute("assets", assetManager);
         LOGGER.info("end of building {}", now());
-        return "building";
+        return "items/building";
     }
 
     @GetMapping(value = "/ex-borg")

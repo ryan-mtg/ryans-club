@@ -54,17 +54,17 @@ public class ModelsConfig {
 
     @Bean
     public BuildingManager buildingManager(final ResourceManager resourceManager) {
-        return new BuildingManager(dataFileManager, resourceManager);
+        return new BuildingManager(dataFileManager, assetManager, resourceManager);
     }
 
     @Bean
     public OfficerManager officerManager() {
-        return new OfficerManager(dataFileManager);
+        return new OfficerManager(dataFileManager, assetManager);
     }
 
     @Bean
-    public ResourceManager resourceManager() {
-        return new ResourceManager(dataFileManager);
+    public ResourceManager resourceManager(final AssetManager assetManager) {
+        return new ResourceManager(dataFileManager, assetManager);
     }
 
     @Bean
@@ -73,8 +73,8 @@ public class ModelsConfig {
     }
 
     @Bean
-    public ShipManager shipManager() {
-        return new ShipManager(dataFileManager);
+    public ShipManager shipManager(final ResourceManager resourceManager) {
+        return new ShipManager(dataFileManager, assetManager, resourceManager);
     }
 
     @Bean

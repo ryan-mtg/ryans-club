@@ -1,8 +1,10 @@
 package club.ryans.models.managers;
 
+import club.ryans.models.Cost;
 import club.ryans.models.Resource;
 import club.ryans.models.generators.DataFileManager;
 import club.ryans.utility.Json;
+import club.ryans.utility.Strings;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
@@ -22,10 +24,10 @@ public class ResourceManager {
     private final Map<Long, Resource> stfcSpaceIdMap = new HashMap<>();
     private final Map<String, Resource> nameMap = new HashMap<>();
 
-    public ResourceManager(final DataFileManager dataFileManager) {
+    public ResourceManager(final DataFileManager dataFileManager, final AssetManager assetManager) {
         this.dataFileManager = dataFileManager;
 
-        loadFile();
+        loadFile(assetManager);
     }
 
     public Collection<Resource> getResources() {
@@ -44,7 +46,13 @@ public class ResourceManager {
         return nameMap.get(name);
     }
 
-    private void loadFile() {
+    public void inflateCost(final Cost cost) {
+        if (cost.getResourceId() != 0 && cost.getResource() == null) {
+            cost.setResource(getResourceFromStfcSpaceId(cost.getResourceId()));
+        }
+    }
+
+    private void loadFile(final AssetManager assetManager) {
         ObjectMapper mapper = Json.createObjectMapper();
 
         try {
@@ -54,6 +62,10 @@ public class ResourceManager {
                 resourceMap.put(resource.getId(), resource);
                 stfcSpaceIdMap.put(resource.getStfcSpaceId(), resource);
                 nameMap.put(resource.getName(), resource);
+
+                if (Strings.isBlank(resource.getArtPath())) {
+                    resource.setArtPath(assetManager.getResourcePath(resource.getArtId()));
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();

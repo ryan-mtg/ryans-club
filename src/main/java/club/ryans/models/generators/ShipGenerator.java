@@ -2,19 +2,26 @@ package club.ryans.models.generators;
 
 import club.ryans.models.ShipBonus;
 import club.ryans.models.ShipClass;
+import club.ryans.models.ShipComponent;
+import club.ryans.models.ShipTier;
 import club.ryans.models.managers.AssetManager;
 import club.ryans.models.managers.ShipManager;
 import club.ryans.stfcspace.StfcSpaceClient;
 import club.ryans.stfcspace.json.Field;
 import club.ryans.stfcspace.json.Ship;
+import club.ryans.stfcspace.json.ships.Component;
+import club.ryans.stfcspace.json.ships.ShipClassDetails;
 import lombok.extern.slf4j.Slf4j;
 
+import java.time.Duration;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.BiConsumer;
+import java.util.stream.Collectors;
 
 @Slf4j
 public class ShipGenerator {
@@ -51,6 +58,14 @@ public class ShipGenerator {
 
         Utility.applyFields(fields, this::lookup, FIELD_MAP);
 
+        Map<String, ShipClass> nameMap = new HashMap<>();
+        shipMap.forEach((id, shipClass) -> nameMap.put(shipClass.getName(), shipClass));
+
+        for (ShipClass shipClass : shipMap.values()) {
+            LOGGER.info("fetching data for ship: {}", shipClass.getName());
+            queryShip(shipClass);
+        }
+
         writeFile();
     }
 
@@ -78,6 +93,39 @@ public class ShipGenerator {
         shipClass.setHullType(shipJson.getHullType());
         shipClass.setMaxLevel(shipJson.getMaxLevel());
         return shipClass;
+    }
+
+    private void queryShip(final ShipClass shipClass) {
+        Utility.pause();
+        ShipClassDetails shipClassDetails = stfcSpaceClient.ship(shipClass.getStfcSpaceId());
+
+        shipClass.setTiers(shipClassDetails.getTiers().stream().map(this::createTier).collect(Collectors.toList()));
+
+        shipClass.setGrade(shipClassDetails.getGrade());
+        shipClass.setArtId(shipClassDetails.getArtId());
+        shipClass.setMaxTier(shipClassDetails.getMaxTier());
+    }
+
+    private ShipTier createTier(final club.ryans.stfcspace.json.ships.ShipTier tierJson) {
+        ShipTier tier = new ShipTier();
+        tier.setTier(tierJson.getTier());
+        tier.setDuration(Duration.ofSeconds(tierJson.getDuration()));
+        tier.setComponents(tierJson.getComponents().stream().map(this::createComponent).collect(Collectors.toList()));
+        return tier;
+    }
+
+    private ShipComponent createComponent(final Component componentJson) {
+        ShipComponent component = new ShipComponent();
+        component.setId(componentJson.getLocaId());
+        component.setStfcSpaceId(componentJson.getId());
+        component.setArtId(component.getArtId());
+
+        component.setOrder(componentJson.getOrder());
+
+        component.setBuildTime(Duration.ofSeconds(componentJson.getBuildTime()));
+        component.setRepairTime(Duration.ofSeconds(componentJson.getRepairTime()));
+
+        return component;
     }
 
     private ShipClass lookup(final long id) {

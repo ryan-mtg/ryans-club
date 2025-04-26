@@ -3,6 +3,8 @@ package club.ryans.models;
 import club.ryans.models.managers.AssetManager;
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 public class ShipClass {
     private long id;
@@ -25,6 +27,8 @@ public class ShipClass {
     private String blueprintName;
     private String description;
     private ShipBonus bonus = new ShipBonus();
+
+    private List<ShipTier> tiers;
 
     public String getImageUrl() {
         return AssetManager.makeUrl(artPath);

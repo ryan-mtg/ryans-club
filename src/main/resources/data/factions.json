@@ -69,7 +69,7 @@
 }, {
   "34" : "PIONEER"
 }, {
-  "35" : "Footsoldier"
+  "35" : "FOOTSOLDIER"
 }, {
   "36" : "LEGEND"
 }, {
@@ -124,4 +124,44 @@
   "61304" : "HANDLER"
 }, {
   "61305" : "SPYMASTER"
+}, {
+  "71001" : "OUTSIDER"
+}, {
+  "71002" : "LACKEY"
+}, {
+  "71003" : "COLLABORATOR"
+}, {
+  "71004" : "COMRADE"
+}, {
+  "71005" : "ALLY"
+}, {
+  "71006" : "VALUED"
+}, {
+  "71007" : "LAUDED"
+}, {
+  "71008" : "VENERATED"
+}, {
+  "71009" : "EXALTED"
+}, {
+  "71010" : "RENOWNED"
+}, {
+  "74001" : "AGENT"
+}, {
+  "74002" : "SUPER AGENT"
+}, {
+  "74301" : "ROOKIE"
+}, {
+  "74302" : "AGENT"
+}, {
+  "74303" : "DETECTIVE"
+}, {
+  "74304" : "CHIEF DETECTIVE"
+}, {
+  "74305" : "SPECIAL AGENT"
+}, {
+  "74306" : "TEMPORAL INVESTIGATOR"
+}, {
+  "74307" : "TEMPORAL DIRECTOR"
+}, {
+  "74308" : "TEMPORAL COMMISSIONER"
 } ]

@@ -3,6 +3,7 @@ package club.ryans.models.managers;
 import club.ryans.models.Officer;
 import club.ryans.models.generators.DataFileManager;
 import club.ryans.utility.Json;
+import club.ryans.utility.Strings;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
@@ -25,10 +26,10 @@ public class OfficerManager {
     private final Map<Long, Officer> stfcSpaceIdMap = new HashMap<>();
     private final Map<String, Officer> nameMap = new HashMap<>();
 
-    public OfficerManager(final DataFileManager dataFileManager) {
+    public OfficerManager(final DataFileManager dataFileManager, final AssetManager assetManager) {
         this.dataFileManager = dataFileManager;
 
-        loadFile();
+        loadFile(assetManager);
     }
 
     public Collection<Officer> getOfficers() {
@@ -51,7 +52,7 @@ public class OfficerManager {
         return Paths.get("officers.json");
     }
 
-    private void loadFile() {
+    private void loadFile(final AssetManager assetManager) {
         ObjectMapper mapper = Json.createObjectMapper();
 
         try {
@@ -61,6 +62,10 @@ public class OfficerManager {
                 officerMap.put(officer.getId(), officer);
                 stfcSpaceIdMap.put(officer.getStfcSpaceId(), officer);
                 nameMap.put(officer.getName(), officer);
+
+                if (Strings.isBlank(officer.getArtPath())) {
+                    officer.setArtPath(assetManager.getOfficerPath(officer.getArtId()));
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();

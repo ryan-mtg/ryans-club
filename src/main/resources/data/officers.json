@@ -4,7 +4,7 @@
   "name" : "James T. Kirk",
   "shortName" : null,
   "artId" : 1,
-  "artPath" : "/assets/1-BqZHzqHS.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -27,14 +27,14 @@
     "flag" : 67
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/1-BqZHzqHS.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 2,
   "stfcSpaceId" : 766809588,
   "name" : "Spock",
   "shortName" : null,
   "artId" : 2,
-  "artPath" : "/assets/2-PBmiunUC.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -57,14 +57,14 @@
     "flag" : 30
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/2-PBmiunUC.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 3,
   "stfcSpaceId" : 3923643019,
   "name" : "Leonard McCoy",
   "shortName" : null,
   "artId" : 3,
-  "artPath" : "/assets/3-DiORqRja.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -87,14 +87,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/3-DiORqRja.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 4,
   "stfcSpaceId" : 3155244352,
   "name" : "Montgomery Scott",
   "shortName" : null,
   "artId" : 4,
-  "artPath" : "/assets/4-BdPiKO-b.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Engineering",
@@ -117,14 +117,14 @@
     "flag" : 31
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/4-BdPiKO-b.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 5,
   "stfcSpaceId" : 2520801863,
   "name" : "Hikaru Sulu",
   "shortName" : null,
   "artId" : 5,
-  "artPath" : "/assets/5-C7Vg3Sym.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Command",
@@ -147,14 +147,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/5-C7Vg3Sym.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 6,
   "stfcSpaceId" : 282462507,
   "name" : "Arkady Ivanov",
   "shortName" : null,
   "artId" : 6,
-  "artPath" : "/assets/6-BnqKE3S9.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Command",
@@ -177,14 +177,14 @@
     "flag" : 30
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/6-BnqKE3S9.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 7,
   "stfcSpaceId" : 2695272429,
   "name" : "Nyota Uhura",
   "shortName" : null,
   "artId" : 7,
-  "artPath" : "/assets/7-DsgYdV4m.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -207,14 +207,14 @@
     "flag" : 12
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/7-DsgYdV4m.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 8,
   "stfcSpaceId" : 1465017198,
   "name" : "Gorkon",
   "shortName" : null,
   "artId" : 8,
-  "artPath" : "/assets/8-CRc2T5KK.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -237,14 +237,14 @@
     "flag" : 67
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/8-CRc2T5KK.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 9,
   "stfcSpaceId" : 1730335425,
   "name" : "Chang",
   "shortName" : null,
   "artId" : 9,
-  "artPath" : "/assets/9-yhLMEN_X.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -267,14 +267,14 @@
     "flag" : 11
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/9-yhLMEN_X.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 10,
   "stfcSpaceId" : 3880112208,
   "name" : "Kerla",
   "shortName" : null,
   "artId" : 10,
-  "artPath" : "/assets/10-Cy2uwsPC.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -297,14 +297,14 @@
     "flag" : 19
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/10-Cy2uwsPC.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 11,
   "stfcSpaceId" : 2475235160,
   "name" : "Azetbur",
   "shortName" : null,
   "artId" : 11,
-  "artPath" : "/assets/11-HN-cVq24.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -327,14 +327,14 @@
     "flag" : 13
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/11-HN-cVq24.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 12,
   "stfcSpaceId" : 250991574,
   "name" : "Koth",
   "shortName" : null,
   "artId" : 12,
-  "artPath" : "/assets/12-By4IKAYi.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "UNCOMMON",
   "divisionName" : "Engineering",
@@ -357,14 +357,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/12-By4IKAYi.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 13,
   "stfcSpaceId" : 98548875,
   "name" : "Woteln",
   "shortName" : null,
   "artId" : 13,
-  "artPath" : "/assets/13-OvywAKVf.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "UNCOMMON",
   "divisionName" : "Science",
@@ -387,14 +387,14 @@
     "flag" : 15
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/13-OvywAKVf.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 14,
   "stfcSpaceId" : 3221819893,
   "name" : "M'Ral",
   "shortName" : null,
   "artId" : 14,
-  "artPath" : "/assets/14-BP3m6COb.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "UNCOMMON",
   "divisionName" : "Command",
@@ -417,14 +417,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/14-BP3m6COb.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 15,
   "stfcSpaceId" : 656972203,
   "name" : "Nero",
   "shortName" : null,
   "artId" : 15,
-  "artPath" : "/assets/15-D7BtVur5.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -447,14 +447,14 @@
     "flag" : 67
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/15-D7BtVur5.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 16,
   "stfcSpaceId" : 2959514562,
   "name" : "Vemet",
   "shortName" : null,
   "artId" : 16,
-  "artPath" : "/assets/16-CpEPR0V5.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -477,14 +477,14 @@
     "flag" : 30
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/16-CpEPR0V5.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 17,
   "stfcSpaceId" : 1983456684,
   "name" : "Kumak",
   "shortName" : null,
   "artId" : 17,
-  "artPath" : "/assets/17-CPS4FyRb.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -507,14 +507,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/17-CPS4FyRb.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 18,
   "stfcSpaceId" : 2333021829,
   "name" : "Livis",
   "shortName" : null,
   "artId" : 18,
-  "artPath" : "/assets/18-DWLz0yhV.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -537,14 +537,14 @@
     "flag" : 31
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/18-DWLz0yhV.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 19,
   "stfcSpaceId" : 339936167,
   "name" : "Arix",
   "shortName" : null,
   "artId" : 19,
-  "artPath" : "/assets/19-B1Yi-SKv.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "UNCOMMON",
   "divisionName" : "Science",
@@ -567,14 +567,14 @@
     "flag" : 16
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/19-B1Yi-SKv.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 20,
   "stfcSpaceId" : 2235857051,
   "name" : "Vella",
   "shortName" : null,
   "artId" : 20,
-  "artPath" : "/assets/20-DTC2dHYb.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "UNCOMMON",
   "divisionName" : "Science",
@@ -597,14 +597,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/20-DTC2dHYb.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 21,
   "stfcSpaceId" : 668528267,
   "name" : "Javaid",
   "shortName" : null,
   "artId" : 21,
-  "artPath" : "/assets/21-BjEU6C-7.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "UNCOMMON",
   "divisionName" : "Command",
@@ -627,14 +627,14 @@
     "flag" : 16
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/21-BjEU6C-7.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 22,
   "stfcSpaceId" : 1608562191,
   "name" : "Kang",
   "shortName" : null,
   "artId" : 22,
-  "artPath" : "/assets/22-D7TGi7ir.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -657,14 +657,14 @@
     "flag" : 12
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/22-D7TGi7ir.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 23,
   "stfcSpaceId" : 1353192478,
   "name" : "Mara",
   "shortName" : null,
   "artId" : 23,
-  "artPath" : "/assets/23-jzL0VKX0.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -687,14 +687,14 @@
     "flag" : 15
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/23-jzL0VKX0.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 24,
   "stfcSpaceId" : 3465002315,
   "name" : "Krell",
   "shortName" : null,
   "artId" : 24,
-  "artPath" : "/assets/24-BmgjvhGx.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -717,14 +717,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/24-BmgjvhGx.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 25,
   "stfcSpaceId" : 913104893,
   "name" : "Kuron",
   "shortName" : null,
   "artId" : 25,
-  "artPath" : "/assets/25-BZrjj_Qp.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -747,14 +747,14 @@
     "flag" : 21
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/25-BZrjj_Qp.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 26,
   "stfcSpaceId" : 3001921707,
   "name" : "Yan'agh",
   "shortName" : null,
   "artId" : 26,
-  "artPath" : "/assets/26-tSmolLB-.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "UNCOMMON",
   "divisionName" : "Engineering",
@@ -777,14 +777,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/26-tSmolLB-.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 27,
   "stfcSpaceId" : 3594947012,
   "name" : "Qa'ug",
   "shortName" : null,
   "artId" : 27,
-  "artPath" : "/assets/27-vkGL7bvt.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "UNCOMMON",
   "divisionName" : "Science",
@@ -807,14 +807,14 @@
     "flag" : 12
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/27-vkGL7bvt.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 28,
   "stfcSpaceId" : 3114234402,
   "name" : "Linkasa",
   "shortName" : null,
   "artId" : 28,
-  "artPath" : "/assets/28-DIgGF9Q1.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "UNCOMMON",
   "divisionName" : "Engineering",
@@ -837,14 +837,14 @@
     "flag" : 16
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/28-DIgGF9Q1.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 29,
   "stfcSpaceId" : 1250418815,
   "name" : "Liviana Charvanek",
   "shortName" : null,
   "artId" : 29,
-  "artPath" : "/assets/29-D3FXPbqy.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -867,14 +867,14 @@
     "flag" : 13
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/29-D3FXPbqy.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 30,
   "stfcSpaceId" : 361377304,
   "name" : "Tal",
   "shortName" : null,
   "artId" : 30,
-  "artPath" : "/assets/30-CxVDdt0s.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -897,14 +897,14 @@
     "flag" : 31
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/30-CxVDdt0s.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 31,
   "stfcSpaceId" : 3961190554,
   "name" : "Decius",
   "shortName" : null,
   "artId" : 31,
-  "artPath" : "/assets/31-Bic_laQG.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -927,14 +927,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/31-Bic_laQG.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 32,
   "stfcSpaceId" : 531187684,
   "name" : "Mirek",
   "shortName" : null,
   "artId" : 32,
-  "artPath" : "/assets/32-B8ocxmSj.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -957,14 +957,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/32-B8ocxmSj.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 33,
   "stfcSpaceId" : 3079282844,
   "name" : "L'Nar",
   "shortName" : null,
   "artId" : 33,
-  "artPath" : "/assets/33-DXQ7YSXj.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "UNCOMMON",
   "divisionName" : "Engineering",
@@ -987,14 +987,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/33-DXQ7YSXj.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 35,
   "stfcSpaceId" : 161972881,
   "name" : "Severus",
   "shortName" : null,
   "artId" : 35,
-  "artPath" : "/assets/35-DM_XRKSu.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "UNCOMMON",
   "divisionName" : "Engineering",
@@ -1017,14 +1017,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/35-DM_XRKSu.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 36,
   "stfcSpaceId" : 1127234629,
   "name" : "Alexander Marcus",
   "shortName" : null,
   "artId" : 43,
-  "artPath" : "/assets/43-pP8v3dQA.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -1047,14 +1047,14 @@
     "flag" : 14
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/43-pP8v3dQA.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 38,
   "stfcSpaceId" : 3553398304,
   "name" : "John Harrison",
   "shortName" : null,
   "artId" : 38,
-  "artPath" : "/assets/38-DTsxYXcu.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -1077,14 +1077,14 @@
     "flag" : 33
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/38-DTsxYXcu.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 39,
   "stfcSpaceId" : 2446409392,
   "name" : "Raphaël DuPont",
   "shortName" : null,
   "artId" : 39,
-  "artPath" : "/assets/39-Btqswix2.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -1107,14 +1107,14 @@
     "flag" : 29
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/39-Btqswix2.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 40,
   "stfcSpaceId" : 1143746577,
   "name" : "Paul Zhou",
   "shortName" : null,
   "artId" : 40,
-  "artPath" : "/assets/40-Bm1e5uTl.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Command",
@@ -1137,14 +1137,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/40-Bm1e5uTl.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 42,
   "stfcSpaceId" : 3155462804,
   "name" : "Elea Mäkinen",
   "shortName" : null,
   "artId" : 42,
-  "artPath" : "/assets/42-CfcoTsj9.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Engineering",
@@ -1167,14 +1167,14 @@
     "flag" : 20
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/42-CfcoTsj9.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 44,
   "stfcSpaceId" : 3990993357,
   "name" : "Marlena Moreau",
   "shortName" : null,
   "artId" : 44,
-  "artPath" : "/assets/44-OX_PSbUk.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -1197,14 +1197,14 @@
     "flag" : 25
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/44-OX_PSbUk.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 45,
   "stfcSpaceId" : 3628828668,
   "name" : "Hendorff",
   "shortName" : null,
   "artId" : 45,
-  "artPath" : "/assets/45-KstSPz9U.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Engineering",
@@ -1227,14 +1227,14 @@
     "flag" : 34
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/45-KstSPz9U.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 46,
   "stfcSpaceId" : 2963484044,
   "name" : "Mae Darwin",
   "shortName" : null,
   "artId" : 46,
-  "artPath" : "/assets/46-CBx9SsuC.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Engineering",
@@ -1257,14 +1257,14 @@
     "flag" : 34
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/46-CBx9SsuC.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 47,
   "stfcSpaceId" : 307877748,
   "name" : "Frank Leslie",
   "shortName" : null,
   "artId" : 47,
-  "artPath" : "/assets/47-BA0IP6S6.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Engineering",
@@ -1287,14 +1287,14 @@
     "flag" : 34
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/47-BA0IP6S6.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 48,
   "stfcSpaceId" : 3314108979,
   "name" : "Geoffrey Hadley",
   "shortName" : null,
   "artId" : 48,
-  "artPath" : "/assets/48-DRBqrMqK.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Engineering",
@@ -1317,14 +1317,14 @@
     "flag" : 34
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/48-DRBqrMqK.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 49,
   "stfcSpaceId" : 1556052341,
   "name" : "T'Pring",
   "shortName" : null,
   "artId" : 49,
-  "artPath" : "/assets/49-BaoedXAw.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -1347,14 +1347,14 @@
     "flag" : 29
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/49-BaoedXAw.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 50,
   "stfcSpaceId" : 755079845,
   "name" : "Stonn",
   "shortName" : null,
   "artId" : 50,
-  "artPath" : "/assets/50-C4fvCmoP.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -1377,14 +1377,14 @@
     "flag" : 28
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/50-C4fvCmoP.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 51,
   "stfcSpaceId" : 3816036121,
   "name" : "Domitia",
   "shortName" : null,
   "artId" : 51,
-  "artPath" : "/assets/51-CWUbOJXX.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "COMMON",
   "divisionName" : "Science",
@@ -1407,14 +1407,14 @@
     "flag" : 22
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/51-CWUbOJXX.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 52,
   "stfcSpaceId" : 2432668775,
   "name" : "K'Bisch",
   "shortName" : null,
   "artId" : 52,
-  "artPath" : "/assets/52-CrvfgRdY.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "COMMON",
   "divisionName" : "Engineering",
@@ -1437,14 +1437,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/52-CrvfgRdY.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 53,
   "stfcSpaceId" : 3156736320,
   "name" : "Helvia",
   "shortName" : null,
   "artId" : 53,
-  "artPath" : "/assets/53-CvLbszUo.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "COMMON",
   "divisionName" : "Command",
@@ -1467,14 +1467,14 @@
     "flag" : 22
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/53-CvLbszUo.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 54,
   "stfcSpaceId" : 3492633912,
   "name" : "Keenser",
   "shortName" : null,
   "artId" : 54,
-  "artPath" : "/assets/54-FQh9ORdP.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -1497,14 +1497,14 @@
     "flag" : 30
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/54-FQh9ORdP.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 56,
   "stfcSpaceId" : 4219901626,
   "name" : "Officer 0718",
   "shortName" : null,
   "artId" : 56,
-  "artPath" : "/assets/56-mPsMQGuG.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Science",
@@ -1527,14 +1527,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/56-mPsMQGuG.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 57,
   "stfcSpaceId" : 4132174205,
   "name" : "Gary Mitchell",
   "shortName" : null,
   "artId" : 57,
-  "artPath" : "/assets/57-Bxie5j6z.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -1557,14 +1557,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/57-Bxie5j6z.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 58,
   "stfcSpaceId" : 2775384983,
   "name" : "Jabilo M'Benga",
   "shortName" : null,
   "artId" : 58,
-  "artPath" : "/assets/58-D3Fcj0id.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Science",
@@ -1587,14 +1587,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/58-D3Fcj0id.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 59,
   "stfcSpaceId" : 407568868,
   "name" : "Zahra",
   "shortName" : null,
   "artId" : 59,
-  "artPath" : "/assets/59-Dt9-dGFC.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Engineering",
@@ -1617,14 +1617,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/59-Dt9-dGFC.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 60,
   "stfcSpaceId" : 2822661458,
   "name" : "Khan Noonien Singh",
   "shortName" : null,
   "artId" : 60,
-  "artPath" : "/assets/60-BHw93mE3.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -1647,14 +1647,14 @@
     "flag" : 18
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/60-BHw93mE3.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 61,
   "stfcSpaceId" : 3264304828,
   "name" : "Joachim",
   "shortName" : null,
   "artId" : 61,
-  "artPath" : "/assets/61-COlPcjjx.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -1677,14 +1677,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/61-COlPcjjx.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 62,
   "stfcSpaceId" : 1617168639,
   "name" : "Marla McGivers",
   "shortName" : null,
   "artId" : 62,
-  "artPath" : "/assets/62-CNnuXI0E.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -1707,14 +1707,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/62-CNnuXI0E.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 63,
   "stfcSpaceId" : 3528103772,
   "name" : "Joaquin",
   "shortName" : null,
   "artId" : 63,
-  "artPath" : "/assets/63-a46AMN3H.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "UNCOMMON",
   "divisionName" : "Command",
@@ -1737,14 +1737,14 @@
     "flag" : 20
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/63-a46AMN3H.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 64,
   "stfcSpaceId" : 2219055924,
   "name" : "Otto",
   "shortName" : null,
   "artId" : 64,
-  "artPath" : "/assets/64-DT_ak_FL.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "UNCOMMON",
   "divisionName" : "Engineering",
@@ -1767,14 +1767,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/64-DT_ak_FL.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 65,
   "stfcSpaceId" : 1602389738,
   "name" : "Kati",
   "shortName" : null,
   "artId" : 65,
-  "artPath" : "/assets/65-D9LWntVG.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "UNCOMMON",
   "divisionName" : "Science",
@@ -1797,14 +1797,14 @@
     "flag" : 19
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/65-D9LWntVG.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 70,
   "stfcSpaceId" : 2865735742,
   "name" : "Lucia Gonzales",
   "shortName" : null,
   "artId" : 70,
-  "artPath" : "/assets/70-DHAThsOn.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Command",
@@ -1827,14 +1827,14 @@
     "flag" : 19
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/70-DHAThsOn.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 71,
   "stfcSpaceId" : 2765885322,
   "name" : "Grace Chen",
   "shortName" : null,
   "artId" : 71,
-  "artPath" : "/assets/71-enTKx0ER.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Science",
@@ -1857,14 +1857,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/71-enTKx0ER.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 72,
   "stfcSpaceId" : 776602621,
   "name" : "Gaila",
   "shortName" : null,
   "artId" : 72,
-  "artPath" : "/assets/72-BkEdkL43.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Engineering",
@@ -1887,14 +1887,14 @@
     "flag" : 19
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/72-BkEdkL43.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 73,
   "stfcSpaceId" : 2567136252,
   "name" : "Shev Akria",
   "shortName" : null,
   "artId" : 73,
-  "artPath" : "/assets/73-CGrzx7s0.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Engineering",
@@ -1917,14 +1917,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/73-CGrzx7s0.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 74,
   "stfcSpaceId" : 1455040265,
   "name" : "T'Laan",
   "shortName" : null,
   "artId" : 74,
-  "artPath" : "/assets/74-CuKjwrb6.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Science",
@@ -1947,14 +1947,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/74-CuKjwrb6.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 75,
   "stfcSpaceId" : 3281026482,
   "name" : "Vel K'Bentayr",
   "shortName" : null,
   "artId" : 75,
-  "artPath" : "/assets/75-kPJBCJoX.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Science",
@@ -1977,14 +1977,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/75-kPJBCJoX.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 76,
   "stfcSpaceId" : 2847497836,
   "name" : "Kras",
   "shortName" : null,
   "artId" : 76,
-  "artPath" : "/assets/76-cS9Soi5G.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -2007,14 +2007,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/76-cS9Soi5G.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 77,
   "stfcSpaceId" : 2601201375,
   "name" : "Klaa",
   "shortName" : null,
   "artId" : 77,
-  "artPath" : "/assets/77-Ctu4nVOR.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "UNCOMMON",
   "divisionName" : "Command",
@@ -2037,14 +2037,14 @@
     "flag" : 19
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/77-Ctu4nVOR.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 78,
   "stfcSpaceId" : 2517597941,
   "name" : "Vixis",
   "shortName" : null,
   "artId" : 78,
-  "artPath" : "/assets/78-DiLPjUkF.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "UNCOMMON",
   "divisionName" : "Science",
@@ -2067,14 +2067,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/78-DiLPjUkF.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 79,
   "stfcSpaceId" : 680147223,
   "name" : "Komal",
   "shortName" : null,
   "artId" : 79,
-  "artPath" : "/assets/79-BppmBr1u.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "COMMON",
   "divisionName" : "Engineering",
@@ -2097,14 +2097,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/79-BppmBr1u.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 80,
   "stfcSpaceId" : 3394864658,
   "name" : "Vartoq",
   "shortName" : null,
   "artId" : 80,
-  "artPath" : "/assets/80-DdOFOIeM.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "COMMON",
   "divisionName" : "Command",
@@ -2127,14 +2127,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/80-DdOFOIeM.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 81,
   "stfcSpaceId" : 176044746,
   "name" : "Rukor",
   "shortName" : null,
   "artId" : 81,
-  "artPath" : "/assets/81-CVcV6Zny.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "COMMON",
   "divisionName" : "Command",
@@ -2157,14 +2157,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/81-CVcV6Zny.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 83,
   "stfcSpaceId" : 1525867544,
   "name" : "Cadet James T. Kirk",
   "shortName" : null,
   "artId" : 83,
-  "artPath" : "/assets/83-C_qxfjG5.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Command",
@@ -2187,14 +2187,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/83-C_qxfjG5.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 84,
   "stfcSpaceId" : 1622062016,
   "name" : "Instructor Spock",
   "shortName" : null,
   "artId" : 84,
-  "artPath" : "/assets/84-CyA3_ozN.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Science",
@@ -2217,14 +2217,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/84-CyA3_ozN.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 85,
   "stfcSpaceId" : 1853520303,
   "name" : "Cadet Leonard McCoy",
   "shortName" : null,
   "artId" : 85,
-  "artPath" : "/assets/85-CC8IbM8q.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Science",
@@ -2247,14 +2247,14 @@
     "flag" : 69
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/85-CC8IbM8q.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 86,
   "stfcSpaceId" : 4150311506,
   "name" : "Cadet Montgomery Scott",
   "shortName" : null,
   "artId" : 86,
-  "artPath" : "/assets/86-N3UxAy9r.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Engineering",
@@ -2277,14 +2277,14 @@
     "flag" : 23
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/86-N3UxAy9r.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 87,
   "stfcSpaceId" : 194631754,
   "name" : "Cadet Nyota Uhura",
   "shortName" : null,
   "artId" : 87,
-  "artPath" : "/assets/87-C1bKdQ3a.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Engineering",
@@ -2307,14 +2307,14 @@
     "flag" : 30
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/87-C1bKdQ3a.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 88,
   "stfcSpaceId" : 4066988596,
   "name" : "Cadet Hikaru Sulu",
   "shortName" : null,
   "artId" : 88,
-  "artPath" : "/assets/88-TEWlZx6X.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Command",
@@ -2337,14 +2337,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/88-TEWlZx6X.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 89,
   "stfcSpaceId" : 2518604778,
   "name" : "Barot",
   "shortName" : null,
   "artId" : 89,
-  "artPath" : "/assets/89-8p_7tf4o.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -2367,14 +2367,14 @@
     "flag" : 31
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/89-8p_7tf4o.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 90,
   "stfcSpaceId" : 329940464,
   "name" : "Christopher Pike",
   "shortName" : null,
   "artId" : 90,
-  "artPath" : "/assets/90-DL47UqyB.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -2397,14 +2397,14 @@
     "flag" : 34
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/90-DL47UqyB.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 91,
   "stfcSpaceId" : 513311144,
   "name" : "D'jaoki",
   "shortName" : null,
   "artId" : 91,
-  "artPath" : "/assets/91-B_G_wDMA.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "UNCOMMON",
   "divisionName" : "Command",
@@ -2427,14 +2427,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/91-B_G_wDMA.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 92,
   "stfcSpaceId" : 3722250154,
   "name" : "Carol Marcus",
   "shortName" : null,
   "artId" : 92,
-  "artPath" : "/assets/92-uz7He2Zu.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -2457,14 +2457,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/92-uz7He2Zu.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 93,
   "stfcSpaceId" : 3381802332,
   "name" : "Yuki Sulu",
   "shortName" : null,
   "artId" : 37,
-  "artPath" : "/assets/37-Dg2IKUBi.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -2487,14 +2487,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/37-Dg2IKUBi.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 102,
   "stfcSpaceId" : 989647182,
   "name" : "One of Eleven",
   "shortName" : null,
   "artId" : 110,
-  "artPath" : "/assets/110-pd2mcHz9.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -2517,14 +2517,14 @@
     "flag" : 29
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/110-pd2mcHz9.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 106,
   "stfcSpaceId" : 3583932904,
   "name" : "Five of Eleven",
   "shortName" : null,
   "artId" : 111,
-  "artPath" : "/assets/111-CKI6if0X.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -2547,14 +2547,14 @@
     "flag" : 59
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/111-CKI6if0X.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 107,
   "stfcSpaceId" : 3627600020,
   "name" : "Six of Eleven",
   "shortName" : null,
   "artId" : 116,
-  "artPath" : "/assets/116-Bq1xxtGv.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -2577,14 +2577,14 @@
     "flag" : 25
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/116-Bq1xxtGv.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 108,
   "stfcSpaceId" : 3304441016,
   "name" : "Seven of Eleven",
   "shortName" : null,
   "artId" : 114,
-  "artPath" : "/assets/114-DIQL3e1p.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -2607,14 +2607,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/114-DIQL3e1p.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 109,
   "stfcSpaceId" : 1131760724,
   "name" : "Eight of Eleven",
   "shortName" : null,
   "artId" : 112,
-  "artPath" : "/assets/112-B0Ag--fX.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "UNCOMMON",
   "divisionName" : "Engineering",
@@ -2637,14 +2637,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/112-B0Ag--fX.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 110,
   "stfcSpaceId" : 1859906553,
   "name" : "Nine of Eleven",
   "shortName" : null,
   "artId" : 113,
-  "artPath" : "/assets/113-IZxMuQSg.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "UNCOMMON",
   "divisionName" : "Command",
@@ -2667,14 +2667,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/113-IZxMuQSg.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 111,
   "stfcSpaceId" : 370544309,
   "name" : "Ten of Eleven",
   "shortName" : null,
   "artId" : 115,
-  "artPath" : "/assets/115-CfS3L_8A.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -2697,14 +2697,14 @@
     "flag" : 20
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/115-CfS3L_8A.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 112,
   "stfcSpaceId" : 3019272402,
   "name" : "Navi",
   "shortName" : null,
   "artId" : 120,
-  "artPath" : "/assets/120-BQY502G2.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -2727,14 +2727,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/120-BQY502G2.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 113,
   "stfcSpaceId" : 43410162,
   "name" : "Pan",
   "shortName" : null,
   "artId" : 121,
-  "artPath" : "/assets/121-C7S0sA5W.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -2757,14 +2757,14 @@
     "flag" : 67
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/121-C7S0sA5W.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 114,
   "stfcSpaceId" : 1349602017,
   "name" : "Rima",
   "shortName" : null,
   "artId" : 122,
-  "artPath" : "/assets/122-Bs_d-Zvs.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -2787,14 +2787,14 @@
     "flag" : 18
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/122-Bs_d-Zvs.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 115,
   "stfcSpaceId" : 634330627,
   "name" : "Harcourt Fenton Mudd",
   "shortName" : null,
   "artId" : 123,
-  "artPath" : "/assets/123-Kd_Fbs3h.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -2817,14 +2817,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/123-Kd_Fbs3h.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 116,
   "stfcSpaceId" : 949329475,
   "name" : "Eurydice",
   "shortName" : null,
   "artId" : 124,
-  "artPath" : "/assets/124-iHPE_YRK.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -2847,14 +2847,14 @@
     "flag" : 30
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/124-iHPE_YRK.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 117,
   "stfcSpaceId" : 2651130337,
   "name" : "Sesha",
   "shortName" : null,
   "artId" : 126,
-  "artPath" : "/assets/126-CGdEBUxI.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "COMMON",
   "divisionName" : "Science",
@@ -2877,14 +2877,14 @@
     "flag" : 19
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/126-CGdEBUxI.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 118,
   "stfcSpaceId" : 1330179266,
   "name" : "Ro Mudd",
   "shortName" : null,
   "artId" : 125,
-  "artPath" : "/assets/125-BIg7zOOJ.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -2907,14 +2907,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/125-BIg7zOOJ.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 119,
   "stfcSpaceId" : 1083140166,
   "name" : "Goon",
   "shortName" : null,
   "artId" : 127,
-  "artPath" : "/assets/127-BKx2Hkzz.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "UNCOMMON",
   "divisionName" : "Science",
@@ -2937,14 +2937,14 @@
     "flag" : 34
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/127-BKx2Hkzz.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 120,
   "stfcSpaceId" : 229898163,
   "name" : "Ahvix",
   "shortName" : null,
   "artId" : 129,
-  "artPath" : "/assets/129-Cf9jvyeX.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -2967,14 +2967,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/129-Cf9jvyeX.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 121,
   "stfcSpaceId" : 3106264505,
   "name" : "Tiza",
   "shortName" : null,
   "artId" : 128,
-  "artPath" : "/assets/128-C2CvrhpT.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "COMMON",
   "divisionName" : "Command",
@@ -2997,14 +2997,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/128-C2CvrhpT.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 122,
   "stfcSpaceId" : 677303054,
   "name" : "Harcourt Fenton Mudd",
   "shortName" : null,
   "artId" : 130,
-  "artPath" : "/assets/130-DBhA_ERb.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -3027,14 +3027,14 @@
     "flag" : 9
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/130-DBhA_ERb.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 123,
   "stfcSpaceId" : 3245467973,
   "name" : "Origins Burnham",
   "shortName" : null,
   "artId" : 141,
-  "artPath" : "/assets/141-BG51_c5t.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Command",
@@ -3057,14 +3057,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/141-BG51_c5t.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 124,
   "stfcSpaceId" : 3534264929,
   "name" : "Origins Saru",
   "shortName" : null,
   "artId" : 142,
-  "artPath" : "/assets/142-Dp1VN-fG.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Science",
@@ -3087,14 +3087,14 @@
     "flag" : 31
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/142-Dp1VN-fG.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 125,
   "stfcSpaceId" : 868427019,
   "name" : "Origins Stamets",
   "shortName" : null,
   "artId" : 143,
-  "artPath" : "/assets/143-BadRvwqd.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Engineering",
@@ -3117,14 +3117,14 @@
     "flag" : 22
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/143-BadRvwqd.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 126,
   "stfcSpaceId" : 3999633781,
   "name" : "Michael Burnham",
   "shortName" : null,
   "artId" : 131,
-  "artPath" : "/assets/131-BTZdEDo8.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -3147,14 +3147,14 @@
     "flag" : 30
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/131-BTZdEDo8.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 127,
   "stfcSpaceId" : 56060748,
   "name" : "Saru",
   "shortName" : null,
   "artId" : 132,
-  "artPath" : "/assets/132-DnTpT1WX.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -3177,14 +3177,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/132-DnTpT1WX.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 128,
   "stfcSpaceId" : 2030703558,
   "name" : "Paul Stamets",
   "shortName" : null,
   "artId" : 133,
-  "artPath" : "/assets/133-BJzO56pb.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -3207,14 +3207,14 @@
     "flag" : 13
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/133-BJzO56pb.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 129,
   "stfcSpaceId" : 1580157615,
   "name" : "Georgiou",
   "shortName" : null,
   "artId" : 138,
-  "artPath" : "/assets/138-zsRtmbjb.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -3237,14 +3237,14 @@
     "flag" : 67
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/138-zsRtmbjb.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 130,
   "stfcSpaceId" : 1800794103,
   "name" : "Tilly",
   "shortName" : null,
   "artId" : 134,
-  "artPath" : "/assets/134-G5iGWr__.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Engineering",
@@ -3267,14 +3267,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/134-G5iGWr__.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 131,
   "stfcSpaceId" : 3769449499,
   "name" : "Ash Tyler",
   "shortName" : null,
   "artId" : 135,
-  "artPath" : "/assets/135-CioOxbJ9.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -3297,14 +3297,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/135-CioOxbJ9.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 132,
   "stfcSpaceId" : 440622131,
   "name" : "Hugh Culber",
   "shortName" : null,
   "artId" : 137,
-  "artPath" : "/assets/137-gFWYTgAJ.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Science",
@@ -3327,14 +3327,14 @@
     "flag" : 46
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/137-gFWYTgAJ.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 133,
   "stfcSpaceId" : 743931698,
   "name" : "Airiam",
   "shortName" : null,
   "artId" : 136,
-  "artPath" : "/assets/136-CjH5TrpM.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Command",
@@ -3357,14 +3357,14 @@
     "flag" : 67
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/136-CjH5TrpM.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 134,
   "stfcSpaceId" : 2449957978,
   "name" : "Emperor Georgiou",
   "shortName" : null,
   "artId" : 140,
-  "artPath" : "/assets/140-BR-2FJ00.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -3387,14 +3387,14 @@
     "flag" : 9
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/140-BR-2FJ00.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 135,
   "stfcSpaceId" : 1958876935,
   "name" : "Captain Tilly",
   "shortName" : null,
   "artId" : 144,
-  "artPath" : "/assets/144-MHPGcr46.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -3417,14 +3417,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/144-MHPGcr46.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 136,
   "stfcSpaceId" : 4110037371,
   "name" : "Gabriel Lorca",
   "shortName" : null,
   "artId" : 139,
-  "artPath" : "/assets/139-B-6lTbyt.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -3447,14 +3447,14 @@
     "flag" : 67
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/139-B-6lTbyt.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 137,
   "stfcSpaceId" : 107451388,
   "name" : "TOS James T. Kirk",
   "shortName" : null,
   "artId" : 150,
-  "artPath" : "/assets/150-CpUq5bXi.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -3477,14 +3477,14 @@
     "flag" : 67
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/150-CpUq5bXi.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 138,
   "stfcSpaceId" : 2757127113,
   "name" : "TOS Spock",
   "shortName" : null,
   "artId" : 151,
-  "artPath" : "/assets/151-pXWxsqSL.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -3507,14 +3507,14 @@
     "flag" : 19
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/151-pXWxsqSL.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 139,
   "stfcSpaceId" : 1752126880,
   "name" : "TOS Nyota Uhura",
   "shortName" : null,
   "artId" : 152,
-  "artPath" : "/assets/152-BqnjDcEJ.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -3537,14 +3537,14 @@
     "flag" : 33
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/152-BqnjDcEJ.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 140,
   "stfcSpaceId" : 423029416,
   "name" : "TOS Leonard McCoy",
   "shortName" : null,
   "artId" : 153,
-  "artPath" : "/assets/153-B2iH-uoi.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -3567,14 +3567,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/153-B2iH-uoi.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 141,
   "stfcSpaceId" : 1670351312,
   "name" : "TOS Hikaru Sulu",
   "shortName" : null,
   "artId" : 154,
-  "artPath" : "/assets/154-DMtzi9Sh.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -3597,14 +3597,14 @@
     "flag" : 18
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/154-DMtzi9Sh.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 142,
   "stfcSpaceId" : 3579242146,
   "name" : "TOS Montgomery Scott",
   "shortName" : null,
   "artId" : 155,
-  "artPath" : "/assets/155-CSd4gu2Y.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -3627,14 +3627,14 @@
     "flag" : 55
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/155-CSd4gu2Y.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 143,
   "stfcSpaceId" : 3382562951,
   "name" : "TOS Pavel Chekov",
   "shortName" : null,
   "artId" : 156,
-  "artPath" : "/assets/156-BDt03SBC.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -3657,14 +3657,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/156-BDt03SBC.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 144,
   "stfcSpaceId" : 1841597470,
   "name" : "Next Gen Data",
   "shortName" : null,
   "artId" : 160,
-  "artPath" : "/assets/160-wiZsjMvI.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Command",
@@ -3687,14 +3687,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/160-wiZsjMvI.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 145,
   "stfcSpaceId" : 3479870516,
   "name" : "Jaylah",
   "shortName" : null,
   "artId" : 94,
-  "artPath" : "/assets/94-1DYgGsRY.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -3717,14 +3717,14 @@
     "flag" : 9
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/94-1DYgGsRY.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 146,
   "stfcSpaceId" : 1485791413,
   "name" : "Next Gen Crusher",
   "shortName" : null,
   "artId" : 163,
-  "artPath" : "/assets/163-gGo84OFK.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Science",
@@ -3747,14 +3747,14 @@
     "flag" : 69
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/163-gGo84OFK.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 147,
   "stfcSpaceId" : 3968109489,
   "name" : "Next Gen La Forge",
   "shortName" : null,
   "artId" : 164,
-  "artPath" : "/assets/164-B5SmlvAQ.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Engineering",
@@ -3777,14 +3777,14 @@
     "flag" : 30
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/164-B5SmlvAQ.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 148,
   "stfcSpaceId" : 631590783,
   "name" : "Next Gen Riker",
   "shortName" : null,
   "artId" : 161,
-  "artPath" : "/assets/161-BArQfybQ.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Command",
@@ -3807,14 +3807,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/161-BArQfybQ.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 149,
   "stfcSpaceId" : 1683164967,
   "name" : "Data",
   "shortName" : null,
   "artId" : 171,
-  "artPath" : "/assets/171-CU5i9Bjm.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -3837,14 +3837,14 @@
     "flag" : 25
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/171-CU5i9Bjm.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 150,
   "stfcSpaceId" : 177664289,
   "name" : "Beverly Crusher",
   "shortName" : null,
   "artId" : 174,
-  "artPath" : "/assets/174-C9K3C2yt.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -3867,14 +3867,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/174-C9K3C2yt.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 151,
   "stfcSpaceId" : 2204519406,
   "name" : "Geordi La Forge",
   "shortName" : null,
   "artId" : 175,
-  "artPath" : "/assets/175-BQu8xsfb.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -3897,14 +3897,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/175-BQu8xsfb.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 152,
   "stfcSpaceId" : 118103052,
   "name" : "Two of Eleven",
   "shortName" : null,
   "artId" : 157,
-  "artPath" : "/assets/157-CBG6rW4u.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -3927,14 +3927,14 @@
     "flag" : 20
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/157-CBG6rW4u.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 153,
   "stfcSpaceId" : 3217575459,
   "name" : "Next Gen Troi",
   "shortName" : null,
   "artId" : 162,
-  "artPath" : "/assets/162-C2mFqSYG.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "COMMON",
   "divisionName" : "Science",
@@ -3957,14 +3957,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/162-C2mFqSYG.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 154,
   "stfcSpaceId" : 1427486959,
   "name" : "Jean-Luc Picard",
   "shortName" : null,
   "artId" : 170,
-  "artPath" : "/assets/170-BKjFB26m.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -3987,14 +3987,14 @@
     "flag" : 19
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/170-BKjFB26m.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 155,
   "stfcSpaceId" : 1116707401,
   "name" : "Wesley Crusher",
   "shortName" : null,
   "artId" : 176,
-  "artPath" : "/assets/176-Dp6zKk5M.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -4017,14 +4017,14 @@
     "flag" : 35
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/176-Dp6zKk5M.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 32001,
   "stfcSpaceId" : 1137482318,
   "name" : "William T. Riker",
   "shortName" : null,
   "artId" : 172,
-  "artPath" : "/assets/172-D6T9eo9u.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -4047,14 +4047,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/172-D6T9eo9u.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 33001,
   "stfcSpaceId" : 1070197892,
   "name" : "Deanna Troi",
   "shortName" : null,
   "artId" : 173,
-  "artPath" : "/assets/173-x3uoeRs8.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -4077,14 +4077,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/173-x3uoeRs8.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 33002,
   "stfcSpaceId" : 2593842933,
   "name" : "Worf",
   "shortName" : null,
   "artId" : 177,
-  "artPath" : "/assets/177-DpOx-QjD.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -4107,14 +4107,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/177-DpOx-QjD.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 34001,
   "stfcSpaceId" : 4148782205,
   "name" : "Tasha Yar",
   "shortName" : null,
   "artId" : 178,
-  "artPath" : "/assets/178-ChABMS0j.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -4137,14 +4137,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/178-ChABMS0j.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 34002,
   "stfcSpaceId" : 1395454844,
   "name" : "Three Of Eleven",
   "shortName" : null,
   "artId" : 179,
-  "artPath" : "/assets/179-C15NPHDW.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -4167,14 +4167,14 @@
     "flag" : 29
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/179-C15NPHDW.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 34003,
   "stfcSpaceId" : 3542999283,
   "name" : "Eleven of Eleven",
   "shortName" : null,
   "artId" : 181,
-  "artPath" : "/assets/181-kaimbJLW.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -4197,14 +4197,14 @@
     "flag" : 22
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/181-kaimbJLW.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 34004,
   "stfcSpaceId" : 3490516652,
   "name" : "Four of Eleven",
   "shortName" : null,
   "artId" : 180,
-  "artPath" : "/assets/180-9piuatkA.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -4227,14 +4227,14 @@
     "flag" : 28
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/180-9piuatkA.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 35027,
   "stfcSpaceId" : 2498836305,
   "name" : "Honorguard Worf",
   "shortName" : null,
   "artId" : 182,
-  "artPath" : "/assets/182-BbN6-pd8.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -4257,14 +4257,14 @@
     "flag" : 18
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/182-BbN6-pd8.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 36001,
   "stfcSpaceId" : 336948052,
   "name" : "Sela",
   "shortName" : null,
   "artId" : 186,
-  "artPath" : "/assets/186-CuGO1Yhh.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -4287,14 +4287,14 @@
     "flag" : 18
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/186-CuGO1Yhh.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 36002,
   "stfcSpaceId" : 215089650,
   "name" : "Tomalak",
   "shortName" : null,
   "artId" : 187,
-  "artPath" : "/assets/187-BJKbeZ7I.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -4317,14 +4317,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/187-BJKbeZ7I.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 37001,
   "stfcSpaceId" : 2392608691,
   "name" : "Gowron",
   "shortName" : null,
   "artId" : 183,
-  "artPath" : "/assets/183-gDaKKJSz.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -4347,14 +4347,14 @@
     "flag" : 17
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/183-gDaKKJSz.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 37002,
   "stfcSpaceId" : 2184439996,
   "name" : "Martok",
   "shortName" : null,
   "artId" : 184,
-  "artPath" : "/assets/184-CmcBUNp8.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -4377,14 +4377,14 @@
     "flag" : 15
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/184-CmcBUNp8.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 38001,
   "stfcSpaceId" : 566062509,
   "name" : "Ba'el",
   "shortName" : null,
   "artId" : 185,
-  "artPath" : "/assets/185-B-17K2qo.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -4407,14 +4407,14 @@
     "flag" : 16
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/185-B-17K2qo.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 38002,
   "stfcSpaceId" : 1577339063,
   "name" : "B'Etor",
   "shortName" : null,
   "artId" : 189,
-  "artPath" : "/assets/189-DyZFGcKe.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -4437,14 +4437,14 @@
     "flag" : 54
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/189-DyZFGcKe.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 38003,
   "stfcSpaceId" : 2639742910,
   "name" : "Lursa",
   "shortName" : null,
   "artId" : 188,
-  "artPath" : "/assets/188-BVDW9q6M.png",
+  "artPath" : "",
   "factionId" : 669838839,
   "rarity" : "UNCOMMON",
   "divisionName" : "Engineering",
@@ -4467,14 +4467,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/188-BVDW9q6M.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 38004,
   "stfcSpaceId" : 909354959,
   "name" : "Ghrush",
   "shortName" : null,
   "artId" : 921,
-  "artPath" : "/assets/921-BJfHSN5Z.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -4497,14 +4497,14 @@
     "flag" : 23
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/921-BJfHSN5Z.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 39001,
   "stfcSpaceId" : 1835829612,
   "name" : "Arrock",
   "shortName" : null,
   "artId" : 192,
-  "artPath" : "/assets/192-3Q6v_qfo.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -4527,14 +4527,14 @@
     "flag" : 20
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/192-3Q6v_qfo.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 39002,
   "stfcSpaceId" : 3191841428,
   "name" : "Fess",
   "shortName" : null,
   "artId" : 193,
-  "artPath" : "/assets/193-B3mjAIOX.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -4557,14 +4557,14 @@
     "flag" : 29
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/193-B3mjAIOX.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 39003,
   "stfcSpaceId" : 2334517642,
   "name" : "Quark",
   "shortName" : null,
   "artId" : 191,
-  "artPath" : "/assets/191-BRxkoEsY.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -4587,14 +4587,14 @@
     "flag" : 20
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/191-BRxkoEsY.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 40001,
   "stfcSpaceId" : 1248750548,
   "name" : "Rom",
   "shortName" : null,
   "artId" : 194,
-  "artPath" : "/assets/194-D56BXraN.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -4617,14 +4617,14 @@
     "flag" : 9
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/194-D56BXraN.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 40002,
   "stfcSpaceId" : 4019230068,
   "name" : "Cath",
   "shortName" : null,
   "artId" : 195,
-  "artPath" : "/assets/195-oKfaVzYK.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -4647,14 +4647,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/195-oKfaVzYK.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 41001,
   "stfcSpaceId" : 725106789,
   "name" : "Beckett Mariner",
   "shortName" : null,
   "artId" : 196,
-  "artPath" : "/assets/196-GbY3OpDY.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -4684,14 +4684,14 @@
     "artId" : 222,
     "flag" : 8
   },
-  "imageUrl" : "https://stfc.space/assets/196-GbY3OpDY.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 41002,
   "stfcSpaceId" : 2486433247,
   "name" : "Brad Boimler",
   "shortName" : null,
   "artId" : 197,
-  "artPath" : "/assets/197-K_ua6Ka3.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -4721,14 +4721,14 @@
     "artId" : 220,
     "flag" : 24
   },
-  "imageUrl" : "https://stfc.space/assets/197-K_ua6Ka3.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 41003,
   "stfcSpaceId" : 1437818828,
   "name" : "Badgey",
   "shortName" : null,
   "artId" : 198,
-  "artPath" : "/assets/198-DPiqEc9T.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "UNCOMMON",
   "divisionName" : "Science",
@@ -4758,14 +4758,14 @@
     "artId" : 221,
     "flag" : 25
   },
-  "imageUrl" : "https://stfc.space/assets/198-DPiqEc9T.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 42001,
   "stfcSpaceId" : 3865023367,
   "name" : "D'Vana Tendi",
   "shortName" : null,
   "artId" : 200,
-  "artPath" : "/assets/200-BnUO1l4c.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -4795,14 +4795,14 @@
     "artId" : 226,
     "flag" : 31
   },
-  "imageUrl" : "https://stfc.space/assets/200-BnUO1l4c.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 42002,
   "stfcSpaceId" : 47699744,
   "name" : "Sam Rutherford",
   "shortName" : null,
   "artId" : 199,
-  "artPath" : "/assets/199-Dq_oUr-V.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -4832,14 +4832,14 @@
     "artId" : 225,
     "flag" : 30
   },
-  "imageUrl" : "https://stfc.space/assets/199-Dq_oUr-V.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 43001,
   "stfcSpaceId" : 2241990218,
   "name" : "SNW Christopher Pike",
   "shortName" : null,
   "artId" : 201,
-  "artPath" : "/assets/201-CUcKsVmf.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -4862,14 +4862,14 @@
     "flag" : 33
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/201-CUcKsVmf.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 43002,
   "stfcSpaceId" : 2702893021,
   "name" : "SNW Spock",
   "shortName" : null,
   "artId" : 202,
-  "artPath" : "/assets/202-CLEswv_-.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -4885,21 +4885,21 @@
   },
   "officerAbility" : {
     "id" : 1101292289,
-    "name" : "Quick Thinking",
+    "name" : "Quick Thinker",
     "percentage" : true,
     "maxLevel" : 5,
     "artId" : 229,
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/202-CLEswv_-.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 43003,
   "stfcSpaceId" : 2543722471,
   "name" : "SNW La'an Noonien-Singh",
   "shortName" : null,
   "artId" : 203,
-  "artPath" : "/assets/203-BJStsk6D.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -4929,14 +4929,14 @@
     "artId" : 232,
     "flag" : 28
   },
-  "imageUrl" : "https://stfc.space/assets/203-BJStsk6D.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 43004,
   "stfcSpaceId" : 3523093667,
   "name" : "Reginald Barclay",
   "shortName" : null,
   "artId" : 205,
-  "artPath" : "/assets/205-BnbcpmNX.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -4966,14 +4966,14 @@
     "artId" : 231,
     "flag" : 29
   },
-  "imageUrl" : "https://stfc.space/assets/205-BnbcpmNX.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 44001,
   "stfcSpaceId" : 1724793140,
   "name" : "SNW Una Chin-Riley",
   "shortName" : null,
   "artId" : 204,
-  "artPath" : "/assets/204-DDnvtr9K.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -4996,14 +4996,14 @@
     "flag" : 21
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/204-DDnvtr9K.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 44002,
   "stfcSpaceId" : 97787926,
   "name" : "SNW Nyota Uhura",
   "shortName" : null,
   "artId" : 206,
-  "artPath" : "/assets/206-BS4w-aGm.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -5026,14 +5026,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/206-BS4w-aGm.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 44003,
   "stfcSpaceId" : 1689277174,
   "name" : "SNW Erica Ortegas",
   "shortName" : null,
   "artId" : 207,
-  "artPath" : "/assets/207-B-zW-NMC.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -5056,14 +5056,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/207-B-zW-NMC.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 45001,
   "stfcSpaceId" : 3742595916,
   "name" : "SNW Hemmer",
   "shortName" : null,
   "artId" : 208,
-  "artPath" : "/assets/208-BKfS3wkW.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -5093,14 +5093,14 @@
     "artId" : 238,
     "flag" : 35
   },
-  "imageUrl" : "https://stfc.space/assets/208-BKfS3wkW.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 45002,
   "stfcSpaceId" : 3479942533,
   "name" : "Strike Team SNW La'an",
   "shortName" : null,
   "artId" : 209,
-  "artPath" : "/assets/209-DafffRo2.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -5123,14 +5123,14 @@
     "flag" : 67
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/209-DafffRo2.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 45003,
   "stfcSpaceId" : 3512227954,
   "name" : "Strike Team SNW Una",
   "shortName" : null,
   "artId" : 210,
-  "artPath" : "/assets/210-3EBtCBDd.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -5153,14 +5153,14 @@
     "flag" : 33
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/210-3EBtCBDd.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 45004,
   "stfcSpaceId" : 2354305961,
   "name" : "Strike Team SNW Ortegas",
   "shortName" : null,
   "artId" : 211,
-  "artPath" : "/assets/211-BzwU9uPs.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -5183,14 +5183,14 @@
     "flag" : 11
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/211-BzwU9uPs.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 45005,
   "stfcSpaceId" : 1628322562,
   "name" : "Mavery",
   "shortName" : null,
   "artId" : 212,
-  "artPath" : "/assets/212-23Pn4DeZ.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -5213,14 +5213,14 @@
     "flag" : 20
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/212-23Pn4DeZ.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 46001,
   "stfcSpaceId" : 2178926216,
   "name" : "Benjamin Sisko",
   "shortName" : null,
   "artId" : 213,
-  "artPath" : "/assets/213-DnkyLjG2.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -5243,14 +5243,14 @@
     "flag" : 18
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/213-DnkyLjG2.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 46002,
   "stfcSpaceId" : 180486983,
   "name" : "Changeling Kira",
   "shortName" : null,
   "artId" : 216,
-  "artPath" : "/assets/216-D0TU425E.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -5273,14 +5273,14 @@
     "flag" : 24
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/216-D0TU425E.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 46003,
   "stfcSpaceId" : 2871265794,
   "name" : "Miles O'Brien",
   "shortName" : null,
   "artId" : 215,
-  "artPath" : "/assets/215-Cv2dVk8N.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -5310,14 +5310,14 @@
     "artId" : 251,
     "flag" : 22
   },
-  "imageUrl" : "https://stfc.space/assets/215-Cv2dVk8N.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 47001,
   "stfcSpaceId" : 1310878702,
   "name" : "Gul Dukat",
   "shortName" : null,
   "artId" : 220,
-  "artPath" : "/assets/220-Ex4WBdE_.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -5340,14 +5340,14 @@
     "flag" : 9
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/220-Ex4WBdE_.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 47002,
   "stfcSpaceId" : 3681781473,
   "name" : "Garak",
   "shortName" : null,
   "artId" : 221,
-  "artPath" : "/assets/221-D2Y3zvhB.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -5370,14 +5370,14 @@
     "flag" : 18
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/221-D2Y3zvhB.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 47003,
   "stfcSpaceId" : 2613379706,
   "name" : "Damar",
   "shortName" : null,
   "artId" : 222,
-  "artPath" : "/assets/222-FNNpVaHj.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -5400,14 +5400,14 @@
     "flag" : 19
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/222-FNNpVaHj.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 48001,
   "stfcSpaceId" : 1925563045,
   "name" : "Weyoun",
   "shortName" : null,
   "artId" : 223,
-  "artPath" : "/assets/223-CTgGkaGE.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -5430,14 +5430,14 @@
     "flag" : 9
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/223-CTgGkaGE.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 48002,
   "stfcSpaceId" : 3835531386,
   "name" : "Ikat'ika",
   "shortName" : null,
   "artId" : 224,
-  "artPath" : "/assets/224-DGFr-pdZ.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -5460,14 +5460,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/224-DGFr-pdZ.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 48003,
   "stfcSpaceId" : 1860865109,
   "name" : "Pon",
   "shortName" : null,
   "artId" : 225,
-  "artPath" : "/assets/225-C4EugyPS.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -5490,14 +5490,14 @@
     "flag" : 18
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/225-C4EugyPS.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 49001,
   "stfcSpaceId" : 1916661181,
   "name" : "Jadzia Dax",
   "shortName" : null,
   "artId" : 218,
-  "artPath" : "/assets/218-Dm1aWktS.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -5520,14 +5520,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/218-Dm1aWktS.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 49002,
   "stfcSpaceId" : 1028718336,
   "name" : "Odo",
   "shortName" : null,
   "artId" : 231,
-  "artPath" : "/assets/231-IoEjG5JZ.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -5557,14 +5557,14 @@
     "artId" : 268,
     "flag" : 19
   },
-  "imageUrl" : "https://stfc.space/assets/231-IoEjG5JZ.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 49003,
   "stfcSpaceId" : 2620014350,
   "name" : "Julian Bashir",
   "shortName" : null,
   "artId" : 217,
-  "artPath" : "/assets/217-BvHHK_zu.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -5587,14 +5587,14 @@
     "flag" : 18
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/217-BvHHK_zu.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 49004,
   "stfcSpaceId" : 339027623,
   "name" : "Kira Nerys",
   "shortName" : null,
   "artId" : 226,
-  "artPath" : "/assets/226-DlKhA3qN.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -5624,14 +5624,14 @@
     "artId" : 271,
     "flag" : 18
   },
-  "imageUrl" : "https://stfc.space/assets/226-DlKhA3qN.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 50001,
   "stfcSpaceId" : 4290764940,
   "name" : "Hugh",
   "shortName" : null,
   "artId" : 232,
-  "artPath" : "/assets/232-CweZgmXY.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -5661,14 +5661,14 @@
     "artId" : 268,
     "flag" : 18
   },
-  "imageUrl" : "https://stfc.space/assets/232-CweZgmXY.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 50002,
   "stfcSpaceId" : 1442833808,
   "name" : "Ghalenar",
   "shortName" : null,
   "artId" : 233,
-  "artPath" : "/assets/233-Bvp5Zg81.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -5698,14 +5698,14 @@
     "artId" : 276,
     "flag" : -1
   },
-  "imageUrl" : "https://stfc.space/assets/233-Bvp5Zg81.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 51001,
   "stfcSpaceId" : 1203492497,
   "name" : "Borg Queen",
   "shortName" : null,
   "artId" : 234,
-  "artPath" : "/assets/234-wYxHkZxk.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -5735,14 +5735,14 @@
     "artId" : 279,
     "flag" : 25
   },
-  "imageUrl" : "https://stfc.space/assets/234-wYxHkZxk.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 51002,
   "stfcSpaceId" : 3412597742,
   "name" : "Dezoc",
   "shortName" : null,
   "artId" : 235,
-  "artPath" : "/assets/235-CPfrAVHv.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -5772,14 +5772,14 @@
     "artId" : 281,
     "flag" : 67
   },
-  "imageUrl" : "https://stfc.space/assets/235-CPfrAVHv.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 51003,
   "stfcSpaceId" : 1039950897,
   "name" : "Gossa",
   "shortName" : null,
   "artId" : 236,
-  "artPath" : "/assets/236-zzWV2hYB.png",
+  "artPath" : "",
   "factionId" : 2943562711,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -5809,14 +5809,14 @@
     "artId" : 279,
     "flag" : 24
   },
-  "imageUrl" : "https://stfc.space/assets/236-zzWV2hYB.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 52001,
   "stfcSpaceId" : 1109650513,
   "name" : "PIC Admiral Picard",
   "shortName" : null,
   "artId" : 237,
-  "artPath" : "/assets/237-DDwL0DF3.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -5839,14 +5839,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/237-DDwL0DF3.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 52002,
   "stfcSpaceId" : 802343108,
   "name" : "PIC Beverly Crusher",
   "shortName" : null,
   "artId" : 238,
-  "artPath" : "/assets/238-D_jInwDI.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -5876,14 +5876,14 @@
     "artId" : 276,
     "flag" : -1
   },
-  "imageUrl" : "https://stfc.space/assets/238-D_jInwDI.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 53001,
   "stfcSpaceId" : 3484257385,
   "name" : "PIC Worf",
   "shortName" : null,
   "artId" : 240,
-  "artPath" : "/assets/240-BycYD0zg.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -5906,14 +5906,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/240-BycYD0zg.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 53002,
   "stfcSpaceId" : 2836324820,
   "name" : "PIC RIKER",
   "shortName" : null,
   "artId" : 239,
-  "artPath" : "/assets/239-vRfXitaT.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -5936,14 +5936,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/239-vRfXitaT.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 53003,
   "stfcSpaceId" : 1022775390,
   "name" : "Dixon Hill",
   "shortName" : null,
   "artId" : 214,
-  "artPath" : "/assets/214-DizR8UOJ.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -5973,14 +5973,14 @@
     "artId" : 283,
     "flag" : 20
   },
-  "imageUrl" : "https://stfc.space/assets/214-DizR8UOJ.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 54001,
   "stfcSpaceId" : 1421610149,
   "name" : "The Doctor",
   "shortName" : null,
   "artId" : 241,
-  "artPath" : "/assets/241-DOTA3Uw5.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -6010,14 +6010,14 @@
     "artId" : 276,
     "flag" : 59
   },
-  "imageUrl" : "https://stfc.space/assets/241-DOTA3Uw5.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 54002,
   "stfcSpaceId" : 38768657,
   "name" : "B'Elanna Torres",
   "shortName" : null,
   "artId" : 242,
-  "artPath" : "/assets/242-6kJrFoio.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -6047,14 +6047,14 @@
     "artId" : 290,
     "flag" : 67
   },
-  "imageUrl" : "https://stfc.space/assets/242-6kJrFoio.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 55001,
   "stfcSpaceId" : 2343910766,
   "name" : "Kathryn Janeway",
   "shortName" : null,
   "artId" : 243,
-  "artPath" : "/assets/243-DP7MkznG.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -6077,14 +6077,14 @@
     "flag" : 71
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/243-DP7MkznG.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 55002,
   "stfcSpaceId" : 3849424588,
   "name" : "Tom Paris",
   "shortName" : null,
   "artId" : 245,
-  "artPath" : "/assets/245-CzakFx54.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -6114,14 +6114,14 @@
     "artId" : 220,
     "flag" : 24
   },
-  "imageUrl" : "https://stfc.space/assets/245-CzakFx54.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 55003,
   "stfcSpaceId" : 1458469333,
   "name" : "Harry Kim",
   "shortName" : null,
   "artId" : 244,
-  "artPath" : "/assets/244-DncOghis.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -6151,14 +6151,14 @@
     "artId" : 295,
     "flag" : 67
   },
-  "imageUrl" : "https://stfc.space/assets/244-DncOghis.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 56001,
   "stfcSpaceId" : 3838190976,
   "name" : "Chakotay",
   "shortName" : null,
   "artId" : 246,
-  "artPath" : "/assets/246-BmvrskKT.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -6181,14 +6181,14 @@
     "flag" : 18
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/246-BmvrskKT.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 56002,
   "stfcSpaceId" : 2120397875,
   "name" : "Tuvok",
   "shortName" : null,
   "artId" : 247,
-  "artPath" : "/assets/247-D2LMb5bL.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -6218,14 +6218,14 @@
     "artId" : 232,
     "flag" : 28
   },
-  "imageUrl" : "https://stfc.space/assets/247-D2LMb5bL.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 57001,
   "stfcSpaceId" : 2037089464,
   "name" : "Seven of Nine",
   "shortName" : null,
   "artId" : 248,
-  "artPath" : "/assets/248-0xlOtUmd.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -6255,14 +6255,14 @@
     "artId" : 308,
     "flag" : 71
   },
-  "imageUrl" : "https://stfc.space/assets/248-0xlOtUmd.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 57002,
   "stfcSpaceId" : 497650232,
   "name" : "Neelix",
   "shortName" : null,
   "artId" : 249,
-  "artPath" : "/assets/249-Dc4aGk4z.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -6292,14 +6292,14 @@
     "artId" : 310,
     "flag" : 67
   },
-  "imageUrl" : "https://stfc.space/assets/249-Dc4aGk4z.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 58001,
   "stfcSpaceId" : 1116563882,
   "name" : "Carol Freeman",
   "shortName" : null,
   "artId" : 251,
-  "artPath" : "/assets/251-qm469IDw.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -6322,14 +6322,14 @@
     "flag" : 71
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/251-qm469IDw.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 58002,
   "stfcSpaceId" : 2852482387,
   "name" : "Jack Ransom",
   "shortName" : null,
   "artId" : 253,
-  "artPath" : "/assets/253-BeYOp2QM.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -6359,14 +6359,14 @@
     "artId" : 312,
     "flag" : -1
   },
-  "imageUrl" : "https://stfc.space/assets/253-BeYOp2QM.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 58003,
   "stfcSpaceId" : 3458822900,
   "name" : "Andy Billups",
   "shortName" : null,
   "artId" : 252,
-  "artPath" : "/assets/252-DWI07Qcs.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -6396,14 +6396,14 @@
     "artId" : 315,
     "flag" : -1
   },
-  "imageUrl" : "https://stfc.space/assets/252-DWI07Qcs.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 59001,
   "stfcSpaceId" : 4151676212,
   "name" : "Shaxs",
   "shortName" : null,
   "artId" : 254,
-  "artPath" : "/assets/254-fBoOHB-q.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -6433,14 +6433,14 @@
     "artId" : 323,
     "flag" : -1
   },
-  "imageUrl" : "https://stfc.space/assets/254-fBoOHB-q.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 59002,
   "stfcSpaceId" : 3013113875,
   "name" : "Doctor T'Ana",
   "shortName" : null,
   "artId" : 255,
-  "artPath" : "/assets/255-D7qle3Gh.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -6470,14 +6470,14 @@
     "artId" : 321,
     "flag" : -1
   },
-  "imageUrl" : "https://stfc.space/assets/255-D7qle3Gh.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 59003,
   "stfcSpaceId" : 3423547423,
   "name" : "Alonzo Freeman",
   "shortName" : null,
   "artId" : 256,
-  "artPath" : "/assets/256-CWDJbw-d.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Command",
@@ -6507,14 +6507,14 @@
     "artId" : 325,
     "flag" : -1
   },
-  "imageUrl" : "https://stfc.space/assets/256-CWDJbw-d.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 60001,
   "stfcSpaceId" : 2852124874,
   "name" : "Enterprise-E Picard",
   "shortName" : null,
   "artId" : 257,
-  "artPath" : "/assets/257-DFfJWILd.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -6537,14 +6537,14 @@
     "flag" : 71
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/257-DFfJWILd.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 60002,
   "stfcSpaceId" : 2397371699,
   "name" : "Enterprise-E Data",
   "shortName" : null,
   "artId" : 258,
-  "artPath" : "/assets/258-CtQkcbJB.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -6574,14 +6574,14 @@
     "artId" : 232,
     "flag" : 28
   },
-  "imageUrl" : "https://stfc.space/assets/258-CtQkcbJB.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 61001,
   "stfcSpaceId" : 1449938138,
   "name" : "Enterprise-E Riker",
   "shortName" : null,
   "artId" : 259,
-  "artPath" : "/assets/259-BYwtWl0e.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -6604,14 +6604,14 @@
     "flag" : 18
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/259-BYwtWl0e.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 61002,
   "stfcSpaceId" : 507415640,
   "name" : "Enterprise-E Troi",
   "shortName" : null,
   "artId" : 260,
-  "artPath" : "/assets/260-BforWAfN.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -6641,14 +6641,14 @@
     "artId" : 342,
     "flag" : 19
   },
-  "imageUrl" : "https://stfc.space/assets/260-BforWAfN.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 62001,
   "stfcSpaceId" : 1903302017,
   "name" : "Trip Tucker",
   "shortName" : null,
   "artId" : 262,
-  "artPath" : "/assets/262-B0MyCVYP.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -6678,14 +6678,14 @@
     "artId" : 276,
     "flag" : -1
   },
-  "imageUrl" : "https://stfc.space/assets/262-B0MyCVYP.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 62002,
   "stfcSpaceId" : 4114433540,
   "name" : "T'Pol",
   "shortName" : null,
   "artId" : 261,
-  "artPath" : "/assets/261-T4t2jDpN.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -6715,14 +6715,14 @@
     "artId" : 283,
     "flag" : 20
   },
-  "imageUrl" : "https://stfc.space/assets/261-T4t2jDpN.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 63001,
   "stfcSpaceId" : 2679776436,
   "name" : "Jonathan Archer",
   "shortName" : null,
   "artId" : 263,
-  "artPath" : "/assets/263-DiaZ5702.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -6745,14 +6745,14 @@
     "flag" : 19
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/263-DiaZ5702.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 63002,
   "stfcSpaceId" : 3221659017,
   "name" : "Shran",
   "shortName" : null,
   "artId" : 264,
-  "artPath" : "/assets/264-Bbf98p6x.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -6782,14 +6782,14 @@
     "artId" : 283,
     "flag" : 20
   },
-  "imageUrl" : "https://stfc.space/assets/264-Bbf98p6x.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 63003,
   "stfcSpaceId" : 182221633,
   "name" : "PIC Hugh",
   "shortName" : null,
   "artId" : 267,
-  "artPath" : "/assets/267-DK9_KDTW.png",
+  "artPath" : "",
   "factionId" : 4138978039,
   "rarity" : "EPIC",
   "divisionName" : "Engineering",
@@ -6819,14 +6819,14 @@
     "artId" : 345,
     "flag" : -1
   },
-  "imageUrl" : "https://stfc.space/assets/267-DK9_KDTW.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 64001,
   "stfcSpaceId" : 1039659244,
   "name" : "Hoshi Sato",
   "shortName" : null,
   "artId" : 266,
-  "artPath" : "/assets/266-phUS7VN2.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -6856,14 +6856,14 @@
     "artId" : 283,
     "flag" : 20
   },
-  "imageUrl" : "https://stfc.space/assets/266-phUS7VN2.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 64002,
   "stfcSpaceId" : 1848943130,
   "name" : "Phlox",
   "shortName" : null,
   "artId" : 265,
-  "artPath" : "/assets/265-CqFDq1qQ.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -6893,14 +6893,14 @@
     "artId" : 352,
     "flag" : -1
   },
-  "imageUrl" : "https://stfc.space/assets/265-CqFDq1qQ.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 65001,
   "stfcSpaceId" : 1532505261,
   "name" : "SNW M'Benga",
   "shortName" : null,
   "artId" : 268,
-  "artPath" : "/assets/268-C2eQCQt8.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -6923,14 +6923,14 @@
     "flag" : 30
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/268-C2eQCQt8.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 65002,
   "stfcSpaceId" : 597303582,
   "name" : "SNW Nurse Chapel",
   "shortName" : null,
   "artId" : 270,
-  "artPath" : "/assets/270-CVupKkT4.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -6960,14 +6960,14 @@
     "artId" : 355,
     "flag" : 71
   },
-  "imageUrl" : "https://stfc.space/assets/270-CVupKkT4.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 65003,
   "stfcSpaceId" : 1426126747,
   "name" : "SNW Sam Kirk",
   "shortName" : null,
   "artId" : 269,
-  "artPath" : "/assets/269-r-fuBAbi.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -6990,14 +6990,14 @@
     "flag" : 19
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/269-r-fuBAbi.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 66001,
   "stfcSpaceId" : 3294474373,
   "name" : "SNW James Kirk",
   "shortName" : null,
   "artId" : 272,
-  "artPath" : "/assets/272-Bk6UdZnh.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -7020,14 +7020,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/272-Bk6UdZnh.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 66002,
   "stfcSpaceId" : 3936395808,
   "name" : "SNW Pelia",
   "shortName" : null,
   "artId" : 271,
-  "artPath" : "/assets/271-BKk-6NC_.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -7057,14 +7057,14 @@
     "artId" : 323,
     "flag" : -1
   },
-  "imageUrl" : "https://stfc.space/assets/271-BKk-6NC_.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 67001,
   "stfcSpaceId" : 3131537917,
   "name" : "Mirror Picard",
   "shortName" : null,
   "artId" : 273,
-  "artPath" : "/assets/273-BsxyIUaS.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -7087,14 +7087,14 @@
     "flag" : -1
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/273-BsxyIUaS.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 67002,
   "stfcSpaceId" : 435759625,
   "name" : "Mirror Data",
   "shortName" : null,
   "artId" : 274,
-  "artPath" : "/assets/274-DYXp6oag.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -7117,14 +7117,14 @@
     "flag" : 67
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/274-DYXp6oag.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 68001,
   "stfcSpaceId" : 4235647200,
   "name" : "Mirror Kira",
   "shortName" : null,
   "artId" : 275,
-  "artPath" : "/assets/275-BAzNy1Q9.png",
+  "artPath" : "",
   "factionId" : 4153667145,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -7147,14 +7147,14 @@
     "flag" : 9
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/275-BAzNy1Q9.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 68002,
   "stfcSpaceId" : 901426684,
   "name" : "Mirror Ezri",
   "shortName" : null,
   "artId" : 276,
-  "artPath" : "/assets/276-B-K3Cmxa.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -7177,14 +7177,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/276-B-K3Cmxa.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 68003,
   "stfcSpaceId" : 3598147546,
   "name" : "Mirror Troi",
   "shortName" : null,
   "artId" : 277,
-  "artPath" : "/assets/277-Mzow29UY.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -7207,14 +7207,14 @@
     "flag" : 8
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/277-Mzow29UY.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 68004,
   "stfcSpaceId" : 3643810820,
   "name" : "Lieutenant Picard",
   "shortName" : null,
   "artId" : 278,
-  "artPath" : "/assets/278-BXN_If-L.png",
+  "artPath" : "",
   "factionId" : 2064723306,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -7237,14 +7237,14 @@
     "flag" : 30
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/278-BXN_If-L.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 69001,
   "stfcSpaceId" : 2785409233,
   "name" : "Jason Nesmith",
   "shortName" : null,
   "artId" : 279,
-  "artPath" : "/assets/279-CW1ji9ax.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -7267,14 +7267,14 @@
     "flag" : -1
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/279-CW1ji9ax.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 69002,
   "stfcSpaceId" : 3662189922,
   "name" : "Sir Alexander Dane",
   "shortName" : null,
   "artId" : 280,
-  "artPath" : "/assets/280-ColDypif.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Science",
@@ -7304,14 +7304,14 @@
     "artId" : 385,
     "flag" : 21
   },
-  "imageUrl" : "https://stfc.space/assets/280-ColDypif.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 69003,
   "stfcSpaceId" : 2729881938,
   "name" : "Laliari",
   "shortName" : null,
   "artId" : 288,
-  "artPath" : "/assets/288-CSAYDaOK.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -7341,14 +7341,14 @@
     "artId" : 374,
     "flag" : -1
   },
-  "imageUrl" : "https://stfc.space/assets/288-CSAYDaOK.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 69004,
   "stfcSpaceId" : 2339276935,
   "name" : "Gwen DeMarco",
   "shortName" : null,
   "artId" : 281,
-  "artPath" : "/assets/281-CtBRWxHK.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Science",
@@ -7378,14 +7378,14 @@
     "artId" : 308,
     "flag" : 71
   },
-  "imageUrl" : "https://stfc.space/assets/281-CtBRWxHK.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 69700,
   "stfcSpaceId" : 2402639187,
   "name" : "Naga Delvos",
   "shortName" : null,
   "artId" : 289,
-  "artPath" : "/assets/289-hj4lNnzT.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -7415,14 +7415,14 @@
     "artId" : 410,
     "flag" : 55
   },
-  "imageUrl" : "https://stfc.space/assets/289-hj4lNnzT.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 70900,
   "stfcSpaceId" : 3739192827,
   "name" : "Dajash Tolra",
   "shortName" : null,
   "artId" : 282,
-  "artPath" : "/assets/282-CWZDuQlf.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "EPIC",
   "divisionName" : "Command",
@@ -7445,14 +7445,14 @@
     "flag" : 9
   },
   "belowDecksAbility" : null,
-  "imageUrl" : "https://stfc.space/assets/282-CWZDuQlf.png"
+  "imageUrl" : "https://stfc.space"
 }, {
   "id" : 70901,
   "stfcSpaceId" : 2087036948,
   "name" : "Toli",
   "shortName" : null,
   "artId" : 283,
-  "artPath" : "/assets/283-Ba2g8m3k.png",
+  "artPath" : "",
   "factionId" : -1,
   "rarity" : "RARE",
   "divisionName" : "Engineering",
@@ -7471,7 +7471,7 @@
     "name" : "No Locked Doors",
     "percentage" : true,
     "maxLevel" : 5,
-    "artId" : 22,
+    "artId" : 346,
     "flag" : 24
   },
   "belowDecksAbility" : {
@@ -7482,5 +7482,754 @@
     "artId" : 251,
     "flag" : 22
   },
-  "imageUrl" : "https://stfc.space/assets/283-Ba2g8m3k.png"
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 71900,
+  "stfcSpaceId" : 4294120304,
+  "name" : "Mirror Uhura",
+  "shortName" : null,
+  "artId" : 916,
+  "artPath" : "",
+  "factionId" : 2064723306,
+  "rarity" : "EPIC",
+  "divisionName" : "Science",
+  "synergyGroup" : "MIRROR UNIVERSE",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 912996355,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1914828553,
+    "name" : "Master Manipulator",
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 411,
+    "flag" : -1
+  },
+  "belowDecksAbility" : {
+    "id" : 619430526,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 374,
+    "flag" : -1
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 71901,
+  "stfcSpaceId" : 473853704,
+  "name" : "Masriad Vael",
+  "shortName" : null,
+  "artId" : 284,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "EPIC",
+  "divisionName" : "Command",
+  "synergyGroup" : "SYMBIOSIS",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3441735412,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : -1
+  },
+  "officerAbility" : {
+    "id" : 3767792326,
+    "name" : "Silent Partner",
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 405,
+    "flag" : -1
+  },
+  "belowDecksAbility" : {
+    "id" : 2985939895,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 268,
+    "flag" : 18
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 71902,
+  "stfcSpaceId" : 3083230680,
+  "name" : "Byr Ch'Kelrer",
+  "shortName" : null,
+  "artId" : 285,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "RARE",
+  "divisionName" : "Science",
+  "synergyGroup" : "SYMBIOSIS",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1703646673,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2757146314,
+    "name" : "Honor Among Thieves",
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 27,
+    "flag" : 19
+  },
+  "belowDecksAbility" : {
+    "id" : 477917953,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 4,
+    "flag" : -1
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 71903,
+  "stfcSpaceId" : 3038078185,
+  "name" : "Phellun",
+  "shortName" : null,
+  "artId" : 286,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "EPIC",
+  "divisionName" : "Engineering",
+  "synergyGroup" : "Syndicate",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 4277674711,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : -1
+  },
+  "officerAbility" : {
+    "id" : 1628555092,
+    "name" : "The Winning Gambit",
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 275,
+    "flag" : -1
+  },
+  "belowDecksAbility" : {
+    "id" : 2654275345,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 231,
+    "flag" : 29
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 72001,
+  "stfcSpaceId" : 2787886893,
+  "name" : "Starfleet Q",
+  "shortName" : null,
+  "artId" : 290,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "EPIC",
+  "divisionName" : "Command",
+  "synergyGroup" : "INTERCEPTOR RETALIATION SQUAD",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3276152561,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 413,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 2543274090,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 414,
+    "flag" : -1
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 72002,
+  "stfcSpaceId" : 2341819707,
+  "name" : "Mariachi Q",
+  "shortName" : null,
+  "artId" : 291,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "RARE",
+  "divisionName" : "Science",
+  "synergyGroup" : "INTERCEPTOR RETALIATION SQUAD",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3704198245,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2245472598,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 428,
+    "flag" : 71
+  },
+  "belowDecksAbility" : {
+    "id" : 1574837300,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 374,
+    "flag" : -1
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 72003,
+  "stfcSpaceId" : 2862563009,
+  "name" : "French Marshal Q",
+  "shortName" : null,
+  "artId" : 292,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "RARE",
+  "divisionName" : "Engineering",
+  "synergyGroup" : "INTERCEPTOR RETALIATION SQUAD",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 736773811,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 508841684,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 429,
+    "flag" : 9
+  },
+  "belowDecksAbility" : {
+    "id" : 2886105420,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 345,
+    "flag" : -1
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 73001,
+  "stfcSpaceId" : 783581005,
+  "name" : "Soran",
+  "shortName" : null,
+  "artId" : 294,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "EPIC",
+  "divisionName" : "Command",
+  "synergyGroup" : "EXPLORER RETALIATION SQUAD",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3134842541,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 23,
+    "flag" : 67
+  },
+  "officerAbility" : {
+    "id" : 2994432443,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 371,
+    "flag" : -1
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 73002,
+  "stfcSpaceId" : 312289551,
+  "name" : "Romi",
+  "shortName" : null,
+  "artId" : 293,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "RARE",
+  "divisionName" : "Science",
+  "synergyGroup" : "EXPLORER RETALIATION SQUAD",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 35037300,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 213451749,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 423,
+    "flag" : -1
+  },
+  "belowDecksAbility" : {
+    "id" : 2315532916,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 321,
+    "flag" : -1
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 73003,
+  "stfcSpaceId" : 93766267,
+  "name" : "Miss Q",
+  "shortName" : null,
+  "artId" : 295,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "RARE",
+  "divisionName" : "Engineering",
+  "synergyGroup" : "EXPLORER RETALIATION SQUAD",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3109080667,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 3605405429,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 425,
+    "flag" : 71
+  },
+  "belowDecksAbility" : {
+    "id" : 1775722178,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 374,
+    "flag" : -1
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 74001,
+  "stfcSpaceId" : 2778731701,
+  "name" : "Specialist Seven",
+  "shortName" : null,
+  "artId" : 296,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "EPIC",
+  "divisionName" : "Command",
+  "synergyGroup" : "⇥ RETALIATION SQUAD",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1848008929,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 431,
+    "flag" : 9
+  },
+  "officerAbility" : {
+    "id" : 4031461692,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 28,
+    "flag" : 67
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 74002,
+  "stfcSpaceId" : 2864895220,
+  "name" : "Icheb",
+  "shortName" : null,
+  "artId" : 297,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "RARE",
+  "divisionName" : "Engineering",
+  "synergyGroup" : "⇥ RETALIATION SQUAD",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3932972544,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1870364263,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 432,
+    "flag" : -1
+  },
+  "belowDecksAbility" : {
+    "id" : 2348699497,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 355,
+    "flag" : 71
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 74003,
+  "stfcSpaceId" : 3592998124,
+  "name" : "Infiltrator Tuvok",
+  "shortName" : null,
+  "artId" : 298,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "RARE",
+  "divisionName" : "Science",
+  "synergyGroup" : "⇥ RETALIATION SQUAD",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1945302735,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 4042455437,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 433,
+    "flag" : 71
+  },
+  "belowDecksAbility" : {
+    "id" : 234626269,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 374,
+    "flag" : -1
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 75001,
+  "stfcSpaceId" : 1511887954,
+  "name" : "Annorax",
+  "shortName" : null,
+  "artId" : 299,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "EPIC",
+  "divisionName" : "Command",
+  "synergyGroup" : "VOYAGER 30TH ANNIVERSARY",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 2565476998,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 437,
+    "flag" : -1
+  },
+  "officerAbility" : {
+    "id" : 2281926825,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 369,
+    "flag" : -1
+  },
+  "belowDecksAbility" : null,
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 75002,
+  "stfcSpaceId" : 2458983580,
+  "name" : "Seska",
+  "shortName" : null,
+  "artId" : 300,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "EPIC",
+  "divisionName" : "Science",
+  "synergyGroup" : "VOYAGER 30TH ANNIVERSARY",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1136957100,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 3196098481,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 439,
+    "flag" : 30
+  },
+  "belowDecksAbility" : {
+    "id" : 2435779542,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 440,
+    "flag" : 19
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 75003,
+  "stfcSpaceId" : 2173095604,
+  "name" : "Suder",
+  "shortName" : null,
+  "artId" : 301,
+  "artPath" : "",
+  "factionId" : -1,
+  "rarity" : "RARE",
+  "divisionName" : "Engineering",
+  "synergyGroup" : "VOYAGER 30TH ANNIVERSARY",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 3692426599,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2041170794,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 441,
+    "flag" : -1
+  },
+  "belowDecksAbility" : {
+    "id" : 4145846912,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 442,
+    "flag" : 19
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 76001,
+  "stfcSpaceId" : 2923667463,
+  "name" : "S31 Georgiou",
+  "shortName" : null,
+  "artId" : 302,
+  "artPath" : "",
+  "factionId" : 572431661,
+  "rarity" : "EPIC",
+  "divisionName" : "Science",
+  "synergyGroup" : "STRANGE NEW WORLDS",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 493165938,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 322892959,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 453,
+    "flag" : -1
+  },
+  "belowDecksAbility" : {
+    "id" : 1924653048,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 454,
+    "flag" : -1
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 76002,
+  "stfcSpaceId" : 1409510538,
+  "name" : "Rachel Garrett",
+  "shortName" : null,
+  "artId" : 303,
+  "artPath" : "",
+  "factionId" : 572431661,
+  "rarity" : "RARE",
+  "divisionName" : "Engineering",
+  "synergyGroup" : "ENTERPRISE-E",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1815708500,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 1386103827,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 4,
+    "flag" : -1
+  },
+  "belowDecksAbility" : {
+    "id" : 146541033,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 374,
+    "flag" : -1
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 76003,
+  "stfcSpaceId" : 3594463469,
+  "name" : "Zeph",
+  "shortName" : null,
+  "artId" : 304,
+  "artPath" : "",
+  "factionId" : 572431661,
+  "rarity" : "RARE",
+  "divisionName" : "Engineering",
+  "synergyGroup" : "SECTION 31",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 1889266631,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 3682632277,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 455,
+    "flag" : -1
+  },
+  "belowDecksAbility" : {
+    "id" : 688153966,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 374,
+    "flag" : -1
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 77001,
+  "stfcSpaceId" : 3814065186,
+  "name" : "Quasi",
+  "shortName" : null,
+  "artId" : 305,
+  "artPath" : "",
+  "factionId" : 572431661,
+  "rarity" : "EPIC",
+  "divisionName" : "Science",
+  "synergyGroup" : "MIRROR UNIVERSE",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 887722546,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 2437470376,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 456,
+    "flag" : -1
+  },
+  "belowDecksAbility" : {
+    "id" : 16163305,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 454,
+    "flag" : -1
+  },
+  "imageUrl" : "https://stfc.space"
+}, {
+  "id" : 77002,
+  "stfcSpaceId" : 2100903263,
+  "name" : "Alok Sahar",
+  "shortName" : null,
+  "artId" : 306,
+  "artPath" : "",
+  "factionId" : 572431661,
+  "rarity" : "RARE",
+  "divisionName" : "Command",
+  "synergyGroup" : "SECTION 31",
+  "maxRank" : 5,
+  "captainAbility" : {
+    "id" : 901883347,
+    "name" : null,
+    "percentage" : true,
+    "maxLevel" : 5,
+    "artId" : 219,
+    "flag" : 8
+  },
+  "officerAbility" : {
+    "id" : 3778774634,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 458,
+    "flag" : -1
+  },
+  "belowDecksAbility" : {
+    "id" : 3098652344,
+    "name" : null,
+    "percentage" : false,
+    "maxLevel" : 5,
+    "artId" : 374,
+    "flag" : -1
+  },
+  "imageUrl" : "https://stfc.space"
 } ]

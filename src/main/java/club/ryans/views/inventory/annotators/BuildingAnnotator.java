@@ -27,7 +27,7 @@ public class BuildingAnnotator implements InventoryAnnotator {
         }
 
         if (stats.getReachableLevel() != 0 && stats.getReachableLevel() != stats.getLevel()) {
-            annotations.add(String.format("Can reach level %d", stats.getReachableLevel()));
+            annotations.add(String.format("Can reach %d", stats.getReachableLevel()));
         }
 
         if (stats.getMainResourceNeeded() != null) {

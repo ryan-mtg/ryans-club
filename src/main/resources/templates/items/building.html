@@ -9,21 +9,22 @@
     <div th:replace="fragments :: header(${building.name})"></div>
 
     <main>
-        <section class="officer-feature">
+        <section class="item-feature">
             <img class="feature-image" th:src="${building.imageUrl}">
+            <h1 th:text="${building.name}"></h1>
 
-            <p>Id: <span th:text="${building.id}"></span></p>
             <p>Level: <span th:text="${stats.level}"></span></p>
             <p>Reachable Level: <span th:text="${stats.reachableLevel}"></span></p>
-            <p th:if="${stats.mainResourceAvailable}">Main Resource :
+            <p th:if="${stats.mainResourceAvailable}">Main Resource:
                 <span th:text="${stats.mainResourceAvailable.resource.name}"></span>
+                <img class="feature-resource rarity-item" th:src="${stats.mainResourceAvailable.resource.imageUrl}"
+                     th:title="${stats.mainResourceAvailable.resource.name}"
+                     th:classappend="${stats.mainResourceAvailable.resource.style}">
             </p>
-            <div>
-                <h2>Log</h2>
-                <p th:if="${stats.log}"><pre th:text="${stats.log}"></pre></p>
-                <p th:unless="${stats.log}">Log Empty</p>
-            </div>
-
+            <div class="clear-float"></div>
+        </section>
+        <section>
+            <h2>Leveling</h2>
             <table class="data-table">
                 <thead><tr>
                     <th>Level</th>
@@ -37,10 +38,10 @@
                             <span th:if="${iter.index + 1} == ${stats.level}">&#x2B50;</span>
                             <span th:if="${iter.index + 1} == ${stats.reachableLevel}">&#x2B06;&#xFE0F;</span>
                         </td>
-                        <td th:text="${level.strength}"></td>
+                        <td th:text="${utility.scoplify(level.strength)}"></td>
                         <td>
                             <span th:each="cost : ${level.costs}">
-                                <img class="daily-resource" th:src="${cost.resource.imageUrl}"
+                                <img class="table-resource rarity-item" th:src="${cost.resource.imageUrl}"
                                      th:title="${cost.resource.name}" th:classappend="${cost.resource.style}">
                                 <span th:text="${utility.scoplify(cost.amount)}"></span>
                             </span>
@@ -49,24 +50,6 @@
                 </tbody>
             </table>
         </section>
-
-        <div>
-            <h2>Items</h2>
-            <table>
-                <thead><tr>
-                    <th>Resource Id</th>
-                    <th>Resource</th>
-                    <th>Amount</th>
-                </tr></thead>
-                <tbody>
-                    <tr th:each="item : ${items.resources}">
-                        <td th:text="${item.key}"></td>
-                        <td th:text="${item.value.resource.name}"></td>
-                        <td th:text="${item.value.amount}"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
     </main>
 </body>
 </html>
