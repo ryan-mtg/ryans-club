@@ -14,6 +14,9 @@
 # generated data files directory
 /data/
 
+# generated data files directory
+/data-cache/
+
 # Compiled class file
 *.class
 

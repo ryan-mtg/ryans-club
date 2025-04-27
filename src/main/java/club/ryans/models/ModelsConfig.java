@@ -19,6 +19,7 @@ import club.ryans.models.managers.ResourceManager;
 import club.ryans.models.managers.ShipManager;
 import club.ryans.models.managers.AssetManager;
 import club.ryans.models.managers.SystemManager;
+import club.ryans.stfcspace.CachingStfcSpaceClient;
 import club.ryans.stfcspace.StfcSpaceClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -27,7 +28,7 @@ import java.io.File;
 
 @Configuration
 public class ModelsConfig {
-    private static final boolean shouldGenerate = false;
+    private static final boolean shouldGenerate = true;
     private static final String THUMBS_VERSION = "DknUb-gZ";
 
     private final StfcSpaceClient stfcSpaceClient;
@@ -36,7 +37,7 @@ public class ModelsConfig {
     private final DataFileManager dataFileManager;
 
     public ModelsConfig() {
-        stfcSpaceClient = StfcSpaceClient.newClient();
+        stfcSpaceClient = new CachingStfcSpaceClient();
         assetManager = new AssetManager(THUMBS_VERSION);
         dataFileManager = new DataFileManager(shouldGenerate, new File("data"));
         if (shouldGenerate) {

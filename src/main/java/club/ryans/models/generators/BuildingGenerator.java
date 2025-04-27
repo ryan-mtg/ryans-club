@@ -77,7 +77,6 @@ public class BuildingGenerator {
     }
 
     private void queryBuilding(final Building building) {
-        Utility.pause();
         BuildingDetails buildingDetails = stfcSpaceClient.building(building.getId());
         building.setLevels(buildingDetails.getLevels().stream().map(this::createLevel).collect(Collectors.toList()));
     }

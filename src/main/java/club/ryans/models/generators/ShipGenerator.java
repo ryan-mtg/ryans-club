@@ -14,7 +14,6 @@ import club.ryans.stfcspace.json.ships.ShipClassDetails;
 import lombok.extern.slf4j.Slf4j;
 
 import java.time.Duration;
-import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -96,7 +95,6 @@ public class ShipGenerator {
     }
 
     private void queryShip(final ShipClass shipClass) {
-        Utility.pause();
         ShipClassDetails shipClassDetails = stfcSpaceClient.ship(shipClass.getStfcSpaceId());
 
         shipClass.setTiers(shipClassDetails.getTiers().stream().map(this::createTier).collect(Collectors.toList()));
