@@ -17,6 +17,8 @@ public interface StfcSpaceClient {
 
     List<Research> research();
 
+    ResearchDetails research(long id);
+
     List<Field> officers();
 
     List<Field> officerNames();

@@ -2,7 +2,7 @@ package club.ryans.models.generators;
 
 import club.ryans.models.Building;
 import club.ryans.models.Cost;
-import club.ryans.models.Level;
+import club.ryans.models.BuildingLevel;
 import club.ryans.models.Requirement;
 import club.ryans.models.Reward;
 import club.ryans.models.managers.AssetManager;
@@ -99,8 +99,8 @@ public class BuildingGenerator {
         return building;
     }
 
-    private Level createLevel(final club.ryans.stfcspace.json.Level levelJson) {
-        Level level = new Level();
+    private BuildingLevel createLevel(final club.ryans.stfcspace.json.BuildingLevel levelJson) {
+        BuildingLevel level = new BuildingLevel();
         level.setId(levelJson.getId());
         level.setPower(levelJson.getPower());
         level.setPowerIncrease(levelJson.getPowerIncrease());
@@ -109,35 +109,11 @@ public class BuildingGenerator {
         level.setBuildTime(Duration.ofSeconds(levelJson.getBuildTimeSeconds()));
         level.setLatinumCost(levelJson.getLatinumCost());
 
-        level.setCosts(levelJson.getCosts().stream().map(this::createCost).collect(Collectors.toList()));
-        level.setRequirements(levelJson.getRequirements().stream().map(this::createRequirement)
+        level.setCosts(levelJson.getCosts().stream().map(Utility::createCost).collect(Collectors.toList()));
+        level.setRequirements(levelJson.getRequirements().stream().map(Utility::createRequirement)
                 .collect(Collectors.toList()));
-        level.setRewards(levelJson.getRewards().stream().map(this::createReward).collect(Collectors.toList()));
+        level.setRewards(levelJson.getRewards().stream().map(Utility::createReward).collect(Collectors.toList()));
         return level;
-    }
-
-    private Cost createCost(final club.ryans.stfcspace.json.Cost costJson) {
-        Cost cost = new Cost();
-        cost.setResourceId(costJson.getResourceId());
-        cost.setAmount(costJson.getAmount());
-        return cost;
-    }
-
-    private Requirement createRequirement(final club.ryans.stfcspace.json.Requirement requirementJson) {
-        Requirement requirement = new Requirement();
-        requirement.setType(requirementJson.getType());
-        requirement.setRequirementId(requirementJson.getRequirementId());
-        requirement.setRequiredLevel(requirementJson.getRequiredLevel());
-        requirement.setPowerGain(requirementJson.getPowerGain());
-        return requirement;
-    }
-
-    private Reward createReward(final club.ryans.stfcspace.json.Reward rewardJson) {
-        Reward reward = new Reward();
-        reward.setResourceId(rewardJson.getResourceId());
-        reward.setType(rewardJson.getType());
-        reward.setAmount(rewardJson.getAmount());
-        return reward;
     }
 
     private void writeFile() {

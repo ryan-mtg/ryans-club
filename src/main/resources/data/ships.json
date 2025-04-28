@@ -3,7 +3,7 @@
   "stfcSpaceId" : 987222969,
   "name" : "REALTA",
   "artId" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/0.png",
   "factionId" : -1,
   "rarity" : "Common",
   "maxTier" : 4,
@@ -356,13 +356,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/0.png"
 }, {
   "id" : 1,
   "stfcSpaceId" : 3014221215,
   "name" : "ENVOY",
   "artId" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/1.png",
   "factionId" : -1,
   "rarity" : "Common",
   "maxTier" : 7,
@@ -911,13 +911,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/1.png"
 }, {
   "id" : 2,
   "stfcSpaceId" : 1279606467,
   "name" : "PHINDRA",
   "artId" : 3,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/3.png",
   "factionId" : -1,
   "rarity" : "Common",
   "maxTier" : 7,
@@ -1522,13 +1522,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/3.png"
 }, {
   "id" : 3,
   "stfcSpaceId" : 2968519195,
   "name" : "ECS FORTUNATE",
   "artId" : 5,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/5.png",
   "factionId" : -1,
   "rarity" : "Common",
   "maxTier" : 4,
@@ -1849,13 +1849,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/5.png"
 }, {
   "id" : 4,
   "stfcSpaceId" : 2919480363,
   "name" : "JELLYFISH",
   "artId" : 6,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/6.png",
   "factionId" : 2064723306,
   "rarity" : "Rare",
   "maxTier" : 7,
@@ -2460,13 +2460,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/6.png"
 }, {
   "id" : 5,
   "stfcSpaceId" : 1842444641,
   "name" : "TURAS",
   "artId" : 11,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/11.png",
   "factionId" : -1,
   "rarity" : "Common",
   "maxTier" : 7,
@@ -3071,13 +3071,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/11.png"
 }, {
   "id" : 6,
   "stfcSpaceId" : 354762123,
   "name" : "TALLA",
   "artId" : 46,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/46.png",
   "factionId" : -1,
   "rarity" : "Common",
   "maxTier" : 7,
@@ -3682,13 +3682,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/46.png"
 }, {
   "id" : 7,
   "stfcSpaceId" : 3033866568,
   "name" : "VAHKLAS",
   "artId" : 4,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/4.png",
   "factionId" : -1,
   "rarity" : "Common",
   "maxTier" : 9,
@@ -4533,13 +4533,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/4.png"
 }, {
   "id" : 8,
   "stfcSpaceId" : 1463338054,
   "name" : "USS INTREPID",
   "artId" : 8,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/8.png",
   "factionId" : 2064723306,
   "rarity" : "Rare",
   "maxTier" : 9,
@@ -5384,13 +5384,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/8.png"
 }, {
   "id" : 9,
   "stfcSpaceId" : 3459465041,
   "name" : "AUGUR",
   "artId" : 10,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/10.png",
   "factionId" : 669838839,
   "rarity" : "Epic",
   "maxTier" : 9,
@@ -6235,13 +6235,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/10.png"
 }, {
   "id" : 11,
   "stfcSpaceId" : 2441576367,
   "name" : "B'REL",
   "artId" : 13,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/13.png",
   "factionId" : 4153667145,
   "rarity" : "Rare",
   "maxTier" : 9,
@@ -7086,13 +7086,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/13.png"
 }, {
   "id" : 12,
   "stfcSpaceId" : 2165876444,
   "name" : "GLADIUS",
   "artId" : 14,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/14.png",
   "factionId" : 669838839,
   "rarity" : "Rare",
   "maxTier" : 9,
@@ -7937,13 +7937,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/14.png"
 }, {
   "id" : 13,
   "stfcSpaceId" : 3056258007,
   "name" : "USS SALADIN",
   "artId" : 16,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/16.png",
   "factionId" : 2064723306,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -8716,13 +8716,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/16.png"
 }, {
   "id" : 14,
   "stfcSpaceId" : 957865248,
   "name" : "D4 CLASS",
   "artId" : 17,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/17.png",
   "factionId" : 4153667145,
   "rarity" : "Epic",
   "maxTier" : 9,
@@ -9495,13 +9495,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/17.png"
 }, {
   "id" : 15,
   "stfcSpaceId" : 3046584086,
   "name" : "ECS HORIZON",
   "artId" : 19,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/19.png",
   "factionId" : -1,
   "rarity" : "Common",
   "maxTier" : 9,
@@ -10202,13 +10202,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/19.png"
 }, {
   "id" : 16,
   "stfcSpaceId" : 3005922948,
   "name" : "KUMARI",
   "artId" : 20,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/20.png",
   "factionId" : -1,
   "rarity" : "Common",
   "maxTier" : 9,
@@ -11053,13 +11053,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/20.png"
 }, {
   "id" : 17,
   "stfcSpaceId" : 393740394,
   "name" : "KEHRA",
   "artId" : 24,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/24.png",
   "factionId" : -1,
   "rarity" : "Common",
   "maxTier" : 9,
@@ -11904,13 +11904,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/24.png"
 }, {
   "id" : 18,
   "stfcSpaceId" : 2004925834,
   "name" : "BORTAS",
   "artId" : 26,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/26.png",
   "factionId" : 4153667145,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -12755,13 +12755,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/26.png"
 }, {
   "id" : 19,
   "stfcSpaceId" : 673187302,
   "name" : "CENTURION",
   "artId" : 90,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/90.png",
   "factionId" : 669838839,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -13606,13 +13606,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/90.png"
 }, {
   "id" : 20,
   "stfcSpaceId" : 34867572,
   "name" : "ORION CORVETTE",
   "artId" : 2,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/2.png",
   "factionId" : -1,
   "rarity" : "Common",
   "maxTier" : 4,
@@ -13965,13 +13965,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/2.png"
 }, {
   "id" : 21,
   "stfcSpaceId" : 3665388873,
   "name" : "KORINAR",
   "artId" : 9,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/9.png",
   "factionId" : 4153667145,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -15092,13 +15092,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/9.png"
 }, {
   "id" : 22,
   "stfcSpaceId" : 2254702328,
   "name" : "PILUM",
   "artId" : 18,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/18.png",
   "factionId" : 669838839,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -16219,13 +16219,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/18.png"
 }, {
   "id" : 23,
   "stfcSpaceId" : 2057434885,
   "name" : "USS NEWTON",
   "artId" : 21,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/21.png",
   "factionId" : 2064723306,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -17442,13 +17442,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/21.png"
 }, {
   "id" : 24,
   "stfcSpaceId" : 1244824002,
   "name" : "K'T'INGA",
   "artId" : 22,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/22.png",
   "factionId" : 4153667145,
   "rarity" : "Uncommon",
   "maxTier" : 12,
@@ -18569,13 +18569,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/22.png"
 }, {
   "id" : 25,
   "stfcSpaceId" : 1109770210,
   "name" : "TRIBUNE",
   "artId" : 81,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/81.png",
   "factionId" : 669838839,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -19696,13 +19696,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/81.png"
 }, {
   "id" : 26,
   "stfcSpaceId" : 711428193,
   "name" : "USS KELVIN",
   "artId" : 25,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/25.png",
   "factionId" : 2064723306,
   "rarity" : "Uncommon",
   "maxTier" : 12,
@@ -20823,13 +20823,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/25.png"
 }, {
   "id" : 28,
   "stfcSpaceId" : 3432906971,
   "name" : "HEGH'TA",
   "artId" : 82,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/82.png",
   "factionId" : 4153667145,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -22046,13 +22046,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/82.png"
 }, {
   "id" : 29,
   "stfcSpaceId" : 2483093372,
   "name" : "USS ENTERPRISE",
   "artId" : 38,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/38.png",
   "factionId" : 2064723306,
   "rarity" : "Epic",
   "maxTier" : 9,
@@ -22897,13 +22897,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/38.png"
 }, {
   "id" : 31,
   "stfcSpaceId" : 1027217748,
   "name" : "VALDORE",
   "artId" : 91,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/91.png",
   "factionId" : 669838839,
   "rarity" : "Uncommon",
   "maxTier" : 12,
@@ -24024,13 +24024,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/91.png"
 }, {
   "id" : 34,
   "stfcSpaceId" : 2869476908,
   "name" : "K'VORT",
   "artId" : 31,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/31.png",
   "factionId" : 4153667145,
   "rarity" : "Rare",
   "maxTier" : 9,
@@ -24731,13 +24731,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/31.png"
 }, {
   "id" : 35,
   "stfcSpaceId" : 108924704,
   "name" : "USS ANTARES",
   "artId" : 33,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/33.png",
   "factionId" : 2064723306,
   "rarity" : "Rare",
   "maxTier" : 9,
@@ -25438,13 +25438,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/33.png"
 }, {
   "id" : 36,
   "stfcSpaceId" : 1535317053,
   "name" : "VALKIS",
   "artId" : 32,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/32.png",
   "factionId" : 669838839,
   "rarity" : "Rare",
   "maxTier" : 9,
@@ -26145,13 +26145,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/32.png"
 }, {
   "id" : 37,
   "stfcSpaceId" : 3990933991,
   "name" : "USS ENTERPRISE A",
   "artId" : 80,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/80.png",
   "factionId" : 2064723306,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -27272,13 +27272,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/80.png"
 }, {
   "id" : 64,
   "stfcSpaceId" : 1029262994,
   "name" : "NORTH STAR",
   "artId" : 7,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/7.png",
   "factionId" : -1,
   "rarity" : "Rare",
   "maxTier" : 9,
@@ -27979,13 +27979,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/7.png"
 }, {
   "id" : 65,
   "stfcSpaceId" : 2704762692,
   "name" : "D3 CLASS",
   "artId" : 43,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/43.png",
   "factionId" : 4153667145,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -28758,13 +28758,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/43.png"
 }, {
   "id" : 66,
   "stfcSpaceId" : 1220133742,
   "name" : "USS MAYFLOWER",
   "artId" : 12,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/12.png",
   "factionId" : 2064723306,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -29609,13 +29609,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/12.png"
 }, {
   "id" : 67,
   "stfcSpaceId" : 3554487827,
   "name" : "LEGIONARY",
   "artId" : 23,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/23.png",
   "factionId" : 669838839,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -30460,13 +30460,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/23.png"
 }, {
   "id" : 68,
   "stfcSpaceId" : 1087128295,
   "name" : "BOTANY BAY",
   "artId" : 15,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/15.png",
   "factionId" : -1,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -31167,13 +31167,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/15.png"
 }, {
   "id" : 69,
   "stfcSpaceId" : 3006451338,
   "name" : "SEPARATIST D3 CLASS",
   "artId" : 53,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/53.png",
   "factionId" : 4153667145,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -31946,13 +31946,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/53.png"
 }, {
   "id" : 70,
   "stfcSpaceId" : 1960089851,
   "name" : "HIJACKED D3 CLASS",
   "artId" : 35,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/35.png",
   "factionId" : 4153667145,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -32725,13 +32725,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/35.png"
 }, {
   "id" : 71,
   "stfcSpaceId" : 3376611577,
   "name" : "HIJACKED USS MAYFLOWER",
   "artId" : 34,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/34.png",
   "factionId" : 2064723306,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -33576,13 +33576,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/34.png"
 }, {
   "id" : 72,
   "stfcSpaceId" : 2836931919,
   "name" : "HIJACKED LEGIONARY",
   "artId" : 36,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/36.png",
   "factionId" : 669838839,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -34427,13 +34427,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/36.png"
 }, {
   "id" : 73,
   "stfcSpaceId" : 644714972,
   "name" : "USS FRANKLIN",
   "artId" : 37,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/37.png",
   "factionId" : 2113010081,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -35278,13 +35278,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/37.png"
 }, {
   "id" : 74,
   "stfcSpaceId" : 1784814733,
   "name" : "FERENGI D'VOR",
   "artId" : 94,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/94.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 9,
@@ -35985,13 +35985,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/94.png"
 }, {
   "id" : 75,
   "stfcSpaceId" : 1628890938,
   "name" : "ISS JELLYFISH",
   "artId" : 27,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/27.png",
   "factionId" : -1,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -37112,13 +37112,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/27.png"
 }, {
   "id" : 76,
   "stfcSpaceId" : 2529591723,
   "name" : "VI'DAR",
   "artId" : 75,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/75.png",
   "factionId" : -1,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -37963,13 +37963,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/75.png"
 }, {
   "id" : 77,
   "stfcSpaceId" : 293385368,
   "name" : "STELLA",
   "artId" : 95,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/95.png",
   "factionId" : -1,
   "rarity" : "Uncommon",
   "maxTier" : 9,
@@ -38814,13 +38814,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/95.png"
 }, {
   "id" : 78,
   "stfcSpaceId" : 1307832955,
   "name" : "USS DISCOVERY",
   "artId" : 96,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/96.png",
   "factionId" : -1,
   "rarity" : "Rare",
   "maxTier" : 9,
@@ -39665,13 +39665,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/96.png"
 }, {
   "id" : 79,
   "stfcSpaceId" : 593579233,
   "name" : "SARCOPHAGUS",
   "artId" : 99,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/99.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -40888,13 +40888,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/99.png"
 }, {
   "id" : 80,
   "stfcSpaceId" : 2016654425,
   "name" : "USS FRANKLIN-A",
   "artId" : 100,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/100.png",
   "factionId" : 2113010081,
   "rarity" : "Uncommon",
   "maxTier" : 12,
@@ -42015,13 +42015,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/100.png"
 }, {
   "id" : 4100,
   "stfcSpaceId" : 3694387091,
   "name" : "B'CHOR",
   "artId" : 64,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/64.png",
   "factionId" : 4153667145,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -42950,13 +42950,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/64.png"
 }, {
   "id" : 4130,
   "stfcSpaceId" : 87414807,
   "name" : "USS HYDRA",
   "artId" : 62,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/62.png",
   "factionId" : 2064723306,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -43885,13 +43885,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/62.png"
 }, {
   "id" : 4160,
   "stfcSpaceId" : 2623051508,
   "name" : "VORTA VOR",
   "artId" : 63,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/63.png",
   "factionId" : 669838839,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -44820,13 +44820,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/63.png"
 }, {
   "id" : 32001,
   "stfcSpaceId" : 1878809713,
   "name" : "MERIDIAN",
   "artId" : 101,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/101.png",
   "factionId" : -1,
   "rarity" : "Rare",
   "maxTier" : 9,
@@ -45527,13 +45527,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/101.png"
 }, {
   "id" : 35001,
   "stfcSpaceId" : 1982797639,
   "name" : "NOVA",
   "artId" : 111,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/111.png",
   "factionId" : -1,
   "rarity" : "Uncommon",
   "maxTier" : 12,
@@ -46462,13 +46462,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/111.png"
 }, {
   "id" : 35002,
   "stfcSpaceId" : 732090900,
   "name" : "MOW'GA",
   "artId" : 117,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/117.png",
   "factionId" : 4153667145,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -47397,13 +47397,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/117.png"
 }, {
   "id" : 35003,
   "stfcSpaceId" : 3057038289,
   "name" : "USS BEATTY",
   "artId" : 116,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/116.png",
   "factionId" : 2064723306,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -48332,13 +48332,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/116.png"
 }, {
   "id" : 35004,
   "stfcSpaceId" : 1428543762,
   "name" : "VRAX",
   "artId" : 115,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/115.png",
   "factionId" : 669838839,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -49267,13 +49267,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/115.png"
 }, {
   "id" : 35005,
   "stfcSpaceId" : 3426564736,
   "name" : "VOR'CHA",
   "artId" : 102,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/102.png",
   "factionId" : 4153667145,
   "rarity" : "Uncommon",
   "maxTier" : 12,
@@ -50394,13 +50394,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/102.png"
 }, {
   "id" : 35006,
   "stfcSpaceId" : 701705952,
   "name" : "QUV'SOMPEK",
   "artId" : 104,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/104.png",
   "factionId" : 4153667145,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -51521,13 +51521,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/104.png"
 }, {
   "id" : 35007,
   "stfcSpaceId" : 2195955652,
   "name" : "ROTARRAN",
   "artId" : 106,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/106.png",
   "factionId" : 4153667145,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -52744,13 +52744,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/106.png"
 }, {
   "id" : 35008,
   "stfcSpaceId" : 311330874,
   "name" : "USS NORTHCUTT",
   "artId" : 107,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/107.png",
   "factionId" : 2064723306,
   "rarity" : "Uncommon",
   "maxTier" : 12,
@@ -53871,13 +53871,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/107.png"
 }, {
   "id" : 35009,
   "stfcSpaceId" : 47269853,
   "name" : "USS CROZIER",
   "artId" : 105,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/105.png",
   "factionId" : 2064723306,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -54998,13 +54998,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/105.png"
 }, {
   "id" : 35010,
   "stfcSpaceId" : 448699234,
   "name" : "USS ENTERPRISE-D",
   "artId" : 103,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/103.png",
   "factionId" : 2064723306,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -56125,13 +56125,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/103.png"
 }, {
   "id" : 35011,
   "stfcSpaceId" : 1150511104,
   "name" : "CORVUS",
   "artId" : 108,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/108.png",
   "factionId" : 669838839,
   "rarity" : "Uncommon",
   "maxTier" : 12,
@@ -57252,13 +57252,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/108.png"
 }, {
   "id" : 35012,
   "stfcSpaceId" : 1379978713,
   "name" : "SANCTUS",
   "artId" : 109,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/109.png",
   "factionId" : 669838839,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -58379,13 +58379,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/109.png"
 }, {
   "id" : 35013,
   "stfcSpaceId" : 1247530723,
   "name" : "D'DERIDEX",
   "artId" : 110,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/110.png",
   "factionId" : 669838839,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -59506,13 +59506,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/110.png"
 }, {
   "id" : 38001,
   "stfcSpaceId" : 1492898704,
   "name" : "AMALGAM",
   "artId" : 112,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/112.png",
   "factionId" : -1,
   "rarity" : "Rare",
   "maxTier" : 9,
@@ -60213,13 +60213,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/112.png"
 }, {
   "id" : 39001,
   "stfcSpaceId" : 3261907549,
   "name" : "D'VOR FEESHA",
   "artId" : 113,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/113.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -61148,13 +61148,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/113.png"
 }, {
   "id" : 41001,
   "stfcSpaceId" : 2797581949,
   "name" : "USS CERRITOS",
   "artId" : 114,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/114.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -62275,13 +62275,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/114.png"
 }, {
   "id" : 45027,
   "stfcSpaceId" : 1851148569,
   "name" : "MANTIS",
   "artId" : 120,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/120.png",
   "factionId" : -1,
   "rarity" : "Rare",
   "maxTier" : 12,
@@ -63402,13 +63402,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/120.png"
 }, {
   "id" : 48001,
   "stfcSpaceId" : 957303751,
   "name" : "USS DEFIANT",
   "artId" : 121,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/121.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -64529,13 +64529,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/121.png"
 }, {
   "id" : 51001,
   "stfcSpaceId" : 3803001941,
   "name" : "VI'DAR TALIOS",
   "artId" : 122,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/122.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -65656,13 +65656,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/122.png"
 }, {
   "id" : 53001,
   "stfcSpaceId" : 2802730028,
   "name" : "USS TITAN-A",
   "artId" : 123,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/123.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -66783,13 +66783,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/123.png"
 }, {
   "id" : 55001,
   "stfcSpaceId" : 1738424547,
   "name" : "USS VOYAGER",
   "artId" : 124,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/124.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -67910,13 +67910,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/124.png"
 }, {
   "id" : 58001,
   "stfcSpaceId" : 49906243,
   "name" : "MONAVEEN",
   "artId" : 125,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/125.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -69037,13 +69037,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/125.png"
 }, {
   "id" : 60001,
   "stfcSpaceId" : 2468986074,
   "name" : "SELKIE",
   "artId" : 138,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/138.png",
   "factionId" : -1,
   "rarity" : "Uncommon",
   "maxTier" : 12,
@@ -69972,13 +69972,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/138.png"
 }, {
   "id" : 60002,
   "stfcSpaceId" : 1577508895,
   "name" : "USS NEWGRANGE",
   "artId" : 135,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/135.png",
   "factionId" : 2064723306,
   "rarity" : "Rare",
   "maxTier" : 15,
@@ -71135,13 +71135,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/135.png"
 }, {
   "id" : 60003,
   "stfcSpaceId" : 3541570803,
   "name" : "GRISHNAR",
   "artId" : 137,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/137.png",
   "factionId" : 4153667145,
   "rarity" : "Rare",
   "maxTier" : 15,
@@ -72298,13 +72298,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/137.png"
 }, {
   "id" : 60004,
   "stfcSpaceId" : 546190599,
   "name" : "DIVITAE",
   "artId" : 136,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/136.png",
   "factionId" : 669838839,
   "rarity" : "Rare",
   "maxTier" : 15,
@@ -73461,13 +73461,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/136.png"
 }, {
   "id" : 60005,
   "stfcSpaceId" : 1839370465,
   "name" : "MINERVA",
   "artId" : 127,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/127.png",
   "factionId" : 669838839,
   "rarity" : "Uncommon",
   "maxTier" : 15,
@@ -74864,13 +74864,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/127.png"
 }, {
   "id" : 60006,
   "stfcSpaceId" : 2474117534,
   "name" : "USS AKIRA",
   "artId" : 126,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/126.png",
   "factionId" : 2064723306,
   "rarity" : "Uncommon",
   "maxTier" : 15,
@@ -76267,13 +76267,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/126.png"
 }, {
   "id" : 60007,
   "stfcSpaceId" : 3602514688,
   "name" : "NEGH'VAR",
   "artId" : 128,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/128.png",
   "factionId" : 4153667145,
   "rarity" : "Uncommon",
   "maxTier" : 15,
@@ -77670,13 +77670,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/128.png"
 }, {
   "id" : 60008,
   "stfcSpaceId" : 2084947256,
   "name" : "USS TITAN",
   "artId" : 129,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/129.png",
   "factionId" : 2064723306,
   "rarity" : "Rare",
   "maxTier" : 18,
@@ -79349,13 +79349,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/129.png"
 }, {
   "id" : 60009,
   "stfcSpaceId" : 1800726742,
   "name" : "KOS'KARII",
   "artId" : 131,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/131.png",
   "factionId" : 4153667145,
   "rarity" : "Rare",
   "maxTier" : 18,
@@ -81028,13 +81028,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/131.png"
 }, {
   "id" : 60010,
   "stfcSpaceId" : 3682502332,
   "name" : "VELOX",
   "artId" : 130,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/130.png",
   "factionId" : 669838839,
   "rarity" : "Rare",
   "maxTier" : 18,
@@ -82707,13 +82707,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/130.png"
 }, {
   "id" : 60011,
   "stfcSpaceId" : 4132047263,
   "name" : "USS ENTERPRISE-E",
   "artId" : 132,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/132.png",
   "factionId" : 2064723306,
   "rarity" : "Epic",
   "maxTier" : 18,
@@ -84674,13 +84674,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/132.png"
 }, {
   "id" : 60012,
   "stfcSpaceId" : 394860549,
   "name" : "KRENCHA",
   "artId" : 134,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/134.png",
   "factionId" : 4153667145,
   "rarity" : "Epic",
   "maxTier" : 18,
@@ -86641,13 +86641,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/134.png"
 }, {
   "id" : 60013,
   "stfcSpaceId" : 407462527,
   "name" : "SCIMITAR",
   "artId" : 133,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/133.png",
   "factionId" : 669838839,
   "rarity" : "Epic",
   "maxTier" : 18,
@@ -88608,13 +88608,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/133.png"
 }, {
   "id" : 60101,
   "stfcSpaceId" : 1823660918,
   "name" : "BORG CUBE",
   "artId" : 139,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/139.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 18,
@@ -90431,13 +90431,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/139.png"
 }, {
   "id" : 63001,
   "stfcSpaceId" : 2289346504,
   "name" : "ENTERPRISE NX-01",
   "artId" : 140,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/140.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 12,
@@ -91654,13 +91654,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/140.png"
 }, {
   "id" : 66001,
   "stfcSpaceId" : 1273528452,
   "name" : "GORN EVISCERATOR",
   "artId" : 141,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/141.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 15,
@@ -93057,13 +93057,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/141.png"
 }, {
   "id" : 69001,
   "stfcSpaceId" : 3759537032,
   "name" : "NSEA PROTECTOR",
   "artId" : 142,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/142.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 15,
@@ -94580,13 +94580,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/142.png"
 }, {
   "id" : 71001,
   "stfcSpaceId" : 1465044910,
   "name" : "THE VINDICATOR",
   "artId" : 143,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/143.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 18,
@@ -96403,13 +96403,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/143.png"
 }, {
   "id" : 73001,
   "stfcSpaceId" : 4203458856,
   "name" : "SS REVENANT",
   "artId" : 144,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/144.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 15,
@@ -97926,13 +97926,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/144.png"
 }, {
   "id" : 75001,
   "stfcSpaceId" : 442815157,
   "name" : "USS RELATIVITY",
   "artId" : 145,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/145.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 15,
@@ -99449,13 +99449,13 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/145.png"
 }, {
   "id" : 77001,
   "stfcSpaceId" : 1773930736,
   "name" : "GS-31",
   "artId" : 146,
-  "artPath" : "",
+  "artPath" : "/thumbs/ship/i/146.png",
   "factionId" : -1,
   "rarity" : "Epic",
   "maxTier" : 15,
@@ -100972,5 +100972,5 @@
       "buildCosts" : null
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/ship/i/146.png"
 } ]

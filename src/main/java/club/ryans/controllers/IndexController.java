@@ -4,6 +4,7 @@ import club.ryans.charts.ex.borg.ExBorgEfficiencyCalculator;
 import club.ryans.error.ServerError;
 import club.ryans.models.Building;
 import club.ryans.models.RawLog;
+import club.ryans.models.Research;
 import club.ryans.models.calculators.BuildingCalculator;
 import club.ryans.models.calculators.DailiesCalculator;
 import club.ryans.models.managers.AllianceManager;
@@ -11,6 +12,7 @@ import club.ryans.models.managers.BuildingManager;
 import club.ryans.models.managers.LogManager;
 import club.ryans.models.managers.OfficerManager;
 import club.ryans.models.managers.AssetManager;
+import club.ryans.models.managers.ResearchManager;
 import club.ryans.models.managers.UserManager;
 import club.ryans.models.player.BuildingStats;
 import club.ryans.models.player.DailyConfigurations;
@@ -31,8 +33,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import static java.time.LocalTime.now;
-
 @Controller
 @RequiredArgsConstructor
 @Slf4j
@@ -45,6 +45,9 @@ public class IndexController {
 
     @Autowired
     private BuildingManager buildingManager;
+
+    @Autowired
+    private ResearchManager researchManager;
 
     @Autowired
     private AssetManager assetManager;
@@ -143,7 +146,6 @@ public class IndexController {
 
     @GetMapping(value = "/building/{index}")
     public String building(final Model model, @PathVariable final int index) {
-        LOGGER.info("start of building {}", now());
         final User user = (User) model.getAttribute("user");
         final PlayerItems items = userManager.getItems(user);
 
@@ -159,8 +161,27 @@ public class IndexController {
         model.addAttribute("stats", stats);
         model.addAttribute("items", items);
         model.addAttribute("assets", assetManager);
-        LOGGER.info("end of building {}", now());
         return "items/building";
+    }
+
+    @GetMapping(value = "/research/{index}")
+    public String research(final Model model, @PathVariable final long index) {
+        final User user = (User) model.getAttribute("user");
+        final PlayerItems items = userManager.getItems(user);
+
+        Research research = researchManager.getResearch(index);
+
+        if (research == null) {
+            return "not_found";
+        }
+
+        //BuildingStats stats = buildingCalculator.computePlayerStats(building, items);
+
+        model.addAttribute("research", research);
+        //model.addAttribute("stats", stats);
+        model.addAttribute("items", items);
+        model.addAttribute("assets", assetManager);
+        return "items/research";
     }
 
     @GetMapping(value = "/ex-borg")

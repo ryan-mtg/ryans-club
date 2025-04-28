@@ -19,7 +19,7 @@ public class Building {
 
     private String artPath;
 
-    private List<Level> levels;
+    private List<BuildingLevel> levels;
 
     public String getImageUrl() {
         return AssetManager.makeUrl(artPath);

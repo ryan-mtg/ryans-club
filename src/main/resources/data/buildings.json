@@ -5,7 +5,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 1,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/0.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -3660,7 +3660,7 @@
       "amount" : 1
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/0.png"
 }, {
   "id" : 1,
   "name" : "Parsteel Generator A",
@@ -3668,7 +3668,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 1,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -5527,7 +5527,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 2,
   "name" : "Parsteel Generator B",
@@ -5535,7 +5535,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 2,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -7739,7 +7739,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 3,
   "name" : "Parsteel Generator C",
@@ -7747,7 +7747,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 8,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -9779,7 +9779,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 4,
   "name" : "Parsteel Warehouse",
@@ -9787,7 +9787,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 1,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/4.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -12118,7 +12118,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/4.png"
 }, {
   "id" : 5,
   "name" : "Tritanium Generator A",
@@ -12126,7 +12126,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 6,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -13979,7 +13979,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 6,
   "name" : "Tritanium Generator B",
@@ -13987,7 +13987,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 7,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -16175,7 +16175,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 7,
   "name" : "Tritanium Generator C",
@@ -16183,7 +16183,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 18,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -18215,7 +18215,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 8,
   "name" : "Tritanium Warehouse",
@@ -18223,7 +18223,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 6,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/8.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -20589,7 +20589,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/8.png"
 }, {
   "id" : 9,
   "name" : "Dilithium Generator A",
@@ -20597,7 +20597,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 10,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -22523,7 +22523,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 10,
   "name" : "Dilithium Generator B",
@@ -22531,7 +22531,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 13,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -24767,7 +24767,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 11,
   "name" : "Dilithium Generator C",
@@ -24775,7 +24775,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 20,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -26807,7 +26807,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 12,
   "name" : "Dilithium Warehouse",
@@ -26815,7 +26815,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 10,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/12.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -29171,7 +29171,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/12.png"
 }, {
   "id" : 13,
   "name" : "Treasury",
@@ -29179,7 +29179,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 15,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/13.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -30857,7 +30857,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/13.png"
 }, {
   "id" : 14,
   "name" : "Engine Technology Lab",
@@ -30865,7 +30865,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 23,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/14.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -33204,7 +33204,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/14.png"
 }, {
   "id" : 15,
   "name" : "Shipyard",
@@ -33212,7 +33212,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 5,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/15.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -36002,7 +36002,7 @@
       "amount" : 180000
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/15.png"
 }, {
   "id" : 16,
   "name" : "Ship Hangar",
@@ -36010,7 +36010,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 18,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/16.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -38381,7 +38381,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/16.png"
 }, {
   "id" : 17,
   "name" : "Drydock A",
@@ -38389,7 +38389,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 1,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -40413,7 +40413,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 18,
   "name" : "Drydock B",
@@ -40421,7 +40421,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 5,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -42459,7 +42459,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 19,
   "name" : "Drydock C",
@@ -42467,7 +42467,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 5,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -44493,7 +44493,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 20,
   "name" : "Drydock D",
@@ -44501,7 +44501,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 5,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -46510,7 +46510,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 21,
   "name" : "Drydock E",
@@ -46518,7 +46518,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 5,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -48427,7 +48427,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 22,
   "name" : "Drydock F",
@@ -48435,7 +48435,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 5,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -50321,7 +50321,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 23,
   "name" : "Armada Control Center",
@@ -50329,7 +50329,7 @@
   "maxLevel" : 50,
   "unlockLevel" : 23,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/23.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -52200,7 +52200,7 @@
       "amount" : 400
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/23.png"
 }, {
   "id" : 24,
   "name" : "Academy",
@@ -52208,7 +52208,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 1,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/24.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -54350,7 +54350,7 @@
       "amount" : 1600
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/24.png"
 }, {
   "id" : 25,
   "name" : "R&D Department",
@@ -54358,7 +54358,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 4,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/25.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -56994,7 +56994,7 @@
       "amount" : 10
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/25.png"
 }, {
   "id" : 26,
   "name" : "Astronautics Studio",
@@ -57002,7 +57002,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 9,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/26.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -59396,7 +59396,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/26.png"
 }, {
   "id" : 27,
   "name" : "Armory",
@@ -59404,7 +59404,7 @@
   "maxLevel" : 60,
   "unlockLevel" : 25,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/27.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -60894,7 +60894,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/27.png"
 }, {
   "id" : 28,
   "name" : "Defense Technologies",
@@ -60902,7 +60902,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 15,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/28.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -63342,7 +63342,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/28.png"
 }, {
   "id" : 29,
   "name" : "Science Lab",
@@ -63350,7 +63350,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 23,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/29.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -65712,7 +65712,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/29.png"
 }, {
   "id" : 31,
   "name" : "Refinery",
@@ -65720,7 +65720,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 10,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/31.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -68818,7 +68818,7 @@
       "amount" : 255000
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/31.png"
 }, {
   "id" : 33,
   "name" : "Shuttle Bay",
@@ -68826,7 +68826,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 8,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/33.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -70897,7 +70897,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/33.png"
 }, {
   "id" : 34,
   "name" : "Defense Platform A",
@@ -70905,7 +70905,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 1,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/34.png",
   "levels" : [ {
     "id" : 0,
     "power" : 945,
@@ -73266,7 +73266,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/34.png"
 }, {
   "id" : 35,
   "name" : "Defense Platform B",
@@ -73274,7 +73274,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 12,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/34.png",
   "levels" : [ {
     "id" : 0,
     "power" : 945,
@@ -75679,7 +75679,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/34.png"
 }, {
   "id" : 36,
   "name" : "Defense Platform C",
@@ -75687,7 +75687,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 12,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/34.png",
   "levels" : [ {
     "id" : 0,
     "power" : 945,
@@ -78075,7 +78075,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/34.png"
 }, {
   "id" : 37,
   "name" : "Defense Platform D",
@@ -78083,7 +78083,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 12,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/34.png",
   "levels" : [ {
     "id" : 0,
     "power" : 945,
@@ -80459,7 +80459,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/34.png"
 }, {
   "id" : 38,
   "name" : "Defense Platform E",
@@ -80467,7 +80467,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 12,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/34.png",
   "levels" : [ {
     "id" : 0,
     "power" : 945,
@@ -82731,7 +82731,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/34.png"
 }, {
   "id" : 39,
   "name" : "Defense Platform F",
@@ -82739,7 +82739,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 12,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/34.png",
   "levels" : [ {
     "id" : 0,
     "power" : 945,
@@ -84964,7 +84964,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/34.png"
 }, {
   "id" : 40,
   "name" : "Exocomp Factory",
@@ -84972,7 +84972,7 @@
   "maxLevel" : 60,
   "unlockLevel" : 16,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/40.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -86654,7 +86654,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/40.png"
 }, {
   "id" : 41,
   "name" : "Scrapyard",
@@ -86662,7 +86662,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 20,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/41.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -88825,7 +88825,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/41.png"
 }, {
   "id" : 43,
   "name" : "Foundry",
@@ -88833,7 +88833,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 23,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/43.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -91212,7 +91212,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/43.png"
 }, {
   "id" : 44,
   "name" : "Drydock G",
@@ -91220,7 +91220,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 30,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -93147,7 +93147,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 45,
   "name" : "Drydock H",
@@ -93155,7 +93155,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 35,
   "section" : 1,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -95082,7 +95082,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 50,
   "name" : "Parsteel Generator D",
@@ -95090,7 +95090,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 22,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -97122,7 +97122,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 51,
   "name" : "Parsteel Generator E",
@@ -97130,7 +97130,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 32,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -99162,7 +99162,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 52,
   "name" : "Parsteel Generator F",
@@ -99170,7 +99170,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 42,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -101202,7 +101202,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 53,
   "name" : "Parsteel Generator G",
@@ -101210,7 +101210,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -103218,7 +103218,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 54,
   "name" : "Parsteel Generator H",
@@ -103226,7 +103226,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -105234,7 +105234,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 55,
   "name" : "Parsteel Vault",
@@ -105242,7 +105242,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 14,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/55.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -107625,7 +107625,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/55.png"
 }, {
   "id" : 56,
   "name" : "Tritanium Generator D",
@@ -107633,7 +107633,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 28,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -109629,7 +109629,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 57,
   "name" : "Tritanium Generator E",
@@ -109637,7 +109637,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 38,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -111629,7 +111629,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 58,
   "name" : "Tritanium Generator F",
@@ -111637,7 +111637,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 48,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -113629,7 +113629,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 59,
   "name" : "Tritanium Generator G",
@@ -113637,7 +113637,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -115629,7 +115629,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 60,
   "name" : "Tritanium Generator H",
@@ -115637,7 +115637,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -117629,7 +117629,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 61,
   "name" : "Tritanium Vault",
@@ -117637,7 +117637,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 14,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/61.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -120043,7 +120043,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/61.png"
 }, {
   "id" : 62,
   "name" : "Dilithium Generator D",
@@ -120051,7 +120051,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 30,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -122083,7 +122083,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 63,
   "name" : "Dilithium Generator E",
@@ -122091,7 +122091,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 40,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -124123,7 +124123,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 64,
   "name" : "Dilithium Generator F",
@@ -124131,7 +124131,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -126163,7 +126163,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 65,
   "name" : "Dilithium Generator G",
@@ -126171,7 +126171,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -128203,7 +128203,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 66,
   "name" : "Dilithium Generator H",
@@ -128211,7 +128211,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -130243,7 +130243,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 67,
   "name" : "Dilithium Vault",
@@ -130251,7 +130251,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 14,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/67.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -132661,7 +132661,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/67.png"
 }, {
   "id" : 69,
   "name" : "Holodeck",
@@ -132669,7 +132669,7 @@
   "maxLevel" : 30,
   "unlockLevel" : 15,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/69.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -133300,7 +133300,7 @@
       "amount" : 10
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/69.png"
 }, {
   "id" : 70,
   "name" : "Subspace Relay",
@@ -133308,7 +133308,7 @@
   "maxLevel" : 60,
   "unlockLevel" : 25,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/70.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -134750,7 +134750,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/70.png"
 }, {
   "id" : 71,
   "name" : "Command Center",
@@ -134758,7 +134758,7 @@
   "maxLevel" : 60,
   "unlockLevel" : 15,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/71.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -136448,7 +136448,7 @@
       "amount" : 2450
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/71.png"
 }, {
   "id" : 72,
   "name" : "Mess Hall",
@@ -136456,7 +136456,7 @@
   "maxLevel" : 99,
   "unlockLevel" : 150,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/72.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -138443,7 +138443,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/72.png"
 }, {
   "id" : 73,
   "name" : "Artifact Gallery",
@@ -138451,7 +138451,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 26,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/73.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -140133,7 +140133,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/73.png"
 }, {
   "id" : 75,
   "name" : "Court of Q",
@@ -140141,7 +140141,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 19,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/75.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -141823,7 +141823,7 @@
       "amount" : 50
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/75.png"
 }, {
   "id" : 77,
   "name" : "The Facade",
@@ -141831,7 +141831,7 @@
   "maxLevel" : 60,
   "unlockLevel" : 30,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/77.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -143273,7 +143273,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/77.png"
 }, {
   "id" : 78,
   "name" : "The War Room",
@@ -143281,7 +143281,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 20,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/78.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -144963,7 +144963,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/78.png"
 }, {
   "id" : 79,
   "name" : "District 56",
@@ -144971,7 +144971,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 40,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/79.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -146653,7 +146653,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/79.png"
 }, {
   "id" : 80,
   "name" : "The Nova Squadron",
@@ -146661,7 +146661,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 30,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/80.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -148623,7 +148623,7 @@
       "amount" : 170100
     } ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/80.png"
 }, {
   "id" : 81,
   "name" : "INDEPENDENT ARCHIVES",
@@ -148631,7 +148631,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 16,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/81.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -150313,7 +150313,7 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/81.png"
 }, {
   "id" : 82,
   "name" : "DTI Headquarters",
@@ -150321,7 +150321,7 @@
   "maxLevel" : 70,
   "unlockLevel" : 42,
   "section" : 0,
-  "artPath" : "",
+  "artPath" : "/thumbs/building/i/82.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -152015,5 +152015,5 @@
     } ],
     "rewards" : [ ]
   } ],
-  "imageUrl" : "https://stfc.space"
+  "imageUrl" : "https://assets.stfc.space/thumbs/building/i/82.png"
 } ]

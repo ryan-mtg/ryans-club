@@ -7,6 +7,7 @@ import club.ryans.stfcspace.json.Field;
 import club.ryans.stfcspace.json.Mission;
 import club.ryans.stfcspace.json.Officer;
 import club.ryans.stfcspace.json.Research;
+import club.ryans.stfcspace.json.ResearchDetails;
 import club.ryans.stfcspace.json.Resource;
 import club.ryans.stfcspace.json.Ship;
 import club.ryans.stfcspace.json.System;
@@ -62,6 +63,16 @@ public class CachingStfcSpaceClient implements StfcSpaceClient {
     @Override
     public List<Research> research() {
         return getCache("research-summary", new TypeReference<List<Research>>(){}, () -> feignClient.research());
+    }
+
+    @Override
+    public ResearchDetails research(long id) {
+        String key = String.format("research-details-%d", id);
+        return getCache(key, new TypeReference<ResearchDetails>(){}, () -> {
+            LOGGER.info("fetching research {}", id);
+            Utility.pause();
+            return feignClient.research(id);
+        });
     }
 
     @Override

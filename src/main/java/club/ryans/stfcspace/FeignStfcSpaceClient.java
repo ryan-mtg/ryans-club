@@ -31,6 +31,9 @@ public interface FeignStfcSpaceClient extends StfcSpaceClient{
     @RequestLine("GET /research/summary.json")
     List<Research> research();
 
+    @RequestLine("GET /research/{id}.json")
+    ResearchDetails research(@Param("id") long id);
+
     @RequestLine("GET /translations/en/officers.json")
     List<Field> officers();
 

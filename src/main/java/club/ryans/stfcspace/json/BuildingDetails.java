@@ -9,7 +9,7 @@ import java.util.List;
 public class BuildingDetails {
     private long id;
 
-    List<Level> levels;
+    List<BuildingLevel> levels;
     List<Buff> buffs;
 
     @JsonProperty("unlock_level")

@@ -1,9 +1,20 @@
 package club.ryans.models.inventory;
 
-import club.ryans.models.*;
+import club.ryans.models.Building;
+import club.ryans.models.Mission;
+import club.ryans.models.Officer;
+import club.ryans.models.Research;
+import club.ryans.models.Resource;
+import club.ryans.models.ShipClass;
 import club.ryans.models.accounting.ResourceAmount;
-import club.ryans.models.managers.*;
-import club.ryans.models.player.*;
+import club.ryans.models.managers.ItemManagerContainer;
+import club.ryans.models.player.BuildingLevel;
+import club.ryans.models.player.MissionStatus;
+import club.ryans.models.player.OfficerLevel;
+import club.ryans.models.player.ResearchLevel;
+import club.ryans.models.player.Ship;
+import club.ryans.models.player.Update;
+import club.ryans.models.player.User;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.Getter;

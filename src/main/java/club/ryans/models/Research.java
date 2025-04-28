@@ -1,11 +1,10 @@
 package club.ryans.models;
 
 import club.ryans.models.managers.AssetManager;
-import club.ryans.stfcspace.json.ResearchTree;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 import java.util.List;
+
 
 @Data
 public class Research {
@@ -21,9 +20,13 @@ public class Research {
 
     private int row;
     private int column;
+    private int generation;
 
     private String artPath;
     private ResearchTree researchTree;
+    private ResearchType researchType;
+
+    private List<ResearchLevel> levels;
 
     public String getImageUrl() {
         return AssetManager.makeUrl(artPath);

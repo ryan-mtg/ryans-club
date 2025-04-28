@@ -12,7 +12,7 @@ public class Requirement {
     private long requirementId;
 
     @JsonProperty("requirement_level")
-    private int requiredLevel;
+    private long requiredLevel;
 
     @JsonProperty("power_gain")
     private Integer powerGain;

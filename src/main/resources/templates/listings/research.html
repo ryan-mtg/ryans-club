@@ -12,7 +12,7 @@
         <h1>Research</h1>
 
         <div class="blocks-container">
-            <a th:each="research: ${researches}" class="unstyled-link" th:href="'research/' + ${research.id}">
+            <a th:each="research: ${researches}" class="unstyled-link" th:href="'/research/' + ${research.id}">
                 <div class="item-block" th:classappend="${research.style}">
                     <img class="large-set-icon" th:src="${research.getImageUrl()}">
 

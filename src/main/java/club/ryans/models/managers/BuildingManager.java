@@ -1,8 +1,7 @@
 package club.ryans.models.managers;
 
 import club.ryans.models.Building;
-import club.ryans.models.Cost;
-import club.ryans.models.Level;
+import club.ryans.models.BuildingLevel;
 import club.ryans.models.generators.DataFileManager;
 import club.ryans.utility.Json;
 import club.ryans.utility.Strings;
@@ -70,7 +69,7 @@ public class BuildingManager {
             return;
         }
 
-        for (Level level : building.getLevels()) {
+        for (BuildingLevel level : building.getLevels()) {
             level.getCosts().forEach(resourceManager::inflateCost);
         }
     }

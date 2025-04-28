@@ -88,6 +88,8 @@ public class AssetManager {
                 return String.format(PATH_TEMPLATE, "resource", artId);
             case SHIP:
                 return String.format(PATH_TEMPLATE, "ship", artId);
+            case RESEARCH:
+                return String.format(PATH_TEMPLATE, "research", artId);
         }
 
         List<Asset> assets = assetMap.get(artId);

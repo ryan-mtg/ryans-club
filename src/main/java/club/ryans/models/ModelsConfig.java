@@ -28,7 +28,7 @@ import java.io.File;
 
 @Configuration
 public class ModelsConfig {
-    private static final boolean shouldGenerate = true;
+    private static final boolean shouldGenerate = false;
     private static final String THUMBS_VERSION = "DknUb-gZ";
 
     private final StfcSpaceClient stfcSpaceClient;

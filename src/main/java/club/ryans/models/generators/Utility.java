@@ -1,5 +1,8 @@
 package club.ryans.models.generators;
 
+import club.ryans.models.Cost;
+import club.ryans.models.Requirement;
+import club.ryans.models.Reward;
 import club.ryans.stfcspace.json.Field;
 import lombok.extern.slf4j.Slf4j;
 
@@ -67,4 +70,29 @@ public class Utility {
         } catch (InterruptedException e) {
         }
     }
+
+    public static Cost createCost(final club.ryans.stfcspace.json.Cost costJson) {
+        Cost cost = new Cost();
+        cost.setResourceId(costJson.getResourceId());
+        cost.setAmount(costJson.getAmount());
+        return cost;
+    }
+
+    public static Requirement createRequirement(final club.ryans.stfcspace.json.Requirement requirementJson) {
+        Requirement requirement = new Requirement();
+        requirement.setType(requirementJson.getType());
+        requirement.setRequirementId(requirementJson.getRequirementId());
+        requirement.setRequiredLevel(requirementJson.getRequiredLevel());
+        requirement.setPowerGain(requirementJson.getPowerGain());
+        return requirement;
+    }
+
+    public static Reward createReward(final club.ryans.stfcspace.json.Reward rewardJson) {
+        Reward reward = new Reward();
+        reward.setResourceId(rewardJson.getResourceId());
+        reward.setType(rewardJson.getType());
+        reward.setAmount(rewardJson.getAmount());
+        return reward;
+    }
+
 }

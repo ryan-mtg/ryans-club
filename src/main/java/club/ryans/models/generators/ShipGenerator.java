@@ -61,7 +61,6 @@ public class ShipGenerator {
         shipMap.forEach((id, shipClass) -> nameMap.put(shipClass.getName(), shipClass));
 
         for (ShipClass shipClass : shipMap.values()) {
-            LOGGER.info("fetching data for ship: {}", shipClass.getName());
             queryShip(shipClass);
         }
 

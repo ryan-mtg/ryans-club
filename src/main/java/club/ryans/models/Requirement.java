@@ -6,6 +6,6 @@ import lombok.Data;
 public class Requirement {
     private String type;
     private long requirementId;
-    private int requiredLevel;
+    private long requiredLevel;
     private Integer powerGain;
 }

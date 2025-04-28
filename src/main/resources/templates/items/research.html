@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${research.name}"></title>
+    <div th:replace="fragments :: includes"></div>
+</head>
+<body data-theme="dark">
+    <div th:replace="fragments :: header(${research.name})"></div>
+
+    <main>
+        <section class="item-feature">
+            <img class="feature-image" th:src="${research.imageUrl}">
+            <h1 th:text="${research.name}"></h1>
+
+            <!--
+            <p>Level: <span th:text="${stats.level}"></span></p>
+            <p>Reachable Level: <span th:text="${stats.reachableLevel}"></span></p>
+            <p th:if="${stats.mainResourceAvailable}">Main Resource:
+                <span th:text="${stats.mainResourceAvailable.resource.name}"></span>
+                <img class="feature-resource rarity-item" th:src="${stats.mainResourceAvailable.resource.imageUrl}"
+                     th:title="${stats.mainResourceAvailable.resource.name}"
+                     th:classappend="${stats.mainResourceAvailable.resource.style}">
+            </p>
+            -->
+            <div class="clear-float"></div>
+        </section>
+        <section>
+            <h2>Leveling</h2>
+            <table class="data-table">
+                <thead><tr>
+                    <th>Level</th>
+                    <th>Power</th>
+                    <th>Cost</th>
+                </tr></thead>
+                <tbody th:each="level,iter : ${research.levels}">
+                    <tr>
+                        <td>
+                            <span th:text="${iter.index} + 1"></span>
+                            <!--
+                            <span th:if="${iter.index + 1} == ${stats.level}">&#x2B50;</span>
+                            <span th:if="${iter.index + 1} == ${stats.reachableLevel}">&#x2B06;&#xFE0F;</span>
+                            -->
+                        </td>
+                        <td th:text="${utility.scoplify(level.strength)}"></td>
+                        <td>
+                            <span th:each="cost : ${level.costs}">
+                                <img class="table-resource rarity-item" th:src="${cost.resource.imageUrl}"
+                                     th:title="${cost.resource.name}" th:classappend="${cost.resource.style}">
+                                <span th:text="${utility.scoplify(cost.amount)}"></span>
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
