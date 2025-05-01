@@ -1,6 +1,6 @@
 package club.ryans.models.player;
 
-import club.ryans.models.Research;
+import club.ryans.models.items.Research;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

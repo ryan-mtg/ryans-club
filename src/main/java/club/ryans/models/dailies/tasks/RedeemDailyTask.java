@@ -1,6 +1,6 @@
 package club.ryans.models.dailies.tasks;
 
-import club.ryans.models.Resource;
+import club.ryans.models.items.Resource;
 import club.ryans.models.accounting.ChestPrice;
 import club.ryans.models.accounting.ResourceAmount;
 import club.ryans.models.accounting.ResourceRequirement;

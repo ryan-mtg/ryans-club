@@ -1,6 +1,8 @@
 package club.ryans.models.generators;
 
-import club.ryans.models.Research;
+import club.ryans.models.Buff;
+import club.ryans.models.BuffValue;
+import club.ryans.models.items.Research;
 import club.ryans.models.ResearchLevel;
 import club.ryans.models.ResearchTree;
 import club.ryans.models.ResearchType;
@@ -110,6 +112,7 @@ public class ResearchGenerator {
         }
 
         research.setLevels(researchDetails.getLevels().stream().map(this::createLevel).collect(Collectors.toList()));
+        research.setBuffs(researchDetails.getBuffs().stream().map(this::createBuff).collect(Collectors.toList()));
     }
 
     private ResearchLevel createLevel(final club.ryans.stfcspace.json.ResearchLevel levelJson) {
@@ -125,5 +128,25 @@ public class ResearchGenerator {
                 .collect(Collectors.toList()));
         level.setRewards(levelJson.getRewards().stream().map(Utility::createReward).collect(Collectors.toList()));
         return level;
+    }
+
+    private Buff createBuff(final club.ryans.stfcspace.json.Buff buffJson) {
+        Buff buff = new Buff();
+        buff.setId(buffJson.getLocaId());
+        buff.setStfcSpaceId(buffJson.getId());
+        buff.setArtId(buffJson.getArtId());
+        buff.setPercentage(buffJson.isPercentage());
+        buff.setShowPercentage(buffJson.isShowPercentage());
+        buff.setValueType(buffJson.getValueType());
+        buff.setRankedIsValueChance(buffJson.getRankedIsValueChance());
+        buff.setValues(buffJson.getValues().stream().map(this::createBuffValue).collect(Collectors.toList()));
+        return buff;
+    }
+
+    private BuffValue createBuffValue(final club.ryans.stfcspace.json.BuffValue valueJson) {
+        BuffValue value = new BuffValue();
+        value.setValue(valueJson.getValue());
+        value.setChance(valueJson.getChance());
+        return value;
     }
 }

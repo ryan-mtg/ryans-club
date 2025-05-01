@@ -55,30 +55,26 @@ public class AssetManager {
     }
 
     public String getBuildingPath(final int artId) {
-        return getAssetPath(artId, AssetType.BUILDING);
+        return getAssetPath(AssetType.BUILDING, artId);
     }
 
     public String getResearchPath(final int artId) {
-        return getAssetPath(artId, AssetType.RESEARCH);
+        return getAssetPath(AssetType.RESEARCH, artId);
     }
 
     public String getOfficerPath(final int artId) {
-        return getAssetPath(artId, AssetType.OFFICER);
+        return getAssetPath(AssetType.OFFICER, artId);
     }
 
     public String getResourcePath(final int artId) {
-        return getAssetPath(artId, AssetType.RESOURCE);
+        return getAssetPath(AssetType.RESOURCE, artId);
     }
 
     public String getShipPath(final int artId) {
-        return getAssetPath(artId, AssetType.SHIP);
+        return getAssetPath(AssetType.SHIP, artId);
     }
 
-    private String makeAssetUrl(final int artId, final AssetType type) {
-        return makeUrl(getAssetPath(artId, type));
-    }
-
-    private String getAssetPath(final int artId, final AssetType type) {
+    public String getAssetPath(final AssetType type, final int artId) {
         switch (type) {
             case BUILDING:
                 return String.format(PATH_TEMPLATE, "building", artId);
@@ -104,6 +100,10 @@ public class AssetManager {
         }
 
         return getPath(artId);
+    }
+
+    private String makeAssetUrl(final AssetType type, final int artId) {
+        return makeUrl(getAssetPath(type, artId));
     }
 
     private void parse(final InputStream inputStream) {

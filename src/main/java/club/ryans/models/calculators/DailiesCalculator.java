@@ -5,7 +5,7 @@ import club.ryans.charts.models.ChestDescriptor;
 import club.ryans.charts.models.ChestGroup;
 import club.ryans.charts.models.Column;
 import club.ryans.charts.models.RowValue;
-import club.ryans.models.Resource;
+import club.ryans.models.items.Resource;
 import club.ryans.models.accounting.ChestPrice;
 import club.ryans.models.dailies.descriptors.ChartRedeemDailyDescriptor;
 import club.ryans.models.dailies.descriptors.ChartClaimDailyDescriptor;

@@ -1,10 +1,10 @@
 package club.ryans.models.inventory;
 
-import club.ryans.models.Building;
+import club.ryans.models.items.Building;
 import club.ryans.models.Mission;
 import club.ryans.models.Officer;
-import club.ryans.models.Research;
-import club.ryans.models.Resource;
+import club.ryans.models.items.Research;
+import club.ryans.models.items.Resource;
 import club.ryans.models.ShipClass;
 import club.ryans.models.accounting.ResourceAmount;
 import club.ryans.models.managers.ItemManagerContainer;

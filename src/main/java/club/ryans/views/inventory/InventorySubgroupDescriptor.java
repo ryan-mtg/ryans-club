@@ -1,6 +1,6 @@
 package club.ryans.views.inventory;
 
-import club.ryans.models.Resource;
+import club.ryans.models.items.Resource;
 import lombok.Data;
 
 import java.util.List;

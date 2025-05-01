@@ -1,7 +1,7 @@
 package club.ryans.models.dailies.tasks.resources;
 
 import club.ryans.charts.models.RowValue;
-import club.ryans.models.Resource;
+import club.ryans.models.items.Resource;
 import club.ryans.views.Utility;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

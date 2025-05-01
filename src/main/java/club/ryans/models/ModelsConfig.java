@@ -9,6 +9,7 @@ import club.ryans.models.generators.OfficerGenerator;
 import club.ryans.models.generators.ResearchGenerator;
 import club.ryans.models.generators.ResourceGenerator;
 import club.ryans.models.generators.ShipGenerator;
+import club.ryans.models.items.RequirementDescriber;
 import club.ryans.models.managers.AllianceManager;
 import club.ryans.models.managers.BuildingManager;
 import club.ryans.models.managers.ItemManagerContainer;
@@ -55,7 +56,7 @@ public class ModelsConfig {
 
     @Bean
     public BuildingManager buildingManager(final ResourceManager resourceManager) {
-        return new BuildingManager(dataFileManager, assetManager, resourceManager);
+        return new BuildingManager(dataFileManager);
     }
 
     @Bean
@@ -96,6 +97,11 @@ public class ModelsConfig {
     @Bean
     public DataCollector collector(final ItemManagerContainer itemManagerContainer) {
         return new DataCollector(itemManagerContainer);
+    }
+
+    @Bean
+    public RequirementDescriber requirementDescriber(final ItemManagerContainer itemManagerContainer) {
+        return new RequirementDescriber(itemManagerContainer);
     }
 
     @Bean

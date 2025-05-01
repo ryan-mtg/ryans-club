@@ -9,6 +9,9 @@ import java.util.List;
 public class Buff {
     private long id;
 
+    @JsonProperty("loca_id")
+    private int locaId;
+
     @JsonProperty("value_is_percentage")
     private boolean isPercentage;
 
@@ -21,7 +24,8 @@ public class Buff {
     @JsonProperty("value_type")
     private int valueType;
 
-    private int flag;
+    @JsonProperty("ranked_is_value_chance")
+    private double rankedIsValueChance;
 
     List<BuffValue> values;
 }

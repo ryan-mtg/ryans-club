@@ -2,9 +2,9 @@ package club.ryans.utility.parser;
 
 import club.ryans.charts.ex.borg.Range;
 import club.ryans.charts.models.RowValue;
-import club.ryans.models.Building;
-import club.ryans.models.Research;
-import club.ryans.models.Resource;
+import club.ryans.models.items.Building;
+import club.ryans.models.items.Research;
+import club.ryans.models.items.Resource;
 import club.ryans.models.ShipClass;
 import club.ryans.models.player.ResearchLevel;
 import lombok.Getter;

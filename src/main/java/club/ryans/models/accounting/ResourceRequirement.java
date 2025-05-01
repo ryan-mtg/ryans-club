@@ -1,6 +1,6 @@
 package club.ryans.models.accounting;
 
-import club.ryans.models.Resource;
+import club.ryans.models.items.Resource;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

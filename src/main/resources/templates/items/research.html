@@ -12,6 +12,10 @@
         <section class="item-feature">
             <img class="feature-image" th:src="${research.imageUrl}">
             <h1 th:text="${research.name}"></h1>
+            <h2 th:text="${research.researchType}"></h2>
+
+            <a th:href="${research.stfcSpaceUrl}">stfc.space</a>
+            <p th:text="${research.description}"></p>
 
             <!--
             <p>Level: <span th:text="${stats.level}"></span></p>
@@ -32,6 +36,8 @@
                     <th>Level</th>
                     <th>Power</th>
                     <th>Cost</th>
+                    <th>Buff</th>
+                    <th>Requirement</th>
                 </tr></thead>
                 <tbody th:each="level,iter : ${research.levels}">
                     <tr>
@@ -50,8 +56,16 @@
                                 <span th:text="${utility.scoplify(cost.amount)}"></span>
                             </span>
                         </td>
+                        <td>
+                            <span th:text="${research.getBuffDescription(iter.index)}"></span>
+                        </td>
+                        <td>
+                            <th:block th:each="requirement : ${research.getRequirements(iter.index)}">
+                                <span th:text="${requirementDescriber.describe(requirement)}"></span>
+                            </th:block>
+                        </td>
                     </tr>
-                </tbody>
+                </span>
             </table>
         </section>
     </main>

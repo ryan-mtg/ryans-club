@@ -2,9 +2,10 @@ package club.ryans.controllers;
 
 import club.ryans.charts.ex.borg.ExBorgEfficiencyCalculator;
 import club.ryans.error.ServerError;
-import club.ryans.models.Building;
+import club.ryans.models.items.Building;
 import club.ryans.models.RawLog;
-import club.ryans.models.Research;
+import club.ryans.models.items.RequirementDescriber;
+import club.ryans.models.items.Research;
 import club.ryans.models.calculators.BuildingCalculator;
 import club.ryans.models.calculators.DailiesCalculator;
 import club.ryans.models.managers.AllianceManager;
@@ -60,6 +61,9 @@ public class IndexController {
 
     @Autowired
     private DailiesCalculator dailiesCalculator;
+
+    @Autowired
+    private RequirementDescriber requirementDescriber;
 
     @Autowired
     private UserManager userManager;
@@ -178,6 +182,7 @@ public class IndexController {
         //BuildingStats stats = buildingCalculator.computePlayerStats(building, items);
 
         model.addAttribute("research", research);
+        model.addAttribute("requirementDescriber", requirementDescriber);
         //model.addAttribute("stats", stats);
         model.addAttribute("items", items);
         model.addAttribute("assets", assetManager);

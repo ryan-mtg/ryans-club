@@ -1,11 +1,13 @@
 [ {
   "id" : 0,
+  "stfcSpaceId" : 0,
   "name" : "Operations",
   "description" : "Operations houses the command center and the main computer. Upgrading Operations increases the overall capability of the Station by unlocking more buildings for construction.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/0.png",
   "maxLevel" : 70,
   "unlockLevel" : 1,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/0.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -3663,12 +3665,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/0.png"
 }, {
   "id" : 1,
+  "stfcSpaceId" : 0,
   "name" : "Parsteel Generator A",
   "description" : "Produces Parsteel, an alloy with immense tensile strength used to build Station buildings. Upgrading Parsteel Generators increases the amount that is produced, and unlocks the production of Σ-Parsteel at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/1.png",
   "maxLevel" : 70,
   "unlockLevel" : 1,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -5530,12 +5534,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 2,
+  "stfcSpaceId" : 0,
   "name" : "Parsteel Generator B",
   "description" : "Produces Parsteel, an alloy with immense tensile strength used to build Station buildings. Upgrading Parsteel Generators increases the amount that is produced, and unlocks the production of Σ-Parsteel at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/1.png",
   "maxLevel" : 70,
   "unlockLevel" : 2,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -7742,12 +7748,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 3,
+  "stfcSpaceId" : 0,
   "name" : "Parsteel Generator C",
   "description" : "Produces Parsteel, an alloy with immense tensile strength used to build Station buildings. Upgrading Parsteel Generators increases the amount that is produced, and unlocks the production of Σ-Parsteel at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/1.png",
   "maxLevel" : 70,
   "unlockLevel" : 8,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -9782,12 +9790,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 4,
+  "stfcSpaceId" : 0,
   "name" : "Parsteel Warehouse",
   "description" : "Stores all collected Parsteel and Σ-Parsteel. Upgrade the Warehouse to increase its capacity and unlock Σ-Parsteel capacity at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/4.png",
   "maxLevel" : 70,
   "unlockLevel" : 1,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/4.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -12121,12 +12131,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/4.png"
 }, {
   "id" : 5,
+  "stfcSpaceId" : 0,
   "name" : "Tritanium Generator A",
   "description" : "Produces Tritanium, an alloy many times harder than diamonds, used to construct mighty ships. Upgrading Tritanium Generators increases the amount that is produced, and unlocks the production of Σ-Tritanium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/5.png",
   "maxLevel" : 70,
   "unlockLevel" : 6,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -13982,12 +13994,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 6,
+  "stfcSpaceId" : 0,
   "name" : "Tritanium Generator B",
   "description" : "Produces Tritanium, an alloy many times harder than diamonds, used to construct mighty ships. Upgrading Tritanium Generators increases the amount that is produced, and unlocks the production of Σ-Tritanium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/5.png",
   "maxLevel" : 70,
   "unlockLevel" : 7,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -16178,12 +16192,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 7,
+  "stfcSpaceId" : 0,
   "name" : "Tritanium Generator C",
   "description" : "Produces Tritanium, an alloy many times harder than diamonds, used to construct mighty ships. Upgrading Tritanium Generators increases the amount that is produced, and unlocks the production of Σ-Tritanium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/5.png",
   "maxLevel" : 70,
   "unlockLevel" : 18,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -18218,12 +18234,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 8,
+  "stfcSpaceId" : 0,
   "name" : "Tritanium Warehouse",
   "description" : "Stores all collected Tritanium and Σ-Tritanium. Upgrade the Warehouse to increase its capacity and unlock Σ-Tritanium capacity at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/8.png",
   "maxLevel" : 70,
   "unlockLevel" : 6,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/8.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -20592,12 +20610,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/8.png"
 }, {
   "id" : 9,
+  "stfcSpaceId" : 0,
   "name" : "Dilithium Generator A",
   "description" : "Produces Dilithium, a crystalline mineral required when researching new technologies and building advanced ship components. Upgrading Dilithium Generators increases the amount that is produced, and unlocks the production of Σ-Dilithium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/9.png",
   "maxLevel" : 70,
   "unlockLevel" : 10,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -22526,12 +22546,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 10,
+  "stfcSpaceId" : 0,
   "name" : "Dilithium Generator B",
   "description" : "Produces Dilithium, a crystalline mineral required when researching new technologies and building advanced ship components. Upgrading Dilithium Generators increases the amount that is produced, and unlocks the production of Σ-Dilithium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/9.png",
   "maxLevel" : 70,
   "unlockLevel" : 13,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -24770,12 +24792,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 11,
+  "stfcSpaceId" : 0,
   "name" : "Dilithium Generator C",
   "description" : "Produces Dilithium, a crystalline mineral required when researching new technologies and building advanced ship components. Upgrading Dilithium Generators increases the amount that is produced, and unlocks the production of Σ-Dilithium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/9.png",
   "maxLevel" : 70,
   "unlockLevel" : 20,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -26810,12 +26834,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 12,
+  "stfcSpaceId" : 0,
   "name" : "Dilithium Warehouse",
   "description" : "Stores all collected Dilithium and Σ-Dilithium. Upgrade the Warehouse to increase its capacity and unlock Σ-Dilithium capacity at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/12.png",
   "maxLevel" : 70,
   "unlockLevel" : 10,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/12.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -29174,12 +29200,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/12.png"
 }, {
   "id" : 13,
+  "stfcSpaceId" : 0,
   "name" : "Treasury",
   "description" : "The Treasury unlocks access to the Lockbox, increases the mining speed and protected cargo of Survey ships, and increases the cargo capacity of all ships.\n\nUpgrading the Treasury to level 40 adds bonus Prime Particles to the daily Optical Diodes claim in the gift section of the store until all Prime Territory research is completed.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/13.png",
   "maxLevel" : 70,
   "unlockLevel" : 15,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/13.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -30860,12 +30888,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/13.png"
 }, {
   "id" : 14,
+  "stfcSpaceId" : 0,
   "name" : "Engine Technology Lab",
   "description" : "Engine Tech Research facility.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/14.png",
   "maxLevel" : 70,
   "unlockLevel" : 23,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/14.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -33207,12 +33237,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/14.png"
 }, {
   "id" : 15,
+  "stfcSpaceId" : 0,
   "name" : "Shipyard",
   "description" : "The Shipyard is instrumental in ship construction. Upgrade this building to get access to more ships and increase the speed of ship construction.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/15.png",
   "maxLevel" : 70,
   "unlockLevel" : 5,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/15.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -36005,12 +36037,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/15.png"
 }, {
   "id" : 16,
+  "stfcSpaceId" : 0,
   "name" : "Ship Hangar",
   "description" : "The Ship Hangar is where extra ships are stored when they are not currently used in the active fleet. Upgrade the Hangar to increase the amount of Ships that can be owned.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/16.png",
   "maxLevel" : 70,
   "unlockLevel" : 18,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/16.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -38384,12 +38418,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/16.png"
 }, {
   "id" : 17,
+  "stfcSpaceId" : 0,
   "name" : "Drydock A",
   "description" : "Ship A. Ships can be assigned, managed and upgraded via Ship Management. Every additional Drydock increases the amounts of Ships that can be deployed.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/17.png",
   "maxLevel" : 70,
   "unlockLevel" : 1,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -40416,12 +40452,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 18,
+  "stfcSpaceId" : 0,
   "name" : "Drydock B",
   "description" : "Ship B. Ships can be assigned, managed and upgraded via Ship Management. Every additional Drydock increases the amounts of Ships that can be deployed.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/17.png",
   "maxLevel" : 70,
   "unlockLevel" : 5,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -42462,12 +42500,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 19,
+  "stfcSpaceId" : 0,
   "name" : "Drydock C",
   "description" : "Ship C. Ships can be assigned, managed and upgraded via Ship Management. Every additional Drydock increases the amounts of Ships that can be deployed.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/17.png",
   "maxLevel" : 70,
   "unlockLevel" : 5,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -44496,12 +44536,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 20,
+  "stfcSpaceId" : 0,
   "name" : "Drydock D",
   "description" : "Ship D. Ships can be assigned, managed and upgraded via Ship Management. Every additional Drydock increases the amounts of Ships that can be deployed.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/17.png",
   "maxLevel" : 70,
   "unlockLevel" : 5,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -46513,12 +46555,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 21,
+  "stfcSpaceId" : 0,
   "name" : "Drydock E",
   "description" : "Ship E. Ships can be assigned, managed and upgraded via Ship Management. Every additional Drydock increases the amounts of Ships that can be deployed.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/17.png",
   "maxLevel" : 70,
   "unlockLevel" : 5,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -48430,12 +48474,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 22,
+  "stfcSpaceId" : 0,
   "name" : "Drydock F",
   "description" : "Ship F. Ships can be assigned, managed and upgraded via Ship Management. Every additional Drydock increases the amounts of Ships that can be deployed.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/17.png",
   "maxLevel" : 70,
   "unlockLevel" : 5,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -50324,12 +50370,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 23,
+  "stfcSpaceId" : 0,
   "name" : "Armada Control Center",
   "description" : "The Armada Control Center allows you to initiate Armada attacks on hostile targets. Upgrade the Center to increase the number of allied ships that can join your Armada attacks.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/23.png",
   "maxLevel" : 50,
   "unlockLevel" : 23,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/23.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -52203,12 +52251,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/23.png"
 }, {
   "id" : 24,
+  "stfcSpaceId" : 0,
   "name" : "Academy",
   "description" : "Here is where your Officers stay when they are not assigned. Promote and Level your Officers via the Officer Screen.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/24.png",
   "maxLevel" : 70,
   "unlockLevel" : 1,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/24.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -54353,12 +54403,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/24.png"
 }, {
   "id" : 25,
+  "stfcSpaceId" : 0,
   "name" : "R&D Department",
   "description" : "The Research Lab is vital for the discovery of new technologies. Here, new Ships, buildings or supporting technologies are unlocked.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/25.png",
   "maxLevel" : 70,
   "unlockLevel" : 4,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/25.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -56997,12 +57049,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/25.png"
 }, {
   "id" : 26,
+  "stfcSpaceId" : 0,
   "name" : "Astronautics Studio",
   "description" : "New ship hulls are researched and unlocked here before becoming available in the Shipyard.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/26.png",
   "maxLevel" : 70,
   "unlockLevel" : 9,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/26.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -59399,12 +59453,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/26.png"
 }, {
   "id" : 27,
+  "stfcSpaceId" : 0,
   "name" : "Armory",
   "description" : "The Armory allows access to ship refits that unlock new active abilities, as well as increasing the Hull Health, Shield Health, and Mitigation stats of all ships. \n\nUpgrading the Armory to certain levels will also grant enough refit shards to fully unlock the refits for specific ships. \n\nLevel 26: Mayflower, D3, Legionary\nLevel 28: Saladin, Bortas, Centurion\nLevel 42: Kelvin, K'T'inga, Valdore\nLevel 53: Northcutt, Vor'cha, Corvus",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/27.png",
   "maxLevel" : 60,
   "unlockLevel" : 25,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/27.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -60897,12 +60953,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/27.png"
 }, {
   "id" : 28,
+  "stfcSpaceId" : 0,
   "name" : "Defense Technologies",
   "description" : "Defense Tech Research facility.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/28.png",
   "maxLevel" : 70,
   "unlockLevel" : 15,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/28.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -63345,12 +63403,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/28.png"
 }, {
   "id" : 29,
+  "stfcSpaceId" : 0,
   "name" : "Science Lab",
   "description" : "Shield Tech Research facility.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/29.png",
   "maxLevel" : 70,
   "unlockLevel" : 23,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/29.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -65715,12 +65775,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/29.png"
 }, {
   "id" : 31,
+  "stfcSpaceId" : 0,
   "name" : "Refinery",
   "description" : "Processes Raw Materials. Refine Raw Ore, Crystal, Gas, and other materials found across the galaxy.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/31.png",
   "maxLevel" : 70,
   "unlockLevel" : 10,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/31.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -68821,12 +68883,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/31.png"
 }, {
   "id" : 33,
+  "stfcSpaceId" : 0,
   "name" : "Shuttle Bay",
   "description" : "The Shuttle Bay allows officers to be sent on Away Team Assignments.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/33.png",
   "maxLevel" : 70,
   "unlockLevel" : 8,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/33.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -70900,12 +70964,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/33.png"
 }, {
   "id" : 34,
+  "stfcSpaceId" : 0,
   "name" : "Defense Platform A",
   "description" : "Defense Platforms are the last line of Defense for the Station. Behind defending ships they provide additional fire support. Upgrade to increase the Platform's combat performance.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/34.png",
   "maxLevel" : 70,
   "unlockLevel" : 1,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/34.png",
   "levels" : [ {
     "id" : 0,
     "power" : 945,
@@ -73269,12 +73335,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/34.png"
 }, {
   "id" : 35,
+  "stfcSpaceId" : 0,
   "name" : "Defense Platform B",
   "description" : "Defense Platforms are the last line of Defense for the Station. Behind defending ships they provide additional fire support. Upgrade to increase the Platform's combat performance.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/34.png",
   "maxLevel" : 70,
   "unlockLevel" : 12,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/34.png",
   "levels" : [ {
     "id" : 0,
     "power" : 945,
@@ -75682,12 +75750,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/34.png"
 }, {
   "id" : 36,
+  "stfcSpaceId" : 0,
   "name" : "Defense Platform C",
   "description" : "Defense Platforms are the last line of Defense for the Station. Behind defending ships they provide additional fire support. Upgrade to increase the Platform's combat performance.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/34.png",
   "maxLevel" : 70,
   "unlockLevel" : 12,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/34.png",
   "levels" : [ {
     "id" : 0,
     "power" : 945,
@@ -78078,12 +78148,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/34.png"
 }, {
   "id" : 37,
+  "stfcSpaceId" : 0,
   "name" : "Defense Platform D",
   "description" : "Defense Platforms are the last line of Defense for the Station. Behind defending ships they provide additional fire support. Upgrade to increase the Platform's combat performance.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/34.png",
   "maxLevel" : 70,
   "unlockLevel" : 12,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/34.png",
   "levels" : [ {
     "id" : 0,
     "power" : 945,
@@ -80462,12 +80534,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/34.png"
 }, {
   "id" : 38,
+  "stfcSpaceId" : 0,
   "name" : "Defense Platform E",
   "description" : "Defense Platforms are the last line of Defense for the Station. Behind defending ships they provide additional fire support. Upgrade to increase the Platform's combat performance.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/34.png",
   "maxLevel" : 70,
   "unlockLevel" : 12,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/34.png",
   "levels" : [ {
     "id" : 0,
     "power" : 945,
@@ -82734,12 +82808,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/34.png"
 }, {
   "id" : 39,
+  "stfcSpaceId" : 0,
   "name" : "Defense Platform F",
   "description" : "Defense Platforms are the last line of Defense for the Station. Behind defending ships they provide additional fire support. Upgrade to increase the Platform's combat performance.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/34.png",
   "maxLevel" : 70,
   "unlockLevel" : 12,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/34.png",
   "levels" : [ {
     "id" : 0,
     "power" : 945,
@@ -84967,12 +85043,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/34.png"
 }, {
   "id" : 40,
+  "stfcSpaceId" : 0,
   "name" : "Exocomp Factory",
   "description" : "The Exocomp Factory grants the ability to activate and improve Consumables, unlock additional Exocomps, and earn Axionic Chips.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/40.png",
   "maxLevel" : 60,
   "unlockLevel" : 16,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/40.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -86657,12 +86735,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/40.png"
 }, {
   "id" : 41,
+  "stfcSpaceId" : 0,
   "name" : "Scrapyard",
   "description" : "The Scrapyard lets you scrap ships for resources and materials. Upgrade to allow scrapping of more advanced ship classes, and to increase scrapping speed.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/41.png",
   "maxLevel" : 70,
   "unlockLevel" : 20,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/41.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -88828,12 +88908,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/41.png"
 }, {
   "id" : 43,
+  "stfcSpaceId" : 0,
   "name" : "Foundry",
   "description" : "Armor Tech Research facility.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/43.png",
   "maxLevel" : 70,
   "unlockLevel" : 23,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/43.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -91215,12 +91297,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/43.png"
 }, {
   "id" : 44,
+  "stfcSpaceId" : 0,
   "name" : "Drydock G",
   "description" : "Ship G. Ships can be assigned, managed and upgraded via Ship Management. Every additional Drydock increases the amounts of Ships that can be deployed.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/17.png",
   "maxLevel" : 70,
   "unlockLevel" : 30,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -93150,12 +93234,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 45,
+  "stfcSpaceId" : 0,
   "name" : "Drydock H",
   "description" : "Ship H. Ships can be assigned, managed and upgraded via Ship Management. Every additional Drydock increases the amounts of Ships that can be deployed.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/17.png",
   "maxLevel" : 70,
   "unlockLevel" : 35,
   "section" : 1,
-  "artPath" : "/thumbs/building/i/17.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -95085,12 +95171,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/17.png"
 }, {
   "id" : 50,
+  "stfcSpaceId" : 0,
   "name" : "Parsteel Generator D",
   "description" : "Produces Parsteel, an alloy with immense tensile strength used to build Station buildings. Upgrading Parsteel Generators increases the amount that is produced, and unlocks the production of Σ-Parsteel at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/1.png",
   "maxLevel" : 70,
   "unlockLevel" : 22,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -97125,12 +97213,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 51,
+  "stfcSpaceId" : 0,
   "name" : "Parsteel Generator E",
   "description" : "Produces Parsteel, an alloy with immense tensile strength used to build Station buildings. Upgrading Parsteel Generators increases the amount that is produced, and unlocks the production of Σ-Parsteel at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/1.png",
   "maxLevel" : 70,
   "unlockLevel" : 32,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -99165,12 +99255,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 52,
+  "stfcSpaceId" : 0,
   "name" : "Parsteel Generator F",
   "description" : "Produces Parsteel, an alloy with immense tensile strength used to build Station buildings. Upgrading Parsteel Generators increases the amount that is produced, and unlocks the production of Σ-Parsteel at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/1.png",
   "maxLevel" : 70,
   "unlockLevel" : 42,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -101205,12 +101297,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 53,
+  "stfcSpaceId" : 0,
   "name" : "Parsteel Generator G",
   "description" : "Produces Parsteel, an alloy with immense tensile strength used to build Station buildings. Upgrading Parsteel Generators increases the amount that is produced, and unlocks the production of Σ-Parsteel at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/1.png",
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -103221,12 +103315,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 54,
+  "stfcSpaceId" : 0,
   "name" : "Parsteel Generator H",
   "description" : "Produces Parsteel, an alloy with immense tensile strength used to build Station buildings. Upgrading Parsteel Generators increases the amount that is produced, and unlocks the production of Σ-Parsteel at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/1.png",
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/1.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -105237,12 +105333,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/1.png"
 }, {
   "id" : 55,
+  "stfcSpaceId" : 0,
   "name" : "Parsteel Vault",
   "description" : "Protects the stored Parsteel and Σ-Parsteel from enemy attacks. Upgrade the Vault for additional security, and to unlock the protection of Σ-Parsteel at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/55.png",
   "maxLevel" : 70,
   "unlockLevel" : 14,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/55.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -107628,12 +107726,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/55.png"
 }, {
   "id" : 56,
+  "stfcSpaceId" : 0,
   "name" : "Tritanium Generator D",
   "description" : "Produces Tritanium, an alloy many times harder than diamonds, used to construct mighty ships. Upgrading Tritanium Generators increases the amount that is produced, and unlocks the production of Σ-Tritanium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/5.png",
   "maxLevel" : 70,
   "unlockLevel" : 28,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -109632,12 +109732,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 57,
+  "stfcSpaceId" : 0,
   "name" : "Tritanium Generator E",
   "description" : "Produces Tritanium, an alloy many times harder than diamonds, used to construct mighty ships. Upgrading Tritanium Generators increases the amount that is produced, and unlocks the production of Σ-Tritanium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/5.png",
   "maxLevel" : 70,
   "unlockLevel" : 38,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -111632,12 +111734,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 58,
+  "stfcSpaceId" : 0,
   "name" : "Tritanium Generator F",
   "description" : "Produces Tritanium, an alloy many times harder than diamonds, used to construct mighty ships. Upgrading Tritanium Generators increases the amount that is produced, and unlocks the production of Σ-Tritanium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/5.png",
   "maxLevel" : 70,
   "unlockLevel" : 48,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -113632,12 +113736,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 59,
+  "stfcSpaceId" : 0,
   "name" : "Tritanium Generator G",
   "description" : "Produces Tritanium, an alloy many times harder than diamonds, used to construct mighty ships. Upgrading Tritanium Generators increases the amount that is produced, and unlocks the production of Σ-Tritanium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/5.png",
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -115632,12 +115738,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 60,
+  "stfcSpaceId" : 0,
   "name" : "Tritanium Generator H",
   "description" : "Produces Tritanium, an alloy many times harder than diamonds, used to construct mighty ships. Upgrading Tritanium Generators increases the amount that is produced, and unlocks the production of Σ-Tritanium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/5.png",
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/5.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -117632,12 +117740,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/5.png"
 }, {
   "id" : 61,
+  "stfcSpaceId" : 0,
   "name" : "Tritanium Vault",
   "description" : "Protects the stored Tritanium and Σ-Tritanium from enemy attacks. Upgrade the Vault for additional security, and to unlock the protection of Σ-Tritanium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/61.png",
   "maxLevel" : 70,
   "unlockLevel" : 14,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/61.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -120046,12 +120156,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/61.png"
 }, {
   "id" : 62,
+  "stfcSpaceId" : 0,
   "name" : "Dilithium Generator D",
   "description" : "Produces Dilithium, a crystalline mineral required when researching new technologies and building advanced ship components. Upgrading Dilithium Generators increases the amount that is produced, and unlocks the production of Σ-Dilithium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/9.png",
   "maxLevel" : 70,
   "unlockLevel" : 30,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -122086,12 +122198,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 63,
+  "stfcSpaceId" : 0,
   "name" : "Dilithium Generator E",
   "description" : "Produces Dilithium, a crystalline mineral required when researching new technologies and building advanced ship components. Upgrading Dilithium Generators increases the amount that is produced, and unlocks the production of Σ-Dilithium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/9.png",
   "maxLevel" : 70,
   "unlockLevel" : 40,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -124126,12 +124240,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 64,
+  "stfcSpaceId" : 0,
   "name" : "Dilithium Generator F",
   "description" : "Produces Dilithium, a crystalline mineral required when researching new technologies and building advanced ship components. Upgrading Dilithium Generators increases the amount that is produced, and unlocks the production of Σ-Dilithium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/9.png",
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -126166,12 +126282,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 65,
+  "stfcSpaceId" : 0,
   "name" : "Dilithium Generator G",
   "description" : "Produces Dilithium, a crystalline mineral required when researching new technologies and building advanced ship components. Upgrading Dilithium Generators increases the amount that is produced, and unlocks the production of Σ-Dilithium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/9.png",
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -128206,12 +128324,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 66,
+  "stfcSpaceId" : 0,
   "name" : "Dilithium Generator H",
   "description" : "Produces Dilithium, a crystalline mineral required when researching new technologies and building advanced ship components. Upgrading Dilithium Generators increases the amount that is produced, and unlocks the production of Σ-Dilithium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/9.png",
   "maxLevel" : 70,
   "unlockLevel" : 50,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/9.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -130246,12 +130366,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/9.png"
 }, {
   "id" : 67,
+  "stfcSpaceId" : 0,
   "name" : "Dilithium Vault",
   "description" : "Protects the stored Dilithium and Σ-Dilithium from enemy attacks. Upgrade the Vault for additional security, and to unlock the protection of Σ-Dilithium at high levels.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/67.png",
   "maxLevel" : 70,
   "unlockLevel" : 14,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/67.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -132664,12 +132786,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/67.png"
 }, {
   "id" : 69,
+  "stfcSpaceId" : 0,
   "name" : "Holodeck",
   "description" : "Build in order to gain access to the <color=#ffc926>Holodeck</color> to purchase missions from previous arcs. The <color=#ffc926>Holodeck</color> increases base Piercing stats for all ships, base Materials Cost Efficiency for ship upgrades and base FKR reputation from hostiles and armadas. \n\nAt Operations level 32 with the <color=#ffc926>Holodeck</color> unlocked you get a daily gift of Holo-Field Amplifiers.\n\nEvery 5 levels of the <color=#ffc926>Holodeck</color>, unlock new missions, and receive shards for Enterprise E Data, Enterprise E Troi and Enterprise E Picard from the Holodeck section of the Recruit Store.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/69.png",
   "maxLevel" : 30,
   "unlockLevel" : 15,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/69.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -133303,12 +133427,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/69.png"
 }, {
   "id" : 70,
+  "stfcSpaceId" : 0,
   "name" : "Subspace Relay",
   "description" : "Constructed with the aid of ancient Progenitor architectural drawings. Activates the station as a node on the Progenitor Subspace Network, allowing allied stations to instantly share computational processing power across vast distances.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/70.png",
   "maxLevel" : 60,
   "unlockLevel" : 25,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/70.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -134753,12 +134879,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/70.png"
 }, {
   "id" : 71,
+  "stfcSpaceId" : 0,
   "name" : "Command Center",
   "description" : "Enter into <color=#ffc926>Command Center</color> to assign your <color=#ffc926>Fleet Commanders</color> in order to optimize your fleet's capabilities.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/71.png",
   "maxLevel" : 60,
   "unlockLevel" : 15,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/71.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -136451,12 +136579,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/71.png"
 }, {
   "id" : 72,
+  "stfcSpaceId" : 0,
   "name" : "Mess Hall",
   "description" : "The Mess Hall is the heart and soul of any station or ship. Crew members come together between shifts or for meal times here. At peak hours, this is the busiest part of any facility. With a bustling Mess Hall, even the deepest reaches of distant space can feel just like home.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/72.png",
   "maxLevel" : 99,
   "unlockLevel" : 150,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/72.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -138446,12 +138576,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/72.png"
 }, {
   "id" : 73,
+  "stfcSpaceId" : 0,
   "name" : "Artifact Gallery",
   "description" : "The Artifact Gallery houses a collection of valuable artifacts that have been acquired from across the quadrant and beyond. Visitors to the station are welcome to see these rare and fascinating objects on display.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/73.png",
   "maxLevel" : 70,
   "unlockLevel" : 26,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/73.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -140136,12 +140268,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/73.png"
 }, {
   "id" : 75,
+  "stfcSpaceId" : 0,
   "name" : "Court of Q",
   "description" : "The benevolent Q has graced your station with his presence and left an impressionable mark upon the Court. By adding opulence and grandeur to the Court of Q, the building will grant you greater rewards and access to more of Q's Trials.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/75.png",
   "maxLevel" : 70,
   "unlockLevel" : 19,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/75.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -141826,12 +141960,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/75.png"
 }, {
   "id" : 77,
+  "stfcSpaceId" : 0,
   "name" : "The Facade",
   "description" : "A mysterious building and a front for an even more mysterious organization. The Facade increases base Damage of ships in Wave Defense, base Hull Health for all ships and base Officer Stats. \n\nIf you have unlocked Armada Quick Start in the Section 31 Faction, the daily gift of Armada Countdown Speed Ups is increased.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/77.png",
   "maxLevel" : 60,
   "unlockLevel" : 30,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/77.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -143276,12 +143412,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/77.png"
 }, {
   "id" : 78,
+  "stfcSpaceId" : 0,
   "name" : "The War Room",
   "description" : "The War Room serves as your connection to the <i>Order of Ko’tal</i> - a secret order of warriors doing battle to prove their honor and earn the ultimate rewards. Upgrade the War Room to increase Warchest rewards, Isolytic Damage, Officer Stats, and Shield Health.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/78.png",
   "maxLevel" : 70,
   "unlockLevel" : 20,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/78.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -144966,12 +145104,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/78.png"
 }, {
   "id" : 79,
+  "stfcSpaceId" : 0,
   "name" : "District 56",
   "description" : "In the world of an Independent contractor, no Station is complete without a bustling hub of trade, entertainment... and the occasional black market deal. When it comes to rest, relaxation and risky ventures, <color=#ffc926>District 56</color> has everything that a dedicated Independent could ever need.\n\nEvery 5 levels upgraded in <color=#ffc926>District 56</color> resets the cooldown and increases the rewards given in the <color=#ffc926>District 56</color> free claim in the <color=#FFC926>Mirror Refinery</color>.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/79.png",
   "maxLevel" : 70,
   "unlockLevel" : 40,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/79.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -146656,12 +146796,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/79.png"
 }, {
   "id" : 80,
+  "stfcSpaceId" : 0,
   "name" : "The Nova Squadron",
   "description" : "The Nova Squadron building is where the most promising cadets train to become the next generation of elite Starfleet officers. The skill within increases SHP, Cost Efficiency for Building Materials, and Weapon Damage.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/80.png",
   "maxLevel" : 70,
   "unlockLevel" : 30,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/80.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -148626,12 +148768,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/80.png"
 }, {
   "id" : 81,
+  "stfcSpaceId" : 0,
   "name" : "INDEPENDENT ARCHIVES",
   "description" : "Independent Archives provide an in-depth analysis of the day-to-day activities of an Independent operator, as well as vital buffs and resources that can provide a tactical edge when engaging in these activities.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/81.png",
   "maxLevel" : 70,
   "unlockLevel" : 16,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/81.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,
@@ -150316,12 +150460,14 @@
   "imageUrl" : "https://assets.stfc.space/thumbs/building/i/81.png"
 }, {
   "id" : 82,
+  "stfcSpaceId" : 0,
   "name" : "DTI Headquarters",
   "description" : "The DTI houses a powerful temporal matter converter that unlocks the power to transmute materials. The Material Converter applies high concentrations of tachyon energy to artificially refine the material, converting it into different types of the same grade and rarity For example, G4 Rare Ore -> G4 Rare Crystal. It also has the ability to convert materials into different rarities of the same type and grade! For example, G4 Uncommon Crystal -> G4 Rare Crystal.\n\nThis technology is unstable and requires additional investment before safeties can be lifted higher grades of materials can be refined. Grade 4 is available at level 30, Grade 5 is available at Level 40, Grade 6 is available at Level 50.\n\nA recurring claim of Bonus Converter Tokens is unlocked at level 40. These can be used with Bonus Converter Refineries which have no tax and no cooldown. A one time claim of 5 tokens is unlocked at levels 20, 30, 50, 60 and 70.",
+  "artId" : 0,
+  "artPath" : "/thumbs/building/i/82.png",
   "maxLevel" : 70,
   "unlockLevel" : 42,
   "section" : 0,
-  "artPath" : "/thumbs/building/i/82.png",
   "levels" : [ {
     "id" : 0,
     "power" : 0,

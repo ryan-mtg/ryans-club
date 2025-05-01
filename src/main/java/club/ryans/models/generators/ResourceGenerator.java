@@ -1,6 +1,6 @@
 package club.ryans.models.generators;
 
-import club.ryans.models.Resource;
+import club.ryans.models.items.Resource;
 import club.ryans.models.managers.AssetManager;
 import club.ryans.models.managers.ResourceManager;
 import club.ryans.stfcspace.StfcSpaceClient;

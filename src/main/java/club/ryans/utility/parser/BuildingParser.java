@@ -1,6 +1,6 @@
 package club.ryans.utility.parser;
 
-import club.ryans.models.Building;
+import club.ryans.models.items.Building;
 import club.ryans.models.managers.BuildingManager;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

@@ -1,6 +1,6 @@
 package club.ryans.models.managers;
 
-import club.ryans.models.Resource;
+import club.ryans.models.items.Resource;
 import club.ryans.models.alliance.Alliance;
 import club.ryans.models.alliance.Service;
 import club.ryans.models.alliance.System;

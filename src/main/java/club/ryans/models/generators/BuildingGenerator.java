@@ -1,10 +1,7 @@
 package club.ryans.models.generators;
 
-import club.ryans.models.Building;
-import club.ryans.models.Cost;
+import club.ryans.models.items.Building;
 import club.ryans.models.BuildingLevel;
-import club.ryans.models.Requirement;
-import club.ryans.models.Reward;
 import club.ryans.models.managers.AssetManager;
 import club.ryans.models.managers.BuildingManager;
 import club.ryans.stfcspace.StfcSpaceClient;
@@ -125,7 +122,7 @@ public class BuildingGenerator {
         dataFileManager.writeFile(BuildingManager.DATA_FILE_NAME, buildings);
     }
 
-    private static BiConsumer<club.ryans.models.Building, String> conditionallySetNameFancy(
+    private static BiConsumer<Building, String> conditionallySetNameFancy(
             final Function<Building, String> getter, final BiConsumer<Building, String> setter) {
 
         return (building, name) -> {

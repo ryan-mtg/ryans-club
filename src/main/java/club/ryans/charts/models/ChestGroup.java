@@ -1,6 +1,6 @@
 package club.ryans.charts.models;
 
-import club.ryans.models.Resource;
+import club.ryans.models.items.Resource;
 import lombok.Getter;
 import lombok.Setter;
 

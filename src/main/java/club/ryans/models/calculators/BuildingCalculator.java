@@ -1,8 +1,8 @@
 package club.ryans.models.calculators;
 
-import club.ryans.models.Building;
+import club.ryans.models.items.Building;
 import club.ryans.models.Cost;
-import club.ryans.models.Resource;
+import club.ryans.models.items.Resource;
 import club.ryans.models.accounting.ResourceAmount;
 import club.ryans.models.managers.BuildingManager;
 import club.ryans.models.managers.ResourceManager;

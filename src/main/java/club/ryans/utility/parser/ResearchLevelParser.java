@@ -1,6 +1,6 @@
 package club.ryans.utility.parser;
 
-import club.ryans.models.Research;
+import club.ryans.models.items.Research;
 import club.ryans.models.managers.ResearchManager;
 import club.ryans.models.player.ResearchLevel;
 import lombok.RequiredArgsConstructor;

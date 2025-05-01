@@ -2,7 +2,7 @@ package club.ryans.models.dailies.tasks.selectors;
 
 import club.ryans.charts.models.Chart;
 import club.ryans.charts.models.ResearchChart;
-import club.ryans.models.Research;
+import club.ryans.models.items.Research;
 import club.ryans.models.dailies.descriptors.DailyDescriptor;
 import club.ryans.models.dailies.descriptors.ResearchDailyDescriptor;
 import club.ryans.models.player.PlayerItems;

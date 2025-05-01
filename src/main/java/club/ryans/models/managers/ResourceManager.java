@@ -1,7 +1,7 @@
 package club.ryans.models.managers;
 
 import club.ryans.models.Cost;
-import club.ryans.models.Resource;
+import club.ryans.models.items.Resource;
 import club.ryans.models.generators.DataFileManager;
 import club.ryans.utility.Json;
 import club.ryans.utility.Strings;

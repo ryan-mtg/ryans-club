@@ -1,7 +1,8 @@
 package club.ryans.models.managers;
 
-import club.ryans.models.Research;
+import club.ryans.models.items.Research;
 import club.ryans.models.generators.DataFileManager;
+import club.ryans.models.items.Inflator;
 import club.ryans.utility.Json;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -14,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 @Slf4j
-public class ResearchManager {
+public class ResearchManager implements ItemManager {
     public static final String DATA_FILE_NAME = "research.json";
 
     private final DataFileManager dataFileManager;
@@ -26,6 +27,11 @@ public class ResearchManager {
         this.dataFileManager = dataFileManager;
 
         loadFile();
+    }
+
+    @Override
+    public void inflate(final Inflator inflator) {
+        researchMap.values().stream().forEach(research -> research.inflate(inflator));
     }
 
     public Collection<Research> getResearch() {

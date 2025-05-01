@@ -1,6 +1,6 @@
 package club.ryans.models.player;
 
-import club.ryans.models.Building;
+import club.ryans.models.items.Building;
 import club.ryans.models.accounting.ResourceAmount;
 import lombok.Data;
 

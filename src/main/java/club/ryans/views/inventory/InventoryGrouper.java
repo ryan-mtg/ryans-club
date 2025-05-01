@@ -1,6 +1,6 @@
 package club.ryans.views.inventory;
 
-import club.ryans.models.Resource;
+import club.ryans.models.items.Resource;
 import club.ryans.models.player.PlayerItems;
 import club.ryans.models.accounting.ResourceAmount;
 import club.ryans.utility.parser.FieldParser;

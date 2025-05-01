@@ -1,10 +1,8 @@
 package club.ryans.charts.models;
 
-import club.ryans.models.Resource;
-import club.ryans.models.accounting.ChestPrice;
+import club.ryans.models.items.Resource;
 import club.ryans.models.accounting.ResourceAmount;
 import club.ryans.models.player.PlayerItems;
-import club.ryans.models.player.ResearchLevel;
 import lombok.Getter;
 import lombok.Setter;
 

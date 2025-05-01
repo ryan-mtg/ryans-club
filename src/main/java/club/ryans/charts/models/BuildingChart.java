@@ -1,6 +1,6 @@
 package club.ryans.charts.models;
 
-import club.ryans.models.Building;
+import club.ryans.models.items.Building;
 import club.ryans.models.player.PlayerItems;
 import lombok.Getter;
 import lombok.Setter;
