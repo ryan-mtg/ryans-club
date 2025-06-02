@@ -50,6 +50,10 @@ public class ResearchManager implements ItemManager {
         return nameMap.get(name);
     }
 
+    public Collection<Research> getResearches() {
+        return nameMap.values();
+    }
+
     private void loadFile() {
         ObjectMapper mapper = Json.createObjectMapper();
 

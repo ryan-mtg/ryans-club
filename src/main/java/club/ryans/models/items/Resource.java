@@ -15,6 +15,9 @@ public class Resource extends Item {
     public static final long ISO_2_STAR_ID = 4002;
     public static final long ISO_3_STAR_ID = 4003;
 
+    public static final long ARTIFACT_REMNANT_ID = 54304;
+    public static final long TEMPORAL_REMNANT_ID = 64016;
+
     public static final long PARSTEEL_ID = 61;
     public static final long TRITANIUM_ID = 62;
     public static final long DILITHIUM_ID = 63;

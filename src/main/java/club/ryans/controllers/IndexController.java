@@ -2,6 +2,8 @@ package club.ryans.controllers;
 
 import club.ryans.charts.ex.borg.ExBorgEfficiencyCalculator;
 import club.ryans.error.ServerError;
+import club.ryans.models.ArtifactStats;
+import club.ryans.models.calculators.ArtifactCalculator;
 import club.ryans.models.items.Building;
 import club.ryans.models.RawLog;
 import club.ryans.models.items.RequirementDescriber;
@@ -58,6 +60,9 @@ public class IndexController {
 
     @Autowired
     private BuildingCalculator buildingCalculator;
+
+    @Autowired
+    private ArtifactCalculator artifactCalculator;
 
     @Autowired
     private DailiesCalculator dailiesCalculator;
@@ -179,11 +184,11 @@ public class IndexController {
             return "not_found";
         }
 
-        //BuildingStats stats = buildingCalculator.computePlayerStats(building, items);
+        ArtifactStats stats = artifactCalculator.computePlayerStats(research, items);
 
         model.addAttribute("research", research);
         model.addAttribute("requirementDescriber", requirementDescriber);
-        //model.addAttribute("stats", stats);
+        model.addAttribute("stats", stats);
         model.addAttribute("items", items);
         model.addAttribute("assets", assetManager);
         return "items/research";

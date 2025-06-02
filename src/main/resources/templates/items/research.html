@@ -17,16 +17,15 @@
             <a th:href="${research.stfcSpaceUrl}">stfc.space</a>
             <p th:text="${research.description}"></p>
 
-            <!--
             <p>Level: <span th:text="${stats.level}"></span></p>
             <p>Reachable Level: <span th:text="${stats.reachableLevel}"></span></p>
+
             <p th:if="${stats.mainResourceAvailable}">Main Resource:
                 <span th:text="${stats.mainResourceAvailable.resource.name}"></span>
                 <img class="feature-resource rarity-item" th:src="${stats.mainResourceAvailable.resource.imageUrl}"
                      th:title="${stats.mainResourceAvailable.resource.name}"
                      th:classappend="${stats.mainResourceAvailable.resource.style}">
             </p>
-            -->
             <div class="clear-float"></div>
         </section>
         <section>
@@ -43,10 +42,8 @@
                     <tr>
                         <td>
                             <span th:text="${iter.index} + 1"></span>
-                            <!--
                             <span th:if="${iter.index + 1} == ${stats.level}">&#x2B50;</span>
                             <span th:if="${iter.index + 1} == ${stats.reachableLevel}">&#x2B06;&#xFE0F;</span>
-                            -->
                         </td>
                         <td th:text="${utility.scoplify(level.strength)}"></td>
                         <td>
