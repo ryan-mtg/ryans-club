@@ -46,8 +46,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/login", "/user").authenticated()
                 .antMatchers("/admin", "/admin/**", "/api/admin/**", "/scripts/admin.js") .access("hasRole('ADMIN')")
                 .antMatchers("/register") .access("hasRole('UNREGISTERED')")
-                .antMatchers("/", "/index.html", "/scripts/**", "/styles/**", "faveicon.ico",
-                        "/images/**", "/api/public/**").permitAll()
+                .antMatchers("/", "/index.html", "/robots.txt", "/scripts/**", "/styles/**", "faveicon.ico",
+                        "/images/**", "/api/public/**", "/login_error").permitAll()
                 .anyRequest().authenticated()
             .and().oauth2Login()
                 .userInfoEndpoint().userService(discordUserService).and()

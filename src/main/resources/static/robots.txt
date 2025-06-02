@@ -1,0 +1,4 @@
+# Ryan's Club robots.txt
+
+User-agent: *
+Disallow: /
